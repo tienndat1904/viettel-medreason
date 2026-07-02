@@ -8,6 +8,21 @@ cho tập test và đo trên dev gold. **Không dùng API ngoài.**
 
 ---
 
+## Dùng Google Colab (thay cho Kaggle)
+Colab OK cho inference Qwen-7B 4-bit; QLoRA sau này nên dùng **Colab Pro** (L4/A100). Mở sẵn: **`notebooks/run_llm_colab.ipynb`**.
+1. **Runtime → Change runtime type → GPU** (T4 Free đủ; L4/A100 nếu có Pro).
+2. **Mount Google Drive + đặt `HF_HOME` vào Drive** → cache model, khỏi tải lại 15GB mỗi phiên (Colab hay ngắt idle ~90 phút):
+   ```python
+   from google.colab import drive; drive.mount('/content/drive')
+   import os; os.environ['HF_HOME'] = '/content/drive/MyDrive/hf_cache'
+   ```
+3. Clone repo vào `/content`, cài `requirements.txt` + `requirements-gpu.txt`, rồi chạy như mục 4–7 dưới đây (đường dẫn `/content/viettel-medreason` thay cho `/kaggle/working/...`).
+4. Tải kết quả: `from google.colab import files; files.download('output.zip')`.
+
+Khác biệt chính so với Kaggle: Colab không cần phone-verify để có internet, nhưng dễ ngắt phiên → **cache model vào Drive** và **smoke-test trước** càng quan trọng.
+
+---
+
 ## 0. Chuẩn bị tài khoản (1 lần)
 - Kaggle → **Settings → Phone verification** (bắt buộc để bật Internet + GPU).
 - Quota GPU: **~30 giờ/tuần**, mỗi session tối đa ~12h (T4) / 9h. Đừng để notebook chạy không.

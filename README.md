@@ -26,7 +26,8 @@ python src/pipeline.py --input data/test/input --output output --backend rule
 # LLM (Qwen2.5-7B) — chạy trên GPU Kaggle/Colab (self-host ≤9B, KHÔNG API ngoài)
 pip install -r requirements-gpu.txt        # torch/transformers/bitsandbytes/peft
 python src/pipeline.py --input <thư_mục_test> --output output --backend llm
-#   hoặc mở notebooks/run_llm_kaggle.ipynb (clone → cài → chạy → đóng gói)
+#   hoặc mở notebooks/run_llm_colab.ipynb (Colab) / run_llm_kaggle.ipynb (Kaggle)
+#   Hướng dẫn chi tiết (cả Colab & Kaggle): docs/KAGGLE_GUIDE.md
 
 # Đóng gói + validate (JSON lỗi = 0 điểm nên luôn chạy bước này trước khi nộp)
 python scripts/package_submission.py --output output --input data/test/input --n 100
