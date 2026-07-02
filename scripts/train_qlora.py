@@ -33,11 +33,15 @@ def build_examples(path, tok, max_len):
             if not line:
                 continue
             msgs = json.loads(line)["messages"]
-            # prompt = tất cả trừ assistant cuối, + generation prompt
-            prompt_ids = tok.apply_chat_template(
-                msgs[:-1], tokenize=True, add_generation_prompt=True)
-            full_ids = tok.apply_chat_template(
-                msgs, tokenize=True, add_generation_prompt=False)
+            # prompt = tất cả trừ assistant cuối, + generation prompt.
+            # Render ra CHUỖI rồi tokenize riêng -> luôn nhận list[int]
+            # (transformers 5.x: apply_chat_template(tokenize=True) trả BatchEncoding, không phải list).
+            prompt_text = tok.apply_chat_template(
+                msgs[:-1], tokenize=False, add_generation_prompt=True)
+            full_text = tok.apply_chat_template(
+                msgs, tokenize=False, add_generation_prompt=False)
+            prompt_ids = tok(prompt_text, add_special_tokens=False)["input_ids"]
+            full_ids = tok(full_text, add_special_tokens=False)["input_ids"]
             if len(full_ids) > max_len:
                 full_ids = full_ids[:max_len]
                 n_trunc += 1
@@ -60,10 +64,11 @@ class Collator:
         m = max(len(b["input_ids"]) for b in batch)
         ids, lbl, att = [], [], []
         for b in batch:
-            k = m - len(b["input_ids"])
-            ids.append(b["input_ids"] + [self.pad] * k)
-            lbl.append(b["labels"] + [-100] * k)
-            att.append([1] * len(b["input_ids"]) + [0] * k)
+            iid, lab = list(b["input_ids"]), list(b["labels"])
+            k = m - len(iid)
+            ids.append(iid + [self.pad] * k)
+            lbl.append(lab + [-100] * k)
+            att.append([1] * len(iid) + [0] * k)
         return {"input_ids": torch.tensor(ids),
                 "labels": torch.tensor(lbl),
                 "attention_mask": torch.tensor(att)}
@@ -100,11 +105,16 @@ def main():
     examples = build_examples(args.data, tok, args.max_len)
     print(f"[data] {len(examples)} mẫu train")
 
-    kw = {"torch_dtype": torch.bfloat16, "device_map": "auto"}
+    # T4 (Turing) KHÔNG hỗ trợ bf16 -> tự chọn bf16 (Ampere+/L4/A100) hoặc fp16 (T4)
+    use_bf16 = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
+    cdt = torch.bfloat16 if use_bf16 else torch.float16
+    print(f"[train] {'bf16' if use_bf16 else 'fp16'} (GPU hỗ trợ bf16: {use_bf16})")
+
+    kw = {"torch_dtype": cdt, "device_map": "auto"}
     if not args.no_4bit:
         kw["quantization_config"] = BitsAndBytesConfig(
             load_in_4bit=True, bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
+            bnb_4bit_compute_dtype=cdt, bnb_4bit_use_double_quant=True)
     model = AutoModelForCausalLM.from_pretrained(args.model, **kw)
     model = prepare_model_for_kbit_training(model)
     model.config.use_cache = False
@@ -123,7 +133,7 @@ def main():
         per_device_train_batch_size=args.batch,
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr, lr_scheduler_type="cosine", warmup_ratio=0.03,
-        bf16=True, gradient_checkpointing=True, logging_steps=20,
+        bf16=use_bf16, fp16=not use_bf16, gradient_checkpointing=True, logging_steps=20,
         save_strategy="epoch", report_to="none", seed=args.seed,
         optim="paged_adamw_8bit")
     trainer = Trainer(model=model, args=targs, train_dataset=examples,
