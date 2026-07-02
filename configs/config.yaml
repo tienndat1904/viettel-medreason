@@ -36,7 +36,7 @@ linking:
   reranker_model: BAAI/bge-reranker-v2-m3
   icd_top_k_retrieve: 30
   icd_top_k_return: 3
-  rxnorm_top_k_return: 3        # số mã RxNorm trả tối đa (best-first) — tinh chỉnh theo dev
+  rxnorm_top_k_return: 2        # dev: k=1/2/3 cùng hit@k 0.915 -> chọn 2 (list ngắn, precision) + 1 hedge exact-code
   min_confidence: 0.30
 
 labels:
