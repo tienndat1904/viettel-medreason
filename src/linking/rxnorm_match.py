@@ -33,11 +33,14 @@ _TTY_RANK = {"SCD": 3, "SCDF": 2, "SCDC": 2, "SBD": 1, "IN": 0, "PIN": 0, "BN": 
 
 
 class RxNormMatcher:
-    def __init__(self, df, brand_map=None, fuzzy_threshold=90, max_return=3):
+    def __init__(self, df, brand_map=None, fuzzy_threshold=90, max_return=3,
+                 return_level="scd"):
         self.brand_map = brand_map or {}
         self.thr = fuzzy_threshold
         self.max_return = max_return
+        self.return_level = return_level    # "scd": tầng SCD>SCDC>IN | "in": trả mã hoạt chất (IN)
         self.by_ingredient: dict[str, list[dict]] = {}
+        self._in_map: dict[str, str] = {}   # hoạt chất(lower) -> RXCUI của IN
         self._ingredients: list[str] = []
         self._toks: dict[str, set] = {}
         if df is not None and len(df):
@@ -57,6 +60,8 @@ class RxNormMatcher:
             }
             for key in {ingr, _strip_accents(ingr)}:      # set -> không append trùng
                 self.by_ingredient.setdefault(key, []).append(row)
+                if row["tty"] == "IN":                     # map hoạt chất -> mã IN (giữ cái đầu)
+                    self._in_map.setdefault(key, row["rxcui"])
         self._ingredients = sorted(self.by_ingredient)
         self._toks = {k: set(k.split()) for k in self._ingredients}
 
@@ -89,6 +94,20 @@ class RxNormMatcher:
         if not keys:
             return []
 
+        def _in_codes():
+            """Mã IN (hoạt chất) — khớp đúng trả 1 mã, tránh phình tập."""
+            if q in self._in_map:
+                return [self._in_map[q]]
+            out = []
+            for k in keys:
+                if k in self._in_map and self._in_map[k] not in out:
+                    out.append(self._in_map[k])
+            return out[:self.max_return]
+
+        # trả mã IN (hoạt chất) — tối ưu Jaccard khi gold ở mức hoạt chất
+        if self.return_level == "in":
+            return _in_codes()
+
         rows, seen = [], set()
         for k in keys:
             for r in self.by_ingredient[k]:
@@ -98,6 +117,31 @@ class RxNormMatcher:
 
         want = {_norm_str(s) for s in p["strengths"]}
         form = (p["dose_form"] or "").lower()
+
+        # tiered (P3): mức mã theo thông tin mention hỗ trợ
+        #   không hàm lượng -> IN | có hàm lượng + dạng uống -> SCD | dạng tiêm/mơ hồ -> SCDC
+        if self.return_level == "tiered":
+            if not want:                                   # thuốc trần -> IN
+                return _in_codes()
+            sr = [r for r in rows if r["strength"] and r["strength"] in want]
+            if not sr:                                     # có liều nhưng KB thiếu mã liều -> IN an toàn
+                return _in_codes()[:1]
+            inj = (form == "injectable solution")
+            eff_form = None if inj else (form or "oral tablet")   # uống: mặc định viên nén
+            if eff_form:
+                scd = [r for r in sr if r["tty"] == "SCD" and eff_form in r["dose_form"]]
+                if scd:
+                    scd.sort(key=lambda r: r["strlen"])
+                    return [scd[0]["rxcui"]]
+            scdc = [r for r in sr if r["tty"] == "SCDC"]    # dạng mơ hồ/tiêm -> SCDC
+            if scdc:
+                scdc.sort(key=lambda r: r["strlen"])
+                return [scdc[0]["rxcui"]]
+            scd_any = [r for r in sr if r["tty"] == "SCD"]  # có ý định dạng nhưng KB không có SCDC
+            if eff_form and scd_any:
+                scd_any.sort(key=lambda r: r["strlen"])
+                return [scd_any[0]["rxcui"]]
+            return _in_codes()[:1]
 
         scored = []
         for r in rows:

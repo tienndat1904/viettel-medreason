@@ -32,6 +32,7 @@ linking:
   icd_fuzzy_threshold: 88             # rapidfuzz token_set_ratio (lexical)
   icd_hedge: false                    # BTC chấm Jaccard mã đầy đủ -> hedge làm tụt điểm (0.44->0.23); tắt
   rxnorm_fuzzy_threshold: 90          # sửa typo tên hoạt chất (lexical)
+  rxnorm_return_level: tiered         # tiered = mức theo mention (trần→IN, +liều/dạng→SCD, mơ hồ→SCDC). dev Jaccard 0.823 > all-IN 0.661
   # --- semantic (v1) ---
   embed_model: BAAI/bge-m3
   reranker_model: BAAI/bge-reranker-v2-m3

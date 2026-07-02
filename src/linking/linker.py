@@ -61,7 +61,8 @@ class Linker:
 
         self._rx = RxNormMatcher(rx_df, brands,
                                  L.get("rxnorm_fuzzy_threshold", 90),
-                                 L.get("rxnorm_top_k_return", 3))
+                                 L.get("rxnorm_top_k_return", 3),
+                                 return_level=L.get("rxnorm_return_level", "scd"))
         self.ready = (icd_df is not None) or (rx_df is not None) or bool(syn) or bool(brands)
 
         srcs = []
