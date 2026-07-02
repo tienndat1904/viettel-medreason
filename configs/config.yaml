@@ -4,7 +4,8 @@ seed: 42
 paths:
   test_input: data/test/input        # BTC private test sẽ thay bằng --input
   output: output
-  kb_icd: data/kb/icd10_vn.parquet         # KB thật (build_icd_kb.py) — ưu tiên nếu có
+  kb_icd: data/kb/icd10cm.parquet          # KB chính: ICD-10-CM song ngữ (khớp hệ mã gold)
+  kb_icd_byt: data/kb/icd10_vn.parquet     # ICD-10 BYT (WHO) — nguồn tên tiếng Việt cho CM
   kb_rxnorm: data/kb/rxnorm_scd.parquet    # KB thật (build_rxnorm_kb.py)
   kb_icd_seed: data/kb/seed/icd10_vn.parquet     # seed nhỏ, fallback khi chưa build KB thật
   kb_rxnorm_seed: data/kb/seed/rxnorm_scd.parquet
