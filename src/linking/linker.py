@@ -1,58 +1,69 @@
-"""Ánh xạ CHẨN_ĐOÁN→ICD-10 và THUỐC→RxNorm.
+"""Ánh xạ CHẨN_ĐOÁN->ICD-10 và THUỐC->RxNorm.
 
-Skeleton: nếu chưa có KB index thì trả candidates rỗng (vẫn HỢP LỆ).
-Khi đã build index (src/kb/*), Linker dùng bge-m3 retrieve + bge-reranker rerank.
+v0 lexical (không GPU): từ điển đồng nghĩa + fuzzy cho ICD; parse + khớp SCD cho RxNorm.
+- Ưu tiên KB thật (data/kb/*.parquet); nếu chưa build thì dùng seed (data/kb/seed/*.parquet).
+- Thiếu cả hai vẫn chạy: ICD vẫn có synonym dict, RxNorm trả [] (đều HỢP LỆ).
+Backend 'semantic' (bge-m3 + reranker) sẽ bổ sung ở v1.
 """
 from __future__ import annotations
 import os
-from drug_parser import parse_drug
+
+from drug_parser import load_brand_map
+from icd_match import IcdMatcher, load_synonyms
+from rxnorm_match import RxNormMatcher
+
+
+def _first_existing(*paths):
+    for p in paths:
+        if p and os.path.exists(p):
+            return p
+    return None
 
 
 class Linker:
     def __init__(self, cfg: dict):
         self.cfg = cfg
+        L = cfg.get("linking", {})
+        self.backend = L.get("backend", "lexical")
+        self._icd = None
+        self._rx = None
         self.ready = False
-        self._embedder = None
-        self._reranker = None
-        self._icd = None      # DataFrame: code, name, ... + faiss
-        self._rxnorm = None
-        self._try_load()
+        self._load(cfg, L)
 
-    def _try_load(self):
-        icd_path = self.cfg["paths"]["kb_icd"]
-        rx_path = self.cfg["paths"]["kb_rxnorm"]
-        if not (os.path.exists(icd_path) and os.path.exists(rx_path)):
-            return  # chưa build KB → no-op linker
-        try:
-            import pandas as pd
-            self._icd = pd.read_parquet(icd_path)
-            self._rxnorm = pd.read_parquet(rx_path)
-            from FlagEmbedding import BGEM3FlagModel, FlagReranker
-            self._embedder = BGEM3FlagModel(self.cfg["linking"]["embed_model"],
-                                            use_fp16=True)
-            self._reranker = FlagReranker(self.cfg["linking"]["reranker_model"],
-                                          use_fp16=True)
-            self.ready = True
-        except Exception as e:  # thiếu package / index → no-op
-            print(f"[linker] chưa sẵn sàng ({e}); trả candidates rỗng.")
+    def _load(self, cfg, L):
+        import pandas as pd
+        paths = cfg["paths"]
+        icd_path = _first_existing(paths.get("kb_icd"), paths.get("kb_icd_seed"))
+        rx_path = _first_existing(paths.get("kb_rxnorm"), paths.get("kb_rxnorm_seed"))
+        icd_df = pd.read_parquet(icd_path) if icd_path else None
+        rx_df = pd.read_parquet(rx_path) if rx_path else None
 
-    # ---- API ----
+        syn = load_synonyms(L.get("icd_synonyms", "data/kb/synonyms/icd_synonyms.tsv"))
+        # brand map: auto (từ RRF) làm nền, dict thủ công đè lên (ưu tiên hơn)
+        brands = load_brand_map(L.get("drug_brands_auto", "data/kb/synonyms/drug_brands_auto.tsv"))
+        brands.update(load_brand_map(L.get("drug_brands", "data/kb/synonyms/drug_brands.tsv")))
+
+        self._icd = IcdMatcher(icd_df, syn,
+                               L.get("icd_fuzzy_threshold", 88),
+                               L.get("icd_top_k_return", 3))
+        self._rx = RxNormMatcher(rx_df, brands,
+                                 L.get("rxnorm_fuzzy_threshold", 90),
+                                 L.get("rxnorm_top_k_return", 3))
+        self.ready = (icd_df is not None) or (rx_df is not None) or bool(syn) or bool(brands)
+
+        srcs = []
+        if icd_path:
+            srcs.append(f"icd={'seed' if 'seed' in icd_path else 'kb'}({len(icd_df)})")
+        if rx_path:
+            srcs.append(f"rxnorm={'seed' if 'seed' in rx_path else 'kb'}({len(rx_df)})")
+        print(f"[linker] backend={self.backend} | {' '.join(srcs) or 'no-parquet'} "
+              f"| synonyms={len(syn)} brands={len(brands)}")
+        if self.backend == "semantic":
+            print("[linker] backend=semantic chưa triển khai (v1) — tạm dùng lexical.")
+
+    # ---- API (hợp đồng cố định) ----
     def link_diagnosis(self, text: str, context: str = "") -> list[str]:
-        if not self.ready:
-            return []
-        return self._link_icd(text, context)
+        return self._icd.match(text, context) if self._icd else []
 
     def link_drug(self, text: str, context: str = "") -> list[str]:
-        if not self.ready:
-            return []
-        return self._link_rxnorm(text)
-
-    # ---- nội bộ (điền khi có KB) ----
-    def _link_icd(self, text, context):
-        # TODO: bge-m3 retrieve top_k → rerank → lọc theo min_confidence
-        raise NotImplementedError
-
-    def _link_rxnorm(self, text):
-        # TODO: parse hoạt chất+hàm lượng+dạng → khớp RxNorm SCD
-        _ = parse_drug(text)
-        raise NotImplementedError
+        return self._rx.match(text, context) if self._rx else []

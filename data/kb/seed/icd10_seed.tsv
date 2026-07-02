@@ -1,0 +1,29 @@
+# Seed ICD-10 (tiếng Việt) — bảng tra tạm để chạy v0 lexical trước khi có Danh mục BYT đầy đủ.
+# Cột: code<TAB>name_vi<TAB>name_en   (code giữ nguyên dấu chấm)
+# Nguồn tên: WHO ICD-10 + cách gọi phổ biến VN. THAY bằng KB thật (build_icd_kb.py) khi có.
+code	name_vi	name_en
+K21.0	Bệnh trào ngược dạ dày - thực quản có viêm thực quản	Gastro-esophageal reflux disease with oesophagitis
+K21.9	Bệnh trào ngược dạ dày - thực quản không có viêm thực quản	Gastro-esophageal reflux disease without oesophagitis
+I10	Tăng huyết áp vô căn (nguyên phát)	Essential (primary) hypertension
+E11.9	Đái tháo đường type 2 không có biến chứng	Type 2 diabetes mellitus without complications
+J18.9	Viêm phổi, không xác định tác nhân	Pneumonia, unspecified organism
+J45.9	Hen suyễn, không xác định	Asthma, unspecified
+J44.9	Bệnh phổi tắc nghẽn mạn tính, không xác định	Chronic obstructive pulmonary disease, unspecified
+J47	Giãn phế quản	Bronchiectasis
+K74.6	Xơ gan khác và không xác định	Other and unspecified cirrhosis of liver
+K70.3	Xơ gan do rượu	Alcoholic cirrhosis of liver
+N17.9	Suy thận cấp, không xác định	Acute kidney failure, unspecified
+N18.9	Bệnh thận mạn, không xác định	Chronic kidney disease, unspecified
+N19	Suy thận không xác định	Unspecified kidney failure
+A41.9	Nhiễm khuẩn huyết, không xác định tác nhân	Sepsis, unspecified organism
+I48	Rung nhĩ và cuồng nhĩ	Atrial fibrillation and flutter
+I21.9	Nhồi máu cơ tim cấp, không xác định	Acute myocardial infarction, unspecified
+I50.9	Suy tim, không xác định	Heart failure, unspecified
+I60.9	Xuất huyết dưới nhện, không xác định	Subarachnoid haemorrhage, unspecified
+M86.9	Viêm tủy xương, không xác định	Osteomyelitis, unspecified
+C50.9	U ác của vú, vị trí không xác định	Malignant neoplasm of breast, unspecified
+Q61.3	Bệnh thận đa nang, không xác định	Polycystic kidney, unspecified
+K58.9	Hội chứng ruột kích thích không kèm tiêu chảy	Irritable bowel syndrome without diarrhoea
+N39.0	Nhiễm khuẩn đường tiết niệu, vị trí không xác định	Urinary tract infection, site not specified
+L73.2	Viêm tuyến mồ hôi mủ	Hidradenitis suppurativa
+R55	Ngất và trụy mạch	Syncope and collapse

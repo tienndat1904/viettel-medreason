@@ -7,7 +7,14 @@ venv/
 .env
 
 # Data / models không commit (dung lượng lớn hoặc vướng license)
-data/external/**        # i2b2/n2c2 vướng DUA — KHÔNG redistribute
+# LƯU Ý: .gitignore KHÔNG hỗ trợ comment cùng dòng — comment phải ở dòng riêng.
+# i2b2/n2c2 vướng DUA — KHÔNG redistribute
+data/external/**
+# file gốc ICD-10 BYT / RxNorm RRF (lớn) — chỉ ship script tải + README hướng dẫn
+data/kb/raw/**
+!data/kb/raw/README.md
+# KB parquet (ICD-10 BYT + RxNorm SCD) nhỏ & được phép phân phối -> COMMIT để dựng lại
+# không cần tải/đăng ký; brand map auto sinh từ RRF cũng ship kèm.
 models/*.safetensors
 models/*.bin
 models/*.gguf

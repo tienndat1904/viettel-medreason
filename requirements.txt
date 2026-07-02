@@ -3,6 +3,9 @@ pyyaml==6.0.2
 tqdm==4.67.1
 numpy==1.26.4
 pandas==2.2.3
+pyarrow==17.0.0               # đọc/ghi parquet (KB ICD-10 / RxNorm)
+xlrd==2.0.1                   # đọc Danh mục ICD-10 BYT định dạng .xls (BIFF cũ)
+openpyxl==3.1.5               # đọc .xlsx (nếu BYT phát hành bản mới)
 rapidfuzz==3.10.1
 
 # NLP / models (self-host ≤9B) — cài trên Kaggle/Colab
