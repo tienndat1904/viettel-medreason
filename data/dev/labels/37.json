@@ -31,6 +31,6 @@
   {"text": "tim to", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I51.7"], "note": "cardiomegaly"},
   {"text": "insulin", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "'insulin và dextrose' điều trị hiện tại; RxNorm TODO"},
   {"text": "dextrose", "type": "THUỐC", "assertions": [], "candidates": ["4850"], "note": "RxNorm TODO"},
-  {"text": "iv lasix 40 mg once", "type": "THUỐC", "assertions": [], "candidates": ["4603"], "note": "furosemide 40 mg IV; RxNorm TODO"},
+  {"text": "iv lasix 40 mg once", "type": "THUỐC", "assertions": [], "candidates": ["315971"], "note": "furosemide 40 mg IV; RxNorm TODO"},
   {"text": "tăng kali máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E87.5"], "occ": 2, "note": "'cho tăng kali máu'"}
 ]

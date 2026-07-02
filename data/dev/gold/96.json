@@ -129,10 +129,7 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": [
-      "8339",
-      "37617"
-    ]
+    "candidates": []
   },
   {
     "text": "sốt cao",
@@ -351,7 +348,7 @@
     ],
     "assertions": [],
     "candidates": [
-      "9863"
+      "313002"
     ]
   },
   {
