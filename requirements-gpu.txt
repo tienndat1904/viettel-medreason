@@ -1,0 +1,7 @@
+# Môi trường CHẠY LLM (Kaggle/Colab GPU). Cài THÊM sau requirements.txt.
+# torch thường có sẵn trên Kaggle/Colab; nếu thiếu: pip install torch
+transformers==4.46.3
+accelerate==1.1.1
+bitsandbytes==0.44.1          # nạp 4-bit (QLoRA/inference)
+peft==0.13.2                  # nạp LoRA adapter (sau fine-tune)
+sentencepiece==0.2.0

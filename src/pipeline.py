@@ -38,6 +38,7 @@ def get_extractor(backend, cfg):
             lora_adapter=cfg["extract"].get("lora_adapter", ""),
             max_new_tokens=cfg["extract"]["max_new_tokens"],
             temperature=cfg["extract"]["temperature"],
+            max_chunk_chars=cfg["extract"].get("max_chunk_chars", 1800),
             seed=cfg["seed"])
         return ex.extract
     raise ValueError(f"backend không hợp lệ: {backend}")
