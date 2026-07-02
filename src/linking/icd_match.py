@@ -51,10 +51,12 @@ def _dot(d):
 
 
 class IcdMatcher:
-    def __init__(self, cm_df, byt_df=None, synonyms=None, fuzzy_threshold=88, top_k=3):
+    def __init__(self, cm_df, byt_df=None, synonyms=None, fuzzy_threshold=88, top_k=3,
+                 hedge=True):
         self.syn = synonyms or []
         self.thr = fuzzy_threshold
         self.top_k = top_k
+        self.hedge = hedge          # False -> trả tập tối thiểu (tối ưu Jaccard, không hit@k)
         self._codes, self._names, self._uns, self._bill = [], [], [], []
         self._uns_rep = {}          # prefix dotless (3/4) -> mã unspecified đại diện
         _rep_score = {}
@@ -82,7 +84,10 @@ class IcdMatcher:
         self._code_set = set(self._codes)
 
     def _hedge(self, code):
-        """Trả code + mã unspecified/cha cùng nhóm để phủ nhiều độ sâu, best-first."""
+        """Trả code + mã unspecified/cha cùng nhóm để phủ nhiều độ sâu, best-first.
+        hedge=False -> chỉ trả chính mã (tối ưu Jaccard: mỗi mã thừa kéo tụt điểm)."""
+        if not self.hedge:
+            return [code]
         d = _dotless(code)
         out = [code]
         rep4 = self._uns_rep.get(d[:4]) if len(d) >= 4 else None
@@ -138,6 +143,7 @@ class IcdMatcher:
         hits.sort(key=key)
         best = self._codes[hits[0][2]]
         out = self._hedge(best)                      # nhóm tốt nhất: phủ nhiều độ sâu
-        for _, _, idx in hits[1:]:                    # thêm nhóm khác (breadth) để dự phòng
-            out.append(self._codes[idx])
+        if self.hedge:
+            for _, _, idx in hits[1:]:                # thêm nhóm khác (breadth) để dự phòng
+                out.append(self._codes[idx])
         return self._cap(out)

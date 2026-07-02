@@ -30,6 +30,7 @@ linking:
   drug_brands: data/kb/synonyms/drug_brands.tsv        # brand map thủ công
   drug_brands_auto: data/kb/synonyms/drug_brands_auto.tsv  # brand map sinh từ RRF
   icd_fuzzy_threshold: 88             # rapidfuzz token_set_ratio (lexical)
+  icd_hedge: false                    # BTC chấm Jaccard mã đầy đủ -> hedge làm tụt điểm (0.44->0.23); tắt
   rxnorm_fuzzy_threshold: 90          # sửa typo tên hoạt chất (lexical)
   # --- semantic (v1) ---
   embed_model: BAAI/bge-m3

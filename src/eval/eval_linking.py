@@ -49,6 +49,17 @@ def prf(hit, npred_has, ngold_has):
     return p, r, f
 
 
+# ---- Jaccard mã đầy đủ = metric candidate của BTC (New_info.md §Metric) ----
+def _jaccard(gold, pred, norm):
+    g = {norm(c) for c in gold if norm(c)}
+    p = {norm(c) for c in pred if norm(c)}
+    if not g and not p:
+        return 1.0
+    if not g or not p:
+        return 0.0
+    return len(g & p) / len(g | p)
+
+
 # ---- RxNorm: khớp theo hoạt chất ----
 def _ings(codes, ing_map):
     return {ing_map[c] for c in codes if c in ing_map}
@@ -88,11 +99,13 @@ def eval_rxnorm(rows, ing_map):
     if not with_gold:
         print("  (chưa có mã gold — điền candidates vào data/dev/labels/*.json)")
         return
+    jac = sum(_jaccard(r["gold"], r["pred"], lambda x: str(x).strip()) for r in with_gold) / len(with_gold)
     hit = sum(1 for r in with_gold if _ing_match(r["gold"], r["pred"], ing_map))
     top1 = sum(1 for r in with_gold if r["pred"] and _ing_match(r["gold"], r["pred"][:1], ing_map))
     both = sum(1 for r in with_gold if r["pred"])
     p, r_, f = prf(hit, both, len(with_gold))
-    print(f"  hit@k (hoạt chất): {hit}/{len(with_gold)} = {hit/len(with_gold):.3f}")
+    print(f"  ⭐ JACCARD (mã đầy đủ = metric BTC): {jac:.3f}")
+    print(f"  hit@k (hoạt chất, lenient/tham khảo): {hit}/{len(with_gold)} = {hit/len(with_gold):.3f}")
     print(f"  top1: {top1}/{len(with_gold)} = {top1/len(with_gold):.3f}")
     print(f"  precision(mention có pred+gold)={p:.3f} recall={r_:.3f} F1={f:.3f}")
 
@@ -107,11 +120,13 @@ def eval_icd(rows):
         print("  (chưa có mã gold để chấm)")
         return
     ng = len(with_gold)
+    jac = sum(_jaccard(r["gold"], r["pred"], _icd_norm) for r in with_gold) / ng
+    print(f"  ⭐ JACCARD (mã đầy đủ = metric BTC): {jac:.3f}")
     for lvl, nn in _ICD_LEVELS.items():
         hit = sum(1 for r in with_gold if _icd_match(r["gold"], r["pred"], nn))
         top1 = sum(1 for r in with_gold if r["pred"] and _icd_match(r["gold"], r["pred"][:1], nn))
         tag = {"exact": "trùng mã đầy đủ", "cat4": "4 ký tự", "cat3": "nhóm 3 ký tự"}[lvl]
-        print(f"  [{lvl:5}] hit@k={hit}/{ng}={hit/ng:.3f}  top1={top1/ng:.3f}   ({tag})")
+        print(f"  [{lvl:5}] hit@k={hit}/{ng}={hit/ng:.3f}  top1={top1/ng:.3f}   ({tag}, lenient/tham khảo)")
 
 
 def main():

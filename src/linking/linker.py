@@ -47,7 +47,8 @@ class Linker:
 
         lexical_icd = IcdMatcher(icd_df, byt_df, syn,
                                  L.get("icd_fuzzy_threshold", 88),
-                                 L.get("icd_top_k_return", 3))
+                                 L.get("icd_top_k_return", 3),
+                                 hedge=L.get("icd_hedge", True))
         self._icd = lexical_icd
         self._icd_mode = "lexical"
         # backend semantic (v1): thử nạp bge-m3 index; thiếu -> giữ lexical
