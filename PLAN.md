@@ -145,6 +145,15 @@ viettel-medreason/
 - *Chấm sai giả định rubric* → hỏi BTC sớm; scorer hỗ trợ nhiều biến thể matching.
 - *Cạn giờ GPU Kaggle* → dùng 3B iterate, 7B chỉ train bản final; log checkpoint.
 
+## 11. Kiến thức tái dùng từ dự án Sphinx OCR (D:\Sphinx-JSC\Sphinx2)
+Dự án OCR/RAG nội bộ, self-host model qua vLLM — nhiều pattern áp dụng trực tiếp:
+- **Parse JSON bền vững** (`strip_thinking` + code-fence + balanced-bracket): đã port vào `src/extract/json_utils.py`. Xử lý Qwen thinking mode.
+- **Serve Qwen qua vLLM OpenAI-compatible** (temperature=0; logits: `no_repeat_ngram`, whitelist token) — cân nhắc thay `transformers.generate` để nhanh & ổn định hơn; đã thêm `no_repeat_ngram_size=30` chống lặp.
+- **Batching tránh truncation** (họ dùng PAGE_BATCH_SIZE=3): note dài ~5700 ký tự + nhiều entity dễ bị cắt → **chia theo mục 1/2/3** khi trích xuất rồi gộp + tính lại offset.
+- **LightRAG entity + RELATIONSHIP extraction**: mẫu cho phần suy luận quan hệ khái niệm (ontological reasoning).
+- **Qdrant hybrid + filter / parent-child chunking**: lựa chọn cho KB linking (thay/bổ sung FAISS); embed ngắn + rerank kèm context.
+- **Normalize NFKD→ascii + stable sha256 ID**: khóa dedup & linking cho ICD/RxNorm.
+
 ## 10. Hành động ngay (48h tới)
 1. Khởi tạo repo + skeleton + configs (seed, paths tương đối). 
 2. Viết `pipeline.py` đọc `input/*.txt` → xuất `output/*.json` (ban đầu rule/few-shot) để có **submission hợp lệ #1**.

@@ -3,29 +3,8 @@
 Chạy trên Kaggle/Colab. Với 100 doc, transformers 4-bit là đủ.
 """
 from __future__ import annotations
-import json, re
 from prompt import build_messages
-
-
-def _extract_json(s: str):
-    """Bóc list JSON đầu tiên từ output của model, có sửa lỗi nhẹ."""
-    s = s.strip()
-    # bỏ hàng rào ```json ... ```
-    s = re.sub(r"^```(?:json)?|```$", "", s.strip(), flags=re.MULTILINE).strip()
-    start = s.find("[")
-    end = s.rfind("]")
-    if start < 0 or end < 0 or end < start:
-        return []
-    frag = s[start:end + 1]
-    try:
-        data = json.loads(frag)
-    except json.JSONDecodeError:
-        frag2 = re.sub(r",\s*([\]}])", r"\1", frag)  # bỏ dấu phẩy thừa
-        try:
-            data = json.loads(frag2)
-        except json.JSONDecodeError:
-            return []
-    return data if isinstance(data, list) else []
+from json_utils import extract_json_list
 
 
 class LLMExtractor:
@@ -71,10 +50,11 @@ class LLMExtractor:
             out = self._model.generate(
                 **inputs, max_new_tokens=self.max_new_tokens,
                 do_sample=self.temperature > 0, temperature=max(self.temperature, 1e-6),
+                no_repeat_ngram_size=30,  # chống model lặp trên văn bản nhiễu (học từ Sphinx)
                 pad_token_id=self._tok.eos_token_id)
         gen = self._tok.decode(out[0][inputs["input_ids"].shape[1]:],
                                skip_special_tokens=True)
-        raw = _extract_json(gen)
+        raw = extract_json_list(gen)
         # chỉ giữ field cần thiết
         cleaned = []
         for o in raw:
