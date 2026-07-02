@@ -23,7 +23,10 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "2551",
+      "6922"
+    ]
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -72,7 +75,10 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "7804",
+      "161"
+    ]
   },
   {
     "text": "đau vùng hạ vị bên phải và hạ vị bên trái",

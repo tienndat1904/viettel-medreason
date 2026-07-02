@@ -37,7 +37,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "11124"
+    ]
   },
   {
     "text": "ceftazidime",
@@ -49,7 +51,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "2191"
+    ]
   },
   {
     "text": "amiodarone",
@@ -61,7 +65,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "703"
+    ]
   },
   {
     "text": "suy thận cấp",

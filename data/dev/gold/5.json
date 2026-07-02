@@ -326,7 +326,9 @@
       1368
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "7512"
+    ]
   },
   {
     "text": "propofol",
@@ -336,7 +338,9 @@
       1383
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "8782"
+    ]
   },
   {
     "text": "phentolamine",
@@ -346,6 +350,8 @@
       1420
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "8153"
+    ]
   }
 ]

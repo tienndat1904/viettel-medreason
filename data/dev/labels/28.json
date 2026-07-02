@@ -3,7 +3,7 @@
   {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.91"], "occ": 1, "note": "'tiền sử rung nhĩ'"},
   {"text": "u ác của tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C61"], "occ": 1, "note": "prostate cancer (đã phẫu thuật cắt bỏ)"},
   {"text": "rối loạn cảm xúc lưỡng cực khác", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F31.89"], "note": "bipolar"},
-  {"text": "eliquis", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "apixaban; 'Thuốc trước khi nhập viện: đang dùng eliquis'; RxNorm TODO"},
+  {"text": "eliquis", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["1364430"], "note": "apixaban; 'Thuốc trước khi nhập viện: đang dùng eliquis'; RxNorm TODO"},
   {"text": "đau bụng trên", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'(lần nhập viện trước)'"},
   {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 4, "note": "mục 'Triệu chứng hiện tại'"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 4},

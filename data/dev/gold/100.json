@@ -232,7 +232,9 @@
       1009
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "đau ở sau đầu và cổ",
@@ -323,7 +325,9 @@
       1451
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   },
   {
     "text": "Natriclori 0.9 %",
@@ -333,6 +337,8 @@
       1502
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "9863"
+    ]
   }
 ]

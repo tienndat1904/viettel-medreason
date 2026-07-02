@@ -283,7 +283,9 @@
       1263
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "435"
+    ]
   },
   {
     "text": "Ipratropium",
@@ -293,7 +295,9 @@
       1278
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "7213"
+    ]
   },
   {
     "text": "Ceftriaxone 1 gram",
@@ -303,7 +307,9 @@
       1309
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "2193"
+    ]
   },
   {
     "text": "Tylenol 1 gram",
@@ -313,7 +319,9 @@
       1347
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "161"
+    ]
   },
   {
     "text": "cấy máu",

@@ -37,7 +37,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "435"
+    ]
   },
   {
     "text": "z-pack",
@@ -49,7 +51,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "18631"
+    ]
   },
   {
     "text": "amoxicillin",
@@ -59,7 +63,9 @@
       782
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "723"
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -78,7 +84,9 @@
       896
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "18631"
+    ]
   },
   {
     "text": "prednisone 40 mg/ngày",
@@ -88,7 +96,9 @@
       936
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "8640"
+    ]
   },
   {
     "text": "Khó thở",
@@ -184,7 +194,10 @@
       1944
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "435",
+      "7213"
+    ]
   },
   {
     "text": "iv magnesium",
@@ -194,7 +207,9 @@
       1963
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "6585"
+    ]
   },
   {
     "text": "lưu lượng đỉnh thở ra",

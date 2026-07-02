@@ -4,7 +4,7 @@
   {"text": "Nôn ra máu", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Nôn ra máu 2 tuần sau tập viêm dạ dày ruột do virus'"},
   {"text": "hội chứng ruột kích thích", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K58.9"], "occ": 1, "note": "IBS; bệnh mãn tính"},
   {"text": "loét tá tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K26.9"], "occ": 1, "note": "'Nội soi (cách đây vài năm, phát hiện loét tá tràng)'"},
-  {"text": "omeprazole", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "'Thuốc trước khi nhập viện: omeprazole (vừa ngừng...)'; RxNorm TODO"},
+  {"text": "omeprazole", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["7646"], "occ": 1, "note": "'Thuốc trước khi nhập viện: omeprazole (vừa ngừng...)'; RxNorm TODO"},
   {"text": "viêm dạ dày ruột do virus", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["A08.4"], "occ": 1, "note": "viral gastroenteritis (trong năm nay)"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'đau bụng và nôn ra máu trở nên tồi tệ hơn'"},
   {"text": "Nôn ra máu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 6, "note": "mục 'Triệu chứng khi nhập viện'"},

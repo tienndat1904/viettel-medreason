@@ -45,22 +45,48 @@ def prf(hit, npred_has, ngold_has):
     return p, r, f
 
 
-def eval_group(rows, name):
-    """rows = list dict(file,text,gold(list),pred(list))."""
+def _ings(codes, ing_map):
+    """Tập hoạt chất (lower) của list mã, bỏ mã không có trong KB."""
+    return {ing_map[c] for c in codes if c in ing_map}
+
+
+def _ing_match(golds, preds, ing_map):
+    """True nếu có hoạt chất gold trùng hoạt chất pred (substring 2 chiều)."""
+    gi, pi = _ings(golds, ing_map), _ings(preds, ing_map)
+    return any(g and p and (g in p or p in g) for g in gi for p in pi)
+
+
+def eval_group(rows, name, ing_map=None):
+    """rows = list dict(file,text,gold(list),pred(list)).
+    ing_map != None -> chấm theo HOẠT CHẤT (RxNorm); else exact mã (ICD)."""
+    if ing_map is not None:
+        def is_hit(g, p):
+            return _ing_match(g, p, ing_map)
+
+        def is_top1(g, p):
+            return bool(p) and _ing_match(g, p[:1], ing_map)
+    else:
+        def is_hit(g, p):
+            return bool(set(g) & set(p))
+
+        def is_top1(g, p):
+            return bool(p) and p[0] in set(g)
+
     n = len(rows)
     with_gold = [r for r in rows if r["gold"]]
     with_pred = [r for r in rows if r["pred"]]
-    hit = sum(1 for r in with_gold if set(r["gold"]) & set(r["pred"]))
-    top1 = sum(1 for r in with_gold if r["pred"] and r["pred"][0] in set(r["gold"]))
+    hit = sum(1 for r in with_gold if is_hit(r["gold"], r["pred"]))
+    top1 = sum(1 for r in with_gold if is_top1(r["gold"], r["pred"]))
     # precision-ish chỉ tính trên mention có cả gold lẫn pred
     both = [r for r in with_gold if r["pred"]]
     p, r_, f = prf(hit, len(both), len(with_gold))
     print(f"\n=== {name} ===")
     print(f"  mention: {n} | có mã gold: {len(with_gold)} | linker trả ≥1 mã: {len(with_pred)} "
           f"(coverage={len(with_pred)/n:.2f})" if n else f"  {name}: 0 mention")
+    lvl = "hoạt chất" if ing_map is not None else "gold∈pred"
     if with_gold:
-        print(f"  hit@k (gold∈pred): {hit}/{len(with_gold)} = {hit/len(with_gold):.3f}")
-        print(f"  top1 (pred[0]∈gold): {top1}/{len(with_gold)} = {top1/len(with_gold):.3f}")
+        print(f"  hit@k ({lvl}): {hit}/{len(with_gold)} = {hit/len(with_gold):.3f}")
+        print(f"  top1: {top1}/{len(with_gold)} = {top1/len(with_gold):.3f}")
         print(f"  precision(trên mention có pred+gold)={p:.3f} recall={r_:.3f} F1={f:.3f}")
     else:
         print(f"  (chưa có mã gold để chấm — điền candidates vào data/dev/labels/*.json)")
@@ -79,6 +105,19 @@ def main():
     from linker import Linker
     linker = Linker(cfg)
 
+    # map rxcui(str) -> ingredient(lower) để chấm RxNorm theo hoạt chất
+    ing_map = {}
+    try:
+        import pandas as pd
+        p = cfg["paths"].get("kb_rxnorm") or cfg["paths"].get("kb_rxnorm_seed")
+        if p and os.path.exists(p):
+            kb = pd.read_parquet(p)
+            for rc, ing in zip(kb["rxcui"].astype(str), kb["ingredient"].astype(str)):
+                if ing:
+                    ing_map[rc] = ing.lower()
+    except Exception as e:  # noqa
+        print(f"(không nạp được ingredient map: {e})")
+
     icd_rows, rx_rows = [], []
     for fp in sorted(glob.glob(os.path.join(args.gold, "*.json"))):
         name = os.path.splitext(os.path.basename(fp))[0]
@@ -96,13 +135,15 @@ def main():
                                 "gold": c.get("candidates", []), "pred": pred})
 
     icd_g, _ = eval_group(icd_rows, "ICD-10 (CHẨN_ĐOÁN)")
-    rx_g, _ = eval_group(rx_rows, "RxNorm (THUỐC)")
+    rx_g, _ = eval_group(rx_rows, "RxNorm (THUỐC) — chấm theo HOẠT CHẤT", ing_map)
 
-    # danh sách MISS (có mã gold nhưng không nằm trong pred) — để P2 sửa
+    # danh sách MISS (có mã gold nhưng linker không trúng) — để P2 sửa
     misses = []
-    for grp, kind in [(icd_g, "ICD"), (rx_g, "RX")]:
+    for grp, kind, imap in [(icd_g, "ICD", None), (rx_g, "RX", ing_map)]:
         for r in grp:
-            if not (set(r["gold"]) & set(r["pred"])):
+            miss = (not _ing_match(r["gold"], r["pred"], imap)) if imap is not None \
+                else (not set(r["gold"]) & set(r["pred"]))
+            if miss:
                 misses.append((kind, r["file"], r["text"], ",".join(r["gold"]),
                                ",".join(r["pred"]) or "-"))
     if misses:

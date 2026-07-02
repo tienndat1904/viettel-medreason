@@ -9,7 +9,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "161"
+    ]
   },
   {
     "text": "đau bụng",
@@ -216,7 +218,9 @@
       1202
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "161"
+    ]
   },
   {
     "text": "tăng men gan",
@@ -349,7 +353,9 @@
     "assertions": [
       "isNegated"
     ],
-    "candidates": []
+    "candidates": [
+      "197"
+    ]
   },
   {
     "text": "sỏi mật",
