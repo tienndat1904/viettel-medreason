@@ -47,7 +47,8 @@ class Linker:
 
         lexical_icd = IcdMatcher(icd_df, byt_df, syn,
                                  L.get("icd_fuzzy_threshold", 88),
-                                 L.get("icd_top_k_return", 3))
+                                 L.get("icd_top_k_return", 3),
+                                 hedge=L.get("icd_hedge", True))
         self._icd = lexical_icd
         self._icd_mode = "lexical"
         # backend semantic (v1): thử nạp bge-m3 index; thiếu -> giữ lexical
@@ -60,7 +61,8 @@ class Linker:
 
         self._rx = RxNormMatcher(rx_df, brands,
                                  L.get("rxnorm_fuzzy_threshold", 90),
-                                 L.get("rxnorm_top_k_return", 3))
+                                 L.get("rxnorm_top_k_return", 3),
+                                 return_level=L.get("rxnorm_return_level", "scd"))
         self.ready = (icd_df is not None) or (rx_df is not None) or bool(syn) or bool(brands)
 
         srcs = []
