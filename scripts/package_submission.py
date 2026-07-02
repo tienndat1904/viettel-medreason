@@ -6,6 +6,12 @@ Dùng: python scripts/package_submission.py --output output --n 100
 from __future__ import annotations
 import os, sys, json, argparse, zipfile
 
+for _s in (sys.stdout, sys.stderr):
+    try:
+        _s.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 SRC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src")
 sys.path.insert(0, os.path.join(SRC, "postprocess"))
 sys.path.insert(0, SRC)

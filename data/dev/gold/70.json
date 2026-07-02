@@ -1,0 +1,546 @@
+[
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      384
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      457
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      499
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      550
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      590,
+      598
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      642,
+      654
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "tổng bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      701
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      728,
+      731
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      775,
+      783
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      809
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      838
+    ],
+    "assertions": []
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      848
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      851,
+      871
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      888
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      899,
+      910
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau vùng gan phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      969
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1036,
+      1039
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "thay đổi thói quen đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1051,
+      1078
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "phân có máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1101
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1183,
+      1202
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1312,
+      1324
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1329,
+      1347
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1349,
+      1352
+    ],
+    "assertions": []
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1353,
+      1356
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1358,
+      1361
+    ],
+    "assertions": []
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1362,
+      1365
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1367,
+      1370
+    ],
+    "assertions": []
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1371,
+      1374
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1376,
+      1395
+    ],
+    "assertions": []
+  },
+  {
+    "text": "0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1396,
+      1399
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1410,
+      1433
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1444,
+      1453
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nồng độ acetaminophen",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1477,
+      1498
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nac",
+    "type": "THUỐC",
+    "position": [
+      1516,
+      1519
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1694,
+      1701
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.20",
+      "K80"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1739,
+      1757
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1761,
+      1773
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1830,
+      1833
+    ],
+    "assertions": []
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1834,
+      1837
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1840,
+      1843
+    ],
+    "assertions": []
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1844,
+      1847
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1850,
+      1853
+    ],
+    "assertions": []
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1854,
+      1857
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1860,
+      1879
+    ],
+    "assertions": []
+  },
+  {
+    "text": "0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1880,
+      1883
+    ],
+    "assertions": []
+  },
+  {
+    "text": "total bili",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1886,
+      1896
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1923,
+      1926
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bảng xét nghiệm viêm gan virus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1929,
+      1959
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1973,
+      1981
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ceruloplasmin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1999,
+      2012
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2106,
+      2129
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2156,
+      2165
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2327,
+      2339
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2342,
+      2360
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

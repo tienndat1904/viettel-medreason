@@ -17,6 +17,9 @@ models/*.gguf
 output/
 *.zip
 
+# Dev review HTML — tự sinh lại bằng src/datagen/build_review_html.py
+data/dev/review/
+
 # Notebook checkpoints
 .ipynb_checkpoints/
 

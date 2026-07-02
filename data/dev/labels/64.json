@@ -1,0 +1,16 @@
+[
+  {"text": "viêm túi mật", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K81.9"], "occ": 1, "note": "'Nhiều lần nhập viện trước đây ... điều trị viêm túi mật'"},
+  {"text": "ciproflagyl", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "cipro + flagyl (lần nhập viện trước); RxNorm TODO"},
+  {"text": "percocet", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 2, "note": "oxycodone/acetaminophen; 'Thuốc trước khi nhập viện lần này: percocet'; RxNorm TODO"},
+  {"text": "chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
+  {"text": "viêm túi mật không biến chứng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K81.9"], "occ": 1, "note": "kết quả CT lần nhập viện trước"},
+  {"text": "bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K57.90"], "note": "diverticular disease"},
+  {"text": "đau vùng hạ vị bên phải và hạ vị bên trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
+  {"text": "đau bụng ở vùng bụng dưới", "type": "TRIỆU_CHỨNG", "assertions": []},
+  {"text": "táo bón trở nên tồi tệ hơn gần đây", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục triệu chứng hiện tại (occ1 ở mục bệnh mãn tính)"},
+  {"text": "đổ mồ hôi qua đêm", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "night sweats"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'Không ghi nhận sốt'"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'Không chóng mặt'"},
+  {"text": "hoa mắt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'Không hoa mắt'"},
+  {"text": "ra máu", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'đi tiêu bình thường, không ra máu'"}
+]

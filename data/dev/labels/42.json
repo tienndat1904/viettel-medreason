@@ -1,0 +1,15 @@
+[
+  {"text": "bệnh tim mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated", "isHistorical"], "candidates": [], "note": "'Không có tiền sử bệnh tim mạch...'; generic; phần 'thận bệnh' lỗi dịch nên bỏ"},
+  {"text": "methadone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "mục 'Thuốc trước khi nhập viện lần này'; RxNorm TODO"},
+  {"text": "phù hai bên", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
+  {"text": "chủ quan sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "subjective fever (occ2 = mục 'Các triệu chứng hiện tại')"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
+  {"text": "đau tăng dần khi đi lại", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
+  {"text": "lơ mơ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "altered mental status"},
+  {"text": "phù hai bên", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'được ghi nhận phù hai bên'"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3, "note": "occ2 là recap 'triệu chứng liên quan' -> bỏ"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "phủ nhận đau ngực"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "phủ nhận khó thở"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "phủ nhận đau bụng"}
+]

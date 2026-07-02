@@ -30,10 +30,22 @@ python src/pipeline.py --input <thư_mục_test> --output output --backend llm
 python scripts/package_submission.py --output output --input data/test/input --n 100
 ```
 
-## Chấm offline (khi có dev set có nhãn tại data/dev/gold)
+## Dev set có nhãn (để đo offline)
+30 file dev đã gán nhãn (bản nháp — xem `data/dev/ANNOTATION_GUIDE.md`, cần người review).
 ```bash
+# Sinh gold từ label spec (tự tính offset ký tự, validate schema)
+python src/datagen/make_dev.py                    # data/dev/labels/*.json -> data/dev/gold/*.json
+# Xem review trực quan (span tô màu trên văn bản gốc)
+python src/datagen/build_review_html.py           # -> data/dev/review/index.html
+```
+
+## Chấm offline (dev set có nhãn tại data/dev/gold)
+```bash
+python src/pipeline.py --input data/test/input --output output --backend rule
 python src/eval/scorer.py --pred output --gold data/dev/gold --mode overlap
 ```
+Baseline backend `rule` trên 30 file dev: **F1(span+type) ≈ 0.34 (overlap) / 0.24 (exact)**;
+CHẨN_ĐOÁN & THUỐC = 0 (rule chưa phủ) → cần LLM extractor (P1) + linking (P2). Đây là mốc để đo tiến bộ.
 
 ## Cấu trúc
 ```
@@ -56,8 +68,9 @@ data/
 ## Trạng thái
 - [x] Khung repo reproducible + pipeline chạy được (backend rule)
 - [x] Offset resolver, validator, scorer, packager
+- [x] Dev set ~30 file có nhãn (nháp) + tooling make_dev/review + baseline đo được (P3)
 - [ ] KB: ICD-10 VN + RxNorm index
 - [ ] LLM extractor fine-tune (QLoRA) + synthetic data
 - [ ] Linking hoàn chỉnh (retrieve + rerank)
-- [ ] Dev set có nhãn để đo offline
+- [ ] Mở rộng dev set ~150 file + review tay
 ```

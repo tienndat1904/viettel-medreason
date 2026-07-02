@@ -10,6 +10,12 @@ from __future__ import annotations
 import os, sys, json, argparse, glob
 from collections import defaultdict
 
+for _s in (sys.stdout, sys.stderr):
+    try:
+        _s.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 
 def load(d):
     out = {}
