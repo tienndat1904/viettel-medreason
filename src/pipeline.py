@@ -18,6 +18,7 @@ for sub in ["", "extract", "linking", "offset", "postprocess", "eval", "kb", "da
 import yaml
 from resolve_spans import resolve_offsets
 from validate import clean_file
+from assertions import annotate as annotate_assertions
 from schema import CHAN_DOAN, THUOC
 
 
@@ -42,9 +43,10 @@ def get_extractor(backend, cfg):
     raise ValueError(f"backend không hợp lệ: {backend}")
 
 
-def process_file(text, extract_fn, linker):
-    spans = extract_fn(text)                 # [{text,type,assertions}]
+def process_file(text, extract_fn, linker, assertion_mode="union"):
+    spans = extract_fn(text)                 # [{text,type,(assertions)}]
     concepts = resolve_offsets(text, spans)  # + position
+    concepts = annotate_assertions(text, concepts, mode=assertion_mode)  # assertion theo ngữ cảnh
     concepts = clean_file(concepts, text)    # làm sạch + loại trùng
     # linking
     for c in concepts:
@@ -68,6 +70,7 @@ def main():
     input_dir = args.input or cfg["paths"]["test_input"]
     output_dir = args.output or cfg["paths"]["output"]
     backend = args.backend or cfg["extract"]["backend"]
+    assertion_mode = cfg["extract"].get("assertion_mode", "union")
     os.makedirs(output_dir, exist_ok=True)
 
     extract_fn = get_extractor(backend, cfg)
@@ -83,7 +86,7 @@ def main():
         name = os.path.splitext(os.path.basename(fp))[0]
         with open(fp, "r", encoding="utf-8") as f:
             text = f.read()
-        concepts = process_file(text, extract_fn, linker)
+        concepts = process_file(text, extract_fn, linker, assertion_mode)
         with open(os.path.join(output_dir, f"{name}.json"), "w", encoding="utf-8") as f:
             json.dump(concepts, f, ensure_ascii=False, indent=2)
     print("[pipeline] xong.")
