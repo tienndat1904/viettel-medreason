@@ -1,11 +1,14 @@
 # Core — đủ cho: rule pipeline, lexical linking, eval, build KB.
 # (KHÔNG chứa transformers/FlagEmbedding để tránh xung đột trên Colab/Kaggle;
 #  chạy LLM -> requirements-gpu.txt; linking semantic v1 -> requirements-semantic.txt)
-pyyaml==6.0.2
-tqdm==4.67.1
-numpy==1.26.4
-pandas==2.2.3
-pyarrow==17.0.0               # đọc/ghi parquet (KB ICD-10 / RxNorm)
-xlrd==2.0.1                   # đọc Danh mục ICD-10 BYT định dạng .xls (BIFF cũ)
-openpyxl==3.1.5              # đọc .xlsx (nếu BYT phát hành bản mới)
-rapidfuzz==3.10.1
+#
+# Dùng RANGE (>=), KHÔNG pin cứng: pin numpy==1.26 hạ cấp numpy 2.x của Colab
+# -> vỡ ABI ("numpy.dtype size changed") với torch/transformers build cho numpy 2.
+pyyaml>=6.0
+tqdm>=4.66
+numpy>=1.26                  # để nguyên numpy 2.x có sẵn của Colab/Kaggle (KHÔNG hạ cấp)
+pandas>=2.2
+pyarrow>=17                  # đọc/ghi parquet (KB ICD-10 / RxNorm)
+xlrd>=2.0                    # đọc Danh mục ICD-10 BYT định dạng .xls (BIFF cũ)
+openpyxl>=3.1               # đọc .xlsx (nếu BYT phát hành bản mới)
+rapidfuzz>=3.10
