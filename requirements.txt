@@ -1,0 +1,23 @@
+# Core
+pyyaml==6.0.2
+tqdm==4.67.1
+numpy==1.26.4
+pandas==2.2.3
+rapidfuzz==3.10.1
+
+# NLP / models (self-host ≤9B) — cài trên Kaggle/Colab
+# torch đã có sẵn trên Kaggle/Colab; nếu cài local: torch==2.4.0
+transformers==4.46.3
+accelerate==1.1.1
+sentencepiece==0.2.0
+FlagEmbedding==1.3.2          # bge-m3 + bge-reranker-v2-m3
+faiss-cpu==1.9.0
+
+# Fine-tune (train notebook)
+# unsloth==2024.11.9          # cài trong notebook Kaggle/Colab (kèm bitsandbytes, peft, trl)
+# bitsandbytes==0.44.1
+# peft==0.13.2
+# trl==0.12.1
+
+# Guided JSON decoding (inference)
+# vllm==0.6.4                 # hoặc dùng outlines==0.1.4

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data / models không commit (dung lượng lớn hoặc vướng license)
+data/external/**        # i2b2/n2c2 vướng DUA — KHÔNG redistribute
+models/*.safetensors
+models/*.bin
+models/*.gguf
+*.faiss
+
+# Output
+output/
+*.zip
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
