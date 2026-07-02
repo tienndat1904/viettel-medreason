@@ -4,9 +4,17 @@ Chi tiết hóa mục 5.3 của `PLAN.md` cho module `src/kb/*` + `src/linking/*
 Mục tiêu: điền `Linker.link_diagnosis` / `Linker.link_drug` (đang `NotImplementedError`) → trả candidate hợp lệ, chính xác, xếp theo độ tin cậy giảm dần.
 
 ## 0. Quyết định đã chốt
-- **ICD-10:** dùng **Danh mục ICD-10 Bộ Y tế (tiếng Việt)** làm KB chính (cùng ngôn ngữ với input → match tự nhiên; bge-m3 vẫn cho phép match đa ngữ khi cần).
+- **ICD-10:** **KB chính = ICD-10-CM (Mỹ)** vì gold dev của P3 dùng hệ mã CM (5–7 ký tự, vd `E83.52`), không phải WHO/BYT. Tên tiếng Việt ghép từ **Danh mục BYT** theo mã cha (`build_icd_cm_kb.py`). *Chưa xác nhận BTC dùng WHO hay CM — nên hỏi thêm; đổi lại chỉ cần trỏ `kb_icd` về BYT.*
 - **RxNorm:** trả mã ở **mức SCD trước** (hoạt chất + hàm lượng + dạng, như ví dụ gold `308135`), **fallback SCDC/IN** khi thiếu dạng bào chế hoặc không khớp SCD.
 - **Lộ trình:** **v0 lexical/fuzzy trước** (chạy ngay, không cần GPU) → **v1 semantic** (bge-m3 + reranker). De-risk và tăng điểm dần.
+
+## 0.1 Kết quả v0 (đo bằng `src/eval/eval_linking.py` trên 30 file dev gold)
+| | hit@k | top1 | ghi chú |
+|---|---|---|---|
+| **RxNorm (THUỐC)** — chấm theo hoạt chất | **0.915** | 0.915 | parse + brand/typo + SCD; coi như đạt cho v0 |
+| **ICD (CHẨN_ĐOÁN)** — exact mã | **0.495** | 0.448 | BYT 0.335 → CM 0.418 → +synonym 0.495 (đã chạm trần lexical) |
+
+**Đòn bẩy tiếp theo cho ICD:** (1) **v1 semantic** bge-m3 khớp text VN với mô tả EN của CM (xử lý ~½ miss là sai ngữ nghĩa); (2) P3 chuẩn hóa **độ sâu mã gold** (đang trộn WHO 4 ký tự & CM 5 ký tự → chặn trần exact-match).
 
 ## 1. Hợp đồng interface (KHÔNG đổi — cả nhóm phụ thuộc)
 ```python
