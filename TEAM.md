@@ -43,8 +43,8 @@ Ranh giới ghép nối là các **hợp đồng interface** cố định trong 
 
 ---
 
-## Việc chung (làm ngay)
-Gửi **4 câu hỏi cho BTC** (xem `PLAN.md` mục 0.1): công thức chấm điểm & trọng số; xác nhận được sinh synthetic offline; file/phiên bản ICD-10 & RxNorm; giới hạn thời gian chạy pipeline.
+## Giả định đã chốt (không chờ BTC)
+Xem `PLAN.md` mục 0.1. Tóm tắt: chấm micro-F1 theo entity (span+type), assertions exact-set, candidates "gold ∈ predicted" → tối ưu span/type, trả candidate ngắn best-first (ICD 1–3, RxNorm 1–2); synthetic offline được dùng; tự tải ICD-10 VN + RxNorm; pipeline chạy gọn & deterministic.
 
 ## Lịch 4 tuần
 

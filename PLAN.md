@@ -10,11 +10,12 @@ Thời gian: 02/07 → 30/07/2026 (28 ngày) · Nhóm 3 người · GPU: Kaggle/
 - **Reproducibility bắt buộc:** top ~15 đội nộp source + data + weights + README; BTC dựng lại & chấm trên **private test**. ⇒ Cấm hardcode; fix seed; pin deps; Dockerfile; không path tuyệt đối / cloud cá nhân.
 - Submission: `output.zip` → `output/N.json` khớp `N.txt`. JSON lỗi cú pháp/sai key = **0 điểm file đó**. Tối đa **5 submit/ngày**.
 
-## 0.1 Việc cần hỏi BTC ngay (mở kênh hỗ trợ)
-1. **Công thức chấm điểm & trọng số** giữa: span (exact hay overlap?), type, assertions (set), candidates (exact-set? rank-aware? gold nằm trong list là đủ?).
-2. Xác nhận **được dùng LLM lớn để sinh synthetic data offline**.
-3. **File chuẩn ICD-10 / RxNorm** do BTC cấp hay tự tải; phiên bản nào; ICD-10 tiếng Việt hay Anh.
-4. Giới hạn thời gian chạy pipeline khi BTC dựng lại (có timeout không?).
+## 0.1 Giả định đã chốt (không chờ BTC — có thể họ không public)
+1. **Chấm điểm:** micro-F1 theo entity, match = **span khớp + type đúng**; trong cặp đã match, assertions chấm **exact-set**, candidates chấm **"gold ∈ predicted list"** (có thể rank-aware).
+   → Tối ưu **span chính xác + type**; trả candidate **ngắn, best-first** (ICD 1–3, RxNorm 1–2) để không tụt precision. `scorer.py` hỗ trợ cả `exact` lẫn `overlap` để dò rủi ro.
+2. **Synthetic offline: DÙNG** — đề chính đã liệt kê hợp lệ; ship kèm data trong submission.
+3. **ICD-10 / RxNorm: tự tải** — ICD-10 tiếng Việt (Bộ Y tế) + RxNorm full release (NLM/RxNav) → lọc & đóng gói snapshot trong `data/kb/`.
+4. **Runtime:** thiết kế pipeline chạy 100 doc gọn (~1–2h/GPU), deterministic — an toàn kể cả khi BTC có timeout.
 
 ---
 
