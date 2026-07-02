@@ -12,8 +12,10 @@ GIẢ ĐỊNH (BTC chưa cho script chấm — có thể lệch, chỉnh khi có
 1. Match concept pred<->gold theo (text_chuẩn_hóa, type), greedy theo thứ tự position;
    text_chuẩn_hóa = gộp khoảng trắng + casefold. Concept không match -> tính là 1 đơn vị điểm 0.
 2. WER(i): ref = nối text các concept GOLD (thứ tự position), hyp = nối text PRED; WER theo TỪ.
-3. J_assert(i) / J_cand(i) = trung bình Jaccard trên MỌI đơn vị concept (matched: Jaccard;
-   unmatched: 0). Concept không thuộc loại có assertion/candidate coi như tập rỗng.
+3. J_assert = trung bình Jaccard trên concept loại {bệnh,thuốc,triệu chứng};
+   J_cand = trung bình trên {bệnh,thuốc} (matched: Jaccard; unmatched: 0).
+   Concept loại khác bị LOẠI khỏi trung bình (không có 2 trường này) — nếu tính sẽ
+   cho Jaccard(∅,∅)=1 và thổi phồng điểm. *Giả định; chỉnh nếu bản BTC tính khác.*
 
 Dùng: python src/eval/official_scorer.py --pred <dir> --gold <dir>
 """
@@ -22,6 +24,9 @@ import os, sys, json, argparse, glob
 for _s in (sys.stdout, sys.stderr):
     try: _s.reconfigure(encoding="utf-8")
     except Exception: pass
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from schema import ASSERTABLE_TYPES, CANDIDATE_TYPES  # noqa
 
 
 def _norm(s: str) -> str:
@@ -98,20 +103,29 @@ def score_file(gold, pred):
     w = wer([x.casefold() for x in ref_words], [x.casefold() for x in hyp_words])
 
     # --- assertion / candidate Jaccard theo đơn vị concept ---
+    # CHỈ tính assertions cho {bệnh, thuốc, triệu chứng}; candidates cho {bệnh, thuốc}
+    # (theo metric BTC). Concept loại khác KHÔNG có 2 trường này -> loại khỏi trung bình,
+    # nếu không sẽ cho Jaccard(∅,∅)=1 -> thổi phồng điểm (nhất là candidates).
     units = match(gold, pred)
     a_vals, c_vals = [], []
     W = 0
     for g, p in units:
-        gA = set(g.get("assertions", []) or []) if g else set()
-        pA = set(p.get("assertions", []) or []) if p else set()
-        gC = set(g.get("candidates", []) or []) if g else set()
-        pC = set(p.get("candidates", []) or []) if p else set()
-        if g is None or p is None:      # concept không khớp -> 0 điểm
-            a_vals.append(0.0); c_vals.append(0.0)
-        else:
-            a_vals.append(jaccard(gA, pA)); c_vals.append(jaccard(gC, pC))
-        if g is not None:
-            W += len(gC) + 1            # trọng số sample = ∑ (len(gt_cand)+1) trên gold
+        typ = (g or p).get("type")
+        if typ in ASSERTABLE_TYPES:
+            if g is None or p is None:  # concept không khớp -> 0 điểm
+                a_vals.append(0.0)
+            else:
+                a_vals.append(jaccard(set(g.get("assertions", []) or []),
+                                      set(p.get("assertions", []) or [])))
+        if typ in CANDIDATE_TYPES:
+            gC = set(g.get("candidates", []) or []) if g else set()
+            pC = set(p.get("candidates", []) or []) if p else set()
+            if g is None or p is None:
+                c_vals.append(0.0)
+            else:
+                c_vals.append(jaccard(gC, pC))
+            if g is not None:
+                W += len(gC) + 1        # trọng số = ∑ (len(gt_cand)+1) trên gold DX/THUỐC
     j_assert = sum(a_vals) / len(a_vals) if a_vals else 1.0
     j_cand = sum(c_vals) / len(c_vals) if c_vals else 1.0
     return {"wer": w, "text": 1 - w, "j_assert": j_assert, "j_cand": j_cand, "W": W}
