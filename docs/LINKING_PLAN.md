@@ -12,9 +12,13 @@ Mục tiêu: điền `Linker.link_diagnosis` / `Linker.link_drug` (đang `NotImp
 | | hit@k | top1 | ghi chú |
 |---|---|---|---|
 | **RxNorm (THUỐC)** — chấm theo hoạt chất | **0.915** | 0.915 | parse + brand/typo + SCD; coi như đạt cho v0 |
-| **ICD (CHẨN_ĐOÁN)** — exact mã | **0.495** | 0.448 | BYT 0.335 → CM 0.418 → +synonym 0.495 (đã chạm trần lexical) |
+| **ICD (CHẨN_ĐOÁN)** — exact mã | **0.521** | 0.448 | BYT 0.335 → CM 0.418 → +synonym 0.495 → +depth-hedge 0.521 |
 
-**Đòn bẩy tiếp theo cho ICD:** (1) **v1 semantic** bge-m3 khớp text VN với mô tả EN của CM (xử lý ~½ miss là sai ngữ nghĩa); (2) P3 chuẩn hóa **độ sâu mã gold** (đang trộn WHO 4 ký tự & CM 5 ký tự → chặn trần exact-match).
+**Đã thử v1 semantic (bge-m3 + reranker):** hit@k **0.464 < lexical 0.495** vì trả mã cụ thể hơn → trượt gold lệch độ sâu. Giữ **lexical làm mặc định**; semantic là tuỳ chọn (`backend: semantic`).
+
+**Depth-hedge:** với nhóm bệnh khớp tốt nhất, trả kèm mã unspecified + mã cha (4 ký tự) + mã gốc (3 ký tự) → phủ nhiều độ sâu (top_k=3 vẫn giữ, có thể lên 4–5 nếu BTC chấm theo membership: 0.541–0.557).
+
+**Đòn bẩy tiếp theo cho ICD:** P3 chuẩn hóa **độ sâu mã gold** (đang trộn 3/4/5 ký tự) hoặc `eval_linking` chấm ICD **theo tiền tố 3–4 ký tự** (như RxNorm chấm theo hoạt chất) → cả lexical lẫn semantic sẽ tăng mạnh.
 
 ## 1. Hợp đồng interface (KHÔNG đổi — cả nhóm phụ thuộc)
 ```python
