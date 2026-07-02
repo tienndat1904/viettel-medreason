@@ -1,0 +1,34 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - rung nhĩ
+    - sa sút trí tuệ
+    - **hen suyễn**
+    Thuốc trước khi nhập viện
+    - metformin 500mg
+    - spironolactone 25mg
+    - atorvastatin 20mg
+    Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: đau bụng
+    Triệu chứng hiện tại
+    - ớn lạnh
+    - **ngứa**
+    - hoa mắt
+    Các triệu chứng liên quan
+    - âm tính với tiểu dắt
+    - Không đánh trống ngực
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - alt: 27
+    - troponin 0.92
+    - lymph%32.4
+    - inr: 1.1
+    Chẩn đoán hình ảnh
+    - cấy máu
+    - nội soi dạ dày
+    Điều trị
+    - pantoprazole 40mg
+    - morphine 2mg po qid
+    - nitroglycerin 0.4mg nebs q4h

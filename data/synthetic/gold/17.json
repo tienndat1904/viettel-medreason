@@ -1,0 +1,287 @@
+[
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.9"
+    ]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      89
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I60.9"
+    ]
+  },
+  {
+    "text": "methadone 5mg đường uống",
+    "type": "THUỐC",
+    "position": [
+      126,
+      150
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6813"
+    ]
+  },
+  {
+    "text": "torsemide 10mg",
+    "type": "THUỐC",
+    "position": [
+      157,
+      171
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "38413"
+    ]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      254,
+      271
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      305,
+      312
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      321,
+      328
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      335,
+      355
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      362,
+      369
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      385
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho đờm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      437,
+      443
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      459,
+      468
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      492,
+      496
+    ],
+    "assertions": [],
+    "candidates": [
+      "M10.9"
+    ]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      615,
+      618
+    ],
+    "assertions": []
+  },
+  {
+    "text": "23.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      619,
+      623
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      630,
+      633
+    ],
+    "assertions": []
+  },
+  {
+    "text": "11439",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      635,
+      640
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      647,
+      650
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      651,
+      654
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      661,
+      669
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1,23",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      671,
+      675
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      682,
+      685
+    ],
+    "assertions": []
+  },
+  {
+    "text": "43",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      687,
+      689
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      719,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      743,
+      754
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      761,
+      774
+    ],
+    "assertions": []
+  },
+  {
+    "text": "carvedilol po",
+    "type": "THUỐC",
+    "position": [
+      794,
+      807
+    ],
+    "assertions": [],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "ceftriaxone 1g nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      814,
+      837
+    ],
+    "assertions": [],
+    "candidates": [
+      "2193"
+    ]
+  }
+]

@@ -48,10 +48,22 @@ python src/datagen/build_review_html.py           # -> data/dev/review/index.htm
 ## Chấm offline (dev set có nhãn tại data/dev/gold)
 ```bash
 python src/pipeline.py --input data/test/input --output output --backend rule
-python src/eval/scorer.py --pred output --gold data/dev/gold --mode overlap
+python src/eval/scorer.py --pred output --gold data/dev/gold --mode overlap   # span+type, assertion
+python src/eval/eval_linking.py                                               # linking ICD/RxNorm (tách khỏi extractor)
 ```
 Baseline backend `rule` trên 30 file dev: **F1(span+type) ≈ 0.34 (overlap) / 0.24 (exact)**;
-CHẨN_ĐOÁN & THUỐC = 0 (rule chưa phủ) → cần LLM extractor (P1) + linking (P2). Đây là mốc để đo tiến bộ.
+CHẨN_ĐOÁN & THUỐC span = 0 (rule chưa phủ) → cần LLM extractor (P1). Assertion (P1) ≈ 0.97.
+Linking (P2, đo riêng): ICD hit@k 16.5%, RxNorm ingredient-hit 78.9%.
+
+## Synthetic data + QLoRA (train LLM extractor)
+```bash
+# Sinh 1500 bệnh án VN + gold + train_sft.jsonl (offline, không API — reproducible, seed=42)
+python src/datagen/gen_synthetic.py --n 1500 --seed 42
+# QLoRA fine-tune Qwen2.5-7B trên GPU (Kaggle/Colab) -> LoRA adapter
+python scripts/train_qlora.py --data data/synthetic/train_sft.jsonl --out models/qwen7b-lora
+# rồi điền configs/config.yaml: extract.lora_adapter: models/qwen7b-lora ; backend: llm
+```
+Chi tiết bộ dữ liệu: `data/synthetic/DATA_CARD.md`. `train_sft.jsonl` khớp `prompt.py` (target `[{text,type}]`).
 
 ## Cấu trúc
 ```

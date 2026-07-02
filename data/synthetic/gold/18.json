@@ -1,0 +1,336 @@
+[
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      56
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      63,
+      70
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "viêm phế quản cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      79,
+      96
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J20.9"
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      105,
+      112
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "warfarin 5mg po qid",
+    "type": "THUỐC",
+    "position": [
+      151,
+      170
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "11289"
+    ]
+  },
+  {
+    "text": "morphine 2mg iv",
+    "type": "THUỐC",
+    "position": [
+      179,
+      194
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7052"
+    ]
+  },
+  {
+    "text": "gabapentin",
+    "type": "THUỐC",
+    "position": [
+      201,
+      211
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "spironolactone 25mg hằng ngày",
+    "type": "THUỐC",
+    "position": [
+      220,
+      249
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "9997"
+    ]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      329,
+      337
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      369,
+      377
+    ],
+    "assertions": []
+  },
+  {
+    "text": "gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      384,
+      392
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      399,
+      406
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      420
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      427,
+      443
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      450,
+      459
+    ],
+    "assertions": []
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      508,
+      514
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      527,
+      536
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      552,
+      568
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      590,
+      602
+    ],
+    "assertions": [],
+    "candidates": [
+      "N12"
+    ]
+  },
+  {
+    "text": "ure (bun)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      697,
+      706
+    ],
+    "assertions": []
+  },
+  {
+    "text": "61",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      710,
+      712
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      719,
+      722
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      724,
+      727
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      734,
+      737
+    ],
+    "assertions": []
+  },
+  {
+    "text": "341",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      738,
+      741
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      748,
+      753
+    ],
+    "assertions": []
+  },
+  {
+    "text": "139",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      754,
+      757
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      787,
+      811
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      818,
+      833
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lisinopril 20mg iv",
+    "type": "THUỐC",
+    "position": [
+      853,
+      871
+    ],
+    "assertions": [],
+    "candidates": [
+      "29046"
+    ]
+  },
+  {
+    "text": "spironolactone 25mg po daily",
+    "type": "THUỐC",
+    "position": [
+      878,
+      906
+    ],
+    "assertions": [],
+    "candidates": [
+      "9997"
+    ]
+  }
+]

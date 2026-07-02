@@ -1,0 +1,37 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - thuyên tắc phổi
+    - suy giáp
+    Thuốc trước khi nhập viện
+    - ciprofloxacin q6h
+    - amoxicillin 500mg po daily
+    - rosuvastatin 10mg tiêm tĩnh mạch
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: đau vai
+    Triệu chứng hiện tại
+    - khó nuốt
+    - tiểu buốt
+    - đau ngực
+    Các triệu chứng liên quan
+    - Phủ nhận sốt cao
+    - không có đau ngực
+    - Phủ nhận tiêu chảy
+    - Không ngất xỉu
+    Chẩn đoán sơ bộ: trầm cảm
+    Bệnh nhân tỉnh, tiếp xúc tốt.
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - bnp: 12225
+    - troponin: 1,61
+    - wbc: 4.7
+    - inr: 2,6
+    - creatinine: 1.5
+    Chẩn đoán hình ảnh
+    - điện tâm đồ
+    - tổng phân tích nước tiểu
+    - siêu âm tim
+    Điều trị
+    - amoxicillin po qid
+    - ibuprofen 600mg đường uống

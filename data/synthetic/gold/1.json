@@ -1,0 +1,303 @@
+[
+  {
+    "text": "suy tim sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      66
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      73,
+      93
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      100,
+      115
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I26.99"
+    ]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      122,
+      154
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K21.9"
+    ]
+  },
+  {
+    "text": "losartan 50mg",
+    "type": "THUỐC",
+    "position": [
+      193,
+      206
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "52175"
+    ]
+  },
+  {
+    "text": "acetaminophen 1g tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      215,
+      246
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "161"
+    ]
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      253,
+      263
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "atenolol 50mg hằng ngày",
+    "type": "THUỐC",
+    "position": [
+      270,
+      293
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1202"
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      337,
+      344
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      388,
+      401
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      433,
+      442
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      461
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      468,
+      474
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      520,
+      528
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      543,
+      549
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      567,
+      572
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      630,
+      637
+    ],
+    "assertions": []
+  },
+  {
+    "text": "304",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      639,
+      642
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      649,
+      654
+    ],
+    "assertions": []
+  },
+  {
+    "text": "140",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      656,
+      659
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      666,
+      669
+    ],
+    "assertions": []
+  },
+  {
+    "text": "218",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      670,
+      673
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      680,
+      685
+    ],
+    "assertions": []
+  },
+  {
+    "text": "9,8 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      687,
+      692
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      722,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "omeprazole 40mg q6h",
+    "type": "THUỐC",
+    "position": [
+      756,
+      775
+    ],
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "lisinopril 20mg po daily",
+    "type": "THUỐC",
+    "position": [
+      782,
+      806
+    ],
+    "assertions": [],
+    "candidates": [
+      "29046"
+    ]
+  }
+]

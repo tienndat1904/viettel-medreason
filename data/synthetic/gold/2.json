@@ -1,0 +1,305 @@
+[
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      63
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I26.99"
+    ]
+  },
+  {
+    "text": "suy giáp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      70,
+      78
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E03.9"
+    ]
+  },
+  {
+    "text": "ciprofloxacin q6h",
+    "type": "THUỐC",
+    "position": [
+      115,
+      132
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "amoxicillin 500mg po daily",
+    "type": "THUỐC",
+    "position": [
+      139,
+      165
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "rosuvastatin 10mg tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      172,
+      204
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "301542"
+    ]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      255
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      287,
+      295
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      302,
+      311
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      326
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      372,
+      379
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      395,
+      403
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      428
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      449
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      471,
+      479
+    ],
+    "assertions": [],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      571,
+      574
+    ],
+    "assertions": []
+  },
+  {
+    "text": "12225",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      576,
+      581
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      588,
+      596
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1,61",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      598,
+      602
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      609,
+      612
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      614,
+      617
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      624,
+      627
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2,6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      629,
+      632
+    ],
+    "assertions": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      639,
+      649
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      651,
+      654
+    ],
+    "assertions": []
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      684,
+      695
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      702,
+      726
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      733,
+      744
+    ],
+    "assertions": []
+  },
+  {
+    "text": "amoxicillin po qid",
+    "type": "THUỐC",
+    "position": [
+      764,
+      782
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "ibuprofen 600mg đường uống",
+    "type": "THUỐC",
+    "position": [
+      789,
+      815
+    ],
+    "assertions": [],
+    "candidates": [
+      "5640"
+    ]
+  }
+]
