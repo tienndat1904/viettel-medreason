@@ -48,12 +48,15 @@ mount ở `/kaggle/input/...` rồi `cp -r` sang `/kaggle/working/viettel-medrea
 > upload nó thành Kaggle Dataset rồi trỏ `--input /kaggle/input/<tên>/input`.
 
 ## 3. Cài dependencies
+**KHÔNG cài lại transformers/torch** (dùng bản có sẵn của Kaggle/Colab — đã hợp triton 3.x). Chỉ cài core nhẹ + **cập nhật bitsandbytes** (fix `triton.ops` + binary CUDA):
 ```python
 !pip install -q -r requirements.txt
-!pip install -q -r requirements-gpu.txt
-import torch; print("CUDA:", torch.cuda.is_available(), torch.cuda.get_device_name(0))
+!pip install -q -U bitsandbytes peft accelerate
+import torch, transformers, bitsandbytes as bnb
+print("torch", torch.__version__, "| transformers", transformers.__version__,
+      "| bnb", bnb.__version__, "| CUDA", torch.cuda.is_available())
 ```
-Nếu `bitsandbytes` lỗi trên môi trường Kaggle mới, thử: `!pip install -q -U bitsandbytes`.
+> Vì sao KHÔNG `pip install -r requirements-gpu.txt` cứng: pin `transformers==4.46.3` + `bitsandbytes==0.44.1` cũ gây xung đột và lỗi `No module named 'triton.ops'` trên Colab/Kaggle. `requirements-gpu.txt` (dạng range) chỉ để BTC dựng lại offline.
 
 ## 4. SMOKE TEST trước (tiết kiệm quota!) — 3–5 file
 Đừng chạy thẳng 100 file. Test nhỏ để chắc model + JSON parse OK:
@@ -104,6 +107,8 @@ So với mốc rule baseline (F1 span+type ~0.34 overlap). Đây là lần đầ
 | `CUDA out of memory` | Đảm bảo `load_in_4bit` (mặc định True); giảm `max_chunk_chars`/`max_new_tokens`; T4 x2 sẽ tự shard (`device_map=auto`). |
 | Tải model chậm/timeout | Internet phải ON; chạy lại cell (HF cache lại); hoặc thêm Qwen làm Kaggle Dataset để mount offline. |
 | `bitsandbytes` import error | `!pip install -q -U bitsandbytes`; kiểm tra CUDA khả dụng. |
+| `No module named 'triton.ops'` | bitsandbytes cũ (0.44) vs triton 3.x → `!pip install -q -U bitsandbytes` (đã đưa vào cell cài đặt). |
+| `Could not find bitsandbytes CUDA binary ...cuda128.so` | Cùng nguyên nhân → `-U bitsandbytes` để lấy binary khớp CUDA của Colab/Kaggle. |
 | JSON rỗng / thiếu concept | Xem raw output 1 chunk; kiểm tra parser (`json_utils`); giảm `max_chunk_chars` để bớt cắt. |
 | Quá chậm | Dùng 3B trước; hoặc cân nhắc vLLM (v1) để tăng tốc. |
 | Kết quả khác giữa 2 lần chạy | Đảm bảo `temperature=0` (đã đặt); seed cố định trong config. |
