@@ -1,6 +1,6 @@
 [
-  {"text": "acetaminophen 500mg", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["161"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện'; acetaminophen 500 mg oral tablet"},
-  {"text": "acetaminophen 500mg", "type": "THUỐC", "assertions": [], "candidates": ["161"], "occ": 2, "note": "trong 'Các sự kiện trước khi nhập viện' - tự điều trị; historical vs current chưa chắc"},
+  {"text": "acetaminophen 500mg", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["198440"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện'; acetaminophen 500 mg oral tablet"},
+  {"text": "acetaminophen 500mg", "type": "THUỐC", "assertions": [], "candidates": ["198440"], "occ": 2, "note": "trong 'Các sự kiện trước khi nhập viện' - tự điều trị; historical vs current chưa chắc"},
   {"text": "nac", "type": "THUỐC", "assertions": ["isNegated"], "candidates": ["197"], "note": "'Chưa từng dùng nac'; NAC = acetylcysteine (antidote)"},
   {"text": "tăng men gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R74.0"], "occ": 1, "note": "transaminitis/elevated liver enzymes"},
   {"text": "tăng men gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R74.0"], "occ": 2},
