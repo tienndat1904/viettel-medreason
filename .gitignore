@@ -15,6 +15,9 @@ data/kb/raw/**
 !data/kb/raw/README.md
 # KB parquet (ICD-10 BYT + RxNorm SCD) nhỏ & được phép phân phối -> COMMIT để dựng lại
 # không cần tải/đăng ký; brand map auto sinh từ RRF cũng ship kèm.
+# Embedding index semantic (T2) — lớn, rebuild bằng src/kb/build_icd_index.py trên GPU
+data/kb/*_emb.npy
+data/kb/icd10cm_index_meta.parquet
 models/*.safetensors
 models/*.bin
 models/*.gguf

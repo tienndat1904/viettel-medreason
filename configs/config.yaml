@@ -9,7 +9,9 @@ paths:
   kb_rxnorm: data/kb/rxnorm_scd.parquet    # KB thật (build_rxnorm_kb.py)
   kb_icd_seed: data/kb/seed/icd10_vn.parquet     # seed nhỏ, fallback khi chưa build KB thật
   kb_rxnorm_seed: data/kb/seed/rxnorm_scd.parquet
-  icd_index: data/kb/icd10.faiss
+  # semantic (T2): sinh bằng build_icd_index.py trên GPU (KHÔNG commit — lớn)
+  icd_emb: data/kb/icd10cm_emb.npy
+  icd_index_meta: data/kb/icd10cm_index_meta.parquet
   rxnorm_index: data/kb/rxnorm.faiss
 
 extract:

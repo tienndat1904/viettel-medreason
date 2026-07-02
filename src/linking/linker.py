@@ -45,9 +45,19 @@ class Linker:
         brands = load_brand_map(L.get("drug_brands_auto", "data/kb/synonyms/drug_brands_auto.tsv"))
         brands.update(load_brand_map(L.get("drug_brands", "data/kb/synonyms/drug_brands.tsv")))
 
-        self._icd = IcdMatcher(icd_df, byt_df, syn,
-                               L.get("icd_fuzzy_threshold", 88),
-                               L.get("icd_top_k_return", 3))
+        lexical_icd = IcdMatcher(icd_df, byt_df, syn,
+                                 L.get("icd_fuzzy_threshold", 88),
+                                 L.get("icd_top_k_return", 3))
+        self._icd = lexical_icd
+        self._icd_mode = "lexical"
+        # backend semantic (v1): thử nạp bge-m3 index; thiếu -> giữ lexical
+        if self.backend == "semantic":
+            from icd_semantic import load_semantic
+            sem = load_semantic(cfg, syn)
+            if sem is not None:
+                self._icd = sem
+                self._icd_mode = "semantic"
+
         self._rx = RxNormMatcher(rx_df, brands,
                                  L.get("rxnorm_fuzzy_threshold", 90),
                                  L.get("rxnorm_top_k_return", 3))
@@ -58,10 +68,8 @@ class Linker:
             srcs.append(f"icd={'seed' if 'seed' in icd_path else 'kb'}({len(icd_df)})")
         if rx_path:
             srcs.append(f"rxnorm={'seed' if 'seed' in rx_path else 'kb'}({len(rx_df)})")
-        print(f"[linker] backend={self.backend} | {' '.join(srcs) or 'no-parquet'} "
-              f"| synonyms={len(syn)} brands={len(brands)}")
-        if self.backend == "semantic":
-            print("[linker] backend=semantic chưa triển khai (v1) — tạm dùng lexical.")
+        print(f"[linker] backend={self.backend} icd_mode={self._icd_mode} | "
+              f"{' '.join(srcs) or 'no-parquet'} | synonyms={len(syn)} brands={len(brands)}")
 
     # ---- API (hợp đồng cố định) ----
     def link_diagnosis(self, text: str, context: str = "") -> list[str]:
