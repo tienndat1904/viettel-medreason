@@ -1,0 +1,318 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      50,
+      57
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "viêm khớp dạng thấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      66,
+      85
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "M06.9"
+    ]
+  },
+  {
+    "text": "methadone 10mg q4h",
+    "type": "THUỐC",
+    "position": [
+      122,
+      140
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6813"
+    ]
+  },
+  {
+    "text": "albuterol nebs hằng ngày",
+    "type": "THUỐC",
+    "position": [
+      147,
+      171
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "insulin glargine 100 đơn vị po qid",
+    "type": "THUỐC",
+    "position": [
+      178,
+      212
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "274783"
+    ]
+  },
+  {
+    "text": "atorvastatin 40mg",
+    "type": "THUỐC",
+    "position": [
+      219,
+      236
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "83367"
+    ]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      286,
+      298
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "N17.9"
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      347
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      379,
+      393
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      409
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      416,
+      423
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      466,
+      474
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      490,
+      498
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      520,
+      534
+    ],
+    "assertions": [],
+    "candidates": [
+      "L03.90"
+    ]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      592,
+      600
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1,66",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      601,
+      605
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      612,
+      631
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      633,
+      636
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      643,
+      648
+    ],
+    "assertions": []
+  },
+  {
+    "text": "130",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      650,
+      653
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bạch cầu (wbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      660,
+      674
+    ],
+    "assertions": []
+  },
+  {
+    "text": "11.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      675,
+      679
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      688,
+      691
+    ],
+    "assertions": []
+  },
+  {
+    "text": "16.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      694,
+      698
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      705,
+      708
+    ],
+    "assertions": []
+  },
+  {
+    "text": "270",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      710,
+      713
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      743,
+      754
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang bàn chân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      761,
+      782
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm ổ bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      789,
+      803
+    ],
+    "assertions": []
+  },
+  {
+    "text": "warfarin nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      823,
+      840
+    ],
+    "assertions": [],
+    "candidates": [
+      "11289"
+    ]
+  }
+]

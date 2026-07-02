@@ -1,0 +1,43 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - **viêm loét dạ dày**
+    - xơ gan
+    - suy tim sung huyết
+    Thuốc trước khi nhập viện
+    - **tacrolimus 1mg nebs q4h**
+    - rosuvastatin 10mg
+    - **nitroglycerin 0.4mg q4h**
+    Tiền sử gia đình
+    - Con trai bệnh nhân có gout
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: khó thở khi gắng sức
+    Triệu chứng hiện tại
+    - đau cơ
+    - khó thở về đêm
+    - hoa mắt
+    - ngất xỉu
+    - tê bì
+    - tiếng rít
+    Các triệu chứng liên quan
+    - Phủ nhận lú lẫn
+    - không có đau ngực
+    - Phủ nhận ợ hơi
+    - Phủ nhận đổ mồ hôi qua đêm
+    Chẩn đoán sơ bộ: bệnh thận mạn
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - hba1c: 11.5
+    - bilirubin toàn phần 3,2
+    - alt 117
+    - lactate: 0.8
+    - crp 171
+    Chẩn đoán hình ảnh
+    - chụp ct sọ não
+    - ecg
+    - cấy máu
+    Điều trị
+    - apixaban 2.5mg hằng ngày
+    - albuterol nebs q4h
+    - gabapentin 300mg nebs q4h

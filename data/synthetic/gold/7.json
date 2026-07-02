@@ -1,0 +1,248 @@
+[
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      56
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I48.91"
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      63,
+      77
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.9"
+    ]
+  },
+  {
+    "text": "amlodipine 5mg iv x2",
+    "type": "THUỐC",
+    "position": [
+      114,
+      134
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "17767"
+    ]
+  },
+  {
+    "text": "insulin glargine 100 đơn vị po bid",
+    "type": "THUỐC",
+    "position": [
+      141,
+      175
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "274783"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      253,
+      262
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      300
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      307,
+      321
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho đờm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      328,
+      334
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      380,
+      385
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      398,
+      411
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ung thư phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      433,
+      445
+    ],
+    "assertions": [],
+    "candidates": [
+      "C34.90"
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      546,
+      550
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      551,
+      554
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      561,
+      571
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15,3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      572,
+      576
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      583,
+      590
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      591,
+      594
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      601,
+      604
+    ],
+    "assertions": []
+  },
+  {
+    "text": "17,6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      605,
+      609
+    ],
+    "assertions": []
+  },
+  {
+    "text": "crp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      616,
+      619
+    ],
+    "assertions": []
+  },
+  {
+    "text": "99",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      621,
+      623
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      653,
+      664
+    ],
+    "assertions": []
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      671,
+      682
+    ],
+    "assertions": []
+  },
+  {
+    "text": "methadone hằng ngày",
+    "type": "THUỐC",
+    "position": [
+      702,
+      721
+    ],
+    "assertions": [],
+    "candidates": [
+      "6813"
+    ]
+  }
+]

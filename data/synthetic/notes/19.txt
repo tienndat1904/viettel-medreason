@@ -1,0 +1,39 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - tăng kali máu
+    - sỏi mật
+    - suy giáp
+    Thuốc trước khi nhập viện
+    - pantoprazole 40mg
+    - levothyroxine po bid
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: mất thăng bằng
+    Triệu chứng hiện tại
+    - đau lưng
+    - khó thở
+    - chán ăn
+    - ợ chua
+    - tiêu chảy
+    Các triệu chứng liên quan
+    - Phủ nhận đổ mồ hôi qua đêm
+    - Phủ nhận chóng mặt
+    - Không đau ngực
+    Chẩn đoán sơ bộ: đột quỵ nhồi máu não
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - hgb: 15,2
+    - spo2: 90
+    - kali 5,2
+    - glucose 86
+    - bilirubin toàn phần: 3.6
+    - troponin: 1.69
+    - ast: 59
+    - bnp: 4233
+    Chẩn đoán hình ảnh
+    - monitor holter
+    - cấy nước tiểu
+    - nội soi dạ dày
+    Điều trị
+    - atenolol 50mg

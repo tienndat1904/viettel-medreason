@@ -1,0 +1,270 @@
+[
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      56
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I48.91"
+    ]
+  },
+  {
+    "text": "sa sút trí tuệ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      63,
+      77
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F03.90"
+    ]
+  },
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      86,
+      95
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J45.909"
+    ]
+  },
+  {
+    "text": "metformin 500mg",
+    "type": "THUỐC",
+    "position": [
+      134,
+      149
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6809"
+    ]
+  },
+  {
+    "text": "spironolactone 25mg",
+    "type": "THUỐC",
+    "position": [
+      156,
+      175
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "9997"
+    ]
+  },
+  {
+    "text": "atorvastatin 20mg",
+    "type": "THUỐC",
+    "position": [
+      182,
+      199
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "83367"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      299,
+      307
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      339,
+      346
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      355,
+      359
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      368,
+      375
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      424,
+      432
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      445,
+      460
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      518,
+      521
+    ],
+    "assertions": []
+  },
+  {
+    "text": "27",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      523,
+      525
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      532,
+      540
+    ],
+    "assertions": []
+  },
+  {
+    "text": "0.92",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      541,
+      545
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      552,
+      558
+    ],
+    "assertions": []
+  },
+  {
+    "text": "32.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      558,
+      562
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      569,
+      572
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      574,
+      577
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      607,
+      614
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      621,
+      635
+    ],
+    "assertions": []
+  },
+  {
+    "text": "pantoprazole 40mg",
+    "type": "THUỐC",
+    "position": [
+      655,
+      672
+    ],
+    "assertions": [],
+    "candidates": [
+      "40790"
+    ]
+  },
+  {
+    "text": "morphine 2mg po qid",
+    "type": "THUỐC",
+    "position": [
+      679,
+      698
+    ],
+    "assertions": [],
+    "candidates": [
+      "7052"
+    ]
+  },
+  {
+    "text": "nitroglycerin 0.4mg nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      705,
+      733
+    ],
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  }
+]

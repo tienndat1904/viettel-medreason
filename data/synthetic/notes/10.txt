@@ -1,0 +1,38 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - béo phì
+    - viêm bể thận
+    Thuốc trước khi nhập viện
+    - gabapentin 300mg
+    - azithromycin 500mg q4h
+    Bệnh nhân tỉnh, tiếp xúc tốt.
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: buồn nôn
+    Triệu chứng hiện tại
+    - đau ngực
+    - **ban đỏ**
+    - tiếng rít
+    - đau vai
+    - **đổ mồ hôi qua đêm**
+    Các triệu chứng liên quan
+    - Không ghi nhận mệt mỏi
+    - Phủ nhận lơ mơ
+    - Phủ nhận tiểu máu
+    - Không ghi nhận vã mồ hôi
+    Chẩn đoán sơ bộ: đái tháo đường típ 2
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - spo2: 92 %
+    - tiểu cầu (plt): 97
+    - kali: 4.7
+    - bnp: 6108
+    - wbc 14.2
+    Chẩn đoán hình ảnh
+    - monitor holter
+    - chụp x-quang bàn chân
+    Điều trị
+    - omeprazole
+    - metoprolol 100mg po daily
+    - pantoprazole 40mg đường uống

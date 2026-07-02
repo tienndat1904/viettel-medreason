@@ -1,0 +1,338 @@
+[
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      68
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I60.9"
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      79
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "M10.9"
+    ]
+  },
+  {
+    "text": "apixaban 2.5mg",
+    "type": "THUỐC",
+    "position": [
+      118,
+      132
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1364430"
+    ]
+  },
+  {
+    "text": "ceftriaxone 1g",
+    "type": "THUỐC",
+    "position": [
+      141,
+      155
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2193"
+    ]
+  },
+  {
+    "text": "levothyroxine",
+    "type": "THUỐC",
+    "position": [
+      162,
+      175
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "10582"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      219,
+      227
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      259,
+      267
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      274,
+      287
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      306
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      313,
+      327
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      334,
+      339
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      346,
+      353
+    ],
+    "assertions": []
+  },
+  {
+    "text": "gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      405,
+      413
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      429,
+      436
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      452,
+      461
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      480,
+      488
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      510,
+      519
+    ],
+    "assertions": [],
+    "candidates": [
+      "D64.9"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      636,
+      646
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2,7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      647,
+      650
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      657,
+      660
+    ],
+    "assertions": []
+  },
+  {
+    "text": "11659",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      661,
+      666
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      673,
+      676
+    ],
+    "assertions": []
+  },
+  {
+    "text": "16,5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      678,
+      682
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      689,
+      692
+    ],
+    "assertions": []
+  },
+  {
+    "text": "34.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      693,
+      697
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      704,
+      707
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      709,
+      712
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      719,
+      725
+    ],
+    "assertions": []
+  },
+  {
+    "text": "24.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      726,
+      730
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      760,
+      775
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      782,
+      795
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ecg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      802,
+      805
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tacrolimus 1mg x 1",
+    "type": "THUỐC",
+    "position": [
+      825,
+      843
+    ],
+    "assertions": [],
+    "candidates": [
+      "42316"
+    ]
+  }
+]

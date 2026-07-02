@@ -1,0 +1,43 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - nhiễm khuẩn đường tiết niệu
+    - gout
+    - trầm cảm
+    - đái tháo đường típ 2
+    Thuốc trước khi nhập viện
+    - metformin 500mg q4h
+    - ciprofloxacin 500mg nebs q4h
+    - prednisone q4h
+    Tiền sử gia đình
+    - Vợ bệnh nhân có suy giáp
+    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: gần ngất
+    Triệu chứng hiện tại
+    - đau thượng vị
+    - khó thở về đêm
+    - ho đờm xanh
+    - tiêu chảy
+    Các triệu chứng liên quan
+    - âm tính với nghẹt mũi
+    - Phủ nhận sốt
+    Chẩn đoán sơ bộ: tăng calci máu
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - wbc: 15,8
+    - hgb15.4
+    - glucose  108
+    - troponin 0.10
+    - alt: 186
+    - lymph% 29,4
+    - neut%  58,3 %
+    Chẩn đoán hình ảnh
+    - monitor holter
+    - cấy máu
+    - ecg
+    Điều trị
+    - morphine 4mg tiêm tĩnh mạch
+    - aspirin iv x2
+    - nitroglycerin 0.4mg

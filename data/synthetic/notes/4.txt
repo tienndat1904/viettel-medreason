@@ -1,0 +1,37 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - **béo phì**
+    - viêm khớp dạng thấp
+    Thuốc trước khi nhập viện
+    - methadone 10mg q4h
+    - albuterol nebs hằng ngày
+    - insulin glargine 100 đơn vị po qid
+    - atorvastatin 40mg
+    Tiền sử gia đình
+    - Con trai bệnh nhân có suy thận cấp
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: lơ mơ
+    Triệu chứng hiện tại
+    - mất thăng bằng
+    - nghẹt mũi
+    - chán ăn
+    Các triệu chứng liên quan
+    - Không buồn nôn
+    - Phủ nhận đau ngực
+    Chẩn đoán sơ bộ: viêm mô tế bào
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - troponin 1,66
+    - bilirubin toàn phần: 1.1
+    - natri  130
+    - bạch cầu (wbc) 11.1
+    - **hgb** 16.3
+    - ast: 270
+    Chẩn đoán hình ảnh
+    - siêu âm tim
+    - chụp x-quang bàn chân
+    - siêu âm ổ bụng
+    Điều trị
+    - warfarin nebs q4h
