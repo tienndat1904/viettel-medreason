@@ -205,7 +205,7 @@
       "isHistorical"
     ],
     "candidates": [
-      "4603"
+      "197732"
     ]
   },
   {
@@ -241,7 +241,7 @@
     ],
     "assertions": [],
     "candidates": [
-      "4603"
+      "317377"
     ]
   },
   {
@@ -252,9 +252,7 @@
       1748
     ],
     "assertions": [],
-    "candidates": [
-      "7052"
-    ]
+    "candidates": []
   },
   {
     "text": "1mg dilaudid",
@@ -264,9 +262,7 @@
       1768
     ],
     "assertions": [],
-    "candidates": [
-      "3423"
-    ]
+    "candidates": []
   },
   {
     "text": "po metoprolol",
@@ -288,8 +284,6 @@
       1822
     ],
     "assertions": [],
-    "candidates": [
-      "3443"
-    ]
+    "candidates": []
   }
 ]

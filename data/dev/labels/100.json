@@ -29,6 +29,6 @@
   {"text": "12.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
   {"text": "cr (creatinine)", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "1.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
-  {"text": "Laxis 20mg", "type": "THUỐC", "assertions": [], "candidates": ["4603"], "note": "Lasix/furosemide 20 mg IV (lỗi chính tả); RxNorm TODO"},
-  {"text": "Natriclori 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["9863"], "note": "normal saline 0.9%; RxNorm TODO"}
+  {"text": "Laxis 20mg", "type": "THUỐC", "assertions": [], "candidates": ["315970"], "note": "Lasix/furosemide 20 mg IV (lỗi chính tả); RxNorm TODO"},
+  {"text": "Natriclori 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9%; RxNorm TODO"}
 ]

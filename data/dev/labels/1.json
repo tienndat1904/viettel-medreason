@@ -1,10 +1,10 @@
 [
-  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["6918"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện' -> historical; metoprolol tartrate 25 mg oral tablet, bid"},
-  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": [], "candidates": ["6918"], "occ": 2, "note": "'Bắt đầu dùng ... không cải thiện' trong diễn biến hiện tại -> KHÔNG historical (chưa chắc chắn)"},
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["866924"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện' -> historical; metoprolol tartrate 25 mg oral tablet, bid"},
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": [], "candidates": ["866924"], "occ": 2, "note": "'Bắt đầu dùng ... không cải thiện' trong diễn biến hiện tại -> KHÔNG historical (chưa chắc chắn)"},
   {"text": "doxycycline", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["3640"], "note": "mục 'Thuốc trước khi nhập viện'; doxycycline (oral)"},
   {"text": "atenolol", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["1202"], "occ": 1, "note": "liệt kê ở 'Thuốc trước khi nhập viện' (dù ghi 'uống hôm nay') -> theo guide: historical"},
   {"text": "atenolol", "type": "THUỐC", "assertions": [], "candidates": ["1202"], "occ": 2, "note": "nằm trong 'atenololtrong' (typed liền); dùng ở nhà trong đợt hiện tại -> []"},
-  {"text": "aspirin 325mg x 1", "type": "THUỐC", "assertions": [], "candidates": ["1191"], "note": "chỉ định tại cấp cứu -> current; aspirin 325 mg oral tablet"},
+  {"text": "aspirin 325mg x 1", "type": "THUỐC", "assertions": [], "candidates": ["212033"], "note": "chỉ định tại cấp cứu -> current; aspirin 325 mg oral tablet"},
   {"text": "viêm tuyến mồ hôi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["L73.2"], "note": "hidradenitis suppurativa; trong tiền sử/thuốc trước NV"},
   {"text": "ngoại tâm thu nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.1"], "occ": 1, "note": "atrial premature beats (ghi nhận trên holter) - có thể coi là finding, chưa chắc DX"},
   {"text": "ngoại tâm thu nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.1"], "occ": 2},

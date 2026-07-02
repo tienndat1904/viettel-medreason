@@ -15,7 +15,7 @@
   {"text": "khò khè", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
   {"text": "albuterol", "type": "THUỐC", "assertions": [], "candidates": ["435"], "note": "khí dung albuterol; RxNorm TODO"},
   {"text": "guaifenesin", "type": "THUỐC", "assertions": [], "candidates": ["5032"], "note": "RxNorm TODO"},
-  {"text": "furosemide 40 mg", "type": "THUỐC", "assertions": [], "candidates": ["4603"], "note": "đường uống; RxNorm TODO"},
+  {"text": "furosemide 40 mg", "type": "THUỐC", "assertions": [], "candidates": ["313988"], "note": "đường uống; RxNorm TODO"},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 2, "note": "'không ghi nhận khó thở rõ' (occ1 = 'khó thở tăng dần')"},
   {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không ghi nhận ... đau ngực'"},
   {"text": "Nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["A41.01"], "note": "mục 'Các phát hiện chẩn đoán khác' (viết hoa) - hiện tại"},

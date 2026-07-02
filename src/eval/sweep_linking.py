@@ -30,7 +30,30 @@ for sub in ["", "linking", "eval"]:
 
 import yaml
 from schema import CHAN_DOAN, THUOC
-from eval_linking import _icd_match, _ing_match, _ICD_LEVELS, _icd_norm
+
+# helper tự chứa (không phụ thuộc internals của eval_linking để khỏi vỡ khi P3 đổi file)
+_ICD_LEVELS = {"exact": 99, "cat4": 4, "cat3": 3}
+
+
+def _icd_norm(code: str) -> str:
+    return "".join(ch for ch in str(code).upper() if ch.isalnum())
+
+
+def _icd_prefixes(codes, n):
+    return {_icd_norm(c)[:n] for c in codes if _icd_norm(c)}
+
+
+def _icd_match(golds, preds, n):
+    return bool(_icd_prefixes(golds, n) & _icd_prefixes(preds, n))
+
+
+def _ings(codes, ing_map):
+    return {ing_map[c] for c in codes if c in ing_map}
+
+
+def _ing_match(golds, preds, ing_map):
+    gi, pi = _ings(golds, ing_map), _ings(preds, ing_map)
+    return any(g and p and (g in p or p in g) for g in gi for p in pi)
 
 
 def _jaccard(gold, pred, norm=lambda x: x):

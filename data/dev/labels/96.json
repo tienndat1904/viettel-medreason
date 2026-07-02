@@ -8,7 +8,7 @@
   {"text": "bactrim", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "'đang dùng bactrim' - reviewer: current vs section 'đã dùng trước đây'; RxNorm TODO"},
   {"text": "hạ huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I95.9"], "occ": 1, "note": "'2 tuần ... vào viện vì hạ huyết áp'"},
   {"text": "nhiễm trùng huyết", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["A41.9"], "occ": 1, "note": "'2 tuần ... chẩn đoán nhiễm trùng huyết'"},
-  {"text": "zosyn", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["8339", "37617"], "occ": 3, "note": "piperacillin-tazobactam; occ1/2 nằm trong 'vancozosyn'; RxNorm TODO"},
+  {"text": "zosyn", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 3, "note": "piperacillin-tazobactam; occ1/2 nằm trong 'vancozosyn'; RxNorm TODO"},
   {"text": "sốt cao", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'sốt cao 39.7 độ C' hiện tại"},
   {"text": "39.7", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
   {"text": "Cảm giác khát nước", "type": "TRIỆU_CHỨNG", "assertions": []},
@@ -33,5 +33,5 @@
   {"text": "nhiễm trùng huyết đường vào tiết niệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["A41.9"], "note": "urosepsis (Chẩn đoán hiện tại)"},
   {"text": "Cefepim", "type": "THUỐC", "assertions": [], "candidates": ["20481"], "note": "cefepime; RxNorm TODO"},
   {"text": "Vancomycin", "type": "THUỐC", "assertions": [], "candidates": ["11124"], "note": "truyền TM hiện tại; RxNorm TODO"},
-  {"text": "NS 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["9863"], "note": "normal saline 0.9% (4000 ml); RxNorm TODO"}
+  {"text": "NS 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9% (4000 ml); RxNorm TODO"}
 ]
