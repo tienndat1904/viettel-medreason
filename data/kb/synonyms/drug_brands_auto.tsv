@@ -1,0 +1,6145 @@
+alias	ingredient
+parlodel	bromocriptine
+adipex-p	phentermine
+anafranil	clomipramine
+anaspaz	hyoscyamine
+atgam	lymphocyte immune globulin, anti-thymocyte globulin
+bonine	meclizine
+carbocaine	mepivacaine
+cefotan	cefotetan
+cepacol	benzocaine
+cyclogyl	cyclopentolate
+cytomel	liothyronine
+dantrium	dantrolene
+delsym	dextromethorphan
+pontocaine	tetracaine
+emcyt	estramustine
+isoptocarpine	pilocarpine
+ketalar	ketamine
+metamucil	psyllium
+myambutol	ethambutol
+pamelor	nortriptyline
+panhematin	hemin
+pfizerpen	penicillin g
+potaba	4-aminobenzoate
+ventolin	albuterol
+pyridium	phenazopyridine
+reglan	metoclopramide
+zonalon	doxepin
+timoptic	timolol
+aldactazide	spironolactone
+aldactazide	hydrochlorothiazide
+alka-seltzer	citric acid
+alka-seltzer	sodium bicarbonate
+alka-seltzer	aspirin
+cafergot	caffeine
+cafergot	ergotamine
+cetacaine	benzocaine
+cetacaine	tetracaine
+cetacaine	butamben
+chloraseptic	benzocaine
+cortisporin	hydrocortisone
+cortisporin	neomycin
+cortisporin	polymyxin b
+depo-medrol	methylprednisolone
+dyazide	triamterene
+dyazide	hydrochlorothiazide
+gaviscon	magnesium carbonate
+gaviscon	aluminum hydroxide
+gelusil	simethicone
+gelusil	aluminum hydroxide
+gelusil	magnesium hydroxide
+golytely	sodium chloride
+golytely	polyethylene glycol 3350
+golytely	potassium chloride
+golytely	sodium bicarbonate
+golytely	sodium sulfate
+keralyt	salicylic acid
+librax	clidinium
+librax	chlordiazepoxide
+lomotil	diphenoxylate
+lomotil	atropine
+normosol-r	sodium chloride
+normosol-r	sodium gluconate
+normosol-r	potassium chloride
+normosol-r	sodium acetate
+normosol-r	magnesium chloride
+orabase	benzocaine
+plasma-lyte 148	sodium chloride
+plasma-lyte 148	sodium gluconate
+plasma-lyte 148	potassium chloride
+plasma-lyte 148	sodium acetate
+plasma-lyte 148	magnesium chloride
+plasmalyte a	sodium chloride
+plasmalyte a	sodium gluconate
+plasmalyte a	potassium chloride
+plasmalyte a	sodium acetate
+plasmalyte a	magnesium chloride
+proctofoam-hc	hydrocortisone
+proctofoam-hc	pramoxine
+renacidin	magnesium carbonate
+renacidin	citric acid
+renacidin	gluconolactone
+rid	piperonyl butoxide
+rid	pyrethrins
+sinemet	levodopa
+sinemet	carbidopa
+tandem	polysaccharide iron complex
+tandem	ferrous fumarate
+tenoretic	chlorthalidone
+tenoretic	atenolol
+viscoat	chondroitin sulfates
+viscoat	hyaluronate
+zincon	zinc pyrithione
+adriamycin	doxorubicin
+wellbutrin	bupropion
+tavist	clemastine
+migranal	dihydroergotamine
+gammagard	immunoglobulin g
+humate-p	von willebrand factor
+humate-p	factor viii
+percocet	oxycodone
+percocet	acetaminophen
+sotradecol	sodium tetradecyl sulfate
+elavil	amitriptyline
+celestone soluspan	betamethasone
+creon	amylase
+creon	lipase
+creon	protease
+curosurf	poractant alfa
+depo-estradiol	estradiol
+depo-testosterone	testosterone
+dipentum	olsalazine
+duofilm	salicylic acid
+engerix-b	hepatitis b surface antigen vaccine
+epifoam	hydrocortisone
+epifoam	pramoxine
+ferrlecit	sodium ferric gluconate complex
+hemabate	carboprost
+iodosorb	cadexomer iodine
+lacrisert	hydroxypropylcellulose
+lithostat	acetohydroxamic acid
+locoid	hydrocortisone
+maxzide	triamterene
+maxzide	hydrochlorothiazide
+synarel	nafarelin
+navelbine	vinorelbine
+pepto-bismol	bismuth subsalicylate
+polysporin	polymyxin b
+polysporin	bacitracin
+recombivax	hepatitis b surface antigen vaccine
+thyrolar	liothyronine
+thyrolar	levothyroxine
+ultravate	halobetasol
+unasyn	ampicillin
+unasyn	sulbactam
+zoladex	goserelin
+prozac	fluoxetine
+norvasc	amlodipine
+zyrtec	cetirizine
+arthrotec	misoprostol
+arthrotec	diclofenac
+recombinate	factor viii
+kogenate	factor viii
+minipress	prazosin
+alomide	lodoxamide
+accupril	quinapril
+somatuline	lanreotide
+zosyn	piperacillin
+zosyn	tazobactam
+pulmozyme	dornase alfa
+ziac	hydrochlorothiazide
+ziac	bisoprolol
+doxil	doxorubicin
+abelcet	amphotericin b
+miochol	acetylcholine
+colace	docusate
+rythmol	propafenone
+zoloft	sertraline
+betaseron	interferon beta-1b
+prevacid	lansoprazole
+flonase	fluticasone
+seroquel	quetiapine
+adderall	dextroamphetamine
+adderall	amphetamine
+cerezyme	imiglucerase
+zestoretic	lisinopril
+zestoretic	hydrochlorothiazide
+antivert	meclizine
+balnetar	coal tar
+charcocaps	activated charcoal
+citrucel	methylcellulose
+clorpactin wcs-90	oxychlorosene
+cortifoam	hydrocortisone
+cyclomydril	phenylephrine
+cyclomydril	cyclopentolate
+dhs tar shampoo	coal tar
+drisdol	ergocalciferol
+drithocreme	anthralin
+drysol	aluminum chloride
+duoplant	salicylic acid
+eldertonic	riboflavin
+eldertonic	manganese sulfate
+eldertonic	pyridoxine
+eldertonic	dexpanthenol
+eldertonic	thiamine
+eldertonic	magnesium sulfate
+eldertonic	zinc sulfate
+eldertonic	niacinamide
+eldertonic	vitamin b12
+emetrol	fructose
+emetrol	glucose
+emetrol	phosphoric acid
+fml forte liquifilm	fluorometholone
+fluoracaine	fluorescein
+fluoracaine	proparacaine
+forane	isoflurane
+glutose	glucose
+humulin n	insulin isophane
+humulin r	insulin, regular, human
+insta-glucose	glucose
+isopto atropine	atropine
+isopto carbachol	carbachol
+mag-ox 400	magnesium oxide
+mycitracin plus pain reliever	pramoxine
+mycitracin plus pain reliever	neomycin
+mycitracin plus pain reliever	polymyxin b
+mycitracin plus pain reliever	bacitracin
+novolin n	insulin isophane
+novolin r	insulin, regular, human
+ocufen	flurbiprofen
+rimso-50	dimethyl sulfoxide
+sal-plant gel	salicylic acid
+solarcaine	lidocaine
+thera-gesic	methyl salicylate
+thera-gesic	menthol
+tice bcg	bcg, live, tice strain
+uro-mag	magnesium oxide
+xerac ac	aluminum chloride
+zostrix	capsaicin
+herceptin	trastuzumab
+flolan	epoprostenol
+paxil	paroxetine
+fosamax	alendronate
+temovate	clobetasol
+typhim vi	typhoid vi polysaccharide vaccine, s typhi ty2 strain
+mepron	atovaquone
+cutivate	fluticasone
+donnatal	hyoscyamine
+donnatal	phenobarbital
+donnatal	scopolamine
+donnatal	atropine
+vaqta	hepatitis a virus strain cr 326f antigen, inactivated
+gonal f	follitropin alfa
+benzamycin	benzoyl peroxide
+benzamycin	erythromycin
+ambien	zolpidem
+viracept	nelfinavir
+remeron	mirtazapine
+naropin	ropivacaine
+cerebyx	fosphenytoin
+maxitrol	neomycin
+maxitrol	polymyxin b
+maxitrol	dexamethasone
+accolate	zafirlukast
+renagel	sevelamer
+flector	diclofenac
+zyprexa	olanzapine
+aricept	donepezil
+copaxone	glatiramer
+humalog	insulin lispro
+venofer	iron sucrose
+nimbex	cisatracurium
+nitrolingual	nitroglycerin
+isordil	isosorbide dinitrate
+accuretic	quinapril
+accuretic	hydrochlorothiazide
+albutein	albumin human, usp
+aldactone	spironolactone
+alkeran	melphalan
+ambisome	amphotericin b
+amytal	amobarbital
+antabuse	disulfiram
+anusol hc	hydrocortisone
+atrovent	ipratropium
+augmentin	amoxicillin
+augmentin	clavulanate
+bactrim	trimethoprim
+bactrim	sulfamethoxazole
+beconase	beclomethasone
+betagan	levobunolol
+biorphen	phenylephrine
+brevibloc	esmolol
+cardene	nicardipine
+carnitor	levocarnitine
+casodex	bicalutamide
+citanest	prilocaine
+clomid	clomiphene
+colestid	colestipol
+combivent	albuterol
+combivent	ipratropium
+corgard	nadolol
+cozaar	losartan
+cyklokapron	tranexamic acid
+cytotec	misoprostol
+daraprim	pyrimethamine
+demser	metyrosine
+desferal	deferoxamine
+dexedrine	dextroamphetamine
+ditropan	oxybutynin
+doans	magnesium salicylate
+dramamine	dimenhydrinate
+eulexin	flutamide
+dulcolax	bisacodyl
+dysport	botulinum toxin type a
+edecrin	ethacrynate
+effexor	venlafaxine
+albenza	albendazole
+estring	estradiol
+ethyol	amifostine
+fenopron	fenoprofen
+glucagen	glucagon
+precose	acarbose
+glucophage	metformin
+haldol	haloperidol
+hiprex	methenamine
+hydrea	hydroxyurea
+hydromet	hydrocodone
+hydromet	homatropine
+imodium	loperamide
+inderal	propranolol
+iopidine	apraclonidine
+konsyl	psyllium
+tabloid	thioguanine
+lescol	fluvastatin
+maalox plus	simethicone
+maalox plus	aluminum hydroxide
+maalox plus	magnesium hydroxide
+macrobid	nitrofurantoin
+marplan	isocarboxazid
+minocin	minocycline
+mirena	levonorgestrel
+revia	naltrexone
+nipent	pentostatin
+paraplatin	carboplatin
+phenergan	promethazine
+prepidil	dinoprostone
+prostin vr	alprostadil
+risperdal	risperidone
+robinul	glycopyrronium
+rocaltrol	calcitriol
+sabril	vigabatrin
+slow-fe	ferrous sulfate
+sominex	diphenhydramine
+suprane	desflurane
+tagamet	cimetidine
+tenormin	atenolol
+trandate	labetalol
+vagifem	estradiol
+valtrex	valacyclovir
+zovirax	acyclovir
+cellcept	mycophenolate mofetil
+mobic	meloxicam
+methadose	methadone
+acular	ketorolac
+novoseven	factor viia
+micanol	anthralin
+advil	ibuprofen
+edex	alprostadil
+retin-a	tretinoin
+xalatan	latanoprost
+lipitor	atorvastatin
+differin	adapalene
+twinrix	hepatitis b surface antigen vaccine
+twinrix	hepatitis a vaccine (inactivated) strain hm175
+nasacort	triamcinolone
+alphanate	von willebrand factor
+alphanate	factor viii
+anbesol	benzocaine
+avonex	interferon beta-1a
+zomig	zolmitriptan
+alphagan	brimonidine
+nasonex	mometasone
+ultiva	remifentanil
+crinone	progesterone
+amaryl	glimepiride
+tasmar	tolcapone
+avapro	irbesartan
+zanaflex	tizanidine
+malarone	atovaquone
+malarone	proguanil
+singulair	montelukast
+hyalgan	hyaluronate
+conceptrol	nonoxynol-9
+buspar	buspirone
+elmiron	pentosan polysulfate
+fareston	toremifene
+daypro	oxaprozin
+oxipor vhc	coal tar
+ureacin-20	urea
+florical	sodium fluoride
+florical	calcium carbonate
+plavix	clopidogrel
+vaseretic	enalapril
+vaseretic	hydrochlorothiazide
+fioricet	caffeine
+fioricet	butalbital
+fioricet	acetaminophen
+corvert	ibutilide
+aggrastat	tirofiban
+follistim	follitropin beta
+flomax	tamsulosin
+viagra	sildenafil
+combivir	zidovudine
+combivir	lamivudine
+azopt	brinzolamide
+sandostatin	octreotide
+pepcid	famotidine
+diprivan	propofol
+prograf	tacrolimus
+cardura	doxazosin
+zestril	lisinopril
+zithromax	azithromycin
+proscar	finasteride
+epivir	lamivudine
+norvir	ritonavir
+pulmicort	budesonide
+rhinocort	budesonide
+canasa	mesalamine
+pentasa	mesalamine
+neurontin	gabapentin
+suprax	cefixime
+rilutek	riluzole
+lamictal	lamotrigine
+zocor	simvastatin
+nimotop	nimodipine
+narcan	naloxone
+humatrope	somatropin
+feldene	piroxicam
+xanax	alprazolam
+vancocin	vancomycin
+dolophine	methadone
+chlor-trimeton	chlorpheniramine
+xylocaine	lidocaine
+anaprox	naproxen
+panadol	acetaminophen
+tylenol	acetaminophen
+plaquenil	hydroxychloroquine
+valium	diazepam
+ativan	lorazepam
+dolobid	diflunisal
+motrin	ibuprofen
+nitro-dur	nitroglycerin
+nitro-bid	nitroglycerin
+nitrostat	nitroglycerin
+ecotrin	aspirin
+imuran	azathioprine
+azactam	aztreonam
+no doz	caffeine
+questran	cholestyramine resin
+klonopin	clonazepam
+proglycem	diazoxide
+ery-tab	erythromycin
+erygel	erythromycin
+estrace	estradiol
+adrucil	fluorouracil
+fluoroplex	fluorouracil
+folacin	folic acid
+pregnyl	chorionic gonadotropin
+cortenema	hydrocortisone
+cortef	hydrocortisone
+dermacort	hydrocortisone
+proctocort	hydrocortisone
+hespan	hetastarch
+nizoral	ketoconazole
+osmitrol	mannitol
+medrol	methylprednisolone
+cuprimine	penicillamine
+dilantin	phenytoin
+natacyn	natamycin
+betadine	povidone-iodine
+azulfidine	sulfasalazine
+aquasol a	vitamin a
+retrovir	zidovudine
+accutane	isotretinoin
+diflucan	fluconazole
+sandimmune	cyclosporine
+neoral	cyclosporine
+sporanox	itraconazole
+genotropin	somatropin
+norditropin	somatropin
+saizen	somatropin
+nutropin	somatropin
+rowasa	mesalamine
+eurax	crotamiton
+pred forte	prednisolone
+pred mild	prednisolone
+lotrimin	clotrimazole
+cleocin	clindamycin
+flagyl	metronidazole
+metrogel	metronidazole
+kenalog	triamcinolone
+depo-provera	medroxyprogesterone
+provera	medroxyprogesterone
+premarin	estrogens, conjugated (usp)
+proventil	albuterol
+catapres	clonidine
+sensorcaine	bupivacaine
+ridaura	auranofin
+rifadin	rifampin
+robaxin	methocarbamol
+salagen	pilocarpine
+senokot	sennosides, usp
+survanta	beractant
+tranxene	clorazepate
+vermox	mebendazole
+vibramycin	doxycycline
+voltaren	diclofenac
+zarontin	ethosuximide
+dopram	doxapram
+lanoxin	digoxin
+lasix	furosemide
+leukeran	chlorambucil
+lioresal	baclofen
+lodine	etodolac
+lopid	gemfibrozil
+mestinon	pyridostigmine
+metopirone	metyrapone
+myleran	busulfan
+mysoline	primidone
+naprosyn	naproxen
+bentyl	dicyclomine
+tegretol	carbamazepine
+macrodantin	nitrofurantoin
+orudis	ketoprofen
+vepesid	etoposide
+serevent	salmeterol
+dyrenium	triamterene
+kadian	morphine
+epitol	carbamazepine
+eryped	erythromycin
+botox	botulinum toxin type a
+epogen	epoetin alfa
+sudafed	pseudoephedrine
+nalfon	fenoprofen
+lithobid	lithium carbonate
+ergomar	ergotamine
+pravachol	pravastatin
+lopressor	metoprolol
+prilosec	omeprazole
+ms contin	morphine
+duramorph	morphine
+infumorph	morphine
+indocin	indomethacin
+theo-24	theophylline
+elixophyllin	theophylline
+ansaid	flurbiprofen
+fortaz	ceftazidime
+tazicef	ceftazidime
+procardia	nifedipine
+lodosyn	carbidopa
+havrix	hepatitis a vaccine (inactivated) strain hm175
+nasalcrom	cromolyn
+amvisc	hyaluronate
+healon	hyaluronate
+benadryl	diphenhydramine
+hycamtin	topotecan
+thalitone	chlorthalidone
+isoptin	verapamil
+calan	verapamil
+condylox	podofilox
+cardizem	diltiazem
+quelicin	succinylcholine
+anectine	succinylcholine
+bumex	bumetanide
+compazine	prochlorperazine
+cipro	ciprofloxacin
+ciloxan	ciprofloxacin
+claforan	cefotaxime
+claritin	loratadine
+solu-cortef	hydrocortisone
+cosmegen	dactinomycin
+zyloprim	allopurinol
+norpace	disopyramide
+prinivil	lisinopril
+camptosar	irinotecan
+ddavp	desmopressin
+glucotrol	glipizide
+maxidex	dexamethasone
+relafen	nabumetone
+alcaine	proparacaine
+proleukin	aldesleukin
+ellence	epirubicin
+femara	letrozole
+norpramin	desipramine
+dibenzyline	phenoxybenzamine
+habitrol	nicotine
+calcium disodium versenate	edetate calcium
+nardil	phenelzine
+matulane	procarbazine
+nicorette	nicotine
+mydriacyl	tropicamide
+biolon	hyaluronate
+parnate	tranylcypromine
+buprenex	buprenorphine
+lupron	leuprolide
+solu-medrol	methylprednisolone
+faslodex	fulvestrant
+quadramet	samarium
+leukine	sargramostim
+activase	alteplase
+prolastin	alpha 1-antitrypsin
+seromycin	cycloserine
+phospholine iodide	ecothiopate
+lysodren	mitotane
+biltricide	praziquantel
+virazole	ribavirin
+amicar	6-aminocaproic acid
+mutamycin	mitomycin
+rhogam	rho(d) immune globulin
+micrhogam	rho(d) immune globulin
+skelaxin	metaxalone
+disalcid	salsalate
+neo-synephrine	phenylephrine
+nembutal	pentobarbital
+soma	carisoprodol
+act fluoride rinse	sodium fluoride
+absorbine jr.	menthol
+absorbine jr. antifungal	tolnaftate
+acne-clear	benzoyl peroxide
+acnomel	resorcinol
+acnomel	sulfur
+acticin	permethrin
+actiq	fentanyl
+afrin	oxymetazoline
+agrylin	anagrelide
+ala-cort	hydrocortisone
+aleve	naproxen
+alferon n	interferon alfa-n3
+alka-mints	calcium carbonate
+alkums	calcium carbonate
+allegra-d	pseudoephedrine
+allegra-d	fexofenadine
+aller-chlor	chlorpheniramine
+allerest 12 hour nasal spray	oxymetazoline
+almacone	simethicone
+almacone	aluminum hydroxide
+almacone	magnesium hydroxide
+alora	estradiol
+alphanine sd	factor ix
+alrex	loteprednol etabonate
+altamist	sodium chloride
+americaine hemorrhoidal	benzocaine
+amidate	etomidate
+amlactin	lactate
+anacaine	benzocaine
+anacin	caffeine
+anacin	aspirin
+anacin af	acetaminophen
+analpram hc	hydrocortisone
+analpram hc	pramoxine
+androderm	testosterone
+anucort-hc	hydrocortisone
+anzemet	dolasetron
+aqua care	urea
+aqua-ban	pamabrom
+aquanil hc	hydrocortisone
+aquaphilic with urea	urea
+aquasol e	vitamin e
+arava	leflunomide
+armour thyroid	thyroid (usp)
+ascarel	pyrantel
+aspercreme	trolamine salicylate
+asthmanefrin	racepinephrine
+atacand	candesartan
+atrac-tain	urea
+atrac-tain	lactate
+auraphene-b	carbamide peroxide
+avita	tretinoin
+aygestin	norethindrone
+ayr saline nasal	sodium chloride
+azelex	azelate
+azo urinary pain relief	phenazopyridine
+b-caro-t	beta carotene
+bal in oil	dimercaprol
+babee cof	dextromethorphan
+baciguent	bacitracin
+bactine	lidocaine
+bactine	benzalkonium
+banophen	diphenhydramine
+baridium	phenazopyridine
+bayer aspirin	aspirin
+baza	miconazole
+benzac	benzoyl peroxide
+betasept	chlorhexidine
+betimol	timolol
+betoptic s	betaxolol
+bicillin l-a	penicillin g
+bidex	guaifenesin
+bio-statin	nystatin
+bisac-evac	bisacodyl
+bismarex	bismuth subsalicylate
+bleph-10	sulfacetamide
+blephamide	prednisolone
+blephamide	sulfacetamide
+blis-to-sol	tolnaftate
+blis-to-sol powder	undecylenate
+bromfed dm	dextromethorphan
+bromfed dm	brompheniramine
+bromfed dm	pseudoephedrine
+bronkaid	ephedrine
+bronkaid	guaifenesin
+brontex	guaifenesin
+brontex	codeine
+bufferin	aspirin
+bupap	butalbital
+bupap	acetaminophen
+buphenyl	phenylbutyrate
+c-time	ascorbic acid
+calaclear	zinc acetate
+calaclear	pramoxine
+caladryl	pramoxine
+caladryl	calamine
+caladryl clear	zinc acetate
+caladryl clear	pramoxine
+calagesic	pramoxine
+calagesic	calamine
+calcet	cholecalciferol
+calcet	calcium citrate
+caldecort	hydrocortisone
+calphron	calcium acetate
+caltrate	calcium carbonate
+campho-phenique	camphor
+campho-phenique	phenol
+capzasin-p	capsaicin
+carbatrol	carbamazepine
+cataflam	diclofenac
+celebrex	celecoxib
+celexa	citalopram
+cervidil	dinoprostone
+chemet	succimer
+chooz	calcium carbonate
+cipro hc	hydrocortisone
+cipro hc	ciprofloxacin
+citanest forte	prilocaine
+citanest forte	epinephrine
+citroma	magnesium citrate
+claritin-d	loratadine
+claritin-d	pseudoephedrine
+clearplex	benzoyl peroxide
+clinidine	povidone-iodine
+cloderm	clocortolone
+clozaril	clozapine
+coly mycin m	colistin
+combipatch	norethindrone
+combipatch	estradiol
+compound w brand of salicylic acid	salicylic acid
+constulose	lactulose
+cordran	flurandrenolide
+coreg	carvedilol
+correct (new formula)	bisacodyl
+cortaid	hydrocortisone
+cortisporin-tc	thonzonium
+cortisporin-tc	hydrocortisone
+cortisporin-tc	neomycin
+cortisporin-tc	colistin
+cosopt	dorzolamide
+cosopt	timolol
+cruex prescription strength	miconazole
+cutar	coal tar
+cylate	cyclopentolate
+cystex	methenamine
+cystex	salicylic acid
+cytogam	cytomegalovirus immune globulin
+cytra 2	citric acid
+cytra 2	sodium citrate
+cytra-3	citric acid
+cytra-3	potassium citrate
+cytra-3	sodium citrate
+cytra-k	citric acid
+cytra-k	potassium citrate
+dhs salicylic acid 3%	salicylic acid
+dhs zinc	zinc pyrithione
+dok	docusate
+dandrex	selenium sulfide
+debrox	carbamide peroxide
+deep sea	sodium chloride
+del-aqua	benzoyl peroxide
+del-beta	betamethasone
+delta d3	cholecalciferol
+denavir	penciclovir
+depakote	valproate
+depen	penicillamine
+derifil	chlorophyll
+dermagran	miconazole
+dermatop	prednicarbate
+dermoplast	benzocaine
+dermtex hc	hydrocortisone
+desenex	miconazole
+desitin	zinc oxide
+desowen	desonide
+detrol	tolterodine
+diamode	loperamide
+diastat	diazepam
+diovan	valsartan
+diovan hct	valsartan
+diovan hct	hydrochlorothiazide
+diphedryl	diphenhydramine
+diphenhist	diphenhydramine
+diprolene	betamethasone
+diuril	chlorothiazide
+doans pm	magnesium salicylate
+doans pm	diphenhydramine
+doral	quazepam
+doryx	doxycycline
+dovonex	calcipotriene
+driminate	dimenhydrinate
+droxia	hydroxyurea
+duraclon	clonidine
+duramist plus	oxymetazoline
+dyna-hex	chlorhexidine
+e-r-o	carbamide peroxide
+effer-k	potassium bicarbonate
+elimite	permethrin
+emgel	erythromycin
+enbrel	etanercept
+endocet	oxycodone
+endocet	acetaminophen
+enulose	lactulose
+epimide 50	urea
+equalactin	calcium polycarbophil
+esgic	caffeine
+esgic	butalbital
+esgic	acetaminophen
+estratest	methyltestosterone
+estratest	estrogens, esterified (usp)
+euthyrox	levothyroxine
+evista	raloxifene
+ex-lax chocolated	sennosides, usp
+ex-lax maximum relief formula	sennosides, usp
+ex-lax regular strength pills	sennosides, usp
+excedrin	caffeine
+excedrin	acetaminophen
+excedrin	aspirin
+excedrin pm	diphenhydramine
+excedrin pm	acetaminophen
+exelderm	sulconazole
+feosol	ferrous sulfate
+fer-in-sol	ferrous sulfate
+fergon	ferrous gluconate
+feverall	acetaminophen
+fiber tab	calcium polycarbophil
+fibercon	calcium polycarbophil
+fioricet with codeine	caffeine
+fioricet with codeine	codeine
+fioricet with codeine	acetaminophen
+fioricet with codeine	butalbital
+flarex	fluorometholone
+fletchers castoria	sennosides, usp
+flovent	fluticasone
+fluorabon	sodium fluoride
+foille	chloroxylenol
+foille	benzocaine
+forma-ray	formaldehyde
+formadon	formaldehyde
+freezone	salicylic acid
+fulvicin p/g	griseofulvin
+fungi-guard	tolnaftate
+fungi-nail	undecylenate
+fungoid	miconazole
+gabitril	tiagabine
+gas-x	simethicone
+gastrocrom	cromolyn
+gel-kam	stannous fluoride
+genac brand of pseudoephedrine/triprolidine	pseudoephedrine
+genac brand of pseudoephedrine/triprolidine	triprolidine
+genahist	diphenhydramine
+genaphed	pseudoephedrine
+generlac	lactulose
+genpril	ibuprofen
+gentak	gentamicin
+genteal	hypromellose
+gliadel	carmustine
+goniosoft	hypromellose
+gordofilm	salicylic acid
+gormel	urea
+gormel 10	urea
+hemocyte-f	ferrous fumarate
+hemocyte-f	folic acid
+hydrocil	psyllium
+hyzaar	losartan
+hyzaar	hydrochlorothiazide
+ibu	ibuprofen
+ifex	ifosfamide
+ilex skin	petrolatum
+imitrex	sumatriptan
+imodium advanced	loperamide
+imodium advanced	simethicone
+infed	iron-dextran complex
+insta-char	activated charcoal
+iodopen	sodium iodide
+ionil plus	salicylic acid
+ionil t	coal tar
+isolyte s	sodium phosphate, dibasic
+isolyte s	sodium chloride
+isolyte s	sodium gluconate
+isolyte s	potassium chloride
+isolyte s	potassium phosphate
+isolyte s	sodium acetate
+isolyte s	magnesium chloride
+isopto alkaline	hypromellose
+itch-x	benzyl alcohol
+itch-x	pramoxine
+k-phos neutral	potassium phosphate
+k-phos neutral	sodium phosphate, dibasic
+k-phos neutral	sodium phosphate, monobasic
+k-phos no 2	potassium phosphate
+k-phos no 2	sodium phosphate, monobasic
+klaron	sulfacetamide
+klor-con	potassium chloride
+klor-con/ef	potassium bicarbonate
+kondremul plain	mineral oil
+kristalose	lactulose
+lac-hydrin	lactate
+lacticare	lactate
+lactinol	lactate
+lamisil	terbinafine
+legatrin pm	diphenhydramine
+legatrin pm	acetaminophen
+levbid	hyoscyamine
+levo-t	levothyroxine
+levoxyl	levothyroxine
+levsin	hyoscyamine
+liquibid	guaifenesin
+little noses	sodium chloride
+little tummys	simethicone
+lopressor hct	metoprolol
+lopressor hct	hydrochlorothiazide
+lotemax	loteprednol etabonate
+lotensin	benazepril
+lotensin hct	benazepril
+lotensin hct	hydrochlorothiazide
+lotrel	benazepril
+lotrel	amlodipine
+m-m-r ii	measles virus vaccine live, enders' attenuated edmonston strain
+m-m-r ii	mumps virus vaccine live, jeryl lynn strain
+m-m-r ii	rubella virus vaccine live (wistar ra 27-3 strain)
+mg 217 psoriasis	coal tar
+mag 64	magnesium chloride
+mag-g	magnesium gluconate
+mag-tab	magnesium lactate
+magtrate	magnesium gluconate
+mapap	acetaminophen
+marten-tab	butalbital
+marten-tab	acetaminophen
+maxalt	rizatriptan
+menest	estrogens, esterified (usp)
+mentax	butenafine
+menthac arthritis cream with capsaicin	capsaicin
+mephyton	vitamin k1
+mesnex	mesna
+metrocream	metronidazole
+metrolotion	metronidazole
+miacalcin	salmon calcitonin
+micardis	telmisartan
+micatin	miconazole
+migergot	caffeine
+migergot	ergotamine
+mineral ice	menthol
+mintox plus	simethicone
+mintox plus	aluminum hydroxide
+mintox plus	magnesium hydroxide
+mirapex	pramipexole
+mollifene	carbamide peroxide
+monocal	monofluorophosphate
+monocal	calcium carbonate
+mosco corn & callus remover	salicylic acid
+motofen	difenoxin
+motofen	atropine
+multitrace-4	chromic chloride
+multitrace-4	zinc sulfate
+multitrace-4	copper sulfate
+multitrace-4	manganese sulfate
+multitrace-5	manganese sulfate
+multitrace-5	selenious acid
+multitrace-5	chromic chloride
+multitrace-5	zinc sulfate
+multitrace-5	copper sulfate
+muro 128	sodium chloride
+mycinette sore throat spray	phenol
+mylicon	simethicone
+n'ice	menthol
+n ice with vitamin c	ascorbic acid
+naftin	naftifine
+naphcon a	naphazoline
+naphcon a	pheniramine
+naprelan	naproxen
+nebupent	pentamidine
+neo-synephrine 12 hour	oxymetazoline
+neut brand of sodium bicarbonate	sodium bicarbonate
+niacor	niacin
+nicotrol	nicotine
+nilandron	nilutamide
+nix cream rinse	permethrin
+norco	hydrocodone
+norco	acetaminophen
+norgesic	caffeine
+norgesic	orphenadrine
+norgesic	aspirin
+noritate	metronidazole
+norwich aspirin	aspirin
+nostrilla	oxymetazoline
+novarel	chorionic gonadotropin
+nu-iron 150	polysaccharide iron complex
+nuprin backache	magnesium salicylate
+nutraplus	urea
+nystop	nystatin
+ocean brand of sodium chloride	sodium chloride
+ocuflox	ofloxacin
+ocuvite	vitamin e
+ocuvite	zinc oxide
+ocuvite	ascorbic acid
+ocuvite	beta carotene
+ocuvite	cuprous oxide
+ocuvite	lutein
+ocuvite	sodium selenate
+opcon-a	naphazoline
+opcon-a	pheniramine
+oracit	citric acid
+oracit	sodium citrate
+orazinc	zinc sulfate
+oscal 500	calcium carbonate
+outgro pain relief	benzocaine
+oxistat	oxiconazole
+oxycontin	oxycodone
+p & s	salicylic acid
+pacerone	amiodarone
+pamine	methscopolamine
+pandel	hydrocortisone
+panretin	alitretinoin
+paremyd	p-hydroxyamphetamine
+paremyd	tropicamide
+paser d/r	aminosalicylic acid
+pediapred	prednisolone
+perfect choice	stannous fluoride
+perio med	stannous fluoride
+periochip	chlorhexidine
+periogard	chlorhexidine
+periostat	doxycycline
+peroxyl	hydrogen peroxide
+persa-gel	benzoyl peroxide
+phazyme	simethicone
+phillips milk of magnesia	magnesium hydroxide
+phos-flur	sodium fluoride
+phoslo	calcium acetate
+physiolyte	sodium chloride
+physiolyte	sodium gluconate
+physiolyte	potassium chloride
+physiolyte	sodium acetate
+physiolyte	magnesium chloride
+physiosol	sodium chloride
+physiosol	sodium gluconate
+physiosol	potassium chloride
+physiosol	sodium acetate
+physiosol	magnesium chloride
+pilocar	pilocarpine
+poly-dex	neomycin
+poly-dex	polymyxin b
+poly-dex	dexamethasone
+poly-vi-sol	vitamin b6
+poly-vi-sol	riboflavin
+poly-vi-sol	vitamin a
+poly-vi-sol	vitamin e
+poly-vi-sol	cholecalciferol
+poly-vi-sol	ascorbic acid
+poly-vi-sol	niacin
+poly-vi-sol	thiamine
+poly-vi-sol	vitamin b12
+polycin	polymyxin b
+polycin	bacitracin
+pramosone	hydrocortisone
+pramosone	pramoxine
+prax	pramoxine
+pred-g	prednisolone
+pred-g	gentamicin
+prevalite	cholestyramine resin
+prevident	sodium fluoride
+primatene mist inhaler	epinephrine
+proctofoam	pramoxine
+promethegan	promethazine
+propa p.h.	salicylic acid
+propa p.h. acne mask	salicylic acid
+propecia	finasteride
+provigil	modafinil
+provisc	hyaluronate
+psorcon	diflorasone
+r a acne	resorcinol
+rabavert	rabies virus vaccine flury-lep strain
+rea-lo	urea
+recort plus	hydrocortisone
+redutemp	acetaminophen
+regonol	pyridostigmine
+regranex	becaplermin
+reguloid	psyllium
+remicade	infliximab
+repan	caffeine
+repan	butalbital
+repan	acetaminophen
+restoril	temazepam
+retavase	reteplase
+rezamid	resorcinol
+rezamid	sulfur
+robafen	guaifenesin
+roxicodone	oxycodone
+ssd	silver sulfadiazine
+saleto	caffeine
+saleto	acetaminophen
+saleto	salicylamide
+saleto	aspirin
+santyl	collagenase
+sarnol-hc	hydrocortisone
+scot-tussin	guaifenesin
+scot-tussin dm cough chasers	dextromethorphan
+sea soft	sodium chloride
+sebasorb	salicylic acid
+sebex	salicylic acid
+sebex	sulfur
+sebulex	salicylic acid
+sebulex	sulfur
+selsun blue	selenium sulfide
+senexon	sennosides, usp
+senokot-s	sennosides, usp
+senokot-s	docusate
+sensorcaine with epinephrine	bupivacaine
+sensorcaine with epinephrine	epinephrine
+siladryl	diphenhydramine
+siltussin	guaifenesin
+simulect	basiliximab
+sinex long-acting	oxymetazoline
+sleepinal	diphenhydramine
+slo-niacin	niacin
+solarcaine plus aloe	benzocaine
+sportscreme	trolamine salicylate
+st. joseph aspirin	aspirin
+stopain	menthol
+stri-dex	salicylic acid
+stri-dex clear gel	salicylic acid
+stromectol	ivermectin
+sucraid	sacrosidase
+sudogest	pseudoephedrine
+sular	nisoldipine
+sulfatrim	trimethoprim
+sulfatrim	sulfamethoxazole
+sulfo-lo	sulfur
+sulfoam	sulfur
+sulpho-lac	sulfur
+supprelin	histrelin
+surfak stool softener	docusate
+synagis	palivizumab
+synvisc	hylan g-f 20
+syprine	trientine
+tazorac	tazarotene
+tegrin-lt shampoo	piperonyl butoxide
+tegrin-lt shampoo	pyrethrins
+tempra quicklets	acetaminophen
+tencon	butalbital
+tencon	acetaminophen
+tenuate	diethylpropion
+tessalon perles	benzonatate
+texacort	hydrocortisone
+thalomid	thalidomide
+theratears	carboxymethylcellulose
+theramycin	erythromycin
+thermazene	silver sulfadiazine
+thrombate iii	antithrombin iii
+tiazac	diltiazem
+tinactin	tolnaftate
+tis-u-sol	sodium chloride
+tis-u-sol	potassium chloride
+tis-u-sol	potassium phosphate
+tis-u-sol	sodium phosphate
+tis-u-sol	magnesium sulfate
+titralac	calcium carbonate
+tobi	tobramycin
+tobradex	tobramycin
+tobradex	dexamethasone
+tobrex	tobramycin
+tolectin 600	tolmetin
+tolectin ds	tolmetin
+topamax	topiramate
+topicort	desoximetasone
+toposar	etoposide
+transderm scop	scopolamine
+tri-chlor	trichloroacetate
+tri-vi-sol	ascorbic acid
+tri-vi-sol	cholecalciferol
+tri-vi-sol	vitamin a
+tricor	fenofibrate
+triderm	triamcinolone
+triptone	dimenhydrinate
+tubersol	purified protein derivative of tuberculin
+tums	calcium carbonate
+twilite	diphenhydramine
+tycolene	acetaminophen
+tylenol pm	diphenhydramine
+tylenol pm	acetaminophen
+tylenol with codeine	codeine
+tylenol with codeine	acetaminophen
+u-lactin	urea
+u-lactin	lactate
+ultane	sevoflurane
+ultra mide	urea
+ultram	tramadol
+unguentine	phenol
+uni salve	petrolatum
+unifiber	cellulose
+unisom	doxylamine
+unisom with pain relief	diphenhydramine
+unisom with pain relief	acetaminophen
+ureacin-10	urea
+uretron ds	phenyl salicylate
+uretron ds	hyoscyamine
+uretron ds	methenamine
+uretron ds	methylene blue
+uretron ds	sodium phosphate, monobasic
+urex	methenamine
+urocit-k	potassium citrate
+uroqid-acid no.2	methenamine
+uroqid-acid no.2	sodium phosphate, monobasic
+urso	ursodeoxycholate
+vcf contraceptive	nonoxynol-9
+vagistat-1	tioconazole
+valstar	valrubicin
+vanadom	carisoprodol
+vanoxide-hc	benzoyl peroxide
+vanoxide-hc	hydrocortisone
+vanquish	caffeine
+vanquish	acetaminophen
+vanquish	aspirin
+verelan	verapamil
+vicoprofen	hydrocodone
+vicoprofen	ibuprofen
+vivarin	caffeine
+vivelle	estradiol
+vytone	hydrocortisone
+vytone	iodoquinol
+westcort	hydrocortisone
+westhroid	thyroid (usp)
+winrho	rho(d) immune globulin
+x-seb t plus	coal tar
+xeloda	capecitabine
+yf-vax	yellow fever virus strain 17d-204 live antigen
+zanosar	streptozocin
+zebutal	caffeine
+zebutal	butalbital
+zebutal	acetaminophen
+zemplar	paricalcitol
+ziagen	abacavir
+zilactin b	benzocaine
+zyflo	zileuton
+viramune	nevirapine
+peridex	chlorhexidine
+hibiclens	chlorhexidine
+myoflex	trolamine salicylate
+ethamolin	ethanolamine oleate
+felbatol	felbamate
+infanrix	diphtheria toxoid vaccine, inactivated
+infanrix	tetanus toxoid vaccine, inactivated
+infanrix	acellular pertussis vaccine, inactivated
+betapace	sotalol
+oncaspar	pegaspargase
+melfiat	phendimetrazine
+dilaudid	hydromorphone
+ritalin	methylphenidate
+probanthine	propantheline
+synthroid	levothyroxine
+vasotec	enalapril
+marinol	dronabinol
+silvadene	silver sulfadiazine
+vaseline	petrolatum
+efudex	fluorouracil
+synalar	fluocinolone
+carmol	urea
+idamycin	idarubicin
+desoxyn	methamphetamine
+nesacaine	chloroprocaine
+lovenox	enoxaparin
+galzin	zinc acetate
+acephen	acetaminophen
+bicillin	penicillin g
+privine	naphazoline
+celontin	methsuximide
+photofrin	dihematoporphyrin ether
+rogaine	minoxidil
+thymoglobulin	lymphocyte immune globulin, anti-thymocyte globulin
+exelon	rivastigmine
+foscavir	foscarnet
+octagam	immunoglobulin g
+qvar	beclomethasone
+docusol	docusate
+rituxan	rituximab
+xenical	orlistat
+hypotears	polyvinyl alcohol
+hypotears	polyethylene glycols
+pitocin	oxytocin
+cystagon	cysteamine
+flumadine	rimantadine
+thiola	tiopronin
+brevital	methohexital
+loprox	ciclopirox
+kinevac	sincalide
+procrit	epoetin alfa
+neupogen	filgrastim
+aplisol	purified protein derivative of tuberculin
+vagistat	miconazole
+halcion	triazolam
+mycobutin	rifabutin
+primaxin	cilastatin
+primaxin	imipenem
+halog	halcinonide
+tigan	trimethobenzamide
+methergine	methylergonovine
+levophed	norepinephrine
+humatin	paromomycin
+vincasar	vincristine
+visine	tetrahydrozoline
+intralipid	soybean oil
+bactroban	mupirocin
+ancobon	flucytosine
+benzedrex	propylhexedrine
+decadron	dexamethasone
+hemofil	factor viii
+deltasone	prednisone
+carafate	sucralfate
+rebif	interferon beta-1a
+infasurf	calfactant
+debacterol	sulfuric acid
+debacterol	sulfonated phenol
+nupercainal	dibucaine
+sulfamylon	mafenide
+targretin	bexarotene
+tridesilon	desonide
+adenocard	adenosine
+actimmune	interferon gamma-1b
+hurricaine	benzocaine
+americaine	benzocaine
+furadantin	nitrofurantoin
+rapamune	sirolimus
+aceon	perindopril
+aciphex	rabeprazole
+actos	pioglitazone
+aloprim	allopurinol
+androgel	testosterone
+avalide	irbesartan
+avalide	hydrochlorothiazide
+avelox	moxifloxacin
+beelith	magnesium oxide
+beelith	pyridoxine
+cafcit	caffeine
+digitek	digoxin
+evoxac	cevimeline
+gengraf	cyclosporine
+gynazole-1	butoconazole
+hectorol	doxercalciferol
+humalog mix	insulin lispro
+humalog mix	insulin lispro protamine, human
+keppra	levetiracetam
+lanabiotic	pramoxine
+lanabiotic	neomycin
+lanabiotic	polymyxin b
+lanabiotic	bacitracin
+lantus	insulin glargine
+lidoderm	lidocaine
+lotronex	alosetron
+luxiq	betamethasone
+methylin	methylphenidate
+miralax	polyethylene glycol 3350
+mylotarg	gemtuzumab ozogamicin
+nabi-hb	hepatitis b immune globulin
+orphengesic	caffeine
+orphengesic	orphenadrine
+orphengesic	aspirin
+ovide	malathion
+primsol	trimethoprim
+protonix	pantoprazole
+prudoxin	doxepin
+relenza	zanamivir
+rhinall	phenylephrine
+tamiflu	oseltamivir
+temodar	temozolomide
+tikosyn	dofetilide
+trileptal	oxcarbazepine
+visudyne	verteporfin
+xopenex	levalbuterol
+zaditor	ketotifen
+zonegran	zonisamide
+zyvox	linezolid
+aromasin	exemestane
+chloraseptic spray	phenol
+comtan	entacapone
+ferate	ferrous gluconate
+icar	iron carbonyl
+nascobal	vitamin b12
+precedex	dexmedetomidine
+priftin	rifapentine
+prometrium	progesterone
+alocril	nedocromil
+feosol caplet	iron carbonyl
+simply sleep	diphenhydramine
+altace	ramipril
+arimidex	anastrozole
+etopophos	etoposide
+spiriva	tiotropium
+lovaza	omega-3 acid ethyl esters (usp)
+fragmin	dalteparin
+iressa	gefitinib
+demerol	meperidine
+cancidas	caspofungin
+gleevec	imatinib
+vistaril	hydroxyzine
+atacand hct	candesartan
+atacand hct	hydrochlorothiazide
+busulfex	busulfan
+campath	alemtuzumab
+capex	fluocinolone
+cellugel	hypromellose
+cetrotide	cetrorelix
+colazal	balsalazide
+concerta	methylphenidate
+entsol	sodium chloride
+kaletra	lopinavir
+kaletra	ritonavir
+kionex	sodium polystyrene sulfonate
+lumigan	bimatoprost
+micardis-hct	telmisartan
+micardis-hct	hydrochlorothiazide
+mifeprex	mifepristone
+myobloc	botulinum toxin type b
+nexium	esomeprazole
+novolog	insulin aspart, human
+nulev	hyoscyamine
+olux	clobetasol
+ovidrel	chorionic gonadotropin
+pepcid complete	magnesium hydroxide
+pepcid complete	famotidine
+pepcid complete	calcium carbonate
+sorine	sotalol
+tnkase	tenecteplase
+tears naturale forte	dextran 70
+tears naturale forte	hypromellose
+tears naturale forte	glycerin
+theraplex z	zinc pyrithione
+travatan	travoprost
+trexall	methotrexate
+trizivir	zidovudine
+trizivir	lamivudine
+trizivir	abacavir
+unithroid	levothyroxine
+welchol	colesevelam
+zostrix sports	capsaicin
+abreva	docosanol
+angiomax	bivalirudin
+compro	prochlorperazine
+geodon	ziprasidone
+orapred	prednisolone
+proctozone hc	hydrocortisone
+septocaine	articaine
+septocaine	epinephrine
+uvadex	methoxsalen
+carac	fluorouracil
+the magic bullet	bisacodyl
+pneumovax 23	streptococcus pneumoniae type 8 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 3 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 14 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 15b capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 17f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 5 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 4 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 20 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 9v capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 2 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 19f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 22f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 10a capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 33f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 12f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 18c capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 7f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 11a capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 9n capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 1 capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 23f capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 6b capsular polysaccharide antigen
+pneumovax 23	streptococcus pneumoniae type 19a capsular polysaccharide antigen
+lincocin	lincomycin
+beano	alpha-d-galactosidase enzyme
+tisseel	fibrinogen
+tisseel	thrombin
+varivax	varicella-zoster virus vaccine live (oka-merck) strain
+ipol	poliovirus vaccine inactivated, type 3 (saukett)
+ipol	poliovirus vaccine inactivated, type 1 (mahoney)
+ipol	poliovirus vaccine inactivated, type 2 (mef-1)
+advair	salmeterol
+advair	fluticasone
+cialis	tadalafil
+bidil	hydralazine
+bidil	isosorbide dinitrate
+valcyte	valganciclovir
+castellani paint	phenol
+elidel	pimecrolimus
+boil-ease	benzocaine
+delestrogen	estradiol
+crestor	rosuvastatin
+oraqix	lidocaine
+oraqix	prilocaine
+thrombin-jmi	thrombin
+arixtra	fondaparinux
+frova	frovatriptan
+clarinex	desloratadine
+tracleer	bosentan
+remodulin	treprostinil
+viread	tenofovir disoproxil
+alimta	pemetrexed
+climara	estradiol
+allegra	fexofenadine
+orfadin	nitisinone
+symbicort	formoterol
+symbicort	budesonide
+benicar	olmesartan
+aranesp	darbepoetin alfa
+avastin	bevacizumab
+tarceva	erlotinib
+revlimid	lenalidomide
+vfend	voriconazole
+fabrazyme	agalsidase beta
+zelnorm	tegaserod
+inspra	eplerenone
+hepsera	adefovir
+bicnu	carmustine
+crofab	crotalus atrox antivenin
+crofab	crotalus adamanteus antivenin
+crofab	agkistrodon piscivorus antivenin
+crofab	crotalus scutulatus antivenin
+niaspan	niacin
+abilify	aripiprazole
+acid gone	magnesium carbonate
+acid gone	aluminum hydroxide
+alavert	loratadine
+alinia	nitazoxanide
+amlactin ap	pramoxine
+amlactin ap	lactate
+arestin	minocycline
+avodart	dutasteride
+clindagel	clindamycin
+contragesic	phenyltoloxamine
+contragesic	acetaminophen
+daptacel	diphtheria toxoid vaccine, inactivated
+daptacel	tetanus toxoid vaccine, inactivated
+daptacel	acellular pertussis vaccine, inactivated
+derma-smoothe fs	fluocinolone
+dermazene	hydrocortisone
+dermazene	iodoquinol
+dermazinc	zinc pyrithione
+ed spaz	hyoscyamine
+eligard	leuprolide
+elitek	rasburicase
+enemeez plus	benzocaine
+enemeez plus	docusate
+finacea	azelate
+flucaine	fluorescein
+flucaine	proparacaine
+fluorinse	sodium fluoride
+focalin	dexmethylphenidate
+forteo	teriparatide
+gas aide	simethicone
+healon5	hyaluronate
+hextend	hetastarch
+invanz	ertapenem
+isochron	isosorbide dinitrate
+kineret	anakinra
+lexapro	escitalopram
+micro-guard	miconazole
+mucinex	guaifenesin
+nafrinse	sodium fluoride
+nature-throid	thyroid (usp)
+nicoderm c-q	nicotine
+nicomide	cupric oxide
+nicomide	niacinamide
+nicomide	zinc oxide
+nicomide	folic acid
+ocuvite lutein	vitamin e
+ocuvite lutein	zinc oxide
+ocuvite lutein	ascorbic acid
+ocuvite lutein	cuprous oxide
+ocuvite lutein	lutein
+ovace	sulfacetamide
+pediarix	poliovirus vaccine inactivated, type 3 (saukett)
+pediarix	poliovirus vaccine inactivated, type 2 (mef-1)
+pediarix	diphtheria toxoid vaccine, inactivated
+pediarix	poliovirus vaccine inactivated, type 1 (mahoney)
+pediarix	hepatitis b surface antigen vaccine
+pediarix	tetanus toxoid vaccine, inactivated
+pediarix	acellular pertussis vaccine, inactivated
+phenytek	phenytoin
+phillips stool softener	docusate
+plexion	sulfur
+plexion	sulfacetamide
+prevident dental rinse	sodium fluoride
+relagesic	phenyltoloxamine
+relagesic	acetaminophen
+restasis	cyclosporine
+rosanil	sulfur
+rosanil	sulfacetamide
+rosula	sulfur
+rosula	sulfacetamide
+sclerosol	talc
+simply saline	sodium chloride
+suboxone	buprenorphine
+suboxone	naloxone
+supartz	hyaluronate
+testim	testosterone
+testopel	testosterone
+tri-luma	fluocinolone
+tri-luma	tretinoin
+tri-luma	hydroquinone
+ultracet	tramadol
+ultracet	acetaminophen
+uristat	phenazopyridine
+xyrem	oxybate
+zetia	ezetimibe
+zyrtec-d	pseudoephedrine
+zyrtec-d	cetirizine
+adoxa	doxycycline
+humira	adalimumab
+neulasta	pegfilgrastim
+urelle	phenyl salicylate
+urelle	hyoscyamine
+urelle	methenamine
+urelle	methylene blue
+urelle	sodium phosphate, monobasic
+relpax	eletriptan
+erbitux	cetuximab
+uroxatral	alfuzosin
+velcade	bortezomib
+alvesco	ciclesonide
+fuzeon	enfuvirtide
+fosrenol	lanthanum carbonate
+zavesca	miglustat
+xolair	omalizumab
+somavert	pegvisomant
+noxafil	posaconazole
+symlin	pramlintide
+ranexa	ranolazine
+levitra	vardenafil
+oxytrol	oxybutynin
+emend	aprepitant
+strattera	atomoxetine
+pegasys	peginterferon alfa-2a
+plasmanate	plasma protein fraction
+monistat	miconazole
+reyataz	atazanavir
+emtriva	emtricitabine
+pronto	piperonyl butoxide
+pronto	pyrethrins
+cesamet	nabilone
+enablex	darifenacin
+orthovisc	hyaluronate
+xyzal	levocetirizine
+levemir	insulin detemir
+factive	gemifloxacin
+climara pro	levonorgestrel
+climara pro	estradiol
+lexiva	fosamprenavir
+acetadote	acetylcysteine
+alburx	albumin human, usp
+aldurazyme	laronidase
+amnesteem	isotretinoin
+apexicon	diflorasone
+atropen	atropine
+azasan	azathioprine
+benicar hct	hydrochlorothiazide
+benicar hct	olmesartan
+biothrax	bacillus anthracis strain v770-np1-r antigens
+caduet	atorvastatin
+caduet	amlodipine
+centany	mupirocin
+ciprodex	ciprofloxacin
+ciprodex	dexamethasone
+clearskin	benzoyl peroxide
+clindamax	clindamycin
+clobex	clobetasol
+cubicin	daptomycin
+cystadane	betaine
+denta 5000 plus	sodium fluoride
+dialyvite 800	riboflavin
+dialyvite 800	folic acid
+dialyvite 800	biotin
+dialyvite 800	pyridoxine
+dialyvite 800	pantothenate
+dialyvite 800	ascorbic acid
+dialyvite 800	thiamine
+dialyvite 800	niacinamide
+dialyvite 800	mecobalamin
+dialyvite 800 with zinc	riboflavin
+dialyvite 800 with zinc	zinc citrate
+dialyvite 800 with zinc	folic acid
+dialyvite 800 with zinc	biotin
+dialyvite 800 with zinc	pyridoxine
+dialyvite 800 with zinc	pantothenate
+dialyvite 800 with zinc	ascorbic acid
+dialyvite 800 with zinc	thiamine
+dialyvite 800 with zinc	niacinamide
+dialyvite 800 with zinc	mecobalamin
+digifab	digoxin antibodies fab fragments
+elixsure cough	dextromethorphan
+ertaczo	sertaconazole
+estrogel	estradiol
+ex-lax ultra	bisacodyl
+excedrin tension headache	caffeine
+excedrin tension headache	acetaminophen
+exoderm	salicylic acid
+exoderm	thiosulfate
+fem ph	oxyquinoline
+fem ph	acetic acid
+femring	estradiol
+ferrex-150	polysaccharide iron complex
+ferrimin 150	ferrous fumarate
+ferrocite	ferrous fumarate
+gas-x with maalox	simethicone
+gas-x with maalox	calcium carbonate
+inomax	nitrogen
+inomax	nitric oxide
+instacort	hydrocortisone
+jantoven	warfarin
+maalox max	simethicone
+maalox max	aluminum hydroxide
+maalox max	magnesium hydroxide
+maalox max quick dissolve	simethicone
+maalox max quick dissolve	calcium carbonate
+namenda	memantine
+perdiem overnight	sennosides, usp
+relagard	oxyquinoline
+relagard	acetic acid
+riomet	metformin
+sotret	isotretinoin
+symbyax	fluoxetine
+symbyax	olanzapine
+tavist non-sedating	loratadine
+taztia	diltiazem
+u-cort	hydrocortisone
+utira	phenyl salicylate
+utira	hyoscyamine
+utira	methenamine
+utira	methylene blue
+utira	sodium phosphate, monobasic
+versiclear	salicylic acid
+versiclear	thiosulfate
+vigamox	moxifloxacin
+zemaira	alpha 1-antitrypsin
+zicam sinus relief	oxymetazoline
+zorbtive	somatropin
+avar	sulfur
+avar	sulfacetamide
+claravis	isotretinoin
+magnebind	magnesium carbonate
+magnebind	calcium carbonate
+sensipar	cinacalcet
+levulan	aminolevulinate
+rhophylac	rho(d) immune globulin
+gamunex	immunoglobulin g
+caverject	alprostadil
+cymbalta	duloxetine
+entereg	alvimopan
+lumicain	aluminum chloride
+cartia	diltiazem
+tysabri	natalizumab
+rotarix	rotavirus vaccine, live attenuated, g1p[8] human 89-12 strain
+clolar	clofarabine
+sucrets	dyclonine
+vytorin	ezetimibe
+vytorin	simvastatin
+truvada	emtricitabine
+truvada	tenofovir disoproxil
+pentam	pentamidine
+clindesse	clindamycin
+rotateq	human-bovine reassortant rotavirus strain p1a[8] vaccine
+rotateq	human-bovine reassortant rotavirus strain g4 vaccine
+rotateq	human-bovine reassortant rotavirus strain g3 vaccine
+rotateq	human-bovine reassortant rotavirus strain g2 vaccine
+rotateq	human-bovine reassortant rotavirus strain g1 vaccine
+prialt	ziconotide
+epzicom	lamivudine
+epzicom	abacavir
+soltamox	tamoxifen
+radiogardase	prussian blue insoluble
+xifaxan	rifaximin
+tindamax	tinidazole
+vesicare	solifenacin
+lunesta	eszopiclone
+dilt	diltiazem
+proferrin	fe heme polypeptide
+phenadoz	promethazine
+methitest	methyltestosterone
+flebogamma	immunoglobulin g
+symax	hyoscyamine
+pexeva	paroxetine
+boniva	ibandronate
+samson 8	ibuprofen
+altoprev	lovastatin
+foltrate	vitamin b12
+foltrate	folic acid
+terrell	isoflurane
+aralast	alpha 1-antitrypsin
+k-phos	potassium phosphate
+tetcaine	tetracaine
+istalol	timolol
+amphadase	hyaluronidase
+hycet	hydrocodone
+hycet	acetaminophen
+umecta	urea
+keralac	urea
+vanos	fluocinonide
+procto-pak	hydrocortisone
+clenia	sulfur
+clenia	sulfacetamide
+comfort caine	benzocaine
+freez eez	benzocaine
+topicale	benzocaine
+scandonest	mepivacaine
+novacort	hydrocortisone
+novacort	pramoxine
+urso forte	ursodeoxycholate
+oralone	triamcinolone
+lignospan	lidocaine
+lignospan	epinephrine
+babybig	botulism immune globulin iv human
+apokyn	apomorphine
+sski brand of potassium iodide	potassium iodide
+evoclin	clindamycin
+trichlor fresh pak	trichloroacetate
+doxy	doxycycline
+astringyn	ferric subsulfate solution
+vidaza	azacitidine
+zylet	tobramycin
+zylet	loteprednol etabonate
+menostar	estradiol
+kepivance	palifermin
+plasbumin	albumin human, usp
+depo-subq provera	medroxyprogesterone
+oro clense	chlorhexidine
+anabar	phenyltoloxamine
+anabar	acetaminophen
+anabar	salicylamide
+ed flex	phenyltoloxamine
+ed flex	acetaminophen
+ed flex	salicylamide
+antara	fenofibrate
+reprexain	hydrocodone
+reprexain	ibuprofen
+myfortic	mycophenolic acid
+clarinex-d	pseudoephedrine
+clarinex-d	desloratadine
+prosol	tyrosine
+prosol	lysine
+prosol	arginine
+prosol	leucine
+prosol	methionine
+prosol	serine
+prosol	valine
+prosol	phenylalanine
+prosol	isoleucine
+prosol	aspartate
+prosol	histidine
+prosol	glutamate
+prosol	tryptophan
+prosol	alanine
+prosol	glycine
+prosol	threonine
+prosol	proline
+alcortin	hydrocortisone
+alcortin	iodoquinol
+revatio	sildenafil
+cortane-b	hydrocortisone
+cortane-b	chloroxylenol
+cortane-b	pramoxine
+vitrase	hyaluronidase
+razadyne	galantamine
+equetro	carbamazepine
+cresylate	4-cresyl acetate
+boostrix	diphtheria toxoid vaccine, inactivated
+boostrix	tetanus toxoid vaccine, inactivated
+boostrix	acellular pertussis vaccine, inactivated
+hyperrab	rabies immune globulin, human
+mycamine	micafungin
+retisert	fluocinolone
+tygacil	tigecycline
+naglazyme	galsulfase
+stangard	stannous fluoride
+nyamyc	nystatin
+eyemycin	erythromycin
+zorcaine	articaine
+zorcaine	epinephrine
+baraclude	entecavir
+abraxane	paclitaxel
+ventavis	iloprost
+lyrica	pregabalin
+metadate	methylphenidate
+xenazine	tetrabenazine
+fml	fluorometholone
+menactra	neisseria meningitidis serogroup y capsular polysaccharide diphtheria toxoid protein conjugate vaccine
+menactra	neisseria meningitidis serogroup a capsular polysaccharide diphtheria toxoid protein conjugate vaccine
+menactra	neisseria meningitidis serogroup c capsular polysaccharide diphtheria toxoid protein conjugate vaccine
+menactra	neisseria meningitidis serogroup w-135 capsular polysaccharide diphtheria toxoid protein conjugate vaccine
+ammonul	phenylacetate
+ammonul	benzoate
+contac cold	pseudoephedrine
+gabarone	gabapentin
+actoplus met	metformin
+actoplus met	pioglitazone
+florastor	saccharomyces boulardii
+proquin	ciprofloxacin
+senosol	sennosides, usp
+mg plus protein	magnesium amino acid chelate
+rozerem	ramelteon
+sudafed pe	phenylephrine
+mi-acid gas relief	simethicone
+human albumin grifols	albumin human, usp
+altacaine	tetracaine
+altazine	tetrahydrozoline
+medicone	benzocaine
+botox cosmetic	botulinum toxin type a
+homatropaire	homatropine
+ferretts ips	iron succinyl milk protein complex
+dentagel	sodium fluoride
+kuric	ketoconazole
+poly hist pd	phenylephrine
+poly hist pd	chlorpheniramine
+poly hist pd	pyrilamine
+euflexxa	hyaluronate
+byetta	exenatide
+a.e.r. witch hazel	witch hazel
+aczone	dapsone
+emcin clear	erythromycin
+synera	lidocaine
+synera	tetracaine
+adacel	diphtheria toxoid vaccine, inactivated
+adacel	tetanus toxoid vaccine, inactivated
+adacel	acellular pertussis vaccine, inactivated
+nicorelief	nicotine
+nuox	benzoyl peroxide
+nuox	sulfur
+proquad	measles virus vaccine live, enders' attenuated edmonston strain
+proquad	mumps virus vaccine live, jeryl lynn strain
+proquad	rubella virus vaccine live (wistar ra 27-3 strain)
+proquad	varicella-zoster virus vaccine live (oka-merck) strain
+summers eve anti-itch	pramoxine
+vandazole	metronidazole
+digex	phenyltoloxamine
+digex	hyoscyamine
+premasol	lysine
+premasol	valine
+premasol	phenylalanine
+premasol	isoleucine
+premasol	histidine
+premasol	glutamate
+premasol	proline
+premasol	tyrosine
+premasol	leucine
+premasol	serine
+premasol	aspartate
+premasol	tryptophan
+premasol	alanine
+premasol	threonine
+premasol	taurine
+premasol	arginine
+premasol	methionine
+premasol	cysteine
+premasol	glycine
+dermoplast antibacterial	benzethonium
+dermoplast antibacterial	benzocaine
+benadryl itch stopping	zinc acetate
+benadryl itch stopping	diphenhydramine
+folbee	vitamin b6
+folbee	vitamin b12
+folbee	folic acid
+folbic	vitamin b6
+folbic	vitamin b12
+folbic	folic acid
+triple paste	zinc oxide
+senosol-ss	sennosides, usp
+senosol-ss	docusate
+phospha 250 neutral	potassium phosphate
+phospha 250 neutral	sodium phosphate, dibasic
+phospha 250 neutral	sodium phosphate, monobasic
+fosamax plus d	alendronate
+fosamax plus d	cholecalciferol
+apidra	insulin glulisine, human
+bionect	hyaluronate
+dex4	glucose
+alavert d	loratadine
+alavert d	pseudoephedrine
+lansinoh	lanolin
+arranon	nelarabine
+nevanac	nepafenac
+exjade	deferasirox
+increlex	mecasermin
+aptivus	tipranavir
+amitiza	lubiprostone
+hylenex	hyaluronidase
+hyperhep b	hepatitis b immune globulin
+iferex 150 forte	polysaccharide iron complex
+iferex 150 forte	vitamin b12
+iferex 150 forte	folic acid
+lipofen	fenofibrate
+neobenz micro	benzoyl peroxide
+benz-o-sthetic	benzocaine
+orencia	abatacept
+dermotic	fluocinolone
+sutent	sunitinib
+vaprisol	conivaptan
+asmanex	mometasone
+flexbumin	albumin human, usp
+fluoridex	sodium fluoride
+vusion	zinc oxide
+vusion	miconazole
+vusion	petrolatum
+dermafungal	miconazole
+dermasarra	camphor
+dermasarra	menthol
+emsam	selegiline
+eraxis	anidulafungin
+nexavar	sorafenib
+diltzac	diltiazem
+dental resources perio maintenance rinse	stannous fluoride
+gingi med	stannous fluoride
+dental resources brand of stannous fluoride	stannous fluoride
+solodyn	minocycline
+freshkote	polyvinyl alcohol
+freshkote	povidone
+caldesene	starch
+caldesene	zinc oxide
+daytrana	methylphenidate
+osmoprep	sodium phosphate
+saljet	sodium chloride
+azilect	rasagiline
+optase	trypsin
+optase	peruvian balsam
+optase	castor oil
+ceo-two	sodium bicarbonate
+ceo-two	potassium bitartrate
+chantix	varenicline
+dacogen	decitabine
+vivitrol	naltrexone
+neoprofen	ibuprofen
+acthib	haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine
+discovisc	chondroitin sulfates
+discovisc	hyaluronate
+januvia	sitagliptin
+rolaids reformulated aug 2006	magnesium hydroxide
+rolaids reformulated aug 2006	calcium carbonate
+zelapar	selegiline
+atripla	efavirenz
+atripla	emtricitabine
+atripla	tenofovir disoproxil
+prezista	darunavir
+wal-phed	pseudoephedrine
+wal-profen	ibuprofen
+wal-proxen	naproxen
+l-formula	lysine
+sprycel	dasatinib
+comfort gel	simethicone
+comfort gel	aluminum hydroxide
+comfort gel	magnesium hydroxide
+hepagam b	hepatitis b immune globulin
+ora relief	phenol
+oracea	doxycycline
+lucentis	ranibizumab
+omnitrope	somatropin
+glumetza	metformin
+tretin x	tretinoin
+erythrocin	erythromycin
+zegerid reformulated aug 2006	omeprazole
+zegerid reformulated aug 2006	sodium bicarbonate
+elaprase	idursulfase
+qualaquin	quinine
+duetact	glimepiride
+duetact	pioglitazone
+proair	albuterol
+xolegel	ketoconazole
+gelato sodium fluoride	sodium fluoride
+neutracare	sodium fluoride
+absorbine	menthol
+kaopectate reformulated aug 2006	bismuth subsalicylate
+tykerb	lapatinib
+fentora	fentanyl
+little noses decongestant	phenylephrine
+advate	factor viii
+benefix	factor ix
+brovana	arformoterol
+inova	benzoyl peroxide
+moviprep	polyethylene glycol 3350
+moviprep	sodium chloride
+moviprep	potassium chloride
+moviprep	sodium ascorbate
+moviprep	ascorbic acid
+moviprep	sodium sulfate
+psoriasin	coal tar
+rena-vite	riboflavin
+rena-vite	d-biotin
+rena-vite	folic acid
+rena-vite	pyridoxine
+rena-vite	pantothenate
+rena-vite	ascorbic acid
+rena-vite	thiamine
+rena-vite	niacinamide
+rena-vite	vitamin b12
+st-37	hexylresorcinol
+verdeso	desonide
+ziana	tretinoin
+ziana	clindamycin
+diskets	methadone
+hemox a	aluminum chloride
+maginex	magnesium aspartate
+uricalm	phenazopyridine
+veregen	sinecatechins
+pentacel	poliovirus vaccine inactivated, type 3 (saukett)
+pentacel	poliovirus vaccine inactivated, type 2 (mef-1)
+pentacel	diphtheria toxoid vaccine, inactivated
+pentacel	haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine
+pentacel	poliovirus vaccine inactivated, type 1 (mahoney)
+pentacel	tetanus toxoid vaccine, inactivated
+pentacel	acellular pertussis vaccine, inactivated
+vectibix	panitumumab
+multaq	dronedarone
+soliris	eculizumab
+zolinza	vorinostat
+omnaris	ciclesonide
+hiberix	haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine
+polocaine	mepivacaine
+lialda	mesalamine
+pataday	olopatadine
+invega	paliperidone
+benefiber	wheat dextrin
+creomulsion	dextromethorphan
+cyanokit	hydroxocobalamin
+kolorz	sodium fluoride
+wal-finate	chlorpheniramine
+castiva warming	capsaicin
+lamisil defense	tolnaftate
+elon dual defense	undecylenate
+tekturna	aliskiren
+wal-itin	loratadine
+ricola	menthol
+benadryl-d allergy and sinus	phenylephrine
+benadryl-d allergy and sinus	diphenhydramine
+pepto-bismol children's	calcium carbonate
+nydamax	metronidazole
+dristan 12-hour nasal spray	oxymetazoline
+excedrin quick tab	caffeine
+excedrin quick tab	acetaminophen
+ceprotin	protein c
+fexmid	cyclobenzaprine
+nitromist	nitroglycerin
+allfen jr	guaifenesin
+appearex	biotin
+desitin clear	petrolatum
+pylera	tetracycline
+pylera	bismuth subcitrate
+pylera	metronidazole
+reclast	zoledronic acid
+a+d original	lanolin
+a+d original	petrolatum
+covaryx	methyltestosterone
+covaryx	estrogens, esterified (usp)
+elestrin	estradiol
+azasite	azithromycin
+aldex an	doxylamine
+hyper-sal	sodium chloride
+activon arthritis	histamine
+activon arthritis	menthol
+activon joint & muscle	menthol
+foltabs	vitamin b6
+foltabs	vitamin b12
+foltabs	folic acid
+alaway	ketotifen
+gynecort	hydrocortisone
+neupro	rotigotine
+theraseal hand protection	dimethicone
+alli	orlistat
+nuvaring	ethinyl estradiol
+nuvaring	etonogestrel
+nuvigil	armodafinil
+vyvanse	lisdexamfetamine
+pristiq	desvenlafaxine
+altabax	retapamulin
+duodote	pralidoxime
+duodote	atropine
+coartem	artemether
+coartem	lumefantrine
+anacin advanced headache formula	caffeine
+anacin advanced headache formula	acetaminophen
+anacin advanced headache formula	aspirin
+letairis	ambrisentan
+exforge	valsartan
+exforge	amlodipine
+divigel	estradiol
+perforomist	formoterol
+phillips' cramp-free	magnesium oxide
+prelief	calcium glycerophosphate
+scalpicin scalp relief	salicylic acid
+tetterine	miconazole
+torisel	temsirolimus
+di-dak-sol	hypochlorite
+zinotic	zinc acetate
+zinotic	chloroxylenol
+zinotic	pramoxine
+amrix	cyclobenzaprine
+endometrin	progesterone
+alodox	doxycycline
+hydro 40	urea
+liqsorb	ubidecarenone
+epipen	epinephrine
+chirhostim	secretin human, synthetic
+evamist	estradiol
+pliaglis	lidocaine
+pliaglis	tetracaine
+atralin	tretinoin
+extina	ketoconazole
+flexall ultra plus	camphor
+flexall ultra plus	methyl salicylate
+flexall ultra plus	menthol
+selzentry	maraviroc
+tirosint	levothyroxine
+zingo	lidocaine
+pronto plus	piperonyl butoxide
+pronto plus	pyrethrins
+pronto plus lice egg remover	benzalkonium
+azor	olmesartan
+azor	amlodipine
+totect	dexrazoxane
+ezfe	polysaccharide iron complex
+iodoflex	cadexomer iodine
+mozobil	plerixafor
+tasigna	nilotinib
+treanda	bendamustine
+serostim	somatropin
+ixempra	ixabepilone
+isentress	raltegravir
+metvixia	methyl 5-aminolevulinate
+trezix	caffeine
+trezix	dihydrocodeine
+trezix	acetaminophen
+xylocaine with epinephrine	lidocaine
+xylocaine with epinephrine	epinephrine
+combigan	brimonidine
+combigan	timolol
+pep-back	caffeine
+sloan's liniment	turpentine
+sloan's liniment	capsaicin
+taclonex	betamethasone
+taclonex	calcipotriene
+respa-br	brompheniramine
+renvela	sevelamer
+alophen reformulated jan 2008	bisacodyl
+erythrocin stearate	erythromycin
+bystolic	nebivolol
+kuvan	sapropterin
+evac-u-gen reformulated jan 2008	bisacodyl
+feen-a-mint reformulated jan 2008	bisacodyl
+actonel	risedronate
+ivy-dry cream	benzyl alcohol
+ivy-dry cream	camphor
+ivy-dry cream	menthol
+lidocream	lidocaine
+mycocide ns	tolnaftate
+triesence	triamcinolone
+crest mouthwash	cetylpyridinium
+luden's	menthol
+menopur	luteinizing hormone
+menopur	follicle stimulating hormone
+correctol laxative reformulated feb 2008	bisacodyl
+intelence	etravirine
+micort-hc	hydrocortisone
+privigen	immunoglobulin g
+recothrom	thrombin
+critic-aid clear	miconazole
+emend injection	fosaprepitant
+procto-kit	hydrocortisone
+dermalzone	salicylic acid
+senna-time	sennosides, usp
+cleeravue-m	minocycline
+vivotif	salmonella typhi ty21a live antigen
+mst 600	magnesium salicylate
+oticin hc	hydrocortisone
+oticin hc	neomycin
+oticin hc	polymyxin b
+fenoglide	fenofibrate
+arcalyst	rilonacept
+dermoplast pain	benzocaine
+dermoplast pain	menthol
+granisol	granisetron
+trilyte	sodium bicarbonate
+trilyte	sodium chloride
+trilyte	polyethylene glycol 3350
+trilyte	potassium chloride
+aqua glycolic shampoo and body cleanser	glycolate
+xyntha	factor viii
+artiss	fibrinogen
+artiss	thrombin
+calgonate	calcium gluconate
+capzasin-hp	capsaicin
+treximet	naproxen
+treximet	sumatriptan
+calagel	zinc acetate
+calagel	benzethonium
+calagel	diphenhydramine
+corticool	hydrocortisone
+cimzia	certolizumab pegol
+patanase	olopatadine
+millipred	prednisolone
+m-clear wc	guaifenesin
+m-clear wc	codeine
+staphaseptic	benzethonium
+staphaseptic	lidocaine
+calcidol	ergocalciferol
+lactaid	lactase
+ferralet 90	folic acid
+ferralet 90	docusate
+ferralet 90	ascorbic acid
+ferralet 90	iron carbonyl
+ferralet 90	vitamin b12
+pedia-lax	sennosides, usp
+relistor	methylnaltrexone
+cleocin-t	clindamycin
+gamastan	immunoglobulin g
+ery	erythromycin
+orajel	benzocaine
+oraverse	phentolamine
+pedvaxhib	haemophilus influenzae b (ross strain) capsular polysaccharide meningococcal protein conjugate vaccine
+tactinal	acetaminophen
+maxiphen cdx	phenylephrine
+maxiphen cdx	guaifenesin
+maxiphen cdx	codeine
+ambifed-g cd	guaifenesin
+ambifed-g cd	codeine
+ambifed-g cd	pseudoephedrine
+ambifed cd	guaifenesin
+ambifed cd	codeine
+ambifed cd	pseudoephedrine
+dianeal pd-2/4.25	sodium chloride
+dianeal pd-2/4.25	lactate
+dianeal pd-2/4.25	glucose
+dianeal pd-2/4.25	magnesium chloride
+dianeal pd-2/4.25	calcium chloride
+dianeal pd-2/2.5	sodium chloride
+dianeal pd-2/2.5	lactate
+dianeal pd-2/2.5	glucose
+dianeal pd-2/2.5	magnesium chloride
+dianeal pd-2/2.5	calcium chloride
+dianeal pd-2/1.5	sodium chloride
+dianeal pd-2/1.5	lactate
+dianeal pd-2/1.5	glucose
+dianeal pd-2/1.5	magnesium chloride
+dianeal pd-2/1.5	calcium chloride
+dianeal low calcium 1.5	sodium chloride
+dianeal low calcium 1.5	lactate
+dianeal low calcium 1.5	glucose
+dianeal low calcium 1.5	magnesium chloride
+dianeal low calcium 1.5	calcium chloride
+dianeal low calcium 4.25	sodium chloride
+dianeal low calcium 4.25	lactate
+dianeal low calcium 4.25	glucose
+dianeal low calcium 4.25	magnesium chloride
+dianeal low calcium 4.25	calcium chloride
+dianeal low calcium 2.5	sodium chloride
+dianeal low calcium 2.5	lactate
+dianeal low calcium 2.5	glucose
+dianeal low calcium 2.5	magnesium chloride
+dianeal low calcium 2.5	calcium chloride
+aminosyn ii 15%	tyrosine
+aminosyn ii 15%	lysine
+aminosyn ii 15%	arginine
+aminosyn ii 15%	leucine
+aminosyn ii 15%	methionine
+aminosyn ii 15%	serine
+aminosyn ii 15%	valine
+aminosyn ii 15%	phenylalanine
+aminosyn ii 15%	isoleucine
+aminosyn ii 15%	aspartate
+aminosyn ii 15%	histidine
+aminosyn ii 15%	glutamate
+aminosyn ii 15%	tryptophan
+aminosyn ii 15%	alanine
+aminosyn ii 15%	glycine
+aminosyn ii 15%	threonine
+aminosyn ii 15%	proline
+aminosyn ii 8.5 %, sulfite-free	tyrosine
+aminosyn ii 8.5 %, sulfite-free	lysine
+aminosyn ii 8.5 %, sulfite-free	arginine
+aminosyn ii 8.5 %, sulfite-free	leucine
+aminosyn ii 8.5 %, sulfite-free	methionine
+aminosyn ii 8.5 %, sulfite-free	serine
+aminosyn ii 8.5 %, sulfite-free	valine
+aminosyn ii 8.5 %, sulfite-free	phenylalanine
+aminosyn ii 8.5 %, sulfite-free	isoleucine
+aminosyn ii 8.5 %, sulfite-free	aspartate
+aminosyn ii 8.5 %, sulfite-free	histidine
+aminosyn ii 8.5 %, sulfite-free	glutamate
+aminosyn ii 8.5 %, sulfite-free	tryptophan
+aminosyn ii 8.5 %, sulfite-free	alanine
+aminosyn ii 8.5 %, sulfite-free	glycine
+aminosyn ii 8.5 %, sulfite-free	threonine
+aminosyn ii 8.5 %, sulfite-free	proline
+aminosyn ii 10 %	tyrosine
+aminosyn ii 10 %	lysine
+aminosyn ii 10 %	arginine
+aminosyn ii 10 %	leucine
+aminosyn ii 10 %	methionine
+aminosyn ii 10 %	serine
+aminosyn ii 10 %	valine
+aminosyn ii 10 %	phenylalanine
+aminosyn ii 10 %	isoleucine
+aminosyn ii 10 %	aspartate
+aminosyn ii 10 %	histidine
+aminosyn ii 10 %	glutamate
+aminosyn ii 10 %	tryptophan
+aminosyn ii 10 %	alanine
+aminosyn ii 10 %	glycine
+aminosyn ii 10 %	threonine
+aminosyn ii 10 %	proline
+aminosyn-pf 10 %, sulfite-free	taurine
+aminosyn-pf 10 %, sulfite-free	tyrosine
+aminosyn-pf 10 %, sulfite-free	lysine
+aminosyn-pf 10 %, sulfite-free	arginine
+aminosyn-pf 10 %, sulfite-free	leucine
+aminosyn-pf 10 %, sulfite-free	methionine
+aminosyn-pf 10 %, sulfite-free	serine
+aminosyn-pf 10 %, sulfite-free	valine
+aminosyn-pf 10 %, sulfite-free	phenylalanine
+aminosyn-pf 10 %, sulfite-free	isoleucine
+aminosyn-pf 10 %, sulfite-free	aspartate
+aminosyn-pf 10 %, sulfite-free	histidine
+aminosyn-pf 10 %, sulfite-free	glutamate
+aminosyn-pf 10 %, sulfite-free	tryptophan
+aminosyn-pf 10 %, sulfite-free	alanine
+aminosyn-pf 10 %, sulfite-free	glycine
+aminosyn-pf 10 %, sulfite-free	threonine
+aminosyn-pf 10 %, sulfite-free	proline
+clinimix e 4.25/5	lysine
+clinimix e 4.25/5	valine
+clinimix e 4.25/5	phenylalanine
+clinimix e 4.25/5	isoleucine
+clinimix e 4.25/5	histidine
+clinimix e 4.25/5	calcium chloride
+clinimix e 4.25/5	proline
+clinimix e 4.25/5	tyrosine
+clinimix e 4.25/5	leucine
+clinimix e 4.25/5	sodium chloride
+clinimix e 4.25/5	serine
+clinimix e 4.25/5	magnesium chloride
+clinimix e 4.25/5	tryptophan
+clinimix e 4.25/5	alanine
+clinimix e 4.25/5	threonine
+clinimix e 4.25/5	arginine
+clinimix e 4.25/5	methionine
+clinimix e 4.25/5	dibasic potassium phosphate
+clinimix e 4.25/5	glucose
+clinimix e 4.25/5	sodium acetate
+clinimix e 4.25/5	glycine
+clinimix 4.25/10	tyrosine
+clinimix 4.25/10	lysine
+clinimix 4.25/10	arginine
+clinimix 4.25/10	leucine
+clinimix 4.25/10	methionine
+clinimix 4.25/10	serine
+clinimix 4.25/10	valine
+clinimix 4.25/10	phenylalanine
+clinimix 4.25/10	isoleucine
+clinimix 4.25/10	glucose
+clinimix 4.25/10	histidine
+clinimix 4.25/10	tryptophan
+clinimix 4.25/10	alanine
+clinimix 4.25/10	glycine
+clinimix 4.25/10	threonine
+clinimix 4.25/10	proline
+clinimix 4.25/5	tyrosine
+clinimix 4.25/5	lysine
+clinimix 4.25/5	arginine
+clinimix 4.25/5	leucine
+clinimix 4.25/5	methionine
+clinimix 4.25/5	serine
+clinimix 4.25/5	valine
+clinimix 4.25/5	phenylalanine
+clinimix 4.25/5	isoleucine
+clinimix 4.25/5	glucose
+clinimix 4.25/5	histidine
+clinimix 4.25/5	tryptophan
+clinimix 4.25/5	alanine
+clinimix 4.25/5	glycine
+clinimix 4.25/5	threonine
+clinimix 4.25/5	proline
+clinimix 5/15	tyrosine
+clinimix 5/15	lysine
+clinimix 5/15	arginine
+clinimix 5/15	leucine
+clinimix 5/15	methionine
+clinimix 5/15	serine
+clinimix 5/15	valine
+clinimix 5/15	phenylalanine
+clinimix 5/15	isoleucine
+clinimix 5/15	glucose
+clinimix 5/15	histidine
+clinimix 5/15	tryptophan
+clinimix 5/15	alanine
+clinimix 5/15	glycine
+clinimix 5/15	threonine
+clinimix 5/15	proline
+clinimix 5/20	tyrosine
+clinimix 5/20	lysine
+clinimix 5/20	arginine
+clinimix 5/20	leucine
+clinimix 5/20	methionine
+clinimix 5/20	serine
+clinimix 5/20	valine
+clinimix 5/20	phenylalanine
+clinimix 5/20	isoleucine
+clinimix 5/20	glucose
+clinimix 5/20	histidine
+clinimix 5/20	tryptophan
+clinimix 5/20	alanine
+clinimix 5/20	glycine
+clinimix 5/20	threonine
+clinimix 5/20	proline
+clinimix e 2.75/5	lysine
+clinimix e 2.75/5	valine
+clinimix e 2.75/5	phenylalanine
+clinimix e 2.75/5	isoleucine
+clinimix e 2.75/5	histidine
+clinimix e 2.75/5	calcium chloride
+clinimix e 2.75/5	proline
+clinimix e 2.75/5	tyrosine
+clinimix e 2.75/5	leucine
+clinimix e 2.75/5	sodium chloride
+clinimix e 2.75/5	serine
+clinimix e 2.75/5	magnesium chloride
+clinimix e 2.75/5	tryptophan
+clinimix e 2.75/5	alanine
+clinimix e 2.75/5	threonine
+clinimix e 2.75/5	arginine
+clinimix e 2.75/5	methionine
+clinimix e 2.75/5	dibasic potassium phosphate
+clinimix e 2.75/5	glucose
+clinimix e 2.75/5	sodium acetate
+clinimix e 2.75/5	glycine
+clinimix e 5/15	lysine
+clinimix e 5/15	valine
+clinimix e 5/15	phenylalanine
+clinimix e 5/15	isoleucine
+clinimix e 5/15	histidine
+clinimix e 5/15	calcium chloride
+clinimix e 5/15	proline
+clinimix e 5/15	tyrosine
+clinimix e 5/15	leucine
+clinimix e 5/15	sodium chloride
+clinimix e 5/15	serine
+clinimix e 5/15	magnesium chloride
+clinimix e 5/15	tryptophan
+clinimix e 5/15	alanine
+clinimix e 5/15	threonine
+clinimix e 5/15	arginine
+clinimix e 5/15	methionine
+clinimix e 5/15	dibasic potassium phosphate
+clinimix e 5/15	glucose
+clinimix e 5/15	sodium acetate
+clinimix e 5/15	glycine
+clinimix e 5/20	lysine
+clinimix e 5/20	valine
+clinimix e 5/20	phenylalanine
+clinimix e 5/20	isoleucine
+clinimix e 5/20	histidine
+clinimix e 5/20	calcium chloride
+clinimix e 5/20	proline
+clinimix e 5/20	tyrosine
+clinimix e 5/20	leucine
+clinimix e 5/20	sodium chloride
+clinimix e 5/20	serine
+clinimix e 5/20	magnesium chloride
+clinimix e 5/20	tryptophan
+clinimix e 5/20	alanine
+clinimix e 5/20	threonine
+clinimix e 5/20	arginine
+clinimix e 5/20	methionine
+clinimix e 5/20	dibasic potassium phosphate
+clinimix e 5/20	glucose
+clinimix e 5/20	sodium acetate
+clinimix e 5/20	glycine
+clinisol 15	tyrosine
+clinisol 15	lysine
+clinisol 15	arginine
+clinisol 15	leucine
+clinisol 15	methionine
+clinisol 15	serine
+clinisol 15	valine
+clinisol 15	phenylalanine
+clinisol 15	isoleucine
+clinisol 15	aspartate
+clinisol 15	histidine
+clinisol 15	glutamate
+clinisol 15	tryptophan
+clinisol 15	alanine
+clinisol 15	glycine
+clinisol 15	threonine
+clinisol 15	proline
+ionosol-mb	lactate
+ionosol-mb	potassium chloride
+ionosol-mb	potassium phosphate
+ionosol-mb	glucose
+ionosol-mb	magnesium chloride
+ionosol-mb	sodium phosphate, monobasic
+isolyte p	potassium chloride
+isolyte p	dibasic potassium phosphate
+isolyte p	glucose
+isolyte p	sodium acetate
+isolyte p	magnesium chloride
+normosol-m	magnesium acetate
+normosol-m	glucose
+normosol-m	sodium chloride
+normosol-m	potassium acetate
+vita-respa	pyridoxine
+vita-respa	vitamin b12
+vita-respa	folic acid
+travasol 10	tyrosine
+travasol 10	lysine
+travasol 10	arginine
+travasol 10	leucine
+travasol 10	methionine
+travasol 10	serine
+travasol 10	valine
+travasol 10	phenylalanine
+travasol 10	isoleucine
+travasol 10	histidine
+travasol 10	tryptophan
+travasol 10	alanine
+travasol 10	glycine
+travasol 10	threonine
+travasol 10	proline
+kinrix	poliovirus vaccine inactivated, type 3 (saukett)
+kinrix	poliovirus vaccine inactivated, type 2 (mef-1)
+kinrix	diphtheria toxoid vaccine, inactivated
+kinrix	poliovirus vaccine inactivated, type 1 (mahoney)
+kinrix	tetanus toxoid vaccine, inactivated
+kinrix	acellular pertussis vaccine, inactivated
+chloraseptic sore throat	benzocaine
+chloraseptic sore throat	menthol
+durezol	difluprednate
+multigen	calcium ascorbate
+multigen	liver stomach concentrate
+multigen	calcium threonate
+multigen	ferrous asparto glycinate
+multigen	succinic acid
+multigen	vitamin b12
+multigen plus	calcium ascorbate
+multigen plus	ferrous fumarate
+multigen plus	folic acid
+multigen plus	calcium threonate
+multigen plus	ferrous asparto glycinate
+multigen plus	succinic acid
+multigen plus	vitamin b12
+triple paste af	miconazole
+halls	menthol
+cleviprex	clevidipine
+brovex cb	codeine
+brovex cb	brompheniramine
+brovex pbc	phenylephrine
+brovex pbc	codeine
+brovex pbc	brompheniramine
+cepacol sore throat from post nasal drip	menthol
+fusilev	levoleucovorin
+soluclenz	benzoyl peroxide
+nplate	romiplostim
+bss ophthalmic solution	sodium chloride
+bss ophthalmic solution	potassium chloride
+bss ophthalmic solution	sodium citrate
+bss ophthalmic solution	sodium acetate
+bss ophthalmic solution	magnesium chloride
+bss ophthalmic solution	calcium chloride
+bp cleansing wash	sulfur
+bp cleansing wash	sulfacetamide
+cepacol antibacterial mouthwash	cetylpyridinium
+glutamic-500	glutamate
+sancuso	granisetron
+anecream	lidocaine
+bp 10-wash	sulfur
+bp 10-wash	sulfacetamide
+ferrex 150 plus	ascorbic acid
+ferrex 150 plus	polysaccharide iron complex
+robafen cough	dextromethorphan
+sudafed om	oxymetazoline
+ferrex 150 forte	polysaccharide iron complex
+ferrex 150 forte	vitamin b12
+ferrex 150 forte	folic acid
+gynol ii	nonoxynol-9
+akten	lidocaine
+rapaflo	silodosin
+oysco d	cholecalciferol
+oysco d	calcium carbonate
+cinryze	c1 esterase inhibitor
+vimpat	lacosamide
+acanya	benzoyl peroxide
+acanya	clindamycin
+toviaz	fesoterodine
+banzel	rufinamide
+veripred	prednisolone
+scytera	coal tar
+astepro	azelastine
+salvax	salicylic acid
+apriso	mesalamine
+promacta	eltrombopag
+dialyvite 800 with iron	riboflavin
+dialyvite 800 with iron	ferrous fumarate
+dialyvite 800 with iron	folic acid
+dialyvite 800 with iron	biotin
+dialyvite 800 with iron	pyridoxine
+dialyvite 800 with iron	pantothenate
+dialyvite 800 with iron	ascorbic acid
+dialyvite 800 with iron	thiamine
+dialyvite 800 with iron	niacinamide
+dialyvite 800 with iron	mecobalamin
+align	bifidobacterium infantis
+dramamine less drowsy	meclizine
+resinol	resorcinol
+resinol	petrolatum
+soothe & cool moisture barrier	petrolatum
+nucort	hydrocortisone
+murine ear	carbamide peroxide
+moxatag	amoxicillin
+uramaxin	urea
+sumaxin	sulfur
+sumaxin	sulfacetamide
+trilipix	fenofibrate
+pacnex	benzoyl peroxide
+zolpimist	zolpidem
+preservision	vitamin e
+preservision	zinc oxide
+preservision	ascorbic acid
+preservision	cuprous oxide
+preservision	beta carotene
+trisenox	arsenic trioxide
+avidoxy	doxycycline
+epiduo	benzoyl peroxide
+epiduo	adapalene
+aminosyn 10%, sulfite-free	tyrosine
+aminosyn 10%, sulfite-free	lysine
+aminosyn 10%, sulfite-free	arginine
+aminosyn 10%, sulfite-free	leucine
+aminosyn 10%, sulfite-free	methionine
+aminosyn 10%, sulfite-free	serine
+aminosyn 10%, sulfite-free	valine
+aminosyn 10%, sulfite-free	phenylalanine
+aminosyn 10%, sulfite-free	isoleucine
+aminosyn 10%, sulfite-free	histidine
+aminosyn 10%, sulfite-free	tryptophan
+aminosyn 10%, sulfite-free	alanine
+aminosyn 10%, sulfite-free	glycine
+aminosyn 10%, sulfite-free	threonine
+aminosyn 10%, sulfite-free	proline
+aminosyn 8.5%, sulfite-free	tyrosine
+aminosyn 8.5%, sulfite-free	lysine
+aminosyn 8.5%, sulfite-free	arginine
+aminosyn 8.5%, sulfite-free	leucine
+aminosyn 8.5%, sulfite-free	methionine
+aminosyn 8.5%, sulfite-free	serine
+aminosyn 8.5%, sulfite-free	valine
+aminosyn 8.5%, sulfite-free	phenylalanine
+aminosyn 8.5%, sulfite-free	isoleucine
+aminosyn 8.5%, sulfite-free	histidine
+aminosyn 8.5%, sulfite-free	tryptophan
+aminosyn 8.5%, sulfite-free	alanine
+aminosyn 8.5%, sulfite-free	glycine
+aminosyn 8.5%, sulfite-free	threonine
+aminosyn 8.5%, sulfite-free	proline
+m-end pe	phenylephrine
+m-end pe	codeine
+m-end pe	brompheniramine
+scalacort	hydrocortisone
+aminosyn-pf 7%	taurine
+aminosyn-pf 7%	tyrosine
+aminosyn-pf 7%	lysine
+aminosyn-pf 7%	arginine
+aminosyn-pf 7%	leucine
+aminosyn-pf 7%	methionine
+aminosyn-pf 7%	serine
+aminosyn-pf 7%	valine
+aminosyn-pf 7%	phenylalanine
+aminosyn-pf 7%	isoleucine
+aminosyn-pf 7%	aspartate
+aminosyn-pf 7%	histidine
+aminosyn-pf 7%	glutamate
+aminosyn-pf 7%	tryptophan
+aminosyn-pf 7%	alanine
+aminosyn-pf 7%	glycine
+aminosyn-pf 7%	threonine
+aminosyn-pf 7%	proline
+riastap	fibrinogen
+gelnique	oxybutynin
+vectical	calcitriol
+latisse	bimatoprost
+mar-cof cg	guaifenesin
+mar-cof cg	codeine
+nexterone	amiodarone
+acam2000	smallpox vaccine live, new york city board of health vaccinia strain
+savella	milnacipran
+allernaze	triamcinolone
+uloric	febuxostat
+atryn	antithrombin iii
+maxivision lutein formula	lutein
+aplenzin	bupropion
+trecator	ethionamide
+quinzyme	ubidecarenone
+edluar	zolpidem
+muse	alprostadil
+afinitor	everolimus
+ixiaro	japanese encephalitis virus vaccine, inactivated
+renova	tretinoin
+fluoridex daily defense sensitivity	potassium nitrate
+fluoridex daily defense sensitivity	sodium fluoride
+miniprin	aspirin
+procentra	dextroamphetamine
+aminosyn 3.5 % m, sulfite free	lysine
+aminosyn 3.5 % m, sulfite free	valine
+aminosyn 3.5 % m, sulfite free	phenylalanine
+aminosyn 3.5 % m, sulfite free	isoleucine
+aminosyn 3.5 % m, sulfite free	histidine
+aminosyn 3.5 % m, sulfite free	magnesium acetate
+aminosyn 3.5 % m, sulfite free	proline
+aminosyn 3.5 % m, sulfite free	potassium acetate
+aminosyn 3.5 % m, sulfite free	tyrosine
+aminosyn 3.5 % m, sulfite free	leucine
+aminosyn 3.5 % m, sulfite free	sodium chloride
+aminosyn 3.5 % m, sulfite free	serine
+aminosyn 3.5 % m, sulfite free	tryptophan
+aminosyn 3.5 % m, sulfite free	alanine
+aminosyn 3.5 % m, sulfite free	threonine
+aminosyn 3.5 % m, sulfite free	arginine
+aminosyn 3.5 % m, sulfite free	methionine
+aminosyn 3.5 % m, sulfite free	phosphoric acid
+aminosyn 3.5 % m, sulfite free	glycine
+simponi	golimumab
+fanapt	iloperidone
+cetraxal	ciprofloxacin
+bifera	polysaccharide iron complex
+bifera	fe heme polypeptide
+hydro 35	urea
+vagisil original formula	resorcinol
+vagisil original formula	benzocaine
+zilactin-l cold sore liquid	benzyl alcohol
+samsca	tolvaptan
+adcirca	tadalafil
+besivance	besifloxacin
+ibuprohm	ibuprofen
+gavilyte-c	sodium chloride
+gavilyte-c	polyethylene glycol 3350
+gavilyte-c	potassium chloride
+gavilyte-c	sodium bicarbonate
+gavilyte-c	sodium sulfate
+q-sorb co q-10	ubidecarenone
+availnex	carbocysteine
+ulesfia	benzyl alcohol
+stelara	ustekinumab
+ilaris	canakinumab
+nucynta	tapentadol
+ozurdex	dexamethasone
+caldolor	ibuprofen
+feraheme	ferumoxytol
+refissa	tretinoin
+effient	prasugrel
+inova 8-2	benzoyl peroxide
+inova 8-2	salicylic acid
+innopran	propranolol
+cruex antifungal	clotrimazole
+gavilyte-g	sodium chloride
+gavilyte-g	polyethylene glycol 3350
+gavilyte-g	potassium chloride
+gavilyte-g	sodium bicarbonate
+gavilyte-g	sodium sulfate
+gavilyte-n	sodium bicarbonate
+gavilyte-n	sodium chloride
+gavilyte-n	polyethylene glycol 3350
+gavilyte-n	potassium chloride
+tyvaso	treprostinil
+onglyza	saxagliptin
+colcrys	colchicine
+plan b one-step	levonorgestrel
+firmagon	degarelix
+zipsor	diclofenac
+acuvail	ketorolac
+cambia	diclofenac
+cepacol sore throat pain relief	benzocaine
+cepacol sore throat pain relief	menthol
+cycloset	bromocriptine
+saphris	asenapine
+extavia	interferon beta-1b
+fibricor	fenofibrate
+folitab	ascorbic acid
+folitab	ferrous sulfate
+folitab	folic acid
+articadent	articaine
+articadent	epinephrine
+livalo	pitavastatin
+fluoritab	sodium fluoride
+intuniv	guanfacine
+bepreve	bepotastine
+metozolv	metoclopramide
+e.e.s.	erythromycin
+s-2	racepinephrine
+geri-hydrolac	lactate
+medicone hemorrhoidal	phenylephrine
+micaderm	miconazole
+tinaderm	tolnaftate
+vibativ	telavancin
+claritin eye	ketotifen
+zirgan	ganciclovir
+osteo-poretical	cholecalciferol
+osteo-poretical	calcium carbonate
+folotyn	pralatrexate
+aller-tec	cetirizine
+toprol	metoprolol
+benzefoam	benzoyl peroxide
+dermafix	petrolatum
+dr. smith's rash-n-all	lanolin
+dr. smith's rash-n-all	zinc oxide
+dr. smith's rash-n-all	petrolatum
+zilactin cold sore	benzyl alcohol
+aloe vesta protective barrier	petrolatum
+zinotic es	zinc acetate
+zinotic es	chloroxylenol
+zinotic es	pramoxine
+berinert	c1 esterase inhibitor
+tums dual action	magnesium hydroxide
+tums dual action	famotidine
+tums dual action	calcium carbonate
+votrient	pazopanib
+gavilax	polyethylene glycol 3350
+arzerra	ofatumumab
+d-vi-sol	cholecalciferol
+benadryl children's anti-itch	camphor
+chenodal	chenodeoxycholate
+istodax	romidepsin
+ellis tonic	riboflavin
+ellis tonic	manganese sulfate
+ellis tonic	pyridoxine
+ellis tonic	dexpanthenol
+ellis tonic	thiamine
+ellis tonic	magnesium sulfate
+ellis tonic	zinc sulfate
+ellis tonic	niacinamide
+ellis tonic	vitamin b12
+camphor ice	camphor
+clearlax	polyethylene glycol 3350
+qutenza	capsaicin
+nexavir	liver extract
+dermasil	dimethicone
+neutragard	sodium fluoride
+mvc-fluoride	vitamin b6
+mvc-fluoride	riboflavin
+mvc-fluoride	vitamin b12
+mvc-fluoride	vitamin a
+mvc-fluoride	folic acid
+mvc-fluoride	vitamin e
+mvc-fluoride	cholecalciferol
+mvc-fluoride	ascorbic acid
+mvc-fluoride	niacin
+mvc-fluoride	thiamine
+mvc-fluoride	sodium fluoride
+glynase	glyburide
+lysteda	tranexamic acid
+ala-scalp	hydrocortisone
+kalbitor	ecallantide
+wilate	von willebrand factor
+wilate	factor viii
+ocean blue nutritionals omega-3 1450	docosahexaenoate
+ocean blue nutritionals omega-3 1450	omega-3 acid ethyl esters (usp)
+ocean blue nutritionals omega-3 1450	eicosapentaenoate
+backprin	caffeine
+backprin	acetaminophen
+backprin	magnesium salicylate
+preservision with lutein	vitamin e
+preservision with lutein	zinc oxide
+preservision with lutein	ascorbic acid
+preservision with lutein	cuprous oxide
+preservision with lutein	lutein
+epiflur	sodium fluoride
+senexon s	sennosides, usp
+senexon s	docusate
+motrin pm	diphenhydramine
+motrin pm	ibuprofen
+actemra	tocilizumab
+tucks	witch hazel
+ampyra	dalfampridine
+victoza	liraglutide
+hemocyte	ferrous fumarate
+summer's eve medicated	povidone-iodine
+xiaflex	collagenase clostridium histolyticum
+capzasin quick relief	capsaicin
+capzasin quick relief	menthol
+hyperrho	rho(d) immune globulin
+rhinaris	sodium chloride
+addaprin	ibuprofen
+aller-tec d	pseudoephedrine
+aller-tec d	cetirizine
+ludent	sodium fluoride
+menveo	neisseria meningitidis serogroup a oligosaccharide diphtheria crm197 protein conjugate vaccine
+menveo	neisseria meningitidis serogroup y oligosaccharide diphtheria crm197 protein conjugate vaccine
+menveo	neisseria meningitidis serogroup c oligosaccharide diphtheria crm197 protein conjugate vaccine
+menveo	neisseria meningitidis serogroup w-135 oligosaccharide diphtheria crm197 protein conjugate vaccine
+cayston	aztreonam
+prevnar 13	streptococcus pneumoniae serotype 6a capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 7f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 18c capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 1 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 5 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 3 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 9v capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 19a capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 23f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 19f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 14 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 4 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 13	streptococcus pneumoniae serotype 6b capsular antigen diphtheria crm197 protein conjugate vaccine
+vpriv	velaglucerase alfa
+dexilant	dexlansoprazole
+hizentra	immunoglobulin g
+butrans	buprenorphine
+trelstar	triptorelin
+carbaglu	carglumic acid
+silenor	doxepin
+zyclara	imiquimod
+balmex	zinc oxide
+maximum d3	cholecalciferol
+pennsaid	diclofenac
+stridex	salicylic acid
+asclera	polidocanol
+feiba	anti-inhibitor coagulant complex
+oravig	miconazole
+zortress	everolimus
+wal zyr d	pseudoephedrine
+wal zyr d	cetirizine
+provenge	sipuleucel-t
+freeze it	camphor
+freeze it	menthol
+poly iron 150 forte	polysaccharide iron complex
+poly iron 150 forte	vitamin b12
+poly iron 150 forte	folic acid
+isoditrate	isosorbide dinitrate
+denticare neutral	sodium fluoride
+gammaplex	immunoglobulin g
+miostat	carbachol
+diabetic tussin ex	guaifenesin
+zymaxid	gatifloxacin
+sprix	ketorolac
+desquam	benzoyl peroxide
+venelex	peruvian balsam
+venelex	castor oil
+hycodan	hydrocodone
+hycodan	homatropine
+lumizyme	alglucosidase alfa
+prolia	denosumab
+neobenz micro wash	benzoyl peroxide
+encora capsule	vitamin e
+encora capsule	linoleate
+encora capsule	omega-3 acid ethyl esters (usp)
+biotussin	guaifenesin
+biotussin	codeine
+biotussin	pseudoephedrine
+encora am tablet	calcium ascorbate
+encora am tablet	folic acid
+encora am tablet	pyridoxine
+encora am tablet	cholecalciferol
+encora am tablet	calcium carbonate
+encora pm tablet	calcium ascorbate
+encora pm tablet	folic acid
+encora pm tablet	pyridoxine
+encora pm tablet	cholecalciferol
+encora pm tablet	calcium carbonate
+cheratussin	guaifenesin
+cheratussin	codeine
+jevtana	cabazitaxel
+jalyn	dutasteride
+jalyn	tamsulosin
+staxyn	vardenafil
+ceraxon	citicoline
+sojourn	sevoflurane
+glassia	alpha 1-antitrypsin
+vivacaine	bupivacaine
+vivacaine	epinephrine
+acnevir	salicylic acid
+goniovisc	hypromellose
+oasis tears	glycerin
+chloraprep	chlorhexidine
+chloraprep	isopropyl alcohol
+uribel	phenyl salicylate
+uribel	hyoscyamine
+uribel	methenamine
+uribel	methylene blue
+uribel	sodium phosphate, monobasic
+xerese	acyclovir
+xerese	hydrocortisone
+cal gest	calcium carbonate
+trimo san	oxyquinoline
+trimo san	dodecyl sulfate
+prevident 5000 sensitive	potassium nitrate
+prevident 5000 sensitive	sodium fluoride
+integra f	ferrous fumarate
+integra f	folic acid
+integra f	polysaccharide iron complex
+integra f	ascorbic acid
+integra f	niacinamide
+veltin	tretinoin
+veltin	clindamycin
+cuvposa	glycopyrronium
+lastacaft	alcaftadine
+xeomin	botulinum toxin type a
+tachosil	fibrinogen
+tachosil	thrombin
+ella	ulipristal
+clinpro 5000	sodium fluoride
+veletri	epoprostenol
+purelax	polyethylene glycol 3350
+gas-x prevention	alpha-d-galactosidase enzyme
+krystexxa	pegloticase
+lmx	lidocaine
+thrive	nicotine
+ana-lex	hydrocortisone
+ana-lex	lidocaine
+marcaine	bupivacaine
+revonto	dantrolene
+regenecare	lidocaine
+carbocaine with neocobefrin	levonordefrin
+carbocaine with neocobefrin	mepivacaine
+gilenya	fingolimod
+calcitrene	calcipotriene
+cidaflex	chondroitin sulfates
+cidaflex	glucosamine
+kapvay	clonidine
+saltaire	sodium chloride
+fisherman's friend	menthol
+wal-act	pseudoephedrine
+wal-act	triprolidine
+wal-itin d	loratadine
+wal-itin d	pseudoephedrine
+sorilux	calcipotriene
+loradamed	loratadine
+doctor's choice	stannous fluoride
+kid's choice	stannous fluoride
+pradaxa	dabigatran etexilate
+hyophen	phenyl salicylate
+hyophen	hyoscyamine
+hyophen	benzoate
+hyophen	methenamine
+hyophen	methylene blue
+phosphasal	phenyl salicylate
+phosphasal	hyoscyamine
+phosphasal	methenamine
+phosphasal	methylene blue
+phosphasal	sodium phosphate, monobasic
+iferex	polysaccharide iron complex
+listerine	sodium fluoride
+lantiseptic	lanolin
+lantiseptic multi-purpose	calamine
+lantiseptic multi-purpose	zinc oxide
+lantiseptic multi-purpose	menthol
+soothe & cool powder	corn starch
+lanacane	benzethonium
+lanacane	benzocaine
+cepacol sore throat plus cough	dextromethorphan
+cepacol sore throat plus cough	benzocaine
+scalpicin itch relief	hydrocortisone
+vagisil satin	hydrocortisone
+vagisil wipes	pramoxine
+noxzema clean	salicylic acid
+sucrets original	hexylresorcinol
+st. ives blemish & blackhead control	salicylic acid
+ustell	phenyl salicylate
+ustell	hyoscyamine
+ustell	methenamine
+ustell	methylene blue
+ustell	sodium phosphate, monobasic
+soothe lubricant eye drops	glycerin
+soothe lubricant eye drops	propylene glycol
+teflaro	ceftaroline fosamil
+acthar	corticotropin
+latuda	lurasidone
+nuedexta	quinidine
+nuedexta	dextromethorphan
+ala-hist ir	dexbrompheniramine
+aloe vesta skin conditioner	dimethicone
+dendracin neurodendraxcin	capsaicin
+dendracin neurodendraxcin	methyl salicylate
+dendracin neurodendraxcin	menthol
+mentholatum	camphor
+mentholatum	menthol
+beta-hc	hydrocortisone
+perform	menthol
+biofreeze	menthol
+head & shoulders	zinc pyrithione
+listerine antiseptic	eucalyptol
+listerine antiseptic	thymol
+listerine antiseptic	methyl salicylate
+listerine antiseptic	menthol
+luden's drops	pectin
+egrifta	tesamorelin
+neutraphor	dimethicone
+cool bottoms	dimethicone
+halaven	eribulin
+chloraseptic sore throat + cough	dextromethorphan
+chloraseptic sore throat + cough	benzocaine
+chloraseptic sore throat + cough	menthol
+fungicure solution	clotrimazole
+cosamin	chondroitin sulfates
+cosamin	glucosamine
+schiff	chondroitin sulfates
+schiff	glucosamine
+psoriasin wash	salicylic acid
+minidrops	polyvinyl alcohol
+minidrops	povidone
+xgeva	denosumab
+gablofen	baclofen
+gly-oxide	carbamide peroxide
+gentlelax	polyethylene glycol 3350
+boroleum	camphor
+boroleum	petrolatum
+boroleum	menthol
+nexiclon	clonidine
+fortesta	testosterone
+pamprin max formula	caffeine
+pamprin max formula	acetaminophen
+pamprin max formula	aspirin
+pamprin multi-symptom	pyrilamine
+pamprin multi-symptom	acetaminophen
+pamprin multi-symptom	pamabrom
+pamprin cramp formula	magnesium salicylate
+pamprin cramp formula	acetaminophen
+pamprin cramp formula	pamabrom
+percogesic reformulated jan 2011	diphenhydramine
+percogesic reformulated jan 2011	acetaminophen
+bedside-care	benzethonium
+anbesol cold sore therapy	allantoin
+anbesol cold sore therapy	benzocaine
+anbesol cold sore therapy	camphor
+anbesol cold sore therapy	petrolatum
+premsyn pms	pyrilamine
+premsyn pms	acetaminophen
+premsyn pms	pamabrom
+aquaphor	petrolatum
+critic-aid clear moisture	petrolatum
+wal-dryl	zinc acetate
+wal-dryl	diphenhydramine
+stye	mineral oil
+stye	petrolatum
+baza-protect	zinc oxide
+baza-protect	dimethicone
+baza cleanse and protect	dimethicone
+stanback headache powder reformulated jan 2011	caffeine
+stanback headache powder reformulated jan 2011	aspirin
+tanac liquid	benzocaine
+abstral	fentanyl
+active q	ubiquinol
+baza clear	petrolatum
+castiva cooling	methyl salicylate
+castiva cooling	menthol
+natroba	spinosad
+flanders	zinc oxide
+anasept	hypochlorite
+pernox scrub cleanser	salicylic acid
+pernox scrub cleanser	sulfur
+enfamil glucose	glucose
+medrox	capsaicin
+medrox	methyl salicylate
+medrox	menthol
+bicarsim	simethicone
+thyrosafe	potassium iodide
+lubrifresh p.m.	mineral oil
+lubrifresh p.m.	petrolatum
+polar freeze	camphor
+polar freeze	menthol
+wal-dryl childrens	diphenhydramine
+viibryd	vilazodone
+wal-zyr	cetirizine
+chromelin	dihydroxyacetone
+refenesen	guaifenesin
+thera-gesic plus	methyl salicylate
+thera-gesic plus	menthol
+wal-dram	dimenhydrinate
+ri-mag plus	simethicone
+ri-mag plus	magaldrate
+x-seb t pearl	coal tar
+x-seb t pearl	salicylic acid
+wal-dryl-d	phenylephrine
+wal-dryl-d	diphenhydramine
+wal-four	phenylephrine
+wal-mucil	psyllium
+risamine	zinc oxide
+risamine	menthol
+ferocon	ferrous fumarate
+ferocon	folic acid
+ferocon	liver stomach concentrate
+ferocon	ascorbic acid
+ferocon	vitamin b12
+ferraplus	folic acid
+ferraplus	docusate
+ferraplus	ascorbic acid
+ferraplus	iron carbonyl
+ferraplus	vitamin b12
+ortho-nesic	camphor
+ortho-nesic	menthol
+ferrex 150 forte plus	calcium ascorbate
+ferrex 150 forte plus	folic acid
+ferrex 150 forte plus	calcium threonate
+ferrex 150 forte plus	ferrous asparto glycinate
+ferrex 150 forte plus	succinic acid
+ferrex 150 forte plus	polysaccharide iron complex
+ferrex 150 forte plus	vitamin b12
+folbecal	folic acid
+folbecal	pyridoxine
+folbecal	vitamin b12
+folbecal	calcium carbonate
+folgard os	folic acid
+folgard os	magnesium oxide
+folgard os	pyridoxine
+folgard os	cholecalciferol
+folgard os	boron
+folgard os	calcium carbonate
+folgard os	vitamin b12
+tineacide antifungal	undecylenate
+folivane-f	ferrous fumarate
+folivane-f	folic acid
+folivane-f	ascorbic acid
+folivane-f	niacin
+folivane-f	polysaccharide iron complex
+hypertet	tetanus immune globulin
+hemocyte plus	riboflavin
+hemocyte plus	ferrous fumarate
+hemocyte plus	folic acid
+hemocyte plus	manganese sulfate
+hemocyte plus	pantothenic acid
+hemocyte plus	sodium ascorbate
+hemocyte plus	copper sulfate
+hemocyte plus	pyridoxine
+hemocyte plus	magnesium sulfate
+hemocyte plus	thiamine
+hemocyte plus	zinc sulfate
+hemocyte plus	niacinamide
+hemocyte plus	vitamin b12
+hemax	folic acid
+hemax	vitamin e
+hemax	biotin
+hemax	copper sulfate
+hemax	docusate
+hemax	ascorbic acid
+hemax	iron carbonyl
+hemax	vitamin b12
+icar-c plus	iron carbonyl
+icar-c plus	ascorbic acid
+icar-c plus	vitamin b12
+icar-c plus	folic acid
+flexall	menthol
+aluvea	urea
+chloraseptic max spray	glycerin
+chloraseptic max spray	phenol
+gralise	gabapentin
+altalube	mineral oil
+altalube	petrolatum
+bion tears	dextran 70
+bion tears	hypromellose
+burn jel plus	lidocaine
+pedia-lax chewable	magnesium hydroxide
+pedia-lax liquid	docusate
+callergy clear	zinc acetate
+callergy clear	pramoxine
+healthylax	polyethylene glycol 3350
+comfort shield	dimethicone
+dermaphor	petrolatum
+endur-acin	niacin
+gordogesic	methyl salicylate
+icar c	iron carbonyl
+icar c	ascorbic acid
+methagual	guaiacol
+methagual	methyl salicylate
+periguard	zinc oxide
+polar frost	menthol
+pretz	sodium chloride
+pretz	glycerin
+rash relief antibacterial	zinc oxide
+rash relief antibacterial	dimethicone
+rash relief antibacterial	bacitracin
+rash relief antifungal	zinc oxide
+rash relief antifungal	miconazole
+rash relief antifungal	dimethicone
+tears naturale pm	mineral oil
+tears naturale pm	petrolatum
+tri biozene	pramoxine
+tri biozene	neomycin
+tri biozene	polymyxin b
+tri biozene	bacitracin
+ulcerease	phenol
+avagard	chlorhexidine
+avagard	ethanol
+ziks pain relief	capsaicin
+ziks pain relief	methyl salicylate
+ziks pain relief	menthol
+wal-zyr itchy eye	ketotifen
+viva-drops lubricating eye drops	polysorbate 80
+wal-dryl allergy	diphenhydramine
+wal-phed pe	phenylephrine
+wal-som maximum strength	diphenhydramine
+wal-vert	loratadine
+duraprep	isopropyl alcohol
+duraprep	iodine povacrylex
+clinimix e 4.25/10	lysine
+clinimix e 4.25/10	valine
+clinimix e 4.25/10	phenylalanine
+clinimix e 4.25/10	isoleucine
+clinimix e 4.25/10	histidine
+clinimix e 4.25/10	calcium chloride
+clinimix e 4.25/10	proline
+clinimix e 4.25/10	tyrosine
+clinimix e 4.25/10	leucine
+clinimix e 4.25/10	sodium chloride
+clinimix e 4.25/10	serine
+clinimix e 4.25/10	magnesium chloride
+clinimix e 4.25/10	tryptophan
+clinimix e 4.25/10	alanine
+clinimix e 4.25/10	threonine
+clinimix e 4.25/10	arginine
+clinimix e 4.25/10	methionine
+clinimix e 4.25/10	dibasic potassium phosphate
+clinimix e 4.25/10	glucose
+clinimix e 4.25/10	sodium acetate
+clinimix e 4.25/10	glycine
+intestinex	lactobacillus acidophilus
+inzo	miconazole
+macuvite with lutein	vitamin e
+macuvite with lutein	zinc oxide
+macuvite with lutein	ascorbic acid
+macuvite with lutein	beta carotene
+macuvite with lutein	selenite
+macuvite with lutein	lutein
+macuvite with lutein	copper sulfate
+medi-lyte	potassium chloride
+medi-lyte	magnesium carbonate
+medi-lyte	calcium phosphate
+sombra warm pain relieving gel	camphor
+sombra warm pain relieving gel	menthol
+multi-delyn	riboflavin
+multi-delyn	vitamin a
+multi-delyn	vitamin e
+multi-delyn	pyridoxine
+multi-delyn	cholecalciferol
+multi-delyn	ascorbic acid
+multi-delyn	thiamine
+multi-delyn	niacinamide
+multi-delyn	vitamin b12
+jinteli	ethinyl estradiol
+jinteli	norethindrone
+oysco 500 with d	cholecalciferol
+oysco 500 with d	calcium carbonate
+clindacin	clindamycin
+corifact	factor xiii
+matzim	diltiazem
+edarbi	azilsartan
+daliresp	roflumilast
+nytol	diphenhydramine
+banophen cream	zinc acetate
+banophen cream	diphenhydramine
+benlysta	belimumab
+unisom sleep	diphenhydramine
+xoten	methyl salicylate
+xoten	menthol
+blink tears	polyethylene glycol 400
+panadol pm	diphenhydramine
+panadol pm	acetaminophen
+medicaine sting	benzocaine
+medicaine sting	menthol
+yervoy	ipilimumab
+virasal	salicylic acid
+horizant	gabapentin
+dayhist-1	clemastine
+tronolane anesthetic	pramoxine
+tronolane anesthetic	zinc oxide
+eucerin calming itch relief	menthol
+mediplast	salicylic acid
+folgard	vitamin b6
+folgard	vitamin b12
+folgard	folic acid
+promolaxin	docusate
+phoslyra	calcium acetate
+medi-derm	capsaicin
+medi-derm	methyl salicylate
+medi-derm	menthol
+ciclodan	ciclopirox
+duexis	famotidine
+duexis	ibuprofen
+zytiga	abiraterone
+hybrisil	methylprednisolone
+tradjenta	linagliptin
+extraneal	sodium chloride
+extraneal	lactate
+extraneal	magnesium chloride
+extraneal	icodextrin
+extraneal	calcium chloride
+capacet	caffeine
+capacet	butalbital
+capacet	acetaminophen
+morgidox	doxycycline
+rash relief clear	dimethicone
+rash relief clear	petrolatum
+rash relief with zinc oxide	zinc oxide
+rash relief with zinc oxide	dimethicone
+optigene	tetrahydrozoline
+mobisyl	trolamine salicylate
+irospan tablet	riboflavin
+irospan tablet	folic acid
+irospan tablet	iron-dextran complex
+irospan tablet	biotin
+irospan tablet	pyridoxine
+irospan tablet	pantothenate
+irospan tablet	ascorbic acid
+irospan tablet	niacin
+irospan tablet	thiamine
+irospan tablet	formic acid
+irospan tablet	ferrous bisglycinate
+irospan tablet	vitamin b12
+edurant	rilpivirine
+trianex	triamcinolone
+nexplanon	etonogestrel
+dificid	fidaxomicin
+iosat	potassium iodide
+benzodent	benzocaine
+nulojix	belatacept
+calmol	cocoa butter
+calmol	zinc oxide
+dayquil cough	dextromethorphan
+caprelsa	vandetanib
+xarelto	rivaroxaban
+rectiv	nitroglycerin
+kedbumin	albumin human, usp
+procort 1.85/1.15	hydrocortisone
+procort 1.85/1.15	pramoxine
+sumadan wash	sulfur
+sumadan wash	sulfacetamide
+neo-polycin hc	hydrocortisone
+neo-polycin hc	neomycin
+neo-polycin hc	polymyxin b
+neo-polycin hc	bacitracin
+lactocal	riboflavin
+lactocal	potassium iodide
+lactocal	vitamin a
+lactocal	ferrous fumarate
+lactocal	folic acid
+lactocal	magnesium oxide
+lactocal	vitamin e
+lactocal	pyridoxine
+lactocal	cholecalciferol
+lactocal	copper sulfate
+lactocal	ascorbic acid
+lactocal	thiamine
+lactocal	calcium carbonate
+lactocal	zinc sulfate
+lactocal	niacinamide
+lactocal	vitamin b12
+thera-d	cholecalciferol
+wal-fex	fexofenadine
+acetadryl	diphenhydramine
+acetadryl	acetaminophen
+jevantique	ethinyl estradiol
+jevantique	norethindrone
+brilinta	ticagrelor
+neo-polycin	neomycin
+neo-polycin	polymyxin b
+neo-polycin	bacitracin
+zenpep	amylase
+zenpep	lipase
+zenpep	protease
+a+d diaper rash	zinc oxide
+a+d diaper rash	dimethicone
+monistat soothing care	dimethicone
+gammaked	immunoglobulin g
+albuked	albumin human, usp
+vasoflex d1	hesperidin
+vasoflex d1	diosmin
+vitafol-one	riboflavin
+vitafol-one	potassium iodide
+vitafol-one	vitamin a
+vitafol-one	folic acid
+vitafol-one	magnesium oxide
+vitafol-one	vitamin e
+vitafol-one	pyridoxine
+vitafol-one	cholecalciferol
+vitafol-one	zinc oxide
+vitafol-one	ascorbic acid
+vitafol-one	niacin
+vitafol-one	cuprous oxide
+vitafol-one	thiamine
+vitafol-one	polysaccharide iron complex
+vitafol-one	vitamin b12
+anascorp	centruroides (scorpion) immune f(ab')2 (equine)
+xoten-c	capsaicin
+xoten-c	methyl salicylate
+xoten-c	menthol
+oramagic plus	benzocaine
+nicazel	folic acid
+nicazel	pyridoxine
+nicazel	zinc oxide
+nicazel	cupric oxide
+nicazel	niacinamide
+nicazel	azelate
+complera	emtricitabine
+complera	tenofovir disoproxil
+complera	rilpivirine
+koldets cough drop	menthol
+moisturel therapeutic	dimethicone
+nebusal	sodium chloride
+oscimin	hyoscyamine
+dermamycin	diphenhydramine
+zelboraf	vemurafenib
+adcetris	brentuximab vedotin
+mycinaire	sodium chloride
+lortuss ex	guaifenesin
+lortuss ex	codeine
+lortuss ex	pseudoephedrine
+firazyr	icatibant
+rosadan	metronidazole
+conzip	tramadol
+xalkori	crizotinib
+propel	mometasone
+mtx support	vitamin b12
+mtx support	folic acid
+optiflex-c	chondroitin sulfates
+optiflex-g	glucosamine
+lorzone	chlorzoxazone
+aminosyn ii 8.5 % with electrolytes, sulfite-free	lysine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	potassium chloride
+aminosyn ii 8.5 % with electrolytes, sulfite-free	valine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	phenylalanine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	isoleucine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	histidine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	glutamate
+aminosyn ii 8.5 % with electrolytes, sulfite-free	proline
+aminosyn ii 8.5 % with electrolytes, sulfite-free	tyrosine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	sodium phosphate, dibasic
+aminosyn ii 8.5 % with electrolytes, sulfite-free	leucine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	sodium chloride
+aminosyn ii 8.5 % with electrolytes, sulfite-free	serine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	aspartate
+aminosyn ii 8.5 % with electrolytes, sulfite-free	magnesium chloride
+aminosyn ii 8.5 % with electrolytes, sulfite-free	tryptophan
+aminosyn ii 8.5 % with electrolytes, sulfite-free	alanine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	threonine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	arginine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	methionine
+aminosyn ii 8.5 % with electrolytes, sulfite-free	glycine
+aminosyn 8.5 % with electrolytes, sulfite-free	sodium phosphate
+aminosyn 8.5 % with electrolytes, sulfite-free	lysine
+aminosyn 8.5 % with electrolytes, sulfite-free	potassium chloride
+aminosyn 8.5 % with electrolytes, sulfite-free	valine
+aminosyn 8.5 % with electrolytes, sulfite-free	phenylalanine
+aminosyn 8.5 % with electrolytes, sulfite-free	isoleucine
+aminosyn 8.5 % with electrolytes, sulfite-free	histidine
+aminosyn 8.5 % with electrolytes, sulfite-free	proline
+aminosyn 8.5 % with electrolytes, sulfite-free	tyrosine
+aminosyn 8.5 % with electrolytes, sulfite-free	leucine
+aminosyn 8.5 % with electrolytes, sulfite-free	sodium chloride
+aminosyn 8.5 % with electrolytes, sulfite-free	serine
+aminosyn 8.5 % with electrolytes, sulfite-free	magnesium chloride
+aminosyn 8.5 % with electrolytes, sulfite-free	tryptophan
+aminosyn 8.5 % with electrolytes, sulfite-free	alanine
+aminosyn 8.5 % with electrolytes, sulfite-free	threonine
+aminosyn 8.5 % with electrolytes, sulfite-free	arginine
+aminosyn 8.5 % with electrolytes, sulfite-free	methionine
+aminosyn 8.5 % with electrolytes, sulfite-free	glycine
+normosol-r in 5 % dextrose	sodium chloride
+normosol-r in 5 % dextrose	sodium gluconate
+normosol-r in 5 % dextrose	potassium chloride
+normosol-r in 5 % dextrose	glucose
+normosol-r in 5 % dextrose	sodium acetate
+normosol-r in 5 % dextrose	magnesium chloride
+trophamine 10 %	sodium metabisulfite
+trophamine 10 %	lysine
+trophamine 10 %	valine
+trophamine 10 %	phenylalanine
+trophamine 10 %	isoleucine
+trophamine 10 %	histidine
+trophamine 10 %	glutamate
+trophamine 10 %	proline
+trophamine 10 %	tyrosine
+trophamine 10 %	leucine
+trophamine 10 %	sodium chloride
+trophamine 10 %	serine
+trophamine 10 %	aspartate
+trophamine 10 %	tryptophan
+trophamine 10 %	alanine
+trophamine 10 %	threonine
+trophamine 10 %	taurine
+trophamine 10 %	arginine
+trophamine 10 %	methionine
+trophamine 10 %	sodium acetate
+trophamine 10 %	cysteine
+trophamine 10 %	glycine
+trophamine 6 %	sodium metabisulfite
+trophamine 6 %	lysine
+trophamine 6 %	valine
+trophamine 6 %	phenylalanine
+trophamine 6 %	isoleucine
+trophamine 6 %	histidine
+trophamine 6 %	glutamate
+trophamine 6 %	proline
+trophamine 6 %	tyrosine
+trophamine 6 %	leucine
+trophamine 6 %	sodium chloride
+trophamine 6 %	serine
+trophamine 6 %	aspartate
+trophamine 6 %	tryptophan
+trophamine 6 %	alanine
+trophamine 6 %	threonine
+trophamine 6 %	taurine
+trophamine 6 %	arginine
+trophamine 6 %	methionine
+trophamine 6 %	sodium acetate
+trophamine 6 %	cysteine
+trophamine 6 %	glycine
+wal-fex d	pseudoephedrine
+wal-fex d	fexofenadine
+ferriprox	deferiprone
+pedia-lax liquid glycerin suppositories	glycerin
+m-end max d	codeine
+m-end max d	pseudoephedrine
+m-end max d	dexbrompheniramine
+monistat itch relief	hydrocortisone
+tenivac	diphtheria toxoid vaccine, inactivated
+tenivac	tetanus toxoid vaccine, inactivated
+alcortin a	hydrocortisone
+alcortin a	iodoquinol
+alcortin a	aloe polysaccharide
+onfi	clobazam
+exparel	bupivacaine
+neutramaxx	sodium fluoride
+enemeez	docusate
+omni gel	stannous fluoride
+animi-3 with vitamin d	omega-3 acid ethyl esters (usp)
+animi-3 with vitamin d	phytosterols
+animi-3 with vitamin d	folic acid
+animi-3 with vitamin d	pyridoxine
+animi-3 with vitamin d	cholecalciferol
+animi-3 with vitamin d	vitamin b12
+dallergy reformulated nov 2011	phenylephrine
+dallergy reformulated nov 2011	chlorcyclizine
+zooby fluoride foam	sodium fluoride
+jakafi	ruxolitinib
+eylea	aflibercept
+fast freeze	camphor
+fast freeze	menthol
+erwinaze	asparaginase
+forfivo	bupropion
+numotizine	menthol
+eczemin	pramoxine
+zzzquil	diphenhydramine
+percogesic backache	magnesium salicylate
+percy medicine	bismuth subsalicylate
+band-aid hurt-free	lidocaine
+band-aid hurt-free	benzalkonium
+soothe night time	mineral oil
+soothe night time	petrolatum
+florajen3	bifidobacterium longum
+florajen3	bifidobacterium animalis
+florajen3	lactobacillus acidophilus
+stahist ad	chlorcyclizine
+stahist ad	pseudoephedrine
+therastat	menthol
+thoracol	menthol
+subsys	fentanyl
+voraxaze	glucarpidase
+myorisan	isotretinoin
+cem-urea	urea
+zetonna	ciclesonide
+bydureon	exenatide
+erivedge	vismodegib
+inlyta	axitinib
+kalydeco	ivacaftor
+os-cal 500 with d	cholecalciferol
+os-cal 500 with d	calcium carbonate
+caltrate gummy bites	tricalcium phosphate
+caltrate gummy bites	cholecalciferol
+mitosol	mitomycin
+sklice	ivermectin
+zioptan	tafluprost
+viactiv calcium plus d	cholecalciferol
+viactiv calcium plus d	vitamin k
+viactiv calcium plus d	calcium carbonate
+melatonex	pyridoxine
+melatonex	melatonin
+korlym	mifepristone
+digox	digoxin
+slow-mag reformulated feb 2012	magnesium chloride
+slow-mag reformulated feb 2012	calcium carbonate
+clearcanal	carbamide peroxide
+podocon	podophyllin
+viokace	amylase
+viokace	lipase
+viokace	protease
+zithranol	anthralin
+recticare	lidocaine
+bc arthritis	caffeine
+bc arthritis	aspirin
+bc original formula	caffeine
+bc original formula	aspirin
+binosto	alendronate
+qnasl	beclomethasone
+lidopatch	lidocaine
+lidopatch	menthol
+fiber choice	inulin
+fiber choice weight management	inulin
+fiber choice weight management	chromium picolinate
+pramegel reformulated apr 2012	pramoxine
+pramegel reformulated apr 2012	menthol
+urogesic blue reformulated apr 2012	methenamine
+urogesic blue reformulated apr 2012	methylene blue
+urogesic blue reformulated apr 2012	sodium phosphate, monobasic
+urogesic blue reformulated apr 2012	hyoscyamine
+actidose	activated charcoal
+ivy dry super continuous spray	benzyl alcohol
+ivy dry super continuous spray	camphor
+ivy dry super continuous spray	menthol
+hemril	hydrocortisone
+bactoshield	chlorhexidine
+stendra	avanafil
+proctosol	hydrocortisone
+elelyso	taliglucerase alfa
+dymista	azelastine
+dymista	fluticasone
+pregnitude	inositol
+pregnitude	folic acid
+domeboro	aluminum sulfate
+domeboro	calcium acetate
+somnicin	vitamin b6
+somnicin	magnesium oxide
+somnicin	5-hydroxytryptophan
+somnicin	tryptophan
+somnicin	melatonin
+fabior	tazarotene
+pharbetol	acetaminophen
+mexsana	corn starch
+pertzye	amylase
+pertzye	lipase
+pertzye	protease
+glucoburst	glucose
+perjeta	pertuzumab
+clarus	tolnaftate
+absorica	isotretinoin
+hysept	hypochlorite
+selsun blue naturals	salicylic acid
+isuprel	isoproterenol
+proprinal	ibuprofen
+ketodan	ketoconazole
+myrbetriq	mirabegron
+rezyst probiotic	saccharomyces boulardii
+soothe & cool skin paste	zinc oxide
+soothe & cool skin paste	petrolatum
+doculase	docusate
+benzepro	benzoyl peroxide
+ximino	minocycline
+kyprolis	carfilzomib
+tudorza	aclidinium
+rayos	prednisone
+arthriten inflammatory pain	caffeine
+arthriten inflammatory pain	acetaminophen
+arthriten inflammatory pain	aspirin
+denorex extra strength reformulated aug 2012	salicylic acid
+dialyvite vitamin d3 max	cholecalciferol
+next choice one dose	levonorgestrel
+duraflor	sodium fluoride
+zaltrap	aflibercept
+infuvite	riboflavin
+infuvite	vitamin a
+infuvite	folic acid
+infuvite	alpha tocopherol
+infuvite	biotin
+infuvite	cholecalciferol
+infuvite	pyridoxine
+infuvite	ascorbic acid
+infuvite	dexpanthenol
+infuvite	vitamin k1
+infuvite	thiamine
+infuvite	niacinamide
+infuvite	vitamin b12
+bucalsep	zinc chloride
+bucalsep	benzocaine
+bucalsep	cetylpyridinium
+bucalsep	menthol
+vascepa	icosapent ethyl
+marqibo	vincristine
+infuvite pediatric	riboflavin
+infuvite pediatric	vitamin a
+infuvite pediatric	folic acid
+infuvite pediatric	alpha tocopherol
+infuvite pediatric	biotin
+infuvite pediatric	cholecalciferol
+infuvite pediatric	pyridoxine
+infuvite pediatric	ascorbic acid
+infuvite pediatric	dexpanthenol
+infuvite pediatric	vitamin k1
+infuvite pediatric	thiamine
+infuvite pediatric	niacinamide
+infuvite pediatric	vitamin b12
+auvi-q	epinephrine
+stribild	elvitegravir
+stribild	emtricitabine
+stribild	cobicistat
+stribild	tenofovir disoproxil
+xtandi	enzalutamide
+linzess	linaclotide
+bosulif	bosutinib
+aubagio	teriflunomide
+revitaderm wound care	benzalkonium
+proclearz	tolnaftate
+stivarga	regorafenib
+quillivant	methylphenidate
+bensal	salicylic acid
+cystaran	cysteamine
+concept ob	riboflavin
+concept ob	ferrous fumarate
+concept ob	folic acid
+concept ob	manganese sulfate
+concept ob	biotin
+concept ob	copper sulfate
+concept ob	pyridoxine
+concept ob	pantothenate
+concept ob	ascorbic acid
+concept ob	niacin
+concept ob	magnesium sulfate
+concept ob	thiamine
+concept ob	zinc sulfate
+concept ob	polysaccharide iron complex
+concept ob	vitamin b12
+tandem plus	riboflavin
+tandem plus	ferrous fumarate
+tandem plus	folic acid
+tandem plus	manganese sulfate
+tandem plus	sodium ascorbate
+tandem plus	copper sulfate
+tandem plus	polysaccharide iron complex
+tandem plus	pantothenate
+tandem plus	pyridoxine
+tandem plus	thiamine
+tandem plus	zinc sulfate
+tandem plus	niacinamide
+tandem plus	vitamin b12
+bethkis	tobramycin
+murine dry eyes	polyvinyl alcohol
+murine dry eyes	povidone
+fungifoam	tolnaftate
+fycompa	perampanel
+synribo	omacetaxine mepesuccinate
+minivelle	estradiol
+xeljanz	tofacitinib
+medi-derm with lidocaine	lidocaine
+medi-derm with lidocaine	capsaicin
+medi-derm with lidocaine	methyl salicylate
+medi-derm with lidocaine	menthol
+cetafen	acetaminophen
+sudo-tab	phenylephrine
+exaprin	caffeine
+exaprin	acetaminophen
+exaprin	salicylamide
+exaprin	aspirin
+nutralox	calcium carbonate
+zephrex-d	pseudoephedrine
+nasopen pe	phenylephrine
+nasopen pe	thonzylamine
+backaid ipf	caffeine
+backaid ipf	acetaminophen
+backaid ipf	aspirin
+nexafed	pseudoephedrine
+fungicure maximum strength	undecylenate
+cometriq	cabozantinib
+wal-sleep z	diphenhydramine
+pcxx neutral foam	sodium fluoride
+signifor	pasireotide
+iclusig	ponatinib
+adasuve	loxapine
+bivigam	immunoglobulin g
+eliquis	apixaban
+gattex	teduglutide
+juxtapid	lomitapide
+sirturo	bedaquiline
+normlshield	dimethicone
+oxtellar	oxcarbazepine
+ilevro	nepafenac
+varizig	varicella-zoster immune globulin
+replesta nx	vitamin e
+replesta nx	cholecalciferol
+skyla	levonorgestrel
+ahist antihistamine	chlorcyclizine
+tepadina	thiotepa
+uceris	budesonide
+selsun blue sensitive scalp	zinc pyrithione
+nesina	alogliptin
+ravicti	glycerol phenylbutyrate
+delzicol	mesalamine
+pomalyst	pomalidomide
+allerclear	loratadine
+allerclear	pseudoephedrine
+gel-one	hyaluronate
+versacloz	clozapine
+osphena	ospemifene
+kadcyla	trastuzumab
+pancreaze	amylase
+pancreaze	lipase
+pancreaze	protease
+kazano	metformin
+kazano	alogliptin
+ascomp	caffeine
+ascomp	codeine
+ascomp	butalbital
+ascomp	aspirin
+marcaine with epinephrine	bupivacaine
+marcaine with epinephrine	epinephrine
+caltrate plus d	cholecalciferol
+caltrate plus d	calcium carbonate
+qsymia	topiramate
+qsymia	phentermine
+dulera	formoterol
+dulera	mometasone
+vimovo	naproxen
+vimovo	esomeprazole
+jentadueto	metformin
+jentadueto	linagliptin
+stalevo	entacapone
+stalevo	levodopa
+stalevo	carbidopa
+oseni	alogliptin
+oseni	pioglitazone
+hematogen	ascorbic acid
+hematogen	ferrous fumarate
+hematogen	vitamin b12
+hematogen	folic acid
+novolin	insulin isophane
+novolin	insulin, regular, human
+kombiglyze	metformin
+kombiglyze	saxagliptin
+tribenzor	hydrochlorothiazide
+tribenzor	olmesartan
+tribenzor	amlodipine
+exforge hct	valsartan
+exforge hct	hydrochlorothiazide
+exforge hct	amlodipine
+twynsta	telmisartan
+twynsta	amlodipine
+janumet	metformin
+janumet	sitagliptin
+gaviscon chewable	aluminum hydroxide
+gaviscon chewable	magnesium trisilicate
+novolog mix	insulin aspart protamine, human
+novolog mix	insulin aspart, human
+humulin	insulin isophane
+humulin	insulin, regular, human
+ibudone	hydrocodone
+ibudone	ibuprofen
+orabloc	articaine
+orabloc	epinephrine
+edarbyclor	chlorthalidone
+edarbyclor	azilsartan
+vecamyl	mecamylamine
+lenzapatch	lidocaine
+lenzapatch	menthol
+lenzagel	lidocaine
+lenzagel	menthol
+denorex therapeutic reformulated mar 2013	coal tar
+denorex therapeutic reformulated mar 2013	menthol
+zenatane	isotretinoin
+invokana	canagliflozin
+tecfidera	dimethyl fumarate
+karbinal	carbinoxamine
+prolensa	bromfenac
+diclegis	doxylamine
+diclegis	pyridoxine
+simbrinza	brimonidine
+simbrinza	brinzolamide
+procysbi	cysteamine
+scot-tussin diabetic cf	dextromethorphan
+relion glucose	glucose
+relion glucose	cholecalciferol
+nymalize	nimodipine
+glycophos	glyceryl phosphate
+wal-hist 12 hr relief	clemastine
+xofigo	radium
+new-skin liquid bandage	benzethonium
+mekinist	trametinib
+healthy mama	calcium carbonate
+tafinlar	dabrafenib
+zenzedi	dextroamphetamine
+lidopro	lidocaine
+lidopro	capsaicin
+lidopro	methyl salicylate
+lidopro	menthol
+imodium multi-symptom relief	loperamide
+imodium multi-symptom relief	simethicone
+my way	levonorgestrel
+bloxiverz	neostigmine
+brisdelle	paroxetine
+tekturna hct	hydrochlorothiazide
+tekturna hct	aliskiren
+gilotrif	afatinib
+zubsolv	buprenorphine
+zubsolv	naloxone
+astagraf	tacrolimus
+xolido	lidocaine
+vaporex	camphor
+vaporex	eucalyptus oil
+vaporex	menthol
+doloracin with lidocaine	lidocaine
+doloracin with lidocaine	capsaicin
+doloracin with lidocaine	methyl salicylate
+doloracin with lidocaine	menthol
+fetzima	levomilnacipran
+tivicay	dolutegravir
+tru-micin	trolamine salicylate
+injectafer	ferric carboxymaltose
+khedezla	desvenlafaxine
+gelato perio rinse	stannous fluoride
+epaned	enalapril
+decara	cholecalciferol
+trokendi	topiramate
+utopic	urea
+selrx	selenium sulfide
+mirvaso	brimonidine
+wp thyroid	thyroid (usp)
+valchlor	mechlorethamine
+wal-som	diphenhydramine
+zeasorb	miconazole
+rixubis	factor ix
+paroex	chlorhexidine
+glycate	glycopyrronium
+adempas	riociguat
+lagicam	miconazole
+urimar reformulated oct 2013	phenyl salicylate
+urimar reformulated oct 2013	hyoscyamine
+urimar reformulated oct 2013	methenamine
+urimar reformulated oct 2013	methylene blue
+urimar reformulated oct 2013	sodium phosphate, monobasic
+otrexup	methotrexate
+derma gran	aluminum hydroxide
+duavee	estrogens, conjugated (usp)
+duavee	bazedoxifene
+mederma advanced scar	allantoin
+zorvolex	diclofenac
+opsumit	macitentan
+keralyt 5	salicylic acid
+zohydro	hydrocodone
+ecoza	econazole
+pulmosal	sodium chloride
+granix	filgrastim
+gazyva	obinutuzumab
+eucerin eczema relief	colloidal oatmeal
+mederma pm	dimethicone
+imbruvica	ibrutinib
+aptiom	eslicarbazepine
+wal zyr 24 hour allergy	cetirizine
+luzu	luliconazole
+mederma stretch mark therapy	dimethicone
+velphoro	sucroferric oxyhydroxide
+varithena	polidocanol
+sovaldi	sofosbuvir
+kcentra	factor vii
+kcentra	prothrombin
+kcentra	protein c
+kcentra	protein s
+kcentra	factor ix
+kcentra	factor x
+aloe vesta daily moisturizer	dimethicone
+orasep reformulated dec 2013	benzocaine
+orasep reformulated dec 2013	cetylpyridinium
+orasep reformulated dec 2013	menthol
+orenitram	treprostinil
+critic-aid skin	zinc oxide
+aloe vesta antifungal	miconazole
+protopam	pralidoxime
+farxiga	dapagliflozin
+alocane	lidocaine
+ultrasal	salicylic acid
+anoro	vilanterol
+anoro	umeclidinium
+prodenrx rinse	sodium fluoride
+tretten	factor xiii
+z-sleep	diphenhydramine
+red cross canker sore	benzocaine
+baby anti monkey butt diaper rash cream	calamine
+baby anti monkey butt diaper rash cream	zinc oxide
+northera	droxidopa
+vimizim	elosulfase alfa
+adrenalin	epinephrine
+take action	levonorgestrel
+aveed	testosterone
+ipm wound	hyaluronate
+kera-42	urea
+kera nail	urea
+tivorbex	indomethacin
+hetlioz	tasimelteon
+myalept	metreleptin
+balmex ointment	petrolatum
+otezla	apremilast
+sitavig	acyclovir
+dr. smith's diaper rash	zinc oxide
+qudexy	topiramate
+hemangeol	propranolol
+impavido	miltefosine
+grastek	timothy grass pollen extract
+ragwitek	short ragweed pollen extract
+sylvant	siltuximab
+zykadia	ceritinib
+cyramza	ramucirumab
+alprolix	coagulation factor ix recombinant immunoglobulin g1 fusion protein
+buckley's cough suppressant	dextromethorphan
+purixan	mercaptopurine
+xulane	ethinyl estradiol
+xulane	norelgestromin
+styptstix	silver nitrate
+styptstix	potassium nitrate
+monovisc	hyaluronate
+zontivity	vorapaxar
+primlev	oxycodone
+primlev	acetaminophen
+entyvio	vedolizumab
+dalvance	dalbavancin
+neoq10	vitamin e
+neoq10	ubidecarenone
+alocane plus	lidocaine
+alocane plus	benzalkonium
+jublia	efinaconazole
+incruse	umeclidinium
+breo	vilanterol
+breo	fluticasone
+vogelxo	testosterone
+omidria	phenylephrine
+omidria	ketorolac
+neuac	benzoyl peroxide
+neuac	clindamycin
+sivextro	tedizolid
+clodan	clobetasol
+liquimat	sulfur
+vazculep	phenylephrine
+bunavail	buprenorphine
+bunavail	naloxone
+verdrocet	hydrocodone
+verdrocet	acetaminophen
+neo-synalar	neomycin
+neo-synalar	fluocinolone
+eloctate	efmoroctocog alfa
+kerydin	tavaborole
+natesto	testosterone
+afrezza	insulin, regular, human
+alevazol	clotrimazole
+beleodaq	belinostat
+radiaguard	lidocaine
+acticlate	doxycycline
+rasuvo	methotrexate
+zydelig	idelalisib
+ryanodex	dantrolene
+invokamet	metformin
+invokamet	canagliflozin
+afterpill	levonorgestrel
+jardiance	empagliflozin
+gleostine	lomustine
+striverdi	olodaterol
+plegridy	peginterferon beta-1a
+triumeq	lamivudine
+triumeq	abacavir
+triumeq	dolutegravir
+belsomra	suvorexant
+cerdelga	eliglustat
+nutrilyte	sodium gluconate
+nutrilyte	calcium acetate
+nutrilyte	potassium chloride
+nutrilyte	sodium acetate
+nutrilyte	magnesium acetate
+nutrilyte	potassium acetate
+keytruda	pembrolizumab
+orbactiv	oritavancin
+rea lo 39	urea
+arnuity	fluticasone
+opcicon one-step	levonorgestrel
+glydo	lidocaine
+perigiene	chloroxylenol
+eye stream	water
+qlearquil nasal decongestant	oxymetazoline
+oralair 100	perennial rye grass pollen extract
+oralair 100	orchard grass pollen extract
+oralair 100	timothy grass pollen extract
+oralair 100	kentucky bluegrass pollen extract
+oralair 100	sweet vernal grass pollen extract
+oralair 300	perennial rye grass pollen extract
+oralair 300	orchard grass pollen extract
+oralair 300	timothy grass pollen extract
+oralair 300	kentucky bluegrass pollen extract
+oralair 300	sweet vernal grass pollen extract
+mitigare	colchicine
+dynashield zo	zinc oxide
+aleve pm	naproxen
+aleve pm	diphenhydramine
+trulicity	dulaglutide
+contrave	bupropion
+contrave	naltrexone
+movantik	naloxegol
+tybost	cobicistat
+lanashield	lanolin
+akynzeo	palonosetron
+akynzeo	netupitant
+iluvien	fluocinolone
+excedrin mild headache	caffeine
+excedrin mild headache	acetaminophen
+harvoni	sofosbuvir
+harvoni	ledipasvir
+mircera	methoxy polyethylene glycol-epoetin beta
+esbriet	pirfenidone
+xigduo	metformin
+xigduo	dapagliflozin
+ofev	nintedanib
+obizur	factor viii
+excedrin pm triple action	diphenhydramine
+excedrin pm triple action	acetaminophen
+excedrin pm triple action	aspirin
+trumenba	meningococcal group b vaccine
+sotylize	sotalol
+vasostrict	vasopressin (usp)
+ninjacof	pyrilamine
+ninjacof	chlophedianol
+ninjacof a	pyrilamine
+ninjacof a	acetaminophen
+ninjacof a	chlophedianol
+lemtrada	alemtuzumab
+soothe mineral oil	mineral oil
+soothe mineral oil	mineral oil, light
+ninjacof xg	guaifenesin
+ninjacof xg	codeine
+jet-alert	caffeine
+hysingla	hydrocodone
+auryxia	ferric citrate
+kitabis	tobramycin
+gardasil 9	l1 protein, human papillomavirus type 45 vaccine
+gardasil 9	l1 protein, human papillomavirus type 6 vaccine
+gardasil 9	l1 protein, human papillomavirus type 33 vaccine
+gardasil 9	l1 protein, human papillomavirus type 16 vaccine
+gardasil 9	l1 protein, human papillomavirus type 11 vaccine
+gardasil 9	l1 protein, human papillomavirus type 31 vaccine
+gardasil 9	l1 protein, human papillomavirus type 58 vaccine
+gardasil 9	l1 protein, human papillomavirus type 52 vaccine
+gardasil 9	l1 protein, human papillomavirus type 18 vaccine
+blincyto	blinatumomab
+uro-blue	methenamine
+uro-blue	methylene blue
+uro-blue	sodium phosphate, monobasic
+uro-blue	hyoscyamine
+lynparza	olaparib
+zerbaxa	ceftolozane
+zerbaxa	tazobactam
+opdivo	nivolumab
+soolantra	ivermectin
+rapivab	peramivir
+saxenda	liraglutide
+obredon	hydrocodone
+obredon	guaifenesin
+xtoro	finafloxacin
+aftera	levonorgestrel
+onexton	benzoyl peroxide
+onexton	clindamycin
+rytary	levodopa
+rytary	carbidopa
+lidopro patch	lidocaine
+lidopro patch	methyl salicylate
+lidopro patch	menthol
+savaysa	edoxaban
+cosentyx	secukinumab
+ruconest	c1 esterase inhibitor
+duopa	levodopa
+duopa	carbidopa
+econtra	levonorgestrel
+evekeo	amphetamine
+prezcobix	cobicistat
+prezcobix	darunavir
+prestalia	perindopril
+prestalia	amlodipine
+pcxx neutral rinse	sodium fluoride
+aspi-cor	aspirin
+ibrance	palbociclib
+bexsero	meningococcal group b vaccine
+evotaz	atazanavir
+evotaz	cobicistat
+plenamine	tyrosine
+plenamine	lysine
+plenamine	arginine
+plenamine	leucine
+plenamine	methionine
+plenamine	serine
+plenamine	valine
+plenamine	phenylalanine
+plenamine	isoleucine
+plenamine	aspartate
+plenamine	histidine
+plenamine	glutamate
+plenamine	tryptophan
+plenamine	alanine
+plenamine	glycine
+plenamine	threonine
+plenamine	proline
+recticare wipes	lidocaine
+recticare wipes	glycerin
+natpara	parathyroid hormone
+glyxambi	linagliptin
+glyxambi	empagliflozin
+namzaric	donepezil
+namzaric	memantine
+farydak	panobinostat
+salinocaine	salicylic acid
+salinocaine	benzocaine
+eyes alive lubricating	carboxymethylcellulose
+avycaz	avibactam
+avycaz	ceftazidime
+nuvessa	metronidazole
+toujeo	insulin glargine
+zarxio	filgrastim
+liletta	levonorgestrel
+elepsia	levetiracetam
+unituxin	dinutuximab
+niva-fol	vitamin b6
+niva-fol	vitamin b12
+niva-fol	folic acid
+novoeight	factor viii
+jadenu	deferasirox
+quadracel	poliovirus vaccine inactivated, type 3 (saukett)
+quadracel	poliovirus vaccine inactivated, type 2 (mef-1)
+quadracel	diphtheria toxoid vaccine, inactivated
+quadracel	poliovirus vaccine inactivated, type 1 (mahoney)
+quadracel	tetanus toxoid vaccine, inactivated
+quadracel	acellular pertussis vaccine, inactivated
+triferic	ferric pyrophosphate
+wal-dryl pe	phenylephrine
+wal-dryl pe	diphenhydramine
+cholbam	cholic acid
+cresemba	isavuconazonium
+derma gran spray	zinc acetate
+zomacton	somatropin
+aptensio	methylphenidate
+vanatol	caffeine
+vanatol	butalbital
+vanatol	acetaminophen
+corlanor	ivabradine
+kybella	deoxycholate
+cleartime indoor & outdoor allergies	loratadine
+topicaine	lidocaine
+stiolto	tiotropium
+stiolto	olodaterol
+hycofenix	hydrocodone
+hycofenix	guaifenesin
+hycofenix	pseudoephedrine
+irenka	duloxetine
+tuzistra	chlorpheniramine
+tuzistra	codeine
+imogam	rabies immune globulin, human
+viberzi	eluxadoline
+glatopa	glatiramer
+nutrilipid	soybean oil
+orkambi	lumacaftor
+orkambi	ivacaftor
+kengreal	cangrelor
+relador	lidocaine
+relador	prilocaine
+entresto	valsartan
+entresto	sacubitril
+morning after	levonorgestrel
+rexulti	brexpiprazole
+praluent	alirocumab
+imovax	rabies virus vaccine wistar strain pm-1503-3m (human), inactivated
+lexinal	biotin
+odomzo	sonidegib
+exidine	chlorhexidine
+monistat simple therapy	tioconazole
+keveyis	dichlorphenamide
+aquaphor diaper rash	zinc oxide
+synjardy	metformin
+synjardy	empagliflozin
+envarsus	tacrolimus
+oxaydo	oxycodone
+durlaza	aspirin
+xuriden	uridine triacetate
+repatha	evolocumab
+mondoxyne	doxycycline
+ixinity	factor ix
+addyi	flibanserin
+spherusol	coccidioides immitis spherule
+ionsys	fentanyl
+vraylar	cariprazine
+tolak	fluorouracil
+tresiba	insulin degludec
+lonsurf	trifluridine
+lonsurf	tipiracil
+profilnine	factor ix complex
+aristada	aripiprazole lauroxil
+varubi	rolapitant
+wal-dram 2	meclizine
+hemmorex	hydrocortisone
+belbuca	buprenorphine
+enstilar	betamethasone
+enstilar	calcipotriene
+praxbind	idarucizumab
+veltassa	patiromer
+yondelis	trabectedin
+koate	factor viii
+gavilyte-h	sodium bicarbonate
+gavilyte-h	sodium chloride
+gavilyte-h	polyethylene glycol 3350
+gavilyte-h	potassium chloride
+coagadex	factor x
+onivyde	irinotecan
+strensiq	asfotase alfa
+dyanavel	amphetamine
+nucala	mepolizumab
+imlygic	herpesvirus 1, human
+azo urinary tract defense	methenamine
+azo urinary tract defense	salicylic acid
+tagrisso	osimertinib
+genvoya	emtricitabine
+genvoya	tenofovir alafenamide
+genvoya	cobicistat
+genvoya	elvitegravir
+darzalex	daratumumab
+the itch eraser	diphenhydramine
+anthrasil	anthrax immune globulin
+vivlodex	meloxicam
+cotellic	cobimetinib
+portrazza	necitumumab
+ninlaro	ixazomib
+lidotral	lidocaine
+np thyroid	thyroid (usp)
+bendeka	bendamustine
+empliciti	elotuzumab
+kanuma	sebelipase alfa
+bridion	sugammadex
+quillichew	methylphenidate
+alecensa	alectinib
+uptravi	selexipag
+nuwiq	factor viii
+roweepra	levetiracetam
+zepatier	elbasvir
+zepatier	grazoprevir
+genvisc	hyaluronate
+z-bum	zinc oxide
+option 2	levonorgestrel
+spritam	levetiracetam
+fyavolv	ethinyl estradiol
+fyavolv	norethindrone
+basaglar	insulin glargine
+z-guard	zinc oxide
+z-guard	petrolatum
+emverm	mebendazole
+sernivo	betamethasone
+zembrace	sumatriptan
+silka cream	terbinafine
+onzetra	sumatriptan
+briviact	brivaracetam
+vistogard	uridine triacetate
+adzenys	amphetamine
+phenohytro	hyoscyamine
+phenohytro	phenobarbital
+phenohytro	scopolamine
+phenohytro	atropine
+adynovate	factor viii
+phazyme gas & acid	simethicone
+phazyme gas & acid	calcium carbonate
+odefsey	emtricitabine
+odefsey	tenofovir alafenamide
+odefsey	rilpivirine
+clarispray	fluticasone
+kovaltry	factor viii
+idelvion	factor ix
+mg217 psoriasis salicylic acid	salicylic acid
+duo fusion	magnesium hydroxide
+duo fusion	famotidine
+duo fusion	calcium carbonate
+evomela	melphalan
+taltz	ixekizumab
+recticare advance cream	mineral oil
+recticare advance cream	lidocaine
+recticare advance cream	phenylephrine
+recticare advance cream	petrolatum
+wal-som (doxylamine)	doxylamine
+defitelio	defibrotide
+cinqair	reslizumab
+anthim	obiltoxaximab
+venclexta	venetoclax
+descovy	emtricitabine
+descovy	tenofovir alafenamide
+react	levonorgestrel
+provayblue	methylene blue
+vanamine	diphenhydramine
+bromsite	bromfenac
+cabometyx	cabozantinib
+xtampza	oxycodone
+inflectra	infliximab
+bevespi	glycopyrronium
+bevespi	formoterol
+procto-med	hydrocortisone
+trintellix	vortioxetine
+nuplazid	pimavanserin
+lenvima	lenvatinib
+otovel	ciprofloxacin
+otovel	fluocinolone
+tecentriq	atezolizumab
+evarrest	fibrinogen
+evarrest	thrombin
+aller-flo	fluticasone
+afstyla	factor viii
+akovaz	ephedrine
+yuvafem	estradiol
+byvalson	valsartan
+byvalson	nebivolol
+ocaliva	obeticholic acid
+vitron-c reformulated jul 2016	iron carbonyl
+vitron-c reformulated jul 2016	ascorbic acid
+epclusa	velpatasvir
+epclusa	sofosbuvir
+gonitro	nitroglycerin
+sps	sodium polystyrene sulfonate
+xiidra	lifitegrast
+ameluz	aminolevulinic acid
+mytesi	crofelemer
+qbrelis	lisinopril
+targadox	doxycycline
+kovanaze	oxymetazoline
+kovanaze	tetracaine
+lomaira	phentermine
+sustol	granisetron
+exondys	eteplirsen
+yosprala	omeprazole
+yosprala	aspirin
+vonvendi	vonicog alfa
+lysine plus	menthol
+vaxchora	vibrio cholerae cvd 103-hgr strain live antigen
+cuvitru	immunoglobulin g
+zinplava	bezlotoxumab
+rayaldee	calcifediol
+her style	levonorgestrel
+kyleena	levonorgestrel
+vemlidy	tenofovir alafenamide
+soliqua	insulin glargine
+soliqua	lixisenatide
+xultophy	liraglutide
+xultophy	insulin degludec
+rubraca	rucaparib
+spinraza	nusinersen
+eucrisa	crisaborole
+sting-kill	benzocaine
+sting-kill	menthol
+gel-syn	hyaluronate
+flonase sensimist	fluticasone
+nupro chlorhexidine	chlorhexidine
+rhofade	oxymetazoline
+ryvent	carbinoxamine
+emflaza	deflazacort
+panadol extra	caffeine
+panadol extra	acetaminophen
+siliq	brodalumab
+xermelo	telotristat ethyl
+cepastat sore throat & cough	dextromethorphan
+cepastat sore throat & cough	benzocaine
+cepastat sore throat & cough	menthol
+colace w/sennosides	sennosides, usp
+colace w/sennosides	docusate
+tranzarel	lidocaine
+trulance	plecanatide
+kisqali	ribociclib
+noctiva	desmopressin
+bavencio	avelumab
+parsabiv	etelcalcetide
+nipride	nitroprusside
+ocrevus	ocrelizumab
+norisc	benzethonium
+dupixent	dupilumab
+symproic	naldemedine
+stamaril	yellow fever virus strain 17d-204 live antigen
+austedo	deutetrabenazine
+airduo	salmeterol
+airduo	fluticasone
+ingrezza	valbenazine
+zejula	niraparib
+dormin	diphenhydramine
+rydapt	midostaurin
+imfinzi	durvalumab
+tymlos	abaloparatide
+alunbrig	brigatinib
+xatmep	methotrexate
+radicava	edaravone
+cnj-016	human vaccinia immune globulin
+brineura	cerliponase
+xadago	safinamide
+my choice	levonorgestrel
+rhuli	camphor
+rhuli	menthol
+kevzara	sarilumab
+qtern	dapagliflozin
+qtern	saxagliptin
+photrexa	riboflavin 5'-phosphate
+benadryl allergy plus congestion	phenylephrine
+benadryl allergy plus congestion	diphenhydramine
+viabecline	tetracycline
+haegarda	c1 esterase inhibitor
+cotempla	methylphenidate
+renflexis	infliximab
+mydayis	dextroamphetamine
+mydayis	amphetamine
+baxdela	delafloxacin
+intrarosa	prasterone
+rituxan hycela	hyaluronidase
+rituxan hycela	rituximab
+tremfya	guselkumab
+ultacan	articaine
+ultacan	epinephrine
+quinja	iodoquinol
+quinja	aloe polysaccharide
+endari	glutamine
+syndros	dronabinol
+vosevi	velpatasvir
+vosevi	voxilaprevir
+vosevi	sofosbuvir
+lidozen	lidocaine
+lidozen	menthol
+idhifa	enasidenib
+vanacof ac	pyrilamine
+vanacof ac	chlophedianol
+nerlynx	neratinib
+mavyret	pibrentasvir
+mavyret	glecaprevir
+nityr	nitisinone
+minolira	minocycline
+armonair	fluticasone
+lollicaine	benzocaine
+vyxeos	daunorubicin
+vyxeos	cytarabine
+ala seb t	coal tar
+ala seb t	salicylic acid
+ala seb t	sulfur
+devrom	bismuth subgallate
+besponsa	inotuzumab ozogamicin
+carospir	spironolactone
+flolipid	simvastatin
+gocovri	amantadine
+triptodur	triptorelin
+roxybond	oxycodone
+trelegy	vilanterol
+trelegy	umeclidinium
+trelegy	fluticasone
+aliqopa	copanlisib
+na-zone	sodium chloride
+calmoseptine	petrolatum
+calmoseptine	lanolin
+calmoseptine	zinc oxide
+calmoseptine	menthol
+xhance	fluticasone
+vabomere	meropenem
+vabomere	vaborbactam
+solosec	secnidazole
+clorotekal	chloroprocaine
+verzenio	abemaciclib
+zilretta	triamcinolone
+fibryga	fibrinogen
+fiasp	insulin aspart, human
+xalix	salicylic acid
+clinolipid	soybean oil
+clinolipid	olive oil
+kymriah	tisagenlecleucel
+calquence	acalabrutinib
+shingrix	varicella zoster virus glycoprotein e
+cortizone	hydrocortisone
+yescarta	axicabtagene ciloleucel
+tiadylt	diltiazem
+vyzulta	latanoprostene bunod
+tolcylen	tolnaftate
+prevymis	letermovir
+fasenra	benralizumab
+symjepi	epinephrine
+juluca	rilpivirine
+juluca	dolutegravir
+hemlibra	emicizumab
+mepsevii	vestronidase alfa
+rebinyn	factor ix
+ozempic	semaglutide
+monistat care	benzocaine
+clenpiq	magnesium oxide
+clenpiq	picosulfurate
+clenpiq	citric acid
+admelog	insulin lispro
+kedrab	rabies immune globulin, human
+lonhala	glycopyrronium
+segluromet	metformin
+segluromet	ertugliflozin
+steglatro	ertugliflozin
+steglujan	sitagliptin
+steglujan	ertugliflozin
+rhopressa	netarsudil
+eskata	hydrogen peroxide
+heplisav-b	hepatitis b surface antigen vaccine
+xepi	ozenoxacin
+cinvanti	aprepitant
+goprelto	cocaine
+impoyz	clobetasol
+luxturna	voretigene neparvovec
+sinuva	mometasone
+sublocade	buprenorphine
+fluticare	fluticasone
+tarsum reformulated	coal tar
+odactra	american house dust mite allergenic extract
+odactra	european house dust mite allergenic extract
+giapreza	angiotensin ii
+lumify	brimonidine
+mylicon children's	simethicone
+mylicon children's	calcium carbonate
+siklos	hydroxyurea
+visco-3	hyaluronate
+erleada	apalutamide
+bonjesta	doxylamine
+bonjesta	pyridoxine
+biktarvy	bictegravir
+biktarvy	emtricitabine
+biktarvy	tenofovir alafenamide
+lutathera	dotatate
+firvanq	vancomycin
+tums with gas relief	simethicone
+tums with gas relief	calcium carbonate
+zypitamag	pitavastatin
+preventeza	levonorgestrel
+apadaz	acetaminophen
+apadaz	benzhydrocodone
+ztlido	lidocaine
+subvenite	lamotrigine
+ascor	ascorbic acid
+cimduo	lamivudine
+cimduo	tenofovir disoproxil
+evivo	bifidobacterium infantis
+steritalc	talc
+new day	levonorgestrel
+listerine ultraclean	eucalyptol
+listerine ultraclean	thymol
+listerine ultraclean	methyl salicylate
+listerine ultraclean	menthol
+trogarzo	ibalizumab
+symfi	efavirenz
+symfi	lamivudine
+symfi	tenofovir disoproxil
+crysvita	burosumab
+jynarque	tolvaptan
+osmolex	amantadine
+tavalisse	fostamatinib
+andexxa	andexanet alfa
+flac	fluocinolone
+dexycu	dexamethasone
+dragon	camphor
+dragon	methyl salicylate
+dragon	menthol
+nalocet	oxycodone
+nalocet	acetaminophen
+aimovig	erenumab
+doptelet	avatrombopag
+mvasi	bevacizumab
+palynziq	pegvaliase
+yonsa	abiraterone
+lucemyra	lofexidine
+olumiant	baricitinib
+retacrit	epoetin alfa
+lokelma	sodium zirconium cyclosilicate
+kapspargo	metoprolol
+vigadrone	vigabatrin
+fulphila	pegfilgrastim
+nocdurna	desmopressin
+imvexxy	estradiol
+braftovi	encorafenib
+mektovi	binimetinib
+zemdri	plazomicin
+consensi	celecoxib
+consensi	amlodipine
+crotan	crotamiton
+avoca	silver nitrate
+avoca	potassium nitrate
+symtuza	emtricitabine
+symtuza	tenofovir alafenamide
+symtuza	cobicistat
+symtuza	darunavir
+orilissa	elagolix
+tibsovo	ivosidenib
+relexxii	methylphenidate
+sucrets sore throat	dyclonine
+sucrets sore throat	menthol
+azedra	3-iodobenzylguanidine
+ilumya	tildrakizumab
+omegaven	fish oil (containing omega-3 acids)
+onpattro	patisiran
+poteligeo	mogamulizumab
+arakoda	tafenoquine
+qbrexza	glycopyrronium
+albuminex	albumin human, usp
+galafold	migalastat
+diacomit	stiripentol
+mulpleta	lusutrombopag
+altreno	tretinoin
+cequa	cyclosporine
+tpoxx	tecovirimat
+inveltys	loteprednol etabonate
+mitigo	morphine
+takhzyro	lanadelumab
+jivi	damoctocog alfa pegol
+perseris	risperidone
+pifeltro	doravirine
+delstrigo	lamivudine
+delstrigo	doravirine
+delstrigo	tenofovir disoproxil
+xerava	eravacycline
+annovera	ethinyl estradiol
+annovera	segesterone
+luden's dual relief	pectin
+luden's dual relief	menthol
+ajovy	fremanezumab
+xelpros	latanoprost
+nivestym	filgrastim
+mucilin	psyllium
+vanalice	piperonyl butoxide
+vanalice	pyrethrins
+copiktra	duvelisib
+libtayo	cemiplimab
+ryclora	dexchlorpheniramine
+infugem	gemcitabine
+emgality	galcanezumab
+epidiolex	cannabidiol
+vizimpro	dacomitinib
+seysara	sarecycline
+arikayce	amikacin
+revcovi	elapegademase
+tiglutik	riluzole
+nuzyra	omadacycline
+tuxarin	chlorpheniramine
+tuxarin	codeine
+lumoxiti	moxetumomab pasudotox
+tegsedi	inotersen
+yutiq	fluocinolone
+altafluor	fluorescein
+altafluor	benoxinate
+xyosted	testosterone
+talzenna	talazoparib
+xofluza	baloxavir marboxil
+anavip	crotalidae immune f(ab')2
+bryhali	halobetasol
+panzyga	immunoglobulin g
+udenyca	pegfilgrastim
+sympazan	clobazam
+yupelri	revefenacin
+lorbrena	lorlatinib
+dsuvia	sufentanil
+oxervate	cenegermin
+gamifant	emapalumab
+vitrakvi	larotrectinib
+xospata	gilteritinib
+truxima	rituximab
+daurismo	glasdegib
+arthritis hot pain relief	methyl salicylate
+arthritis hot pain relief	menthol
+tdvax	diphtheria toxoid vaccine, inactivated
+tdvax	tetanus toxoid vaccine, inactivated
+aemcolo	rifamycin sv
+khapzory	levoleucovorin
+lexette	halobetasol
+tolsura	itraconazole
+laxacin	sennosides, usp
+laxacin	docusate
+herzuma	trastuzumab
+ultomiris	ravulizumab
+motegrity	prucalopride
+firdapse	amifampridine
+inbrija	levodopa
+dextenza	dexamethasone
+dermacerin	petrolatum
+bijuva	estradiol
+bijuva	progesterone
+elzonris	tagraxofusp
+krintafel	tafenoquine
+vaxelis	poliovirus vaccine inactivated, type 3 (saukett)
+vaxelis	haemophilus influenzae b (ross strain) capsular polysaccharide meningococcal protein conjugate vaccine
+vaxelis	poliovirus vaccine inactivated, type 2 (mef-1)
+vaxelis	diphtheria toxoid vaccine, inactivated
+vaxelis	poliovirus vaccine inactivated, type 1 (mahoney)
+vaxelis	hepatitis b surface antigen vaccine
+vaxelis	tetanus toxoid vaccine, inactivated
+vaxelis	acellular pertussis vaccine, inactivated
+trivisc	hyaluronate
+durolane	hyaluronate
+hymovis	hyaluronate
+alyq	tadalafil
+wixela	salmeterol
+wixela	fluticasone
+dramamine nausea relief	meclizine
+cablivi	caplacizumab
+dotti	estradiol
+jeuveau	botulinum toxin type a
+qmiiz	meloxicam
+egaten	triclabendazole
+spravato	esketamine
+zerviate	cetirizine
+rocklatan	latanoprost
+rocklatan	netarsudil
+herceptin hylecta	trastuzumab
+herceptin hylecta	hyaluronidase
+activice	menthol
+lipocaine	lidocaine
+mayzent	siponimod
+beser	fluticasone
+asparlas	calaspargase pegol
+sunosi	solriamfetol
+jatenzo	testosterone
+zulresso	brexanolone
+dovato	lamivudine
+dovato	dolutegravir
+mavenclad	cladribine
+temixys	lamivudine
+temixys	tenofovir disoproxil
+asceniv	immunoglobulin g
+balversa	erdafitinib
+evenity	romosozumab
+duobrii	halobetasol
+duobrii	tazarotene
+skyrizi	risankizumab
+thyrogen	thyrotropin alfa
+cutaquig	immunoglobulin g
+ezallor	rosuvastatin
+vyndamax	tafamidis
+vyndaqel	tafamidis
+jornay	methylphenidate
+elcys	cysteine
+piqray	alpelisib
+zolgensma	onasemnogene abeparvovec
+nayzilam	midazolam
+polivy	polatuzumab vedotin
+calagel reformulated jun 2019	diphenhydramine
+kanjinti	trastuzumab
+vyleesi	bremelanotide
+pediaclear	pyrilamine
+tosymra	sumatriptan
+belrapzo	bendamustine
+xpovio	selinexor
+pediaclear childrens	triprolidine
+myxredlin	insulin, regular, human
+ogivri	trastuzumab
+nubeqa	darolutamide
+tovet	clobetasol
+enzoclear	benzoyl peroxide
+gloperba	colchicine
+baqsimi	glucagon
+turalio	pexidartinib
+katerzia	amlodipine
+recarbrio	relebactam
+recarbrio	cilastatin
+recarbrio	imipenem
+xembify	immunoglobulin g
+rinvoq	upadacitinib
+inrebic	fedratinib
+dengvaxia	dengue virus live antigen, cyd serotype 4
+dengvaxia	dengue virus live antigen, cyd serotype 2
+dengvaxia	dengue virus live antigen, cyd serotype 1
+dengvaxia	dengue virus live antigen, cyd serotype 3
+rozlytrek	entrectinib
+wakix	pitolisant
+xenleta	lefamulin
+nourianz	istradefylline
+dyclopro	dyclonine
+gvoke	glucagon
+ibsrela	tenapanor
+pediaclear cough	diphenhydramine
+drizalma	duloxetine
+rybelsus	semaglutide
+ozobax	baclofen
+beovu	brolucizumab
+duaklir	formoterol
+duaklir	aclidinium
+aklief	trifarotene
+reyvow	lasmiditan
+amzeeq	minocycline
+ziextenzo	pegfilgrastim
+vtol	caffeine
+vtol	butalbital
+vtol	acetaminophen
+quzyttir	cetirizine
+vumerity	diroximel fumarate
+talicia	omeprazole
+talicia	amoxicillin
+talicia	rifabutin
+scenesse	afamelanotide
+adakveo	crizanlizumab
+brukinsa	zanubrutinib
+reblozyl	luspatercept
+lido king	lidocaine
+zionodil	lidocaine
+evicel	fibrinogen
+evicel	thrombin
+vistaseal	fibrinogen
+vistaseal	thrombin
+regoxidine	minoxidil
+xcopri	cenobamate
+fetroja	cefiderocol
+givlaari	givosiran
+secuado	asenapine
+eluryng	ethinyl estradiol
+eluryng	etonogestrel
+avsola	infliximab
+vyondys 53	golodirsen
+paragard	copper
+arazlo	tazarotene
+exservan	riluzole
+enhertu	trastuzumab
+zirabev	bevacizumab
+padcev	enfortumab
+ubrelvy	ubrogepant
+hematex	polysaccharide iron complex
+ayvakit	avapritinib
+dayvigo	lemborexant
+numbrino	cocaine
+valtoco	diazepam
+ortikos	budesonide
+ruxience	rituximab
+tazverik	tazemetostat
+monoferric	ferric derisomaltose
+tepezza	teprotumumab
+caplyta	lumateperone
+esperoct	factor viii
+allzital	butalbital
+allzital	acetaminophen
+palforzia	peanut allergenic extract
+prolate	oxycodone
+prolate	acetaminophen
+trazimera	trastuzumab
+anjeso	meloxicam
+mederma for kids	allantoin
+sarclisa	isatuximab
+nurtec	rimegepant
+nexletol	bempedoic acid
+vyepti	eptinezumab
+nexlizet	ezetimibe
+nexlizet	bempedoic acid
+barhemsys	amisulpride
+hemady	dexamethasone
+isturisa	osilodrostat
+nouress	cysteine
+alahist d	phenylephrine
+alahist d	pheniramine
+durysta	bimatoprost
+pirnuo	mupirocin
+zeposia	ozanimod
+ontruzant	trastuzumab
+aller-cort	triamcinolone
+koselugo	selumetinib
+trijardy	metformin
+trijardy	linagliptin
+trijardy	empagliflozin
+pemazyre	pemigatinib
+trodelvy	sacituzumab
+bynfezia	octreotide
+menquadfi	neisseria meningitidis serogroup w-135 capsular polysaccharide tetanus toxoid protein conjugate vaccine
+menquadfi	neisseria meningitidis serogroup c capsular polysaccharide tetanus toxoid protein conjugate vaccine
+menquadfi	neisseria meningitidis serogroup y capsular polysaccharide tetanus toxoid protein conjugate vaccine
+menquadfi	neisseria meningitidis serogroup a capsular polysaccharide tetanus toxoid protein conjugate vaccine
+tukysa	tucatinib
+ongentys	opicapone
+tabrecta	capmatinib
+emerphed	ephedrine
+qinlock	ripretinib
+retevmo	selpercatinib
+kynmobi	apomorphine
+glyrx	glycopyrronium
+fensolvi	leuprolide
+elyxyb	celecoxib
+uplizna	inebilizumab
+zepzelca	lurbinectedin
+darzalex faspro	daratumumab
+darzalex faspro	hyaluronidase
+zilxi	minocycline
+jelmyto	mitomycin
+semglee	insulin glargine
+reditrex	methotrexate
+conjupri	levamlodipine
+lyumjev	insulin lispro
+rukobia	fostemsavir
+gimoti	metoclopramide
+mycapssa	octreotide
+fintepla	fenfluramine
+phesgo	pertuzumab
+phesgo	trastuzumab
+phesgo	hyaluronidase
+dojolvi	triheptanoin
+byfavo	remimazolam
+inqovi	cedazuridine
+inqovi	decitabine
+licart	diclofenac
+phexxi	citric acid
+phexxi	lactate
+phexxi	potassium bitartrate
+sevenfact	factor viia
+breztri	glycopyrronium
+breztri	formoterol
+breztri	budesonide
+monjuvi	tafasitamab
+tecartus	brexucabtagene autoleucel
+blenrep	belantamab mafodotin
+twirla	ethinyl estradiol
+twirla	levonorgestrel
+viltepso	viltolarsen
+evrysdi	risdiplam
+kesimpta	ofatumumab
+enspryng	satralizumab
+upneeq	oxymetazoline
+olinvyk	oliceridine
+bafiertam	monomethyl fumarate
+xywav	oxybate
+gavreto	pralsetinib
+veklury	remdesivir
+xaracoll	bupivacaine
+qdolo	tramadol
+bronkaid max	ephedrine
+onureg	azacitidine
+cystadrops	cysteamine
+regiocit	sodium citrate
+regiocit	sodium chloride
+lampit	nifurtimox
+alkindi	hydrocortisone
+lyllana	estradiol
+inmazeb	maftivimab
+inmazeb	odesivimab
+inmazeb	atoltivimab
+impeklo	clobetasol
+aquaphor itch relief	hydrocortisone
+eticovo	etanercept
+jynneos	vaccinia virus
+eysuvis	loteprednol etabonate
+sutab	potassium chloride
+sutab	sodium sulfate
+sutab	magnesium sulfate
+oxlumo	lumasiran
+nizoral psoriasis	salicylic acid
+orladeyo	berotralstat
+zokinvy	lonafarnib
+nyvepria	pegfilgrastim
+imcivree	setmelanotide
+wilzin	zinc acetate
+klisyri	tirbanibulin
+wynzora	betamethasone
+wynzora	calcipotriene
+ebanga	ansuvimab
+gemtesa	vibegron
+riabni	rituximab
+orgovyx	relugolix
+thyquidity	levothyroxine
+margenza	margetuximab
+danyelza	naxitamab
+e-z-gas ii	simethicone
+e-z-gas ii	citric acid
+e-z-gas ii	sodium bicarbonate
+winlevi	clascoterone
+lydexa	lidocaine
+vocabria	cabotegravir
+bactine wound wash	benzalkonium
+lupkynis	voclosporin
+bronchitol	mannitol
+verquvo	vericiguat
+qwo	collagenase clostridium histolyticum
+xylimelts	xylitol
+tepmetko	tepotinib
+reltone	ursodeoxycholate
+alocane max strength	lidocaine
+alocane max strength	benzalkonium
+evkeeza	evinacumab
+breyanzi	lisocabtagene maraleucel
+cosela	trilaciclib
+amondys 45	casimersen
+zafemy	ethinyl estradiol
+zafemy	norelgestromin
+nulibry	fosdenopterin
+ponvory	ponesimod
+kimyrsa	oritavancin
+fotivda	tivozanib
+zegalogue	dasiglucagon
+roszet	rosuvastatin
+roszet	ezetimibe
+abecma	idecabtagene vicleucel
+qelbree	viloxazine
+hexatrione	triamcinolone
+accrufer	ferric maltol
+jemperli	dostarlimab
+kloxxado	naloxone
+zynlonta	loncastuximab tesirine
+rybrevant	amivantamab
+lumakras	sotorasib
+aleve arthritis pain	diclofenac
+truseltiq	infigratinib
+wegovy	semaglutide
+myfembree	norethindrone
+myfembree	estradiol
+myfembree	relugolix
+ryplazim	plasminogen
+aduhelm	aducanumab
+empaveli	pegcetacoplan
+sogroya	somapacitan
+rezipres	ephedrine
+brexafemme	ibrexafungerp
+zynrelef	bupivacaine
+zynrelef	meloxicam
+rylaze	asparaginase
+azstarys	dexmethylphenidate
+azstarys	serdexmethylphenidate
+kerendia	finerenone
+posimir	bupivacaine
+vazalore	aspirin
+bylvay	odevixibat
+rezurock	belumosudil
+saphnelo	anifrolumab
+twyneo	benzoyl peroxide
+twyneo	tretinoin
+nexviazyme	avalglucosidase alfa
+prevnar 20	streptococcus pneumoniae serotype 12f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 9v capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 23f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 14 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 6b capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 6a capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 7f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 22f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 8 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 19a capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 4 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 10a capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 5 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 15b capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 3 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 19f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 18c capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 1 capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 33f capsular antigen diphtheria crm197 protein conjugate vaccine
+prevnar 20	streptococcus pneumoniae serotype 11a capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 6a capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 7f capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 22f capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 18c capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 1 capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 5 capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 3 capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 9v capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 19a capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 33f capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 23f capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 19f capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 14 capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 4 capsular antigen diphtheria crm197 protein conjugate vaccine
+vaxneuvance	streptococcus pneumoniae serotype 6b capsular antigen diphtheria crm197 protein conjugate vaccine
+welireg	belzutifan
+desrx	desonide
+multrys	selenious acid
+multrys	zinc sulfate
+multrys	copper sulfate
+multrys	manganese sulfate
+folditam	cholecalciferol
+folditam	folic acid
+korsuva	difelikefalin
+sajazir	icatibant
+loreev	lorazepam
+skytrofa	lonapegsomatropin
+trudhesa	dihydroergotamine
+lybalvi	samidorphan
+lybalvi	olanzapine
+exkivity	mobocertinib
+opzelura	ruxolitinib
+livmarli	maralixibat
+tivdak	tisotumab
+qulipta	atogepant
+tavneos	avacopan
+tyrvaya	varenicline
+ticovac	tick-borne encephalitis purified antigen
+scemblix	asciminib
+lofena	diclofenac
+cortrophin	corticotropin
+vuity	pilocarpine
+susvimo	ranibizumab
+xipere	triamcinolone
+dhivy	levodopa
+dhivy	carbidopa
+livtencity	maribavir
+ivizia	povidone
+voxzogo	vosoritide
+eprontia	topiramate
+lyvispah	baclofen
+fyarro	sirolimus
+besremi	ropeginterferon alfa-2b
+fyremadel	ganirelix
+vyvgart	efgartigimod alfa
+entadfi	tadalafil
+entadfi	finasteride
+tezspire	tezepelumab
+xaciato	clindamycin
+tarpeyo	budesonide
+apretude	cabotegravir
+prehevbrio	hepatitis b surface antigen vaccine
+leqvio	inclisiran
+seglentis	tramadol
+seglentis	celecoxib
+recorlev	ketoconazole
+rezvoglar	insulin glargine
+dartisla	glycopyrronium
+adbry	tralokinumab
+zimhi	naloxone
+soaanz	torsemide
+verkazia	cyclosporine
+pemfexy	pemetrexed
+kimmtrak	tebentafusp
+gas-x total relief	simethicone
+gas-x total relief	calcium carbonate
+primatene with ephedrine	ephedrine
+primatene with ephedrine & guaifenesin	ephedrine
+primatene with ephedrine & guaifenesin	guaifenesin
+enjaymo	sutimlimab
+cibinqo	abrocitinib
+quviviq	daridorexant
+vabysmo	faricimab
+dapzura	daptomycin
+ryaltris	olopatadine
+ryaltris	mometasone
+fleqsuvy	baclofen
+pyrukynd	mitapivat
+aspruzyo	ranolazine
+carvykti	ciltacabtagene autoleucel
+camcevi	leuprolide
+vonjo	pacritinib
+releuko	filgrastim
+emetrol chewables	sodium citrate
+opdualag	nivolumab
+opdualag	relatlimab
+hyftor	sirolimus
+pluvicto	vipivotide tetraxetan
+adlarity	donepezil
+breyna	formoterol
+breyna	budesonide
+dodex	vitamin b12
+vijoice	alpelisib
+alymsys	bevacizumab
+tlando	testosterone
+norliqva	amlodipine
+tembexa	brincidofovir
+magonate reformulated may 2022	magnesium carbonate
+camzyos	mavacamten
+epsolay	benzoyl peroxide
+triluron	hyaluronate
+igalmi	dexmedetomidine
+mounjaro	tirzepatide
+allday	sodium fluoride
+differin acne clearing	salicylic acid
+vtama	tapinarof
+byooviz	ranibizumab
+vivjoa	oteseconazole
+fylnetra	pegfilgrastim
+dermeleve	aluminum acetate
+priorix	mumps virus vaccine live, jeryl lynn strain
+priorix	rubella virus vaccine live (wistar ra 27-3 strain)
+priorix	measles virus vaccine live, attenuated schwarz strain
+lagevrio	molnupiravir
+fluorimax sensitive	potassium nitrate
+fluorimax sensitive	sodium fluoride
+fluorimax	sodium fluoride
+ztalmy	ganaxolone
+amvuttra	vutrisiran
+flulaval quadrivalent 2022-2023	influenza a virus (h1n1) antigen
+flulaval quadrivalent 2022-2023	influenza b virus antigen
+flulaval quadrivalent 2022-2023	influenza a virus (h3n2) antigen
+fluzone quadrivalent 2022-2023	influenza a virus (h1n1) antigen
+fluzone quadrivalent 2022-2023	influenza b virus antigen
+fluzone quadrivalent 2022-2023	influenza a virus (h3n2) antigen
+afluria quadrivalent 2022-2023	influenza a virus (h1n1) antigen
+afluria quadrivalent 2022-2023	influenza b virus antigen
+afluria quadrivalent 2022-2023	influenza a virus (h3n2) antigen
+flublok quadrivalent 2022-2023	influenza a virus (h1n1) antigen
+flublok quadrivalent 2022-2023	influenza b virus antigen
+flublok quadrivalent 2022-2023	influenza a virus (h3n2) antigen
+flucelvax quadrivalent 2022-2023	influenza a virus (h1n1) antigen
+flucelvax quadrivalent 2022-2023	influenza b virus antigen
+flucelvax quadrivalent 2022-2023	influenza a virus (h3n2) antigen
+julie	levonorgestrel
+zonisade	zonisamide
+zantac reformulated aug 2022	famotidine
+zoryve	roflumilast
+kyzatrex	testosterone
+regener-eyes	glycerin
+pheburane	phenylbutyrate
+tascenso	fingolimod
+zynteglo	betibeglogene autotemcel
+xenpozyme	olipudase alfa
+spevigo	spesolimab
+medicasp	coal tar
+auvelity	bupropion
+auvelity	dextromethorphan
+cuvrior	trientine
+javygtor	sapropterin
+lidotran	lidocaine
+sotyktu	deucravacitinib
+terlivaz	terlipressin
+daxxify	botulinum toxin type a
+rolvedon	eflapegrastim
+skysona	elivaldogene autotemcel
+cimerli	ranibizumab
+omlonti	omidenepag
+tadliq	tadalafil
+stimufend	pegfilgrastim
+iheezo	chloroprocaine
+pedmark	thiosulfate
+rayasal	salicylic acid
+imjudo	tremelimumab
+tecvayli	teclistamab
+furoscix	furosemide
+elahere	mirvetuximab soravtansine
+tzield	teplizumab
+vivimusta	bendamustine
+haloette	ethinyl estradiol
+haloette	etonogestrel
+rezlidhia	olutasidenib
+flonase nighttime	triprolidine
+xelstrym	dextroamphetamine
+sezaby	phenobarbital
+ervebo	zaire ebolavirus envelope glycoprotein
+lunsumio	mosunetuzumab
+konvomep	omeprazole
+konvomep	sodium bicarbonate
+sunlenca	lenacapavir
+krazati	adagrasib
+ermeza	levothyroxine
+leqembi	lecanemab
+briumvi	ublituximab
+olpruva	phenylbutyrate
+rethymic	allogeneic processed thymus tissue
+stratagraft	allogeneic cultured keratinocytes and dermal fibroblasts in murine collagen
+rebyota	fecal microbiota, live
+nexobrid	anacaulase
+hemgenix	etranacogene dezaparvovec
+vegzelma	bevacizumab
+amjevita	adalimumab
+lytgobi	futibatinib
+jesduvroq	daprodustat
+orserdu	elacestrant
+jaypirca	pirtobrutinib
+filspari	sparsentan
+lamzede	velmanase alfa
+syfovre	pegcetacoplan
+curae	levonorgestrel
+altuviiio	antihemophilic factor (recombinant), fc-vwf-xten fusion protein
+aponvie	aprepitant
+atorvaliq	atorvastatin
+skyclarys	omaveloxolone
+daybue	trofinetide
+zynyz	retifanlimab
+joenja	leniolisib
+immphentiv	phenylephrine
+qalsody	tofersen
+uzedy	risperidone
+vowst	fecal microbiota spores, live
+arexvy	respiratory syncytial virus pre-fusion f protein
+lumryz	oxybate
+motpoly	lacosamide
+prevduo	glycopyrronium
+prevduo	neostigmine
+liqrev	sildenafil
+veozah	fezolinetant
+epkinly	epcoritamab
+elfabrio	pegunigalsidase alfa
+miebo	perfluorohexyloctane
+vyjuvek	beremagene geperpavec
+brenzavvy	bexagliflozin
+abreva rapid pain relief	lidocaine
+abreva rapid pain relief	glycerin
+pemrydi rtu	pemetrexed
+zavzpret	zavegepant
+mydcombi	phenylephrine
+mydcombi	tropicamide
+inpefa	sotagliflozin
+brixadi	buprenorphine
+rezzayo	rezafungin
+gohibic	vilobelimab
+yuflyma	adalimumab
+opvee	nalmefene
+rykindo	risperidone
+columvi	glofitamab
+vevye	cyclosporine
+vyvgart hytrulo	efgartigimod alfa
+vyvgart hytrulo	hyaluronidase
+hadlima	adalimumab
+yusimry	adalimumab
+hulio	adalimumab
+idacio	adalimumab
+cyltezo	adalimumab
+litfulo	ritlecitinib
+roctavian	valoctocogene roxaparvovec
+hyrimoz	adalimumab
+elevidys	delandistrogene moxeparvovec
+abrysvo	respiratory syncytial virus pre-fusion f protein
+lantidra	donislecel
+iyuzeh	latanoprost
+rystiggo	rozanolixizumab
+lidocan	lidocaine
+yargesa	miglustat
+beyfortus	nirsevimab
+niva thyroid	thyroid (usp)
+vanflyta	quizartinib
+balfaxar	factor vii
+balfaxar	prothrombin
+balfaxar	protein c
+balfaxar	protein s
+balfaxar	factor ix
+balfaxar	factor x
+ycanth	cantharidin
+adstiladrin	nadofaragene firadenovec
+talvey	talquetamab
+xdemvy	lotilaner
+ngenla	somatrogon
+enilloring	ethinyl estradiol
+enilloring	etonogestrel
+elrexfio	elranatamab
+izervay	avacincaptad pegol
+akeega	niraparib
+akeega	abiraterone
+veopoz	pozelimab
+sohonos	palovarotene
+lodoco	colchicine
+focinvez	fosaprepitant
+aphexda	motixafortide
+xacduro	sulbactam
+xacduro	durlobactam
+ojjaara	momelotinib
+pokonza	potassium chloride
+sovuna	hydroxychloroquine
+cyfendus	bacillus anthracis strain v770-np1-r antigens
+kourzeq	triamcinolone
+airsupra	albuterol
+airsupra	budesonide
+anticholium	physostigmine
+opfolda	miglustat
+pombiliti	cipaglucosidase alfa
+likmez	metronidazole
+velsipity	etrasimod
+abrilada	adalimumab
+bimzelx	bimekizumab
+coxanto	oxaprozin
+cabtreo	benzoyl peroxide
+cabtreo	adapalene
+cabtreo	clindamycin
+omvoh	mirikizumab
+vigpoder	vigabatrin
+loqtorzi	toripalimab
+xphozah	tenapanor
+trifena	lidocaine
+trifena	diclofenac
+trifena	menthol
+voquezna	vonoprazan
+zepbound	tirzepatide
+agamree	vamorolone
+zurzuvae	zuranolone
+truqap	capivasertib
+fruzaqla	fruquintinib
+adzynma	adamts13, recombinant
+uribel tabs	phenyl salicylate
+uribel tabs	hyoscyamine
+uribel tabs	benzoate
+uribel tabs	methenamine
+uribel tabs	methylene blue
+zituvio	sitagliptin
+defencath	heparin
+defencath	taurolidine
+penbraya	neisseria meningitidis serogroup c capsular polysaccharide tetanus toxoid protein conjugate vaccine
+penbraya	neisseria meningitidis serogroup y capsular polysaccharide tetanus toxoid protein conjugate vaccine
+penbraya	neisseria meningitidis serogroup a capsular polysaccharide tetanus toxoid protein conjugate vaccine
+penbraya	neisseria meningitidis serogroup w-135 capsular polysaccharide tetanus toxoid protein conjugate vaccine
+penbraya	meningococcal group b vaccine
+ogsiveo	nirogacestat
+augtyro	repotrectinib
+ryzneuta	efbemalenograstim alfa
+fabhalta	iptacopan
+folixate	cholecalciferol
+folixate	levomefolate
+hepzato	melphalan
+salycim	salicylic acid
+tridergel	benzalkonium
+jylamvo	methotrexate
+adthyza	thyroid (usp)
+casgevy	exagamglogene autotemcel
+extencilline	penicillin g
+wainua	eplontersen
+idose	travoprost
+alyglo	immunoglobulin g
+salyntra	salicylic acid
+exxua	gepirone
+zilbrysq	zilucoplan
+lyfgenia	lovotibeglogene autotemcel
+rizafilm	rizatriptan
+iwilfin	eflornithine
+ixchiq	chikungunya virus antigen, live attenuated lr2006 opy1 strain
+kiprofen	ketoprofen
+combogesic	acetaminophen
+combogesic	ibuprofen
+alvaiz	eltrombopag
+eohilia	budesonide
+rivfloza	nedosiran
+caelyx	doxorubicin
+teglutik	riluzole
+fluzone quadrivalent 2024 southern hemisphere	influenza a virus (h1n1) antigen
+fluzone quadrivalent 2024 southern hemisphere	influenza b virus antigen
+fluzone quadrivalent 2024 southern hemisphere	influenza a virus (h3n2) antigen
+filsuvez	birch triterpenes
+lidopro pain relieving patch	lidocaine
+lidopro pain relieving patch	menthol
+zymfentra	infliximab
+amtagvi	lifileucel
+exblifep	cefepime
+exblifep	enmetazobactam
+tripenicol	undecylenate
+zituvimet	metformin
+zituvimet	sitagliptin
+tevimbra	tislelizumab
+ormalvi	dichlorphenamide
+opsynvi	tadalafil
+opsynvi	macitentan
+simlandi	adalimumab
+ryzumvi	phentolamine
+pemgarda	pemivibart
+rezdiffra	resmetirom
+lenmeldy	atidarsagene autotemcel
+bruselix	lidocaine
+tridacaine	lidocaine
+duvyzat	givinostat
+winrevair	sotatercept
+voydeya	danicopan
+tryvio	aprocitentan
+vafseo	vadadustat
+tritolnacide	tolnaftate
+tyenne	tocilizumab
+docivyx	docetaxel
+tofidence	tocilizumab
+aurlumyn	iloprost
+rextovy	naloxone
+beqvez	fidanacogene elaparvovec
+ojemda	tovorafenib
+libervant	diazepam
+anktiva	nogapendekin alfa inbakicept
+imdelltra	tarlatamab
+xolremdi	mavorixafor
+myhibbin	mycophenolate mofetil
+iqirvo	elafibranor
+lentocilin	penicillin g
+mresvia	respiratory syncytial virus pre-fusion f glycoprotein mrna
+torpenz	everolimus
+vigafyde	vigabatrin
+trimazole	clotrimazole
+rytelo	imetelstat
+tricylate	methyl salicylate
+tricylate	menthol
+piasky	crovalimab
+fluarix 2024-2025	influenza a virus (h1n1) antigen
+fluarix 2024-2025	influenza b virus antigen
+fluarix 2024-2025	influenza a virus (h3n2) antigen
+flulaval 2024-2025	influenza a virus (h1n1) antigen
+flulaval 2024-2025	influenza b virus antigen
+flulaval 2024-2025	influenza a virus (h3n2) antigen
+capvaxive	streptococcus pneumoniae serotype 12f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 24f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 16f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 20a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 6a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 7f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 22f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 17f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 9n capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 35b capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 8 capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 19a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype deoac15b capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 10a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 15a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 23b capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 3 capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 23a capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 31 capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 33f capsular antigen diphtheria crm197 protein conjugate vaccine
+capvaxive	streptococcus pneumoniae serotype 11a capsular antigen diphtheria crm197 protein conjugate vaccine
+ohtuvayre	ensifentrine
+fluad 2024-2025	influenza a virus (h1n1) antigen
+fluad 2024-2025	influenza b virus antigen
+fluad 2024-2025	influenza a virus (h3n2) antigen
+fluzone 2024-2025	influenza a virus (h1n1) antigen
+fluzone 2024-2025	influenza b virus antigen
+fluzone 2024-2025	influenza a virus (h3n2) antigen
+flublok 2024-2025	influenza a virus (h1n1) antigen
+flublok 2024-2025	influenza b virus antigen
+flublok 2024-2025	influenza a virus (h3n2) antigen
+kisunla	donanemab
+afluria 2024-2025	influenza a virus (h1n1) antigen
+afluria 2024-2025	influenza b virus antigen
+afluria 2024-2025	influenza a virus (h3n2) antigen
+flucelvax 2024-2025	influenza a virus (h1n1) antigen
+flucelvax 2024-2025	influenza b virus antigen
+flucelvax 2024-2025	influenza a virus (h3n2) antigen
+posfrea	palonosetron
+nikita	pitavastatin
+tezruly	terazosin
+letybo	botulinum toxin type a
+sofdra	sofpironium
+crexont	levodopa
+crexont	carbidopa
+tecelra	afamitresgene autoleucel
+zunveyl	benzgalantamine
+voranigo	vorasidenib
+onyda	clonidine
+livdelzi	seladelpar
+tanlor	methocarbamol
+lazcluze	lazertinib
+spikevax 2024-2025	sars-cov-2 (covid-19) vaccine, mrna spike protein
+comirnaty 2024-2025	sars-cov-2 (covid-19) vaccine, mrna spike protein
+flumist 2024-2025	influenza a virus (h1n1) antigen
+flumist 2024-2025	influenza b virus antigen
+flumist 2024-2025	influenza a virus (h3n2) antigen
+nemluvio	nemolizumab
+niktimvo	axatilimab
+phyrago	dasatinib
+undecatrex	testosterone
+neffy	epinephrine
+ocrevus zunovo	ocrelizumab
+ocrevus zunovo	hyaluronidase
+aqneursa	levacetylleucine
+tralement	selenious acid
+tralement	zinc sulfate
+tralement	copper sulfate
+tralement	manganese sulfate
+yorvipath	teriparatide
+ebglyss	lebrikizumab
+tecentriq hybreza	atezolizumab
+tecentriq hybreza	hyaluronidase
+boruzu	bortezomib
+audenz	influenza a virus (h5n1) antigen
+miplyffa	arimoclomol
+azmiro	testosterone
+cobenfy	xanomeline
+cobenfy	trospium
+itovebi	inavolisib
+qlosi	pilocarpine
+vyalev	levodopa
+vyalev	carbidopa
+vyloy	zolbetuximab
+xromi	hydroxyurea
+gallifrey	norethindrone
+pavblu	aflibercept
+beizray	docetaxel
+hympavzi	marstacimab
+opipza	aripiprazole
+ziihera	zanidatamab
+attruby	acoramidis
+revuforj	revumenib
+danziten	nilotinib
+kebilidi	eladocagene exuparvovec
+fungizyl	dimethyl sulfoxide
+fungizyl	miconazole
+axtle	pemetrexed
+erzofri	paliperidone
+bizengri	zenocutuzumab
+raldesy	trazodone
+imkeldi	imatinib
+aucatzyl	obecabtagene autoleucel
+symvess	acellular tissue engineered vessel
+nypozi	filgrastim
+phexx	citric acid
+phexx	lactate
+phexx	potassium bitartrate
+steqeyma	ustekinumab
+wezlana	ustekinumab
+tepylute	thiotepa
+hercessi	trastuzumab
+avzivi	bevacizumab
+lymphir	denileukin diftitox
+ryoncil	remestemcel-l
+opdivo qvantig	nivolumab
+opdivo qvantig	hyaluronidase
+crenessity	crinecerfont
+tryngolza	olezarsen
+alyftrek	vanzacaftor
+alyftrek	tezacaftor
+alyftrek	deutivacaftor
+calprotect	zinc oxide
+calprotect	menthol
+abirtega	abiraterone
+otulfi	ustekinumab
+venxxiva	tiopronin
+ulspira	nitrogen
+ulspira	nitric oxide
+frindovyx	cyclophosphamide
+datroway	datopotamab deruxtecan
+zevtera	ceftobiprole
+grafapex	treosulfan
+inzirqo	hydrochlorothiazide
+journavx	suzetrigine
+rezenopy	naloxone
+xiclo	diclofenac
+emblaveo	avibactam
+emblaveo	aztreonam
+kodatef	tafenoquine
+selarsdi	ustekinumab
+romvimza	vimseltinib
+avtozma	tocilizumab
+penmenvy	neisseria meningitidis serogroup a oligosaccharide diphtheria crm197 protein conjugate vaccine
+penmenvy	neisseria meningitidis serogroup y oligosaccharide diphtheria crm197 protein conjugate vaccine
+penmenvy	neisseria meningitidis serogroup c oligosaccharide diphtheria crm197 protein conjugate vaccine
+penmenvy	neisseria meningitidis serogroup w-135 oligosaccharide diphtheria crm197 protein conjugate vaccine
+penmenvy	meningococcal group b vaccine
+pyzchiva	ustekinumab
+yesintek	ustekinumab
+mirafast	magnesium hydroxide
+gomekli	mirdametinib
+merilog	insulin aspart, human
+onapgo	apomorphine
+blink dry eye	glycerin
+renthyroid	thyroid (usp)
+epysqli	eculizumab
+bkemv	eculizumab
+pepto nausea	meclizine
+emrosi	minocycline
+yimmugo	immunoglobulin g
+ahzantive	aflibercept
+vimkunya	chikungunya virus antigen, recombinant senegal strain 37997
+alhemo	concizumab
+encelto	revakinagene taroretcel
+ivra	melphalan
+fluzone 2025 southern hemisphere	influenza a virus (h1n1) antigen
+fluzone 2025 southern hemisphere	influenza b virus antigen
+fluzone 2025 southern hemisphere	influenza a virus (h3n2) antigen
+arbli	losartan
+blujepa	gepotidacin
+ontralfy	tizanidine
+lutrate	leuprolide
+qfitlia	fitusiran
+hemiclor	chlorthalidone
+ctexli	chenodeoxycholate
+vanrafia	atrasentan
+vykat	diazoxide
+symbravo	rizatriptan
+symbravo	meloxicam
+prolaxa	docusate
+jobevne	bevacizumab
+rapiblyk	landiolol
+clemasz	clemastine
+lurbipr	flurbiprofen
+ensacove	ensartinib
+zelvysia	sapropterin
+imaavy	nipocalimab
+zevaskyn	prademagene zamikeracel
+bucapsol	buspirone
+atzumi	dihydroergotamine
+emrelis	telisotuzumab
+brekiya	dihydroergotamine
+fakzynja	defactinib
+avmapki	avutometinib
+yutrepia	treprostinil
+wyost	denosumab
+opuviz	aflibercept
+jubbonti	denosumab
+pivya	amdinocillin pivoxil
+lidoguard	lidocaine
+bonsity	teriparatide
+brynovin	sitagliptin
+zelsuvmi	berdazimer
+khindivi	hydrocortisone
+leqselvi	deuruxolitinib
+jaythari	deflazacort
+enflonsia	clesrovimab
+tryptyr	acoltremon
+ibtrozi	taletrectinib
+imuldosa	ustekinumab
+andembry	garadacimab
+yeztugo	lenacapavir
+lidoguard pain relief	lidocaine
+xifyrm	meloxicam
+unloxcyt	cosibelimab
+conexxence	denosumab
+bomyntra	denosumab
+orlynvah	sulopenem
+orlynvah	probenecid
+stoboclo	denosumab
+osenvelt	denosumab
+ekterly	sebetralstat
+flucelvax 2025-2026	influenza a virus (h1n1) antigen
+flucelvax 2025-2026	influenza b virus antigen
+flucelvax 2025-2026	influenza a virus (h3n2) antigen
+fluad 2025-2026	influenza a virus (h1n1) antigen
+fluad 2025-2026	influenza b virus antigen
+fluad 2025-2026	influenza a virus (h3n2) antigen
+afluria 2025-2026	influenza a virus (h1n1) antigen
+afluria 2025-2026	influenza b virus antigen
+afluria 2025-2026	influenza a virus (h3n2) antigen
+flulaval 2025-2026	influenza a virus (h1n1) antigen
+flulaval 2025-2026	influenza b virus antigen
+flulaval 2025-2026	influenza a virus (h3n2) antigen
+fluzone 2025-2026	influenza a virus (h1n1) antigen
+fluzone 2025-2026	influenza b virus antigen
+fluzone 2025-2026	influenza a virus (h3n2) antigen
+pyquvi	deflazacort
+zegfrovy	sunvozertinib
+flublok 2025-2026	influenza a virus (h1n1) antigen
+flublok 2025-2026	influenza b virus antigen
+flublok 2025-2026	influenza a virus (h3n2) antigen
+fluzone quadrivalent 2025-2026	influenza a virus (h1n1) antigen
+fluzone quadrivalent 2025-2026	influenza b virus antigen
+fluzone quadrivalent 2025-2026	influenza a virus (h3n2) antigen
+lynozyfic	linvoseltamab
+harliku	nitisinone
+avgemsi	gemcitabine
+zusduri	mitomycin
+fluarix 2025-2026	influenza a virus (h1n1) antigen
+fluarix 2025-2026	influenza b virus antigen
+fluarix 2025-2026	influenza a virus (h3n2) antigen
+clemsza	clemastine
+vabrinty	leuprolide
+lurbiro	flurbiprofen
+flumist 2025-2026	influenza a virus (h1n1) antigen
+flumist 2025-2026	influenza b virus antigen
+flumist 2025-2026	influenza a virus (h3n2) antigen
+kirsty	insulin aspart, human
+zurnai	nalmefene
+anzupgo	delgocitinib
+modeyso	dordaviprone
+periguard ointment	petrolatum
+vyscoxa	celecoxib
+kyxata	carboplatin
+hernexeos	zongertinib
+vizz	aceclidine
+brinsupri	brensocatib
+wayrilz	rilzabrutinib
+salicor	trolamine salicylate
+spikevax 2025-2026	sars-cov-2 (covid-19) vaccine, mrna spike protein
+comirnaty 2025-2026	sars-cov-2 (covid-19) vaccine, mrna spike protein
+mnexspike 2025-2026	sars-cov-2 (covid-19) vaccine, mrna spike protein
+nuvaxovid 2025-2026	sars-cov-2 (covid-19) vaccine, subunit, recombinant spike protein
+sephience	sepiapterin
+tonmya	cyclobenzaprine
+milophene	clomiphene
+bilprevda	denosumab
+bildyos	denosumab
+papzimeos	zopapogene imadenovec
+inlexzo	gemcitabine
+liomny	liothyronine
+keytruda qlex	berahyaluronidase alfa
+keytruda qlex	pembrolizumab
+aagylur	penicillamine
+rhapsido	remibrutinib
+palsonify	paltusotine
+miudella	copper
+enbumyst	bumetanide
+dawnzera	donidalorsen
+starjemza	ustekinumab
+tyzavan	vancomycin
+tyruko	natalizumab
+evexithroid	thyroid (usp)
+kymbee	deflazacort
+ospomyv	denosumab
+lynkuet	elinzanetant
+jascayd	nerandomilast
+javadin	clonidine
+enoby	denosumab
+contepo	fosfomycin
+xtrenbo	denosumab
+forzinity	elamipretide
+zolymbus	bimatoprost
+clotic	clotrimazole
+eydenzelt	aflibercept
+inluriyo	imlunestrant
+bosaya	denosumab
+aukelso	denosumab
+komzifti	ziftomenib
+omlyclo	omalizumab
+qivigy	immunoglobulin g
+xbryk	denosumab
+arynta	lisdexamfetamine
+sdamlo	amlodipine
+itvisma	onasemnogene abeparvovec
+vostally	ramipril
+redemplo	plozasiran
+epioxa	riboflavin 5'-phosphate
+qamzova	meloxicam
+widaplik	indapamide
+widaplik	telmisartan
+widaplik	amlodipine
+hyrnuo	sevabertinib
+voyxact	sibeprenlimab
+exdensur	depemokimab
+rybrevant faspro	amivantamab
+rybrevant faspro	hyaluronidase
+boncresa	denosumab
+oziltus	denosumab
+atmeksi	methocarbamol
+lerochol	lerodalcibep
+carbzah	carbinoxamine
+zybic	meloxicam
+cardamyst	etripamil
+fesilty	fibrinogen
+aqvesme	mitapivat
+shewise	levonorgestrel
+myqorzo	aficamten
+zycubo	copper histidinate
+yartemlea	narsoplimab
+byqlovi	clobetasol
+gammagard erc	immunoglobulin g
+quiofic	folic acid
+avaclyr	acyclovir
+xyvona	levorphanol
+lasolex	miconazole
+vykoura	leucovorin
+avopef	etoposide
+vybrique	sildenafil
+yuvezzi	brimonidine
+yuvezzi	carbachol
+kygevvi	doxribtimine
+kygevvi	doxecitine
+armlupeg	pegfilgrastim
+desmoda	desmopressin
+fluzone 2026 southern hemisphere	influenza a virus (h1n1) antigen
+fluzone 2026 southern hemisphere	influenza b virus antigen
+fluzone 2026 southern hemisphere	influenza a virus (h3n2) antigen
+adquey	difamilast
+loargys	pegzilarginase
+favlyxa	fluorouracil
+relgaabi	gabapentin
+icotyde	icotrokinra
+lasolex liquid	clotrimazole
+flavalta	lidocaine
+flavalta	epinephrine
+nereus	tradipitant
+yuviwel	navepegritide
+lifyorli	relacorilant
+cyklx	articaine
+nuzolvence	zoliflodacin
+atoncy	atomoxetine
+foundayo	orforglipron
+avlayah	tividenofusp alfa
+kresladi	marnetegragene autotemcel
+awiqli	insulin icodec
+topicaine ultra	lidocaine
+otarmeni	lunsotogene parvec
+idvynso	islatravir
+idvynso	doravirine
+pellix	calcipotriene
+evesse	hydrocortisone
+amerithroid	thyroid (usp)
+digenyx	hyoscyamine
+arepanrix	influenza a virus (h5n8) antigen
+noxivent	nitrogen
+noxivent	nitric oxide
+veppanu	vepdegestrant
+baxfendy	baxdrostat

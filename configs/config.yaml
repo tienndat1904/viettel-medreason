@@ -4,8 +4,10 @@ seed: 42
 paths:
   test_input: data/test/input        # BTC private test sẽ thay bằng --input
   output: output
-  kb_icd: data/kb/icd10_vn.parquet
-  kb_rxnorm: data/kb/rxnorm_scd.parquet
+  kb_icd: data/kb/icd10_vn.parquet         # KB thật (build_icd_kb.py) — ưu tiên nếu có
+  kb_rxnorm: data/kb/rxnorm_scd.parquet    # KB thật (build_rxnorm_kb.py)
+  kb_icd_seed: data/kb/seed/icd10_vn.parquet     # seed nhỏ, fallback khi chưa build KB thật
+  kb_rxnorm_seed: data/kb/seed/rxnorm_scd.parquet
   icd_index: data/kb/icd10.faiss
   rxnorm_index: data/kb/rxnorm.faiss
 
@@ -18,11 +20,18 @@ extract:
   max_new_tokens: 2048
 
 linking:
+  backend: lexical                    # lexical (v0, không GPU) | semantic (v1, bge-m3+reranker)
+  icd_synonyms: data/kb/synonyms/icd_synonyms.tsv
+  drug_brands: data/kb/synonyms/drug_brands.tsv        # brand map thủ công
+  drug_brands_auto: data/kb/synonyms/drug_brands_auto.tsv  # brand map sinh từ RRF
+  icd_fuzzy_threshold: 88             # rapidfuzz token_set_ratio (lexical)
+  rxnorm_fuzzy_threshold: 90          # sửa typo tên hoạt chất (lexical)
+  # --- semantic (v1) ---
   embed_model: BAAI/bge-m3
   reranker_model: BAAI/bge-reranker-v2-m3
   icd_top_k_retrieve: 30
   icd_top_k_return: 3
-  rxnorm_top_k_return: 1
+  rxnorm_top_k_return: 3        # số mã RxNorm trả tối đa (best-first) — tinh chỉnh theo dev
   min_confidence: 0.30
 
 labels:

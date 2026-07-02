@@ -1,0 +1,9 @@
+# Seed RxNorm — bảng tra tạm để chạy v0 + làm regression test.
+# Cột: rxcui<TAB>str<TAB>tty<TAB>ingredient<TAB>strength<TAB>dose_form
+# 4 dòng đầu là cặp gold LẤY TỪ Info.txt (đề bài) → dùng làm test hồi quy, KHÔNG được sai.
+# THAY bằng RxNorm thật (build_rxnorm_kb.py từ RRF) khi có.
+rxcui	str	tty	ingredient	strength	dose_form
+308135	amlodipine 10 MG Oral Tablet	SCD	amlodipine	10 mg	oral tablet
+243670	aspirin 81 MG Oral Tablet	SCD	aspirin	81 mg	oral tablet
+360047	chlorpheniramine maleate 0.4 MG/ML Oral Solution	SCD	chlorpheniramine	0.4 mg/ml	oral solution
+1660761	capsaicin 0.38 MG/ML Topical Lotion	SCD	capsaicin	0.38 mg/ml	topical

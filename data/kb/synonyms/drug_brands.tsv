@@ -1,0 +1,27 @@
+# Ánh xạ biệt dược / viết tắt / lỗi chính tả -> hoạt chất (ingredient) để khớp RxNorm.
+# Cột: alias<TAB>ingredient   (key sẽ được chuẩn hóa: bỏ '-', '/', gộp khoảng trắng, lowercase)
+# Bổ sung ngoài dữ liệu RxNorm; mở rộng theo tên lạ gặp trên test/dev.
+alias	ingredient
+lasix	furosemide
+laxis	furosemide
+coumadin	warfarin
+prograf	tacrolimus
+dilaudid	hydromorphone
+ranexa	ranolazine
+z-pack	azithromycin
+zpack	azithromycin
+zosyn	piperacillin tazobactam
+combivent	ipratropium albuterol
+nitro	nitroglycerin
+asa	aspirin
+toprol	metoprolol
+toprol xl	metoprolol
+solu-medrol	methylprednisolone
+solumedrol	methylprednisolone
+tylenol	acetaminophen
+motrin	ibuprofen
+advil	ibuprofen
+ativan	lorazepam
+protonix	pantoprazole
+colace	docusate
+bactrim	sulfamethoxazole trimethoprim
