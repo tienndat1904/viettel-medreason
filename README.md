@@ -23,12 +23,17 @@ pip install -r requirements.txt
 # Baseline rule (chạy được ngay, không cần GPU) → có submission hợp lệ #1
 python src/pipeline.py --input data/test/input --output output --backend rule
 
-# LLM (Qwen2.5-7B + LoRA) — chạy trên GPU Kaggle/Colab
+# LLM (Qwen2.5-7B) — chạy trên GPU Kaggle/Colab (self-host ≤9B, KHÔNG API ngoài)
+pip install -r requirements-gpu.txt        # torch/transformers/bitsandbytes/peft
 python src/pipeline.py --input <thư_mục_test> --output output --backend llm
+#   hoặc mở notebooks/run_llm_kaggle.ipynb (clone → cài → chạy → đóng gói)
 
 # Đóng gói + validate (JSON lỗi = 0 điểm nên luôn chạy bước này trước khi nộp)
 python scripts/package_submission.py --output output --input data/test/input --n 100
 ```
+**LLM extractor:** chunk văn bản theo dòng (`extract.max_chunk_chars`) để tránh cắt output với note dài;
+LLM chỉ sinh `{text, type}` (few-shot), offset do `resolve_spans` tính, assertion do `assertions.py`
+điền (`extract.assertion_mode`), candidates do `linker`. Điền `extract.lora_adapter` sau khi QLoRA.
 
 ## Dev set có nhãn (để đo offline)
 30 file dev đã gán nhãn (bản nháp — xem `data/dev/ANNOTATION_GUIDE.md`, cần người review).

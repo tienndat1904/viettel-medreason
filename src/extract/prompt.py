@@ -1,25 +1,48 @@
-"""Prompt cho LLM extractor (Qwen2.5-7B-Instruct). Ép trả JSON, KHÔNG có offset."""
+"""Prompt cho LLM extractor (Qwen2.5-7B-Instruct).
+
+LLM CHỈ sinh {text, type} — assertion & position do module chuyên trách xử lý sau
+(giảm token/truncation; assertion module đã đạt ~0.94 trên dev).
+"""
 
 SYSTEM = """Bạn là hệ thống trích xuất khái niệm y tế từ bệnh án tiếng Việt (có lẫn thuật ngữ tiếng Anh, viết tắt, lỗi chính tả do dịch máy).
-Nhiệm vụ: liệt kê MỌI khái niệm y tế, phân loại đúng 1 trong 5 nhãn:
-- TRIỆU_CHỨNG: triệu chứng bệnh nhân gặp (vd: ho, khó thở, đau ngực)
-- TÊN_XÉT_NGHIỆM: tên xét nghiệm (vd: wbc, troponin, ast)
-- KẾT_QUẢ_XÉT_NGHIỆM: GIÁ TRỊ + đơn vị của xét nghiệm (vd: 11.6, 0.01, 90%)
-- CHẨN_ĐOÁN: tên bệnh bác sĩ chẩn đoán (vd: viêm phổi, tăng huyết áp)
-- THUỐC: tên thuốc điều trị (vd: aspirin 325mg, metoprolol 25mg po bid)
+Liệt kê MỌI khái niệm y tế và phân loại đúng 1 trong 5 nhãn:
+- TRIỆU_CHỨNG: triệu chứng bệnh nhân gặp (vd: ho, khó thở, đau ngực, buồn nôn)
+- TÊN_XÉT_NGHIỆM: TÊN xét nghiệm/thăm dò (vd: wbc, troponin, ast, chụp x-quang ngực, siêu âm)
+- KẾT_QUẢ_XÉT_NGHIỆM: GIÁ TRỊ + đơn vị của xét nghiệm (vd: 11.6, 0.01, 90%, 101.4)
+- CHẨN_ĐOÁN: tên bệnh/chẩn đoán (vd: viêm phổi, tăng huyết áp, trào ngược dạ dày thực quản)
+- THUỐC: tên thuốc điều trị (vd: aspirin 325mg, metoprolol 25mg po bid, albuterol nebs)
 
-QUY TẮC:
-1. Trường "text" phải COPY NGUYÊN VĂN chuỗi con trong input (đúng từng ký tự), KHÔNG sửa lỗi, KHÔNG dịch.
-2. TÁCH RIÊNG tên xét nghiệm và kết quả: "wbc" và "11.6" là 2 khái niệm khác nhau.
-3. "assertions" (chỉ cho TRIỆU_CHỨNG/CHẨN_ĐOÁN/THUỐC), tập con của:
-   - isNegated: bị phủ định ("không ho", "phủ nhận đau ngực", "âm tính")
-   - isFamily: của người nhà ("vợ có triệu chứng...", "bố bệnh nhân...")
-   - isHistorical: tiền sử / bệnh mạn tính / thuốc trước khi nhập viện / "(trước đây)"
-4. KHÔNG xuất vị trí ký tự (hệ thống tự tính).
-Chỉ trả về JSON hợp lệ, không thêm chữ nào khác."""
+QUY TẮC BẮT BUỘC:
+1. "text" phải COPY NGUYÊN VĂN chuỗi con trong input (đúng từng ký tự, kể cả lỗi chính tả), KHÔNG dịch, KHÔNG sửa, KHÔNG thêm dấu.
+2. TÁCH RIÊNG tên xét nghiệm và giá trị: "wbc" (TÊN_XÉT_NGHIỆM) và "11.6" (KẾT_QUẢ_XÉT_NGHIỆM) là 2 khái niệm khác nhau.
+3. Phân biệt TRIỆU_CHỨNG (bệnh nhân cảm nhận) với CHẨN_ĐOÁN (bác sĩ kết luận).
+4. Bỏ qua thông tin hành chính (tên, tuổi, ngày) và câu không phải khái niệm y tế.
+5. Chỉ trả về JSON hợp lệ, KHÔNG giải thích, KHÔNG markdown."""
 
-USER_TEMPLATE = """Trích xuất khái niệm y tế từ văn bản sau. Trả về JSON là list các object dạng:
-{{"text": "...", "type": "<một trong 5 nhãn>", "assertions": ["..."]}}
+_FEWSHOT_IN = """Triệu chứng chính
+- đau bụng vùng thượng vị
+- buồn nôn
+Các triệu chứng liên quan: Không có sốt, ho
+Kết quả xét nghiệm
+- ast (aspartate aminotransferase) là 319
+- bạch cầu (wbc) 11.6
+Chẩn đoán: viêm phổi thùy dưới phải
+Thuốc: metoprolol 25mg po bid"""
+
+_FEWSHOT_OUT = """[
+  {"text": "đau bụng vùng thượng vị", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG"},
+  {"text": "ast (aspartate aminotransferase)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "319", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "bạch cầu (wbc)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "11.6", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "viêm phổi thùy dưới phải", "type": "CHẨN_ĐOÁN"},
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC"}
+]"""
+
+_USER_TEMPLATE = """Trích xuất khái niệm y tế. Trả về JSON là list các object {{"text": "...", "type": "<một trong 5 nhãn>"}}.
 
 VĂN BẢN:
 \"\"\"
@@ -29,8 +52,10 @@ VĂN BẢN:
 JSON:"""
 
 
-def build_messages(text: str):
+def build_messages(chunk_text: str):
     return [
         {"role": "system", "content": SYSTEM},
-        {"role": "user", "content": USER_TEMPLATE.format(text=text)},
+        {"role": "user", "content": _USER_TEMPLATE.format(text=_FEWSHOT_IN)},
+        {"role": "assistant", "content": _FEWSHOT_OUT},
+        {"role": "user", "content": _USER_TEMPLATE.format(text=chunk_text)},
     ]

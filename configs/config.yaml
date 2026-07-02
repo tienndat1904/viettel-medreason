@@ -13,11 +13,13 @@ paths:
 
 extract:
   backend: rule                       # rule | llm
+  assertion_mode: union               # replace | union | fill (assertion sau offset)
   llm_model: Qwen/Qwen2.5-7B-Instruct
-  lora_adapter: models/qwen7b-lora    # để trống nếu chạy few-shot chưa fine-tune
+  lora_adapter: ""                    # để trống = few-shot chưa fine-tune; điền path adapter sau QLoRA
   max_seq_len: 4096
   temperature: 0.0
-  max_new_tokens: 2048
+  max_new_tokens: 1536
+  max_chunk_chars: 1800               # chunk theo dòng để tránh cắt output
 
 linking:
   backend: lexical                    # lexical (v0, không GPU) | semantic (v1, bge-m3+reranker)
