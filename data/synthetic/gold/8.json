@@ -1,0 +1,349 @@
+[
+  {
+    "text": "viêm phế quản cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      65
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J20.9"
+    ]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      72,
+      92
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I60.9"
+    ]
+  },
+  {
+    "text": "đột quỵ nhồi máu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      99,
+      119
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I63.9"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      126,
+      138
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N12"
+    ]
+  },
+  {
+    "text": "omeprazole 40mg",
+    "type": "THUỐC",
+    "position": [
+      175,
+      190
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "ibuprofen 600mg",
+    "type": "THUỐC",
+    "position": [
+      197,
+      212
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "5640"
+    ]
+  },
+  {
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      256,
+      269
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "J47.9"
+    ]
+  },
+  {
+    "text": "mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      313,
+      320
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      359
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      366,
+      368
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      375,
+      380
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      394
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      421
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      464,
+      473
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      503
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      519,
+      523
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      539,
+      546
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      568,
+      580
+    ],
+    "assertions": [],
+    "candidates": [
+      "N12"
+    ]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      638,
+      642
+    ],
+    "assertions": []
+  },
+  {
+    "text": "84",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      644,
+      646
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      653,
+      656
+    ],
+    "assertions": []
+  },
+  {
+    "text": "82",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      658,
+      660
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      667,
+      672
+    ],
+    "assertions": []
+  },
+  {
+    "text": "145",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      673,
+      676
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      685,
+      689
+    ],
+    "assertions": []
+  },
+  {
+    "text": "3,6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      693,
+      696
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      703,
+      708
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      710,
+      715
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      722,
+      728
+    ],
+    "assertions": []
+  },
+  {
+    "text": "39.7 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      730,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      766,
+      780
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp ct bụng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      787,
+      804
+    ],
+    "assertions": []
+  },
+  {
+    "text": "insulin glargine po bid",
+    "type": "THUỐC",
+    "position": [
+      824,
+      847
+    ],
+    "assertions": [],
+    "candidates": [
+      "274783"
+    ]
+  }
+]

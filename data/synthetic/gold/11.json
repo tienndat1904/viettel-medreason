@@ -1,0 +1,388 @@
+[
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      55
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K80.20"
+    ]
+  },
+  {
+    "text": "đột quỵ nhồi máu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      82
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I63.9"
+    ]
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      89,
+      95
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K74.60"
+    ]
+  },
+  {
+    "text": "viêm phổi thùy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      102,
+      116
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J18.1"
+    ]
+  },
+  {
+    "text": "carvedilol 12.5mg x 1",
+    "type": "THUỐC",
+    "position": [
+      153,
+      174
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "albuterol nebs po",
+    "type": "THUỐC",
+    "position": [
+      181,
+      198
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "gabapentin po bid",
+    "type": "THUỐC",
+    "position": [
+      205,
+      222
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      266,
+      278
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      310,
+      319
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      326,
+      339
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      346,
+      361
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      420
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      436,
+      441
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau khớp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      460,
+      468
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      490,
+      504
+    ],
+    "assertions": [],
+    "candidates": [
+      "L03.90"
+    ]
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      618,
+      621
+    ],
+    "assertions": []
+  },
+  {
+    "text": "14.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      622,
+      626
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      635,
+      641
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.2 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      644,
+      649
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      656,
+      661
+    ],
+    "assertions": []
+  },
+  {
+    "text": "7.9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      662,
+      667
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      674,
+      678
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      679,
+      682
+    ],
+    "assertions": []
+  },
+  {
+    "text": "crp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      689,
+      692
+    ],
+    "assertions": []
+  },
+  {
+    "text": "92",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      693,
+      695
+    ],
+    "assertions": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      702,
+      706
+    ],
+    "assertions": []
+  },
+  {
+    "text": "92 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      708,
+      712
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      719,
+      722
+    ],
+    "assertions": []
+  },
+  {
+    "text": "385",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      723,
+      726
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      733,
+      743
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15,5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      744,
+      748
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      778,
+      792
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      799,
+      816
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      823,
+      836
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ciprofloxacin 500mg",
+    "type": "THUỐC",
+    "position": [
+      856,
+      875
+    ],
+    "assertions": [],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      882,
+      892
+    ],
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "position": [
+      899,
+      909
+    ],
+    "assertions": [],
+    "candidates": [
+      "6918"
+    ]
+  }
+]

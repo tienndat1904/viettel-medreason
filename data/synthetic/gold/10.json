@@ -1,0 +1,312 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      55
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      74
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N12"
+    ]
+  },
+  {
+    "text": "gabapentin 300mg",
+    "type": "THUỐC",
+    "position": [
+      111,
+      127
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "azithromycin 500mg q4h",
+    "type": "THUỐC",
+    "position": [
+      134,
+      156
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      234,
+      242
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      274,
+      282
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      291,
+      297
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      306,
+      315
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      322,
+      329
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      338,
+      355
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      409,
+      416
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      432,
+      437
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      453,
+      461
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      483,
+      492
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      514,
+      534
+    ],
+    "assertions": [],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      592,
+      596
+    ],
+    "assertions": []
+  },
+  {
+    "text": "92 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      598,
+      602
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu cầu (plt)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      609,
+      623
+    ],
+    "assertions": []
+  },
+  {
+    "text": "97",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      625,
+      627
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      634,
+      638
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      640,
+      643
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      650,
+      653
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6108",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      655,
+      659
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      666,
+      669
+    ],
+    "assertions": []
+  },
+  {
+    "text": "14.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      670,
+      674
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      704,
+      718
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang bàn chân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      725,
+      746
+    ],
+    "assertions": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      766,
+      776
+    ],
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "metoprolol 100mg po daily",
+    "type": "THUỐC",
+    "position": [
+      783,
+      808
+    ],
+    "assertions": [],
+    "candidates": [
+      "6918"
+    ]
+  },
+  {
+    "text": "pantoprazole 40mg đường uống",
+    "type": "THUỐC",
+    "position": [
+      815,
+      843
+    ],
+    "assertions": [],
+    "candidates": [
+      "40790"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - suy tim sung huyết
+    - đái tháo đường típ 2
+    - thuyên tắc phổi
+    - bệnh trào ngược dạ dày thực quản
+    Thuốc trước khi nhập viện
+    - **losartan 50mg**
+    - acetaminophen 1g tiêm tĩnh mạch
+    - carvedilol
+    - atenolol 50mg hằng ngày
+    Tiền sử gia đình
+    - Mẹ bệnh nhân có suy tim
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: chảy nước mũi
+    Triệu chứng hiện tại
+    - tiểu buốt
+    - phù chi dưới
+    - ợ chua
+    Các triệu chứng liên quan
+    - không có đau họng
+    - Không **lú lẫn**
+    - Phủ nhận lơ mơ
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - glucose: 304
+    - natri: 140
+    - alt 218
+    - hba1c: 9,8 %
+    Chẩn đoán hình ảnh
+    - monitor holter
+    Điều trị
+    - omeprazole 40mg q6h
+    - lisinopril 20mg po daily

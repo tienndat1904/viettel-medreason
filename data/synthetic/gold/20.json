@@ -1,0 +1,383 @@
+[
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      75
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      82,
+      86
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "M10.9"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      93,
+      101
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      128
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "metformin 500mg q4h",
+    "type": "THUỐC",
+    "position": [
+      165,
+      184
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6809"
+    ]
+  },
+  {
+    "text": "ciprofloxacin 500mg nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      191,
+      219
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "prednisone q4h",
+    "type": "THUỐC",
+    "position": [
+      226,
+      240
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "suy giáp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      284,
+      292
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "E03.9"
+    ]
+  },
+  {
+    "text": "gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      395,
+      403
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      435,
+      448
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      455,
+      469
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho đờm xanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      476,
+      487
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      494,
+      503
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      552,
+      561
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      577,
+      580
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tăng calci máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      602,
+      616
+    ],
+    "assertions": [],
+    "candidates": [
+      "E83.52"
+    ]
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      674,
+      677
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15,8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      679,
+      683
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      690,
+      693
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      693,
+      697
+    ],
+    "assertions": []
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      704,
+      711
+    ],
+    "assertions": []
+  },
+  {
+    "text": "108",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      713,
+      716
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      723,
+      731
+    ],
+    "assertions": []
+  },
+  {
+    "text": "0.10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      732,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      743,
+      746
+    ],
+    "assertions": []
+  },
+  {
+    "text": "186",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      748,
+      751
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      758,
+      764
+    ],
+    "assertions": []
+  },
+  {
+    "text": "29,4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      765,
+      769
+    ],
+    "assertions": []
+  },
+  {
+    "text": "neut%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      776,
+      781
+    ],
+    "assertions": []
+  },
+  {
+    "text": "58,3 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      783,
+      789
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      819,
+      833
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      840,
+      847
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ecg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      854,
+      857
+    ],
+    "assertions": []
+  },
+  {
+    "text": "morphine 4mg tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      877,
+      904
+    ],
+    "assertions": [],
+    "candidates": [
+      "7052"
+    ]
+  },
+  {
+    "text": "aspirin iv x2",
+    "type": "THUỐC",
+    "position": [
+      911,
+      924
+    ],
+    "assertions": [],
+    "candidates": [
+      "1191"
+    ]
+  },
+  {
+    "text": "nitroglycerin 0.4mg",
+    "type": "THUỐC",
+    "position": [
+      931,
+      950
+    ],
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  }
+]

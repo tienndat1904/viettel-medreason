@@ -1,0 +1,36 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - **béo phì**
+    - đợt cấp hen suyễn
+    Thuốc trước khi nhập viện
+    - rosuvastatin
+    - lisinopril 20mg po daily
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: hoa mắt
+    Triệu chứng hiện tại
+    - chảy nước mũi
+    - đánh trống ngực
+    - đau đầu
+    - khó thở về đêm
+    - đau cơ
+    - mất thăng bằng
+    Các triệu chứng liên quan
+    - không có ho đờm xanh
+    - Không tiếng rít
+    Chẩn đoán sơ bộ: thiếu máu
+    Sinh hoạt cá nhân bình thường.
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - **hgb** 13.5
+    - alt: 102
+    - **bnp** 22563
+    - hemoglobin: 14.9
+    - bạch cầu (wbc) 20.2
+    Chẩn đoán hình ảnh
+    - chụp ct sọ não
+    Điều trị
+    - albuterol nebs đường uống
+    - amlodipine 5mg po bid
+    - gabapentin 300mg tiêm tĩnh mạch

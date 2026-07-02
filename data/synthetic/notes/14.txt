@@ -1,0 +1,37 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - xơ gan
+    - viêm bể thận
+    Thuốc trước khi nhập viện
+    - gabapentin 300mg po bid
+    - lisinopril 10mg
+    Người bệnh uống nhiều cà phê mỗi ngày.
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: đánh trống ngực
+    Triệu chứng hiện tại
+    - **đau vai**
+    - mất thăng bằng
+    - tiểu máu
+    - ngất xỉu
+    - tiểu buốt
+    Các triệu chứng liên quan
+    - Phủ nhận mất thăng bằng
+    - không có phù hai bên
+    Chẩn đoán sơ bộ: hội chứng não gan
+    Người nhà xin về theo nguyện vọng.
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - inr 1.7
+    - spo2: 85
+    - hba1c 5.6 %
+    - bnp: 8123
+    - **wbc** 6.4
+    - natri 135
+    - lactate: 2,4
+    - tiểu cầu (plt): 261
+    Chẩn đoán hình ảnh
+    - chụp x-quang ngực
+    Điều trị
+    - prednisone

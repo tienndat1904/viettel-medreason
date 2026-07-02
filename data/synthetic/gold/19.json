@@ -1,0 +1,354 @@
+[
+  {
+    "text": "tăng kali máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      61
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E87.5"
+    ]
+  },
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      75
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K80.20"
+    ]
+  },
+  {
+    "text": "suy giáp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      82,
+      90
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E03.9"
+    ]
+  },
+  {
+    "text": "pantoprazole 40mg",
+    "type": "THUỐC",
+    "position": [
+      127,
+      144
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "40790"
+    ]
+  },
+  {
+    "text": "levothyroxine po bid",
+    "type": "THUỐC",
+    "position": [
+      151,
+      171
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "10582"
+    ]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      215,
+      229
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      261,
+      269
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      276,
+      283
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      290,
+      297
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      304,
+      310
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      317,
+      326
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      372,
+      389
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      405,
+      414
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      427,
+      435
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đột quỵ nhồi máu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      457,
+      477
+    ],
+    "assertions": [],
+    "candidates": [
+      "I63.9"
+    ]
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      535,
+      538
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15,2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      540,
+      544
+    ],
+    "assertions": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      551,
+      555
+    ],
+    "assertions": []
+  },
+  {
+    "text": "90",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      557,
+      559
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      566,
+      570
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5,2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      571,
+      574
+    ],
+    "assertions": []
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      581,
+      588
+    ],
+    "assertions": []
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      589,
+      591
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      598,
+      617
+    ],
+    "assertions": []
+  },
+  {
+    "text": "3.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      619,
+      622
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      629,
+      637
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.69",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      639,
+      643
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      650,
+      653
+    ],
+    "assertions": []
+  },
+  {
+    "text": "59",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      655,
+      657
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      664,
+      667
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4233",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      669,
+      673
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      703,
+      717
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      724,
+      737
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      744,
+      758
+    ],
+    "assertions": []
+  },
+  {
+    "text": "atenolol 50mg",
+    "type": "THUỐC",
+    "position": [
+      778,
+      791
+    ],
+    "assertions": [],
+    "candidates": [
+      "1202"
+    ]
+  }
+]

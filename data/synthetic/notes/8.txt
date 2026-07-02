@@ -1,0 +1,40 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - viêm phế quản cấp
+    - xuất huyết dưới nhện
+    - đột quỵ nhồi máu não
+    - viêm bể thận
+    Thuốc trước khi nhập viện
+    - omeprazole 40mg
+    - ibuprofen 600mg
+    Tiền sử gia đình
+    - Mẹ bệnh nhân có giãn phế quản
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: mất ngủ
+    Triệu chứng hiện tại
+    - chán ăn
+    - ho
+    - ợ hơi
+    - đau đầu
+    - khó thở khi gắng sức
+    Các triệu chứng liên quan
+    - Không vã mồ hôi
+    - Không ghi nhận gần ngất
+    - không có ngứa
+    - không có ho khan
+    Chẩn đoán sơ bộ: viêm bể thận
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - spo2: 84
+    - alt: 82
+    - natri 145
+    - **kali**: 3,6
+    - hba1c: 6.9 %
+    - lymph%: 39.7 %
+    Chẩn đoán hình ảnh
+    - monitor holter
+    - chụp ct bụng chậu
+    Điều trị
+    - insulin glargine po bid

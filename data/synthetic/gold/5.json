@@ -1,0 +1,311 @@
+[
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      75
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "sa sút trí tuệ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      82,
+      96
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F03.90"
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      103,
+      118
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I26.99"
+    ]
+  },
+  {
+    "text": "ceftriaxone q6h",
+    "type": "THUỐC",
+    "position": [
+      155,
+      170
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2193"
+    ]
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      177,
+      187
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      290,
+      297
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      329,
+      335
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      345
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      359
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      405,
+      412
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      430,
+      437
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      458,
+      466
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      482,
+      489
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "bạch cầu (wbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      594,
+      608
+    ],
+    "assertions": []
+  },
+  {
+    "text": "11,0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      609,
+      613
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      620,
+      623
+    ],
+    "assertions": []
+  },
+  {
+    "text": "341",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      624,
+      627
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      634,
+      637
+    ],
+    "assertions": []
+  },
+  {
+    "text": "11.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      638,
+      642
+    ],
+    "assertions": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      649,
+      657
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.35",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      658,
+      662
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      669,
+      672
+    ],
+    "assertions": []
+  },
+  {
+    "text": "30",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      674,
+      676
+    ],
+    "assertions": []
+  },
+  {
+    "text": "neut%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      683,
+      688
+    ],
+    "assertions": []
+  },
+  {
+    "text": "72.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      689,
+      693
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      723,
+      738
+    ],
+    "assertions": []
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      745,
+      759
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      766,
+      780
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nitroglycerin 0.4mg",
+    "type": "THUỐC",
+    "position": [
+      800,
+      819
+    ],
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  },
+  {
+    "text": "ipratropium nebs po",
+    "type": "THUỐC",
+    "position": [
+      826,
+      845
+    ],
+    "assertions": [],
+    "candidates": [
+      "7213"
+    ]
+  }
+]

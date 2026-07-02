@@ -1,0 +1,321 @@
+[
+  {
+    "text": "viêm khớp dạng thấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      67
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "M06.9"
+    ]
+  },
+  {
+    "text": "viêm tụy cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      74,
+      86
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K85.9"
+    ]
+  },
+  {
+    "text": "spironolactone 50mg iv x2",
+    "type": "THUỐC",
+    "position": [
+      123,
+      148
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "9997"
+    ]
+  },
+  {
+    "text": "furosemide 40mg q4h",
+    "type": "THUỐC",
+    "position": [
+      155,
+      174
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4603"
+    ]
+  },
+  {
+    "text": "carvedilol 25mg",
+    "type": "THUỐC",
+    "position": [
+      181,
+      196
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      292,
+      300
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      345
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      361
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      368,
+      376
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      383,
+      390
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      397,
+      404
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      411,
+      419
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      465,
+      471
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      508
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      529,
+      536
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      558,
+      573
+    ],
+    "assertions": [],
+    "candidates": [
+      "I26.99"
+    ]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      631,
+      641
+    ],
+    "assertions": []
+  },
+  {
+    "text": "10.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      643,
+      647
+    ],
+    "assertions": []
+  },
+  {
+    "text": "crp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      654,
+      657
+    ],
+    "assertions": []
+  },
+  {
+    "text": "93",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      659,
+      661
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      668,
+      674
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.5 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      675,
+      680
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      706
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      708,
+      711
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      718,
+      721
+    ],
+    "assertions": []
+  },
+  {
+    "text": "15.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      723,
+      727
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      734,
+      737
+    ],
+    "assertions": []
+  },
+  {
+    "text": "20846",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      738,
+      743
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang bàn chân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      773,
+      794
+    ],
+    "assertions": []
+  },
+  {
+    "text": "metformin 1000mg x 1",
+    "type": "THUỐC",
+    "position": [
+      814,
+      834
+    ],
+    "assertions": [],
+    "candidates": [
+      "6809"
+    ]
+  },
+  {
+    "text": "amoxicillin 875mg po bid",
+    "type": "THUỐC",
+    "position": [
+      841,
+      865
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  }
+]

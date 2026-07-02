@@ -1,0 +1,38 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - thiếu máu
+    - tăng kali máu
+    - gout
+    Thuốc trước khi nhập viện
+    - ipratropium nebs nebs q4h
+    - amlodipine
+    - lisinopril 10mg
+
+2.  Bệnh sử hiện tại
+    Lý do nhập viện: đau bụng
+    Triệu chứng hiện tại
+    - táo bón
+    - chán ăn
+    - khò khè
+    Các triệu chứng liên quan
+    - Không đau họng
+    - Không ghi nhận tiểu dắt
+    - Không khó nuốt
+    - Phủ nhận ợ hơi
+    Chẩn đoán sơ bộ: viêm phế quản cấp
+    Mất việc làm cách đây 2 tuần, nhiều căng thẳng.
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - **hgb** 15.4
+    - kali: 3.3
+    - hemoglobin 14.7
+    - troponin 1,35
+    - bnp: 11234
+    Chẩn đoán hình ảnh
+    - điện tâm đồ
+    - siêu âm gan mật
+    Điều trị
+    - ibuprofen q4h
+    - morphine
+    - pantoprazole iv

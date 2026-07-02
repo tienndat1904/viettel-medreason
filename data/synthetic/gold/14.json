@@ -1,0 +1,311 @@
+[
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      54
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K74.60"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      61,
+      73
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N12"
+    ]
+  },
+  {
+    "text": "gabapentin 300mg po bid",
+    "type": "THUỐC",
+    "position": [
+      110,
+      133
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "lisinopril 10mg",
+    "type": "THUỐC",
+    "position": [
+      140,
+      155
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "29046"
+    ]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      242,
+      257
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      291,
+      298
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      307,
+      321
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      328,
+      336
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      343,
+      351
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      358,
+      367
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      427
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      443,
+      454
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      476,
+      493
+    ],
+    "assertions": [],
+    "candidates": [
+      "K72.90"
+    ]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      590,
+      593
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      594,
+      597
+    ],
+    "assertions": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      604,
+      608
+    ],
+    "assertions": []
+  },
+  {
+    "text": "85",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      610,
+      612
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      619,
+      624
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5.6 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      625,
+      630
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      637,
+      640
+    ],
+    "assertions": []
+  },
+  {
+    "text": "8123",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      642,
+      646
+    ],
+    "assertions": []
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      655,
+      658
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      661,
+      664
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      671,
+      676
+    ],
+    "assertions": []
+  },
+  {
+    "text": "135",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      677,
+      680
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      694
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2,4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      696,
+      699
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu cầu (plt)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      706,
+      720
+    ],
+    "assertions": []
+  },
+  {
+    "text": "261",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      722,
+      725
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      755,
+      772
+    ],
+    "assertions": []
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      792,
+      802
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  }
+]
