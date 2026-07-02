@@ -9,7 +9,7 @@
   {"text": "đau bàn chân phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục triệu chứng hiện tại"},
   {"text": "viêm bể thận", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N12"], "note": "'Gần đây nhập viện vì viêm bể thận'"},
   {"text": "viêm phế quản", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J40"]},
-  {"text": "ertapenem", "type": "THUỐC", "assertions": [], "candidates": [], "note": "'đang dùng ... ertapenem' (đang điều trị); RxNorm TODO"},
+  {"text": "ertapenem", "type": "THUỐC", "assertions": [], "candidates": ["325642"], "note": "'đang dùng ... ertapenem' (đang điều trị); RxNorm TODO"},
   {"text": "không vững khi đứng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "unsteadiness; 'không vững' là TÊN triệu chứng, KHÔNG phải phủ định"},
   {"text": "hct (hematocrit)", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "8.126.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "giá trị lỗi dịch"},

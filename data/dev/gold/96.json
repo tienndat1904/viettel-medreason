@@ -129,7 +129,10 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "8339",
+      "37617"
+    ]
   },
   {
     "text": "sốt cao",
@@ -347,7 +350,9 @@
       1580
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "9863"
+    ]
   },
   {
     "text": "Cefepim",
@@ -357,7 +362,9 @@
       1601
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "20481"
+    ]
   },
   {
     "text": "Vancomycin",
@@ -367,6 +374,8 @@
       1615
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "11124"
+    ]
   }
 ]

@@ -1,17 +1,15 @@
 [
-  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện' -> historical; metoprolol tartrate 25 mg oral tablet, bid"},
-  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 2, "note": "'Bắt đầu dùng ... không cải thiện' trong diễn biến hiện tại -> KHÔNG historical (chưa chắc chắn)"},
-  {"text": "doxycycline", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "mục 'Thuốc trước khi nhập viện'; doxycycline (oral)"},
-  {"text": "atenolol", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "liệt kê ở 'Thuốc trước khi nhập viện' (dù ghi 'uống hôm nay') -> theo guide: historical"},
-  {"text": "atenolol", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 2, "note": "nằm trong 'atenololtrong' (typed liền); dùng ở nhà trong đợt hiện tại -> []"},
-  {"text": "aspirin 325mg x 1", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chỉ định tại cấp cứu -> current; aspirin 325 mg oral tablet"},
-
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["6918"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện' -> historical; metoprolol tartrate 25 mg oral tablet, bid"},
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC", "assertions": [], "candidates": ["6918"], "occ": 2, "note": "'Bắt đầu dùng ... không cải thiện' trong diễn biến hiện tại -> KHÔNG historical (chưa chắc chắn)"},
+  {"text": "doxycycline", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["3640"], "note": "mục 'Thuốc trước khi nhập viện'; doxycycline (oral)"},
+  {"text": "atenolol", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["1202"], "occ": 1, "note": "liệt kê ở 'Thuốc trước khi nhập viện' (dù ghi 'uống hôm nay') -> theo guide: historical"},
+  {"text": "atenolol", "type": "THUỐC", "assertions": [], "candidates": ["1202"], "occ": 2, "note": "nằm trong 'atenololtrong' (typed liền); dùng ở nhà trong đợt hiện tại -> []"},
+  {"text": "aspirin 325mg x 1", "type": "THUỐC", "assertions": [], "candidates": ["1191"], "note": "chỉ định tại cấp cứu -> current; aspirin 325 mg oral tablet"},
   {"text": "viêm tuyến mồ hôi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["L73.2"], "note": "hidradenitis suppurativa; trong tiền sử/thuốc trước NV"},
   {"text": "ngoại tâm thu nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.1"], "occ": 1, "note": "atrial premature beats (ghi nhận trên holter) - có thể coi là finding, chưa chắc DX"},
   {"text": "ngoại tâm thu nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.1"], "occ": 2},
   {"text": "ngoại tâm thu thất", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.3"], "occ": 1, "note": "ventricular premature beats"},
   {"text": "ngoại tâm thu thất", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I49.3"], "occ": 2},
-
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1},
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 2},
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 3},
@@ -22,7 +20,6 @@
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 8},
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 9, "note": "nằm trong 'tăng đánh trống ngực' dòng biến cố lúc 17 giờ"},
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 10},
-
   {"text": "Khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "note": "dòng 'Khó thở nhẹ khó thở'"},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 2},
@@ -30,20 +27,16 @@
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 4},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 5},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 6},
-
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1},
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 2},
-
   {"text": "cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1},
   {"text": "cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 2},
   {"text": "cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 3},
-
   {"text": "giảm dung nạp gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "note": "reduced exercise tolerance"},
   {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không buồn nôn'"},
   {"text": "đổ mồ hôi", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không buồn nôn, hay nôn, đổ mồ hôi'"},
   {"text": "khó chịu vùng ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 1, "note": "'không có khó chịu vùng ngực khi đến tầng'"},
   {"text": "khó chịu vùng ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 2, "note": "'không còn ... khó chịu vùng ngực'"},
-
   {"text": "monitor holter", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "candidates": [], "occ": 1},
   {"text": "monitor holter", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "candidates": [], "occ": 2},
   {"text": "siêu âm tim qua thành ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "candidates": [], "note": "transthoracic echocardiogram"},

@@ -9,7 +9,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "6918"
+    ]
   },
   {
     "text": "doxycycline",
@@ -21,7 +23,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "3640"
+    ]
   },
   {
     "text": "viêm tuyến mồ hôi",
@@ -47,7 +51,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "1202"
+    ]
   },
   {
     "text": "đánh trống ngực",
@@ -294,7 +300,9 @@
       1794
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "6918"
+    ]
   },
   {
     "text": "atenolol",
@@ -304,7 +312,9 @@
       1857
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1202"
+    ]
   },
   {
     "text": "siêu âm tim qua thành ngực",
@@ -350,7 +360,9 @@
       2216
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1191"
+    ]
   },
   {
     "text": "x-quang ngực",

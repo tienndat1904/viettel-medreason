@@ -30,7 +30,7 @@
   {"text": "Siêu âm gan mật", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "giãn đường mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K83.8"], "note": "biliary dilation"},
   {"text": "tắc nghẽn đường mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K83.1"], "note": "biliary obstruction"},
-  {"text": "levophed", "type": "THUỐC", "assertions": [], "candidates": [], "note": "norepinephrine (brand); RxNorm TODO"},
-  {"text": "propofol", "type": "THUỐC", "assertions": [], "candidates": [], "note": "'propofol để an thần'; RxNorm TODO"},
-  {"text": "phentolamine", "type": "THUỐC", "assertions": [], "candidates": [], "note": "'Đã đặt phentolamine'; RxNorm TODO"}
+  {"text": "levophed", "type": "THUỐC", "assertions": [], "candidates": ["7512"], "note": "norepinephrine (brand); RxNorm TODO"},
+  {"text": "propofol", "type": "THUỐC", "assertions": [], "candidates": ["8782"], "note": "'propofol để an thần'; RxNorm TODO"},
+  {"text": "phentolamine", "type": "THUỐC", "assertions": [], "candidates": ["8153"], "note": "'Đã đặt phentolamine'; RxNorm TODO"}
 ]

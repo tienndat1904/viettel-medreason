@@ -65,7 +65,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "38413"
+    ]
   },
   {
     "text": "Insulin glargine",
@@ -77,7 +79,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "274783"
+    ]
   },
   {
     "text": "Isosorbide",
@@ -101,7 +105,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "301542"
+    ]
   },
   {
     "text": "Carvedilol",
@@ -113,7 +119,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "20352"
+    ]
   },
   {
     "text": "tăng kali máu",
@@ -331,7 +339,9 @@
       1699
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4850"
+    ]
   },
   {
     "text": "tăng kali máu",
@@ -353,6 +363,8 @@
       1739
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   }
 ]

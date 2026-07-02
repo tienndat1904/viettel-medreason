@@ -204,7 +204,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   },
   {
     "text": "ntg",
@@ -214,7 +216,9 @@
       1696
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "asa",
@@ -224,7 +228,9 @@
       1707
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1191"
+    ]
   },
   {
     "text": "80mg lasix iv",
@@ -234,7 +240,9 @@
       1728
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   },
   {
     "text": "8mg morphine",
@@ -244,7 +252,9 @@
       1748
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "7052"
+    ]
   },
   {
     "text": "1mg dilaudid",
@@ -254,7 +264,9 @@
       1768
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "3423"
+    ]
   },
   {
     "text": "po metoprolol",
@@ -264,7 +276,9 @@
       1793
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "6918"
+    ]
   },
   {
     "text": "10mg iv diltiazem",
@@ -274,6 +288,8 @@
       1822
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "3443"
+    ]
   }
 ]
