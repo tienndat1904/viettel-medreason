@@ -1,6 +1,6 @@
-"""Parse JSON bền vững từ output LLM (tham khảo pattern dự án Sphinx OCR).
+"""Parse JSON bền vững từ output LLM.
 
-Xử lý: Qwen thinking mode (<think>...</think>), code-fence ```json,
+Xử lý: thinking mode (<think>...</think>), code-fence ```json,
 và bóc block [ ... ] bằng đếm ngoặc cân bằng.
 """
 from __future__ import annotations

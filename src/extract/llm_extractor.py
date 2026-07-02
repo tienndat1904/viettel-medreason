@@ -50,7 +50,7 @@ class LLMExtractor:
             out = self._model.generate(
                 **inputs, max_new_tokens=self.max_new_tokens,
                 do_sample=self.temperature > 0, temperature=max(self.temperature, 1e-6),
-                no_repeat_ngram_size=30,  # chống model lặp trên văn bản nhiễu (học từ Sphinx)
+                no_repeat_ngram_size=30,  # chống model lặp trên văn bản nhiễu
                 pad_token_id=self._tok.eos_token_id)
         gen = self._tok.decode(out[0][inputs["input_ids"].shape[1]:],
                                skip_special_tokens=True)
