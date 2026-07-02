@@ -1,0 +1,7 @@
+[
+  {"text": "xơ gan do rượu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K70.3"], "note": "'nghi ngờ' + mục 'Các bệnh lý mãn tính' -> historical; alcoholic cirrhosis"},
+  {"text": "hội chứng não gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K72.9"], "occ": 1, "note": "hepatic encephalopathy; triệu chứng/chẩn đoán hiện tại"},
+  {"text": "hội chứng não gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K72.9"], "occ": 2},
+  {"text": "hội chứng não gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K72.9"], "occ": 3},
+  {"text": "hội chứng não gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K72.9"], "occ": 4}
+]

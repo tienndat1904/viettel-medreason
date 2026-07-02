@@ -1,0 +1,15 @@
+[
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Trước đây... đã từng bị đau bụng sau khi uống sữa'"},
+  {"text": "đau âm ỉ vùng quanh rốn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
+  {"text": "đau bụng âm ỉ quanh rốn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "narrative hiện tại"},
+  {"text": "đau âm ỉ vùng quanh rốn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'buồn nôn nhẹ'"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 2, "note": "'không nôn' (occ1 nằm trong 'buồn nôn')"},
+  {"text": "xuất huyết dưới da", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không xuất huyết dưới da'"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không sốt'"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không  ớn lạnh'"},
+  {"text": "nhầy máu", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không có nhầy máu'"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không đau ngực'"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không khó thở'"},
+  {"text": "chướng", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'bụng mềm, không chướng'"}
+]

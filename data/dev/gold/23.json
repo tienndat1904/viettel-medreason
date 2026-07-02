@@ -1,0 +1,267 @@
+[
+  {
+    "text": "Bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      54
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.10"
+    ]
+  },
+  {
+    "text": "ăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      56,
+      68
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      87
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      89,
+      103
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "Cơn rối loạn ý thức thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      132,
+      162
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cơn co giật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      173,
+      184
+    ],
+    "assertions": [],
+    "candidates": [
+      "R56.9"
+    ]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      253,
+      273
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I60.9"
+    ]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      275,
+      302
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bầm dập nhu mô vùng trán phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      354,
+      383
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      484,
+      498
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G93.0"
+    ]
+  },
+  {
+    "text": "tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      512,
+      542
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I62.03"
+    ]
+  },
+  {
+    "text": "đau đầu kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      711,
+      726
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "tụ máu ngoài màng cứng phải cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      752,
+      788
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I62.1"
+    ]
+  },
+  {
+    "text": "tê bì nửa mặt phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1056,
+      1074
+    ],
+    "assertions": []
+  },
+  {
+    "text": "run giật tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1889,
+      1906
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1914,
+      1921
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1929,
+      1937
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "tiểu tiện không tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1947,
+      1969
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Đau đầu vùng thái dương phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2008,
+      2036
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2159,
+      2173
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2175,
+      2189
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2190,
+      2198
+    ],
+    "assertions": []
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2511,
+      2518
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  }
+]

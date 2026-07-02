@@ -1,0 +1,23 @@
+[
+  {"text": "đợt cấp hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.901"], "note": "'Nhập viện trong quá khứ vì đợt cấp hen suyễn'"},
+  {"text": "hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.909"], "occ": 2, "note": "'Bệnh mạn tính: hen suyễn' (occ1 nằm trong 'đợt cấp hen suyễn')"},
+  {"text": "albuterol nebs q4h tại nhà", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "Thuốc trước khi nhập viện; RxNorm TODO"},
+  {"text": "z-pack", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "azithromycin pack; RxNorm TODO"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'không dung nạp amoxicillin do xuất hiện tiêu chảy'"},
+  {"text": "prednisone 40 mg/ngày", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "RxNorm TODO"},
+  {"text": "amoxicillin", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "'không dung nạp / Ngừng amoxicillin' -> đã dùng, KHÔNG negated; RxNorm TODO"},
+  {"text": "azithromycin", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "RxNorm TODO"},
+  {"text": "Khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "mục 'Triệu chứng khi nhập viện'"},
+  {"text": "Khò khè", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
+  {"text": "Tiếng rít về đêm", "type": "TRIỆU_CHỨNG", "assertions": []},
+  {"text": "Đau vùng xoang", "type": "TRIỆU_CHỨNG", "assertions": []},
+  {"text": "Ho nhẹ", "type": "TRIỆU_CHỨNG", "assertions": []},
+  {"text": "Đau đầu dữ dội", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
+  {"text": "Đau hạ vị", "type": "TRIỆU_CHỨNG", "assertions": []},
+  {"text": "chụp x-quang ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
+  {"text": "viêm phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["J18.9"], "note": "'không cho thấy bằng chứng của viêm phổi'"},
+  {"text": "combivent nebs x3 every 20 minutes", "type": "THUỐC", "assertions": [], "candidates": [], "note": "ipratropium/albuterol nebs; RxNorm TODO"},
+  {"text": "iv magnesium", "type": "THUỐC", "assertions": [], "candidates": [], "note": "magnesium sulfate IV; RxNorm TODO"},
+  {"text": "lưu lượng đỉnh thở ra", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "peak expiratory flow"},
+  {"text": "240 đến 260", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []}
+]

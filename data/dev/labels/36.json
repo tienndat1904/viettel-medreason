@@ -1,0 +1,17 @@
+[
+  {"text": "Bệnh thận đa nang", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["Q61.3"], "occ": 1, "note": "polycystic kidney disease; 'Bệnh mạn tính'"},
+  {"text": "azathioprine", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "Thuốc trước khi nhập viện; RxNorm TODO"},
+  {"text": "prograf", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "tacrolimus (giảm liều 5mg->1mg bid); RxNorm TODO"},
+  {"text": "cellcept", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "mycophenolate; RxNorm TODO"},
+  {"text": "Suy thận ngày càng nặng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N19"], "occ": 1, "note": "lý do nhập viện; reviewer xác nhận ICD (acute-on-chronic)"},
+  {"text": "creatinine", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "'creatinine ổn định ở mức 1.4-1.6'"},
+  {"text": "1.4-1.6", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "creatinine baseline sau ghép"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'tiêu chảy đáng kể khi dùng cellcept'"},
+  {"text": "pcr", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "BK virus PCR"},
+  {"text": "siêu âm thận", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
+  {"text": "5.1", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "creatinine 5.1 hôm nay"},
+  {"text": "5.8", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "kali (k) 5.8; token 'k' bị bỏ do trùng chuỗi con"},
+  {"text": "Sinh thiết thận", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "renal biopsy (thủ thuật chẩn đoán)"},
+  {"text": "Bệnh lý thận do BK", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "BK virus nephropathy; ICD reviewer xác nhận"},
+  {"text": "đào thải kháng thể hữu hình cấp tính", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": [], "occ": 1, "note": "'không có bằng chứng đào thải...' (thải ghép); reviewer ICD T86.1x"}
+]

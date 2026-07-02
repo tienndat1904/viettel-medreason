@@ -1,0 +1,28 @@
+[
+  {"text": "hội chứng turner, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["Q96.9"], "note": "Turner syndrome, unspecified; mục 'Các bệnh lý mãn tính'"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "hypertension; bệnh mãn tính"},
+  {"text": "Ung thư đại tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C18.9"], "note": "colon cancer (tiền sử phẫu thuật cắt bỏ)"},
+  {"text": "Thuyên tắc phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I26.99", "I26.9"], "occ": 1, "note": "pulmonary embolism; tiền sử"},
+  {"text": "Thuyên tắc phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I26.99", "I26.9"], "occ": 2, "note": "lặp trong ngoặc"},
+  {"text": "Cơn nhịp nhanh", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R00.0"], "note": "tachycardia; nằm trong câu phủ định về 'khó thở tăng lên' - bản thân nhịp nhanh được nhắc, TC/DX chưa chắc"},
+
+  {"text": "coumadin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "warfarin; 'đang dùng coumadin' tiền sử"},
+  {"text": "coumadin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 2, "note": "lặp trong ngoặc"},
+  {"text": "coumadin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 3, "note": "mục 'Thuốc trước khi nhập viện'"},
+  {"text": "albuterolipratropium nebs x2", "type": "THUỐC", "assertions": [], "candidates": [], "note": "typo dính chữ: albuterol + ipratropium nebulizer x2; 'Các thủ thuật đã thực hiện' -> current"},
+  {"text": "metoprolol 5mg iv x2", "type": "THUỐC", "assertions": [], "candidates": [], "note": "metoprolol tartrate 5 mg IV x2; current"},
+  {"text": "metoprolol", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 2, "note": "occ2 = 'sau khi dùng metoprolol' (occ1 nằm trong 'metoprolol 5mg iv x2')"},
+
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1, "note": "lý do nhập viện"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 2, "note": "triệu chứng hiện tại"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 3, "note": "'Không  khó thở'"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 5, "note": "'Không khó thở tăng lên...' (bỏ occ4 vì nằm trong 'khó thở khi gắng sức')"},
+  {"text": "khó thở khi gắng sức", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không khó thở khi gắng sức'"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 1, "note": "'Không đau ngực'"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "occ": 2},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không sốt'"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không ớn lạnh'"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "candidates": [], "note": "'Không đánh trống ngực'"},
+  {"text": "Cảm giác có đờm ở cổ họng", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "note": "phlegm sensation in throat"},
+  {"text": "khó nuốt", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "note": "dysphagia; 'cảm thấy khó nuốt'"}
+]

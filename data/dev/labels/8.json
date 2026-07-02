@@ -1,0 +1,14 @@
+[
+  {"text": "nốt tuyến giáp thùy trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 1, "note": "left thyroid lobe nodule; nốt đơn độc tuyến giáp"},
+  {"text": "nốt tuyến giáp thùy trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 2},
+  {"text": "xét nghiệm tế bào học", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "cytology / FNA cytopathology"},
+  {"text": "chèn ép vùng cổ", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không ghi nhận triệu chứng chèn ép vùng cổ' -> negated"},
+  {"text": "khó nuốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"]},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"]},
+  {"text": "khàn tiếng", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"]},
+  {"text": "nốt tuyến giáp trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 1},
+  {"text": "tế bào học", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "'Kết quả tế bào học' (occ1 nằm trong 'xét nghiệm tế bào học')"},
+  {"text": "nốt tuyến giáp trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 2},
+  {"text": "nốt tuyến giáp trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 3},
+  {"text": "Nốt tuyến giáp thùy trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "note": "hoa đầu dòng, dòng 9"}
+]
