@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--input", default=None)
     ap.add_argument("--output", default=None)
     ap.add_argument("--backend", default=None, choices=["rule", "llm"])
+    ap.add_argument("--resume", action="store_true",
+                    help="bỏ qua file N.json đã có & hợp lệ (chạy tiếp sau khi Colab ngắt)")
     args = ap.parse_args()
 
     cfg = load_cfg(args.config)
@@ -81,16 +83,33 @@ def main():
     files = sorted(glob.glob(os.path.join(input_dir, "*.txt")),
                    key=lambda p: int(os.path.splitext(os.path.basename(p))[0])
                    if os.path.splitext(os.path.basename(p))[0].isdigit() else 0)
-    print(f"[pipeline] backend={backend} | {len(files)} file | out={output_dir}")
+    print(f"[pipeline] backend={backend} | {len(files)} file | out={output_dir}"
+          f"{' | resume' if args.resume else ''}")
 
+    def _done(path):
+        """File đã xuất & parse được JSON -> coi như hoàn tất (dùng cho --resume)."""
+        if not os.path.exists(path):
+            return False
+        try:
+            with open(path, encoding="utf-8") as f:
+                json.load(f)
+            return True
+        except (json.JSONDecodeError, OSError):
+            return False
+
+    skipped = 0
     for fp in files:
         name = os.path.splitext(os.path.basename(fp))[0]
+        outpath = os.path.join(output_dir, f"{name}.json")
+        if args.resume and _done(outpath):
+            skipped += 1
+            continue
         with open(fp, "r", encoding="utf-8") as f:
             text = f.read()
         concepts = process_file(text, extract_fn, linker, assertion_mode)
-        with open(os.path.join(output_dir, f"{name}.json"), "w", encoding="utf-8") as f:
+        with open(outpath, "w", encoding="utf-8") as f:
             json.dump(concepts, f, ensure_ascii=False, indent=2)
-    print("[pipeline] xong.")
+    print(f"[pipeline] xong.{f' Bỏ qua {skipped} file đã có.' if skipped else ''}")
 
 
 if __name__ == "__main__":
