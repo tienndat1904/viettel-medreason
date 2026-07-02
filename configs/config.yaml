@@ -17,7 +17,7 @@ paths:
 extract:
   backend: rule                       # rule | llm
   assertion_mode: union               # replace | union | fill (assertion sau offset)
-  llm_model: Qwen/Qwen2.5-7B-Instruct
+  llm_model: Qwen/Qwen2.5-3B-Instruct   # 3B: train/infer nhanh; fine-tune bù chất lượng. 7B cho bản cuối nếu cần
   lora_adapter: ""                    # để trống = few-shot chưa fine-tune; điền path adapter sau QLoRA
   max_seq_len: 4096
   temperature: 0.0
