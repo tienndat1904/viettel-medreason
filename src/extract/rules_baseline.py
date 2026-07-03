@@ -42,7 +42,14 @@ LAB_NAMES = [
     "procalcitonin", "d-dimer", "cholesterol", "triglyceride",
 ]
 
-_num = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*%|\s*[a-zA-Z/]+)?")
+# số + đơn vị kết quả hợp lệ (gộp vào text): %, °C, range, nồng độ...
+_RESULT_UNIT = (r"(?:\s*(?:%|°?[cCfF]\b|mmol/l|mg/dl|ng/ml|ng/dl|ng|g/l|meq/l|"
+                r"mm[hH]g|bpm|mm|cm|/min|x?10\^?\d*|[kK]/[uµ]l|[gG]/[dD][lL]))?")
+_num = re.compile(r"(?<![\w.])(\d[\d.,]*(?:\s*[-x×]\s*\d[\d.,]*)?)" + _RESULT_UNIT)
+# số theo sau bởi đơn vị THỜI GIAN/LIỀU -> không phải kết quả xét nghiệm
+_DUR_AFTER = re.compile(r"^\s*(tu[aầ]n|ngày|ngay|tháng|thang|năm|nam|giờ|gio|phút|phut|"
+                        r"tuổi|tuoi|lần|lan|viên|vien|gói|goi|mg|ml|mcg|g)\b", re.I)
+_RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm")
 
 # ---- đường dẫn KB mặc định (khớp configs/config.yaml) ----
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -155,12 +162,16 @@ def extract(text: str) -> list[dict]:
             found.append({"text": text[m.start():m.end()], "type": "TÊN_XÉT_NGHIỆM",
                           "assertions": []})
 
-    # kết quả xét nghiệm (số) — chỉ lấy số đứng gần từ khóa xét nghiệm/kết quả
+    # kết quả xét nghiệm (số): gần tên xét nghiệm / dấu ":" / cue kết quả,
+    # loại số theo sau bởi đơn vị thời gian/liều (3 tuần, 325 mg).
     for m in _num.finditer(text):
-        ctx = low[max(0, m.start() - 25):m.start()]
-        if any(k in ctx for k in ["là ", "wbc", "troponin", "canxi", "ast",
-                                   "alt", "cr ", "cea", ": ", "spo2", "bilirubin"]):
-            found.append({"text": text[m.start():m.end()],
+        has_unit = bool(m.group(0)[len(m.group(1)):].strip())
+        after = low[m.end():m.end() + 10]
+        if not has_unit and _DUR_AFTER.match(after):
+            continue
+        pre = low[max(0, m.start() - 28):m.start()]
+        if any(k in pre for k in _RESULT_CUE) or any(ln in pre for ln in LAB_NAMES):
+            found.append({"text": text[m.start():m.end()].strip(),
                           "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
 
     # thuốc + chẩn đoán (gazetteer từ KB) — để linking P2 chạy
