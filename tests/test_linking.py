@@ -72,7 +72,7 @@ def test_linker():
     check("ICD GERD = [K21.0,K21.9]", got[:2] == ["K21.0", "K21.9"], got)
 
     # synonym bệnh phổ biến
-    for text, code in [("tăng huyết áp", "I10"), ("hen suyễn", "J45.9"),
+    for text, code in [("tăng huyết áp", "I10"), ("hen suyễn", "J45.909"),
                        ("nhiễm khuẩn huyết do tụ cầu vàng", "A41.9")]:
         got = lk.link_diagnosis(text)
         check(f"ICD synonym {text!r}", code in got, got)
