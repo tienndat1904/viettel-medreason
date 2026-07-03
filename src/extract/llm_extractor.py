@@ -36,9 +36,11 @@ def _clean_spans(raw: list) -> list[dict]:
 class LLMExtractor:
     def __init__(self, model_id="Qwen/Qwen2.5-7B-Instruct", lora_adapter="",
                  max_new_tokens=1536, temperature=0.0, load_in_4bit=True,
-                 seed=42, max_chunk_chars=1800, generate_fn=None):
+                 seed=42, max_chunk_chars=1800, generate_fn=None, fewshot=None):
         self.model_id = model_id
         self.lora_adapter = lora_adapter
+        # có adapter (đã fine-tune) -> KHÔNG few-shot (khớp SFT leaner); base model -> few-shot.
+        self.fewshot = (not bool(lora_adapter)) if fewshot is None else fewshot
         self.max_new_tokens = max_new_tokens
         self.temperature = temperature
         self.load_in_4bit = load_in_4bit
@@ -74,7 +76,8 @@ class LLMExtractor:
         self._ensure()
         import torch
         prompt = self._tok.apply_chat_template(
-            build_messages(chunk_text), tokenize=False, add_generation_prompt=True)
+            build_messages(chunk_text, fewshot=self.fewshot),
+            tokenize=False, add_generation_prompt=True)
         inputs = self._tok(prompt, return_tensors="pt").to(self._model.device)
         with torch.no_grad():
             out = self._model.generate(

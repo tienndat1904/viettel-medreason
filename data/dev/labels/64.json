@@ -1,7 +1,7 @@
 [
   {"text": "viêm túi mật", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K81.9"], "occ": 1, "note": "'Nhiều lần nhập viện trước đây ... điều trị viêm túi mật'"},
-  {"text": "ciproflagyl", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2551", "6922"], "occ": 1, "note": "cipro + flagyl (lần nhập viện trước); RxNorm TODO"},
-  {"text": "percocet", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["7804", "161"], "occ": 2, "note": "oxycodone/acetaminophen; 'Thuốc trước khi nhập viện lần này: percocet'; RxNorm TODO"},
+  {"text": "ciproflagyl", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "cipro + flagyl (lần nhập viện trước); RxNorm TODO"},
+  {"text": "percocet", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 2, "note": "oxycodone/acetaminophen; 'Thuốc trước khi nhập viện lần này: percocet'; RxNorm TODO"},
   {"text": "chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "viêm túi mật không biến chứng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K81.9"], "occ": 1, "note": "kết quả CT lần nhập viện trước"},
   {"text": "bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K57.90"], "note": "diverticular disease"},

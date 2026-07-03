@@ -1,11 +1,14 @@
 """Baseline trích xuất bằng luật (gazetteer + regex).
 
-MỤC ĐÍCH: có submission HỢP LỆ #1 ngay và kiểm thử toàn bộ đường ống
+MỤC ĐÍCH: có submission HỢP LỆ ngay và kiểm thử toàn bộ đường ống
 (offset → assertion → linking → validate). Chất lượng thật sẽ do LLM extractor thay thế.
 Trả về list {text, type} — assertion & position do module chuyên trách xử lý sau.
+
+THUỐC/CHẨN_ĐOÁN dùng gazetteer nạp lazy từ KB (tên hoạt chất RxNorm + brand map;
+term trong icd_synonyms.tsv) + luật "chẩn đoán ..." — đủ để linking P2 kích hoạt.
 """
 from __future__ import annotations
-import re
+import os, re
 
 # --- Gazetteer tối giản (mở rộng dần) ---
 SYMPTOMS = [
@@ -21,6 +24,97 @@ LAB_NAMES = [
 ]
 
 _num = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*%|\s*[a-zA-Z/]+)?")
+
+# ---- đường dẫn KB mặc định (khớp configs/config.yaml) ----
+_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+_KB_RXNORM = os.path.join(_ROOT, "data/kb/rxnorm_scd.parquet")
+_SYN_ICD = os.path.join(_ROOT, "data/kb/synonyms/icd_synonyms.tsv")
+_BRANDS = [os.path.join(_ROOT, "data/kb/synonyms/drug_brands_auto.tsv"),
+           os.path.join(_ROOT, "data/kb/synonyms/drug_brands.tsv")]
+
+# hoạt chất là từ tiếng Anh phổ thông -> bỏ để tránh dương tính giả
+_DRUG_STOP = {"water", "oxygen", "air", "alcohol", "iron", "zinc", "gold", "lead",
+              "salt", "tar", "coal", "honey", "starch", "sugar", "nicotine", "caffeine"}
+# cụm hay theo sau "chẩn đoán" nhưng không phải tên bệnh
+_DX_STOP = {"khác", "hình ảnh", "sơ bộ", "phân biệt", "xác định", "ban đầu",
+            "cuối cùng", "chính", "kèm theo", "và điều trị"}
+
+# đuôi liều/đường dùng ngay sau tên thuốc (định dạng danh mục thuốc EN)
+_DOSE_TAIL = re.compile(
+    r"(?:\s+(?:\d[\d.,\-]*\s*(?:%|mg/ml|mcg/ml|mg/dl|mmol|mg|ml|mcg|g|iu|units?)?"
+    r"|mg|ml|mcg|po|iv|im|sc|sq|bid|tid|qid|qd|qod|daily|qhs|qam|qpm|q\d+h"
+    r"|:?prn|xl|er|sr|cr|oral|tablet|cap|caps|suspension|nebs?|inhaler"
+    r"|hằng\ ngày|đường\ uống|khí\ dung|tiêm|truyền|viên|nang|gói))+",
+    re.IGNORECASE)
+
+_CACHE = {}
+
+
+def _load_gazetteers():
+    if _CACHE:
+        return _CACHE
+    drugs, dx = set(), set()
+    try:
+        import pandas as pd
+        if os.path.exists(_KB_RXNORM):
+            kb = pd.read_parquet(_KB_RXNORM, columns=["ingredient"])
+            for ing in kb["ingredient"].dropna().astype(str):
+                ing = ing.strip().lower()
+                if len(ing) >= 4 and ing not in _DRUG_STOP:
+                    drugs.add(ing)
+        for bp in _BRANDS:
+            if os.path.exists(bp):
+                with open(bp, encoding="utf-8") as f:
+                    for ln in f:
+                        ln = ln.strip()
+                        if not ln or ln.startswith("#") or ln.lower().startswith("brand"):
+                            continue
+                        brand = ln.split("\t")[0].strip().lower()
+                        if len(brand) >= 3 and brand not in _DRUG_STOP:
+                            drugs.add(brand)
+    except Exception as e:  # noqa
+        print(f"[rules] không nạp được gazetteer thuốc: {e}")
+    if os.path.exists(_SYN_ICD):
+        with open(_SYN_ICD, encoding="utf-8") as f:
+            for ln in f:
+                ln = ln.rstrip("\n")
+                if not ln or ln.startswith("#") or ln.lower().startswith("term"):
+                    continue
+                term = ln.split("\t")[0].strip()
+                if len(term) >= 4:
+                    dx.add(term.lower())
+    # dài trước để ưu tiên khớp cụm dài nhất
+    _CACHE["drugs"] = sorted(drugs, key=len, reverse=True)
+    _CACHE["dx"] = sorted(dx, key=len, reverse=True)
+    return _CACHE
+
+
+def _find_terms(low, text, terms, ttype, taken):
+    """Khớp từng term (whole-word cho token ASCII), nới đuôi liều với THUỐC."""
+    out = []
+    for term in terms:
+        start = 0
+        while True:
+            i = low.find(term, start)
+            if i < 0:
+                break
+            j = i + len(term)
+            start = j
+            # biên trái/phải: không cắt giữa token chữ-số
+            lc = low[i - 1] if i > 0 else " "
+            rc = low[j] if j < len(low) else " "
+            if (lc.isalnum() and lc.isascii()) or (rc.isalnum() and rc.isascii()):
+                continue
+            if any(a < j and i < b for a, b in taken):   # đã bị term dài hơn chiếm
+                continue
+            e = j
+            if ttype == "THUỐC":
+                m = _DOSE_TAIL.match(text[j:])
+                if m and m.end() > 0:
+                    e = j + m.end()
+            taken.append((i, e))
+            out.append({"text": text[i:e].strip(), "type": ttype})
+    return out
 
 
 def extract(text: str) -> list[dict]:
@@ -45,5 +139,22 @@ def extract(text: str) -> list[dict]:
                                    "alt", "cr ", "cea", ": ", "spo2", "bilirubin"]):
             found.append({"text": text[m.start():m.end()],
                           "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
+
+    # thuốc + chẩn đoán (gazetteer từ KB) — để linking P2 chạy
+    gz = _load_gazetteers()
+    taken = []
+    found += _find_terms(low, text, gz["drugs"], "THUỐC", taken)
+    found += _find_terms(low, text, gz["dx"], "CHẨN_ĐOÁN", taken)
+
+    # chẩn đoán theo cue "chẩn đoán mắc/là <cụm>" — yêu cầu mắc/là để tránh
+    # "chẩn đoán hình ảnh", "chẩn đoán khác" (chẩn đoán là danh từ, không phải cue)
+    for m in re.finditer(r"chẩn đoán(?:\s+xác định)?\s+(?:mắc|là)\s+(?:bệnh\s+)?"
+                         r"([^.;,\n\d]{4,80})", low):
+        s, e = m.start(1), m.end(1)
+        phrase = text[s:e].strip()
+        if phrase and phrase.lower() not in _DX_STOP \
+                and not any(a < e and s < b for a, b in taken):
+            taken.append((s, e))
+            found.append({"text": phrase, "type": "CHẨN_ĐOÁN"})
 
     return found

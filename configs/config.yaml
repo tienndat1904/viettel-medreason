@@ -30,13 +30,15 @@ linking:
   drug_brands: data/kb/synonyms/drug_brands.tsv        # brand map thủ công
   drug_brands_auto: data/kb/synonyms/drug_brands_auto.tsv  # brand map sinh từ RRF
   icd_fuzzy_threshold: 88             # rapidfuzz token_set_ratio (lexical)
+  icd_hedge: false                    # BTC chấm Jaccard mã đầy đủ -> hedge làm tụt điểm (0.44->0.23); tắt
   rxnorm_fuzzy_threshold: 90          # sửa typo tên hoạt chất (lexical)
+  rxnorm_return_level: tiered         # tiered = mức theo mention (trần→IN, +liều/dạng→SCD, mơ hồ→SCDC). dev Jaccard 0.823 > all-IN 0.661
   # --- semantic (v1) ---
   embed_model: BAAI/bge-m3
   reranker_model: BAAI/bge-reranker-v2-m3
   icd_top_k_retrieve: 30
   icd_top_k_return: 3
-  rxnorm_top_k_return: 3        # số mã RxNorm trả tối đa (best-first) — tinh chỉnh theo dev
+  rxnorm_top_k_return: 2        # dev: k=1/2/3 cùng hit@k 0.915 -> chọn 2 (list ngắn, precision) + 1 hedge exact-code
   min_confidence: 0.30
 
 labels:

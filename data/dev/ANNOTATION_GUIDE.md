@@ -63,13 +63,19 @@ Tập con của `{isNegated, isFamily, isHistorical}`. Một khái niệm có th
   - Thuốc/điều trị *trong đợt nằm viện hiện tại* (mục 2/3, "Các thủ thuật đã thực hiện",
     "được chỉ định điều trị") → **KHÔNG** historical.
 
-## 4. `candidates`
-- **CHẨN_ĐOÁN → ICD-10** (chuỗi mã, vd `"K21.0"`). Gán 1–3 mã, **tin cậy giảm dần**.
-  Best-effort theo hiểu biết; P2/KB xác nhận lại. Không chắc → để `[]` + `note`.
-- **THUỐC → RxNorm** (mã số dạng chuỗi, vd `"866924"`). Mã RxNorm khó nhớ chính xác →
-  **mặc định để `[]`** và ghi `note` dạng chuẩn hóa (hoạt chất + hàm lượng + dạng, mức SCD),
-  P2 điền mã từ RxNav/KB. Dev linking (candidate) sẽ đo dần khi KB sẵn sàng.
-- Các type khác: bỏ trống.
+## 4. `candidates`  (chấm bằng **Jaccard** — trả đúng tập mã, KHÔNG thừa)
+- **CHẨN_ĐOÁN → ICD-10** (vd `"K21.0"`). Metric so exact mã → gán đúng độ sâu; 1–2 mã khi
+  thật sự có biến thể gần nhau, tránh trả thừa (Jaccard phạt union to). P2/KB xác nhận.
+- **THUỐC → RxNorm theo NGUYÊN TẮC "mã ở mức cụ thể nhất mention hỗ trợ"** (dung hòa IN-vs-SCD):
+  | Mention có | Mức mã | Ví dụ |
+  |---|---|---|
+  | hoạt chất + hàm lượng + dạng | **SCD** | `amlodipine 10 mg po` → `308135` |
+  | hoạt chất + hàm lượng (dạng mơ hồ, IV) | **SCDC** | `iv lasix 40 mg` → `315971` (furosemide 40 MG) |
+  | **chỉ hoạt chất** (thuốc trần) | **IN** | `omeprazole` → `7646` |
+  Không tra được mã sạch (combo, có liều nhưng KB thiếu SCD/SCDC, hoạt chất mơ hồ) → `[]` + `note`.
+  Linker (P2) cũng trả ĐÚNG MỨC này. *(Ví dụ đề đều là thuốc có liều → SCD; thuốc trần
+  không thể có SCD duy nhất → IN là mức đúng nhất. Cần BTC xác nhận cách mã hóa thuốc không liều.)*
+- Các type khác (`TÊN_XÉT_NGHIỆM`/`KẾT_QUẢ`): KHÔNG có candidates (metric không tính).
 
 ## 5. Quy trình
 1. Đọc `N.txt`, liệt kê MỌI khái niệm y tế thuộc 5 type.
