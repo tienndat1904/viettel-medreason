@@ -38,6 +38,7 @@ LAB_NAMES = [
     "wbc", "ast", "alt", "troponin", "cea", "creatinine", "bilirubin toàn phần",
     "bilirubin", "spo2", "canxi", "canci", "hgb", "hct", "plt", "neut", "lyph",
     "bạch cầu", "phosphatase kiềm", "kali", "natri", "lactate", "lymphocyte",
+    "amylase", "lipase",
     "glucose", "hba1c", "ure", "crp", "inr", "bnp", "alp", "albumin", "ferritin",
     "procalcitonin", "d-dimer", "cholesterol", "triglyceride",
 ]
@@ -60,7 +61,10 @@ _BRANDS = [os.path.join(_ROOT, "data/kb/synonyms/drug_brands_auto.tsv"),
 
 # hoạt chất là từ tiếng Anh phổ thông -> bỏ để tránh dương tính giả
 _DRUG_STOP = {"water", "oxygen", "air", "alcohol", "iron", "zinc", "gold", "lead",
-              "salt", "tar", "coal", "honey", "starch", "sugar", "nicotine", "caffeine"}
+              "salt", "tar", "coal", "honey", "starch", "sugar", "nicotine", "caffeine",
+              # enzyme/acid amin = xét nghiệm, KHÔNG phải thuốc (tránh type-confusion)
+              "amylase", "lipase", "aspartate", "alanine", "phosphatase", "globulin",
+              "aminotransferase", "creatine", "lactate", "albumin"}
 # cụm hay theo sau "chẩn đoán" nhưng không phải tên bệnh
 _DX_STOP = {"khác", "hình ảnh", "sơ bộ", "phân biệt", "xác định", "ban đầu",
             "cuối cùng", "chính", "kèm theo", "và điều trị"}
