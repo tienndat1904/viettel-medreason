@@ -205,13 +205,25 @@ def _dedup_text_type(concepts) -> list[dict]:
     return out
 
 
-def to_sft_example(text, concepts):
-    """Trả dict {messages:[...]} — dùng build_messages của P1 + assistant target."""
-    from prompt import build_messages
-    msgs = build_messages(text)          # system + fewshot + user(text)
+def to_sft_example(text, concepts, fewshot=False):
+    """Trả dict {messages:[...]} cho SFT.
+
+    fewshot=False (mặc định): mẫu GỌN `system + user(note) -> assistant` — vì fine-tune
+      thay thế nhu cầu few-shot; nhúng few-shot vào MỖI mẫu làm phình token (đáp án ở cuối
+      bị cắt khi > max_len). Đo thực tế: few-shot -> 1168/1500 mẫu bị cắt @2048; bỏ -> hết cắt.
+    fewshot=True: giữ nguyên build_messages của P1 (khớp prompt few-shot lúc inference chưa FT).
+    Target JSON compact (ít token). Lưu ý cho P1: khi dùng model đã FT, inference cũng nên
+    BỎ few-shot (system+user) cho khớp cách train.
+    """
+    import prompt
     target = _dedup_text_type(concepts)
+    if fewshot:
+        msgs = prompt.build_messages(text)      # system + fewshot + user(note)
+    else:
+        msgs = [{"role": "system", "content": prompt.SYSTEM},
+                {"role": "user", "content": prompt._USER_TEMPLATE.format(text=text)}]
     msgs.append({"role": "assistant",
-                 "content": json.dumps(target, ensure_ascii=False, indent=2)})
+                 "content": json.dumps(target, ensure_ascii=False)})
     return {"messages": msgs}
 
 
@@ -224,6 +236,8 @@ def main():
                     help="ghi cả .txt + full gold/*.json (mặc định chỉ JSONL train + vài mẫu)")
     ap.add_argument("--sample-notes", type=int, default=20,
                     help="số note lưu .txt+gold để soi (khi không --save-notes)")
+    ap.add_argument("--fewshot", action="store_true",
+                    help="nhúng few-shot vào mỗi mẫu (mặc định TẮT: mẫu gọn, train nhanh, không cắt target)")
     args = ap.parse_args()
 
     rng = random.Random(args.seed)
@@ -239,12 +253,14 @@ def main():
             s, e = c["position"]
             assert text[s:e] == c["text"], f"offset lệch: {c['text']!r} vs {text[s:e]!r}"
 
-    type_tot, n_concepts, lens = {}, 0, []
+    type_tot, n_concepts, lens, msg_chars = {}, 0, [], []
     with open(jsonl_path, "w", encoding="utf-8") as jf:
         for i in range(1, args.n + 1):
             text, concepts = generate_note(rng)
             _check(text, concepts)
-            jf.write(json.dumps(to_sft_example(text, concepts), ensure_ascii=False) + "\n")
+            ex = to_sft_example(text, concepts, fewshot=args.fewshot)
+            jf.write(json.dumps(ex, ensure_ascii=False) + "\n")
+            msg_chars.append(sum(len(m["content"]) for m in ex["messages"]))
             n_concepts += len(concepts)
             lens.append(len(text))
             for c in concepts:
@@ -256,9 +272,12 @@ def main():
                 with open(os.path.join(gold_dir, f"{i}.json"), "w", encoding="utf-8") as f:
                     json.dump(concepts, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Sinh {args.n} note -> {jsonl_path}")
+    avg_tok = (sum(msg_chars) / len(msg_chars)) / 3.5    # ước lượng token (~3.5 ký tự/token)
+    print(f"✅ Sinh {args.n} note -> {jsonl_path}  (fewshot={args.fewshot})")
     print(f"   Tổng {n_concepts} concept (tb {n_concepts/args.n:.1f}/note), "
           f"độ dài note tb {sum(lens)//len(lens)} ký tự (min {min(lens)}, max {max(lens)})")
+    print(f"   Mẫu SFT: tb {sum(msg_chars)//len(msg_chars)} ký tự (~{avg_tok:.0f} token), "
+          f"max {max(msg_chars)} ký tự (~{max(msg_chars)/3.5:.0f} token)")
     print("   Phân bố type: " + "  ".join(f"{t}={n}" for t, n in sorted(type_tot.items())))
     kept = args.n if args.save_notes else min(args.sample_notes, args.n)
     print(f"   Lưu {kept} note mẫu (.txt + gold) tại {args.out_dir}")
