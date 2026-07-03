@@ -26,6 +26,10 @@ def run():
     _assert("chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim",
             "tràn dịch màng tim", "CHẨN_ĐOÁN", [])   # pseudo: 'không ... cản quang'
     _assert("tăng lipid máu, không đặc hiệu", "tăng lipid máu", "CHẨN_ĐOÁN", [])
+    # issue #37: 'không đáp ứng với X' / 'không dung nạp ... chuyển sang Y' -> thuốc KHÔNG bị negate
+    _assert("Sốt cao nhất là 102.9 không đáp ứng với tylenol và advil", "tylenol", "THUỐC", [])
+    _assert("bệnh nhân không dung nạp amoxicillin nên được chuyển sang azithromycin",
+            "azithromycin", "THUỐC", [])
 
     print("== isFamily ==")
     _assert("Vợ có các triệu chứng tương tự, được chẩn đoán là giãn phế quản",
@@ -38,6 +42,9 @@ def run():
             "hen suyễn", "CHẨN_ĐOÁN", ["isHistorical"])
     _assert("2. Bệnh sử hiện tại\n   Triệu chứng hiện tại\n   - ho",
             "ho", "TRIỆU_CHỨNG", [])
+    # issue #37: "Tiền sử bệnh HIỆN TẠI" là mục hiện tại -> KHÔNG historical
+    _assert("2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng",
+            "đau bụng", "TRIỆU_CHỨNG", [])
     _assert("nhồi máu cơ tim vùng dưới cũ", "nhồi máu cơ tim vùng dưới cũ",
             "CHẨN_ĐOÁN", ["isHistorical"])
 
