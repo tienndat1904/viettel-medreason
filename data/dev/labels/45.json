@@ -1,6 +1,8 @@
 [
-  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "occ": 1, "note": "mục 'Các bệnh lý mãn tính'"},
-  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "occ": 1},
-  {"text": "chụp mạch máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "angiography"},
-  {"text": "hẹp khoảng 65% của động mạch cảnh chung trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I65.22"], "occ": 1, "note": "carotid stenosis 65%; reviewer xác nhận ICD"}
+  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "occ": 1, "note": "diabetes; mục 'Các bệnh lý mãn tính' (occ2 = 'yếu tố nguy cơ')"},
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "occ": 1, "note": "hypertension; mục 'Các bệnh lý mãn tính' (occ2 = 'yếu tố nguy cơ')"},
+  {"text": "phình mạch ACom bên phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I67.1"], "occ": 1, "note": "right ACom aneurysm (nonruptured); 'đặt stent hỗ trợ cuộn dây' là thủ thuật -> không gán riêng"},
+  {"text": "tai biến mạch máu não", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I64"], "note": "stroke/CVA; 'triệu chứng liên quan đến tai biến mạch máu não từ vùng này' — ĐIỂM KHÔNG CHẮC: có/nguy cơ đột quỵ"},
+  {"text": "hẹp khoảng 65% của động mạch cảnh chung trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I65.22"], "occ": 1, "note": "left carotid stenosis ~65% (kèm xơ vữa mảng loét); finding hiện tại từ chụp mạch máu; giữ '65%' trong span"},
+  {"text": "chụp mạch máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "angiography"}
 ]

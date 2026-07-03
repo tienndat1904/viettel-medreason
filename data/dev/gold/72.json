@@ -1,0 +1,144 @@
+[
+  {
+    "text": "vàng da không đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      135
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      138,
+      142
+    ],
+    "assertions": []
+  },
+  {
+    "text": "các xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      186,
+      214
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      218,
+      227
+    ],
+    "assertions": []
+  },
+  {
+    "text": "xét nghiệm huyết thanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      259,
+      281
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      294,
+      301
+    ],
+    "assertions": []
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      311,
+      339
+    ],
+    "assertions": [],
+    "candidates": [
+      "K83.8"
+    ]
+  },
+  {
+    "text": "15 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      354,
+      359
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ercp (nội soi mật tụy ngược dòng)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      380,
+      413
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      452,
+      456
+    ],
+    "assertions": []
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      550,
+      554
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lấy mẫu tế bào bằng chổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      592,
+      616
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      633,
+      643
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      653,
+      701
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u ác của đầu tuỵ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1387,
+      1403
+    ],
+    "assertions": [],
+    "candidates": [
+      "C25.0"
+    ]
+  }
+]

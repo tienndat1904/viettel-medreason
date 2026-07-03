@@ -1,0 +1,192 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      55
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      76
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "ngừng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      130
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.30"
+    ]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      154,
+      177
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      263
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ vì thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      455,
+      488
+    ],
+    "assertions": []
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      513
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      582,
+      597
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "chủ quan sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      604,
+      616
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      623,
+      635
+    ],
+    "assertions": []
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1083,
+      1092
+    ],
+    "assertions": []
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1115,
+      1117
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "position": [
+      1401,
+      1418
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "position": [
+      1434,
+      1451
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "position": [
+      1467,
+      1488
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "position": [
+      1504,
+      1517
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "type": "THUỐC",
+    "position": [
+      1533,
+      1563
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "position": [
+      1579,
+      1606
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {"text": "Đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "mục 'Các bệnh lý mãn tính'; type không ghi -> E11.9 best-effort"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "essential hypertension; ngoặc '(tăng huyết áp vô căn (nguyên phát))' cùng khái niệm"},
+  {"text": "khó chịu vùng ngực gián đoạn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "intermittent chest discomfort (triệu chứng chính)"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "dizziness; label 1 lần (recap 'Triệu chứng liên quan' bỏ)"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "dyspnea; occ1 mục 'Triệu chứng hiện tại'"},
+  {"text": "đổ mồ hôi", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "diaphoresis"},
+  {"text": "xét nghiệm gắng sức", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "stress test (Lý do nhập viện); KQ 'bất thường' định tính -> không gán"},
+  {"text": "đau", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có đau tại phòng cấp cứu'"},
+  {"text": "điện tâm đồ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "ECG; KQ 'bình thường' định tính -> không gán"},
+  {"text": "36.7°c", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhiệt độ; tên vital không gán TÊN_XÉT_NGHIỆM (tiền lệ file 17)"},
+  {"text": "139/68 mmhg", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "huyết áp"},
+  {"text": "67 lần/phút", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mạch / nhịp tim"},
+  {"text": "16 lần/phút", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhịp thở"},
+  {"text": "100%", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "SpO2 / độ bão hòa oxy"},
+  {"text": "nghiệm pháp gắng sức trên máy chạy bộ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "treadmill stress test; cùng test nhưng span riêng"},
+  {"text": "Nghiệm pháp gắng sức", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "occ chữ hoa (dòng KQ chẩn đoán); KQ 'dương tính' định tính"},
+  {"text": "thiếu máu cơ tim cục bộ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.9"], "note": "myocardial ischemia gắng sức; KHÔNG chắc (I20.9/I25.6). ST chênh xuống = phát hiện ECG định tính -> không gán"}
+]

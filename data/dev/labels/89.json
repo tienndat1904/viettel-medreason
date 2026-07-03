@@ -1,0 +1,13 @@
+[
+  {"text": "khối u thần kinh nội tiết ở thân tụy", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C25.4"], "note": "pancreatic NET đã cắt bỏ (Tiền sử phẫu thuật); KHÔNG chắc ác/lành (D3A.8 nếu lành); ERCP/đặt stent/phẫu thuật = thủ thuật -> không gán"},
+  {"text": "octreotide", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "home med 'Thuốc đang điều trị theo đơn'; thuốc trần (mức IN); không rõ hàm lượng/dạng"},
+  {"text": "flagyl", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "occ1 = home med; metronidazole; không rõ hàm lượng/dạng"},
+  {"text": "flagyl", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "occ2 = điều trị nhiễm trùng vết mổ đợt trước (đã xuất viện)"},
+  {"text": "rò ống tuỵ mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K86.8"], "note": "pancreaticobiliary fistula (biến chứng sau mổ, đang dẫn lưu -> để active, không isHistorical); KHÔNG chắc (K83.3)"},
+  {"text": "nhiễm Clostridioides difficile", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["A04.7"], "note": "C. diff hậu phẫu đợt trước (đã điều trị)"},
+  {"text": "nhiễm trùng vết mổổ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["T81.4"], "note": "surgical site infection đợt trước (đã điều trị); text verbatim có typo 'mổổ'"},
+  {"text": "sưng nề", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "sưng chân sonde dẫn lưu (dấu hiệu tại chỗ, hiện tại); KHÔNG isFamily (dấu hiệu ở BN)"},
+  {"text": "đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "đỏ chân sonde dẫn lưu (erythema tại chỗ)"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "ultrasound tĩnh mạch; KQ 'không phát hiện DVT'"},
+  {"text": "huyết khối tĩnh mạch sâu", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["I80.2"], "note": "DVT; 'không phát hiện huyết khối tĩnh mạch sâu' -> negated"}
+]

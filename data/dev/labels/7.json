@@ -1,0 +1,20 @@
+[
+  {"text": "Rối loạn cảm xúc (trầm cảm)", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F32.9"], "note": "mood disorder/depression; 'tiền sử giai đoạn trầm cảm không đặc hiệu'. Dòng có 'ho' đầu dòng là lỗi dịch -> bỏ"},
+  {"text": "hội chứng nghiện rượu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F10.20"], "occ": 1, "note": "alcohol dependence; mục 'Các bệnh lý mạn tính' (occ2 = 'yếu tố nguy cơ' -> bỏ)"},
+  {"text": "seroquel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "quetiapine; 'Thuốc trước khi nhập viện lần này' (ngụ ý) -> historical"},
+  {"text": "tự tử", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "suicidal ideation (thụ động, hiện diện); occ2 = mục 'Triệu chứng hiện tại'"},
+  {"text": "tự tử chủ động", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Phủ nhận tự tử chủ động, ý định, kế hoạch' -> negated (khác với SI thụ động ở trên)"},
+  {"text": "Lú lẫn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "confusion 'Lú lẫn từng đợt gần đây'"},
+  {"text": "cảm giác chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "dizziness"},
+  {"text": "khó khăn khi nhìn gần", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "near-vision difficulty"},
+  {"text": "rối loạn thị giác", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "visual disturbance; 'nhìn thấy con cái mình ở góc mắt' = nội dung ảo giác CỦA BN -> KHÔNG isFamily"},
+  {"text": "ảo giác thị giác", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "visual hallucination"},
+  {"text": "Ảo thanh", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "auditory hallucination (AH)"},
+  {"text": "chụp ct sọ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT head"},
+  {"text": "chọc dò dịch não tủy", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "chọc dò dịch não tủy (LP) — vừa thủ thuật vừa XN có KQ (âm tính); xếp XN. ĐIỂM KHÔNG CHẮC: procedure vs test"},
+  {"text": "các băng nhóm oligoclonal", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "oligoclonal bands (CSF); 'đang chờ kết quả'"},
+  {"text": "bệnh lý chất trắng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R90.82"], "occ": 1, "note": "white matter disease (finding trên CT sọ); R90.82 ICD-10-CM"},
+  {"text": "Bệnh đa xơ cứng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["G35"], "note": "MS; 'Sẽ không điển hình cho' = ít khả năng nhưng KHÔNG phủ định trực tiếp -> để trống assertion, reviewer cân nhắc isNegated"},
+  {"text": "Ảo giác do rượu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "alcoholic hallucinosis (suy nghĩ/DDx); mã F10.x sâu không chắc -> []"},
+  {"text": "loạn thần", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["F29"], "note": "'Không được coi là thực sự loạn thần' -> negated"}
+]

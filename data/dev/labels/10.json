@@ -1,0 +1,14 @@
+[
+  {"text": "Đờm", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "sputum/phlegm"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "cough (occ1 = mục 'Triệu chứng hiện tại'; occ2+ rơi vào 'cho')"},
+  {"text": "đau bụng quặn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'đôi khi đau bụng quặn' (crampy)"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "diarrhea"},
+  {"text": "đi ngoài ra máu", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "hematochezia; 'đôi khi đi ngoài ra máu'"},
+  {"text": "không tăng cân nhiều", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "poor weight gain — phủ định 'tăng cân' nhưng chính triệu chứng (không lên cân) đang HIỆN DIỆN -> KHÔNG isNegated; reviewer cân nhắc"},
+  {"text": "cea (kháng nguyên ung thư phôi)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CEA"},
+  {"text": "4.9", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "'cea ... tăng nhẹ lên 4.9'"},
+  {"text": "mri vùng chậu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "pelvic MRI ('không chẩn đoán được' = KQ định tính -> không gán KQ)"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "ultrasound ('siêu âm hôm nay')"},
+  {"text": "khối u trực tràng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["C20"], "note": "rectal mass; 'hình ảnh của một u ác trực tràng đáng kể' — hình ảnh nghi ác tính; sinh thiết ra u tuyến (mâu thuẫn). C20 vs D37.5 reviewer chốt"},
+  {"text": "u tuyến", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D12.8"], "note": "adenoma; 'sinh thiết chỉ cho thấy một u tuyến' (lành tính, trực tràng)"}
+]

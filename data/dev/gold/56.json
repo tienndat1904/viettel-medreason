@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      31,
+      45
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      73,
+      86
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "xét nghiệm gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      172,
+      191
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó chịu vùng ngực gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      322
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      325,
+      334
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      337,
+      344
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      366
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      796,
+      799
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      820,
+      831
+    ],
+    "assertions": []
+  },
+  {
+    "text": "36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      911,
+      917
+    ],
+    "assertions": []
+  },
+  {
+    "text": "139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      928,
+      939
+    ],
+    "assertions": []
+  },
+  {
+    "text": "67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      946,
+      957
+    ],
+    "assertions": []
+  },
+  {
+    "text": "16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      968,
+      979
+    ],
+    "assertions": []
+  },
+  {
+    "text": "100%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      986,
+      990
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghiệm pháp gắng sức trên máy chạy bộ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1172,
+      1209
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1240,
+      1260
+    ],
+    "assertions": []
+  },
+  {
+    "text": "thiếu máu cơ tim cục bộ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1276,
+      1299
+    ],
+    "assertions": [],
+    "candidates": [
+      "I25.9"
+    ]
+  }
+]

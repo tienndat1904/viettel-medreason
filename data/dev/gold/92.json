@@ -26,6 +26,27 @@
     ]
   },
   {
+    "text": "tăng bạch cầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      243,
+      256
+    ],
+    "assertions": [],
+    "candidates": [
+      "D72.829"
+    ]
+  },
+  {
+    "text": "ý thúc chậm hơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      275,
+      290
+    ],
+    "assertions": []
+  },
+  {
     "text": "chụp CT",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
@@ -42,5 +63,38 @@
       420
     ],
     "assertions": []
+  },
+  {
+    "text": "Bạch cầu tăng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      472,
+      485
+    ],
+    "assertions": [],
+    "candidates": [
+      "D72.829"
+    ]
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      518,
+      525
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đại tràng giãn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      598,
+      612
+    ],
+    "assertions": [],
+    "candidates": [
+      "K59.3"
+    ]
   }
 ]

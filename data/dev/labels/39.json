@@ -1,16 +1,20 @@
 [
   {"text": "đau bụng dữ dội", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
+  {"text": "đau bụng dữ dội", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "triệu chứng hiện tại"},
   {"text": "chướng bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
   {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
   {"text": "mất ăn ngon", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "anorexia"},
+  {"text": "chướng bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng kèm theo'"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
+  {"text": "mất ăn ngon", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
   {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có buồn nôn hoặc nôn'"},
   {"text": "nôn", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 2, "note": "occ1 nằm trong 'buồn nôn'"},
-  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": []},
-  {"text": "nhịp tim nhanh", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "tachycardia (dấu hiệu lâm sàng)"},
-  {"text": "công thức máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
-  {"text": "32", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
-  {"text": "suy thận cấp", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N17.9"]},
-  {"text": "bất thường điện giải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E87.8"], "note": "electrolyte abnormality"},
-  {"text": "chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
-  {"text": "viêm túi mật thủng cấp tính", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K82.2"], "note": "perforated acute cholecystitis"}
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Dấu hiệu lâm sàng'"},
+  {"text": "nhịp tim nhanh", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R00.0"], "note": "tachycardia; 'Dấu hiệu lâm sàng'; KHÔNG chắc TC vs DX (theo tiền lệ 27.json -> DX)"},
+  {"text": "công thức máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CBC; 'công thức máu là 32'"},
+  {"text": "32", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "'công thức máu là 32' (giá trị dịch máy khó hiểu)"},
+  {"text": "suy thận cấp", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N17.9"], "note": "AKI"},
+  {"text": "bất thường điện giải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E87.8"], "note": "electrolyte abnormality; KHÔNG chắc DX vs KQ định tính"},
+  {"text": "chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CT scan"},
+  {"text": "viêm túi mật thủng cấp tính", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K81.0"], "note": "acute cholecystitis (K82.2 nếu ưu tiên mã 'thủng túi mật' — bản nháp cũ dùng K82.2)"}
 ]

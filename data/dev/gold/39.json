@@ -9,6 +9,15 @@
     "assertions": []
   },
   {
+    "text": "đau bụng dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      133
+    ],
+    "assertions": []
+  },
+  {
     "text": "chướng bụng",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -32,6 +41,33 @@
     "position": [
       160,
       171
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      302,
+      313
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      315,
+      322
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      324,
+      335
     ],
     "assertions": []
   },
@@ -68,12 +104,15 @@
   },
   {
     "text": "nhịp tim nhanh",
-    "type": "TRIỆU_CHỨNG",
+    "type": "CHẨN_ĐOÁN",
     "position": [
       418,
       432
     ],
-    "assertions": []
+    "assertions": [],
+    "candidates": [
+      "R00.0"
+    ]
   },
   {
     "text": "công thức máu",
@@ -135,7 +174,7 @@
     ],
     "assertions": [],
     "candidates": [
-      "K82.2"
+      "K81.0"
     ]
   }
 ]

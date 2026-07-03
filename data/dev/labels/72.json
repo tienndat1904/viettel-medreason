@@ -1,0 +1,17 @@
+[
+  {"text": "vàng da không đau", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "painless jaundice; 'không đau' mô tả vàng da (KHÔNG negated vàng da)"},
+  {"text": "ngứa", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "pruritus"},
+  {"text": "các xét nghiệm chức năng gan", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "LFTs; KQ 'tăng' định tính -> không gán KẾT_QUẢ; label 1 lần (occ1)"},
+  {"text": "bilirubin", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "không có giá trị số"},
+  {"text": "xét nghiệm huyết thanh", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "serologic testing; KQ 'âm tính' định tính; 'của cô ấy' = BN nữ (không phải người nhà)"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "ultrasound; label 1 lần"},
+  {"text": "giãn đường dẫn mật trong gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K83.8"], "note": "intrahepatic biliary dilation"},
+  {"text": "15 mm", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "đường kính ống mật chủ trên siêu âm"},
+  {"text": "ercp (nội soi mật tụy ngược dòng)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "ERCP (thăm dò chẩn đoán); label 1 lần; mục 'thủ thuật ERCP bởi Bác sĩ' coi là recap"},
+  {"text": "2 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "kích thước khối phình nhú tá tràng lớn"},
+  {"text": "7 mm", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "chiều dài chỗ hẹp 1/3 dưới ống mật chủ"},
+  {"text": "lấy mẫu tế bào bằng chổi", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "brush cytology; KQ 'là phiên hình' garbled -> không gán"},
+  {"text": "sinh thiết", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "biopsy (chữ thường); KQ = adenocarcinoma (gán riêng)"},
+  {"text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "adenocarcinoma mô bệnh học; cùng khối u đầu tuỵ (site C25.0) -> để [] tránh trùng mã"},
+  {"text": "u ác của đầu tuỵ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["C25.0"], "note": "malignant neoplasm head of pancreas; bỏ tiền tố 'mới được chẩn đoán'"}
+]
