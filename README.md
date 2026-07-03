@@ -60,11 +60,35 @@ Linking (P2, đo riêng): ICD hit@k 16.5%, RxNorm ingredient-hit 78.9%.
 ```bash
 # Sinh 1500 bệnh án VN + gold + train_sft.jsonl (offline, không API — reproducible, seed=42)
 python src/datagen/gen_synthetic.py --n 1500 --seed 42
-# QLoRA fine-tune Qwen2.5-7B trên GPU (Kaggle/Colab) -> LoRA adapter
-python scripts/train_qlora.py --data data/synthetic/train_sft.jsonl --out models/qwen7b-lora
-# rồi điền configs/config.yaml: extract.lora_adapter: models/qwen7b-lora ; backend: llm
+# QLoRA fine-tune Qwen2.5-3B (default) trên GPU -> LoRA adapter. T4-lite: notebooks/train_qlora_colab.ipynb
+python scripts/train_qlora.py --data data/synthetic/train_sft.jsonl --model Qwen/Qwen2.5-3B-Instruct \
+    --out models/qwen-lora --max-samples 500 --epochs 1 --max-len 1536   # T4-lite; bỏ --max-samples cho L4/A100
+# rồi điền configs/config.yaml: extract.lora_adapter: models/qwen-lora ; backend: llm
+# (inference tự bỏ few-shot khi có adapter — khớp SFT leaner)
 ```
 Chi tiết bộ dữ liệu: `data/synthetic/DATA_CARD.md`. `train_sft.jsonl` khớp `prompt.py` (target `[{text,type}]`).
+
+## Tái lập cho BTC (nộp source-code vòng top-15)
+BTC dựng lại & chấm trên **private test**. Gói nộp gồm: toàn bộ code, data (synthetic + KB parquet đã ship), **LoRA adapter** (`models/`, xem `models/README.md`), README này.
+
+**Cách 1 — Docker (khuyến nghị, bulletproof):**
+```bash
+docker build -t viettel-medreason .
+docker run --gpus all -v /path/private_test/input:/data/input -v $PWD/out:/app/output \
+    viettel-medreason python3 src/pipeline.py --input /data/input --output output --backend llm
+docker run --gpus all -v $PWD/out:/app/output viettel-medreason \
+    python3 scripts/package_submission.py --output output --input /data/input --n <N>
+```
+
+**Cách 2 — pip (không Docker):**
+```bash
+pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128   # khớp CUDA
+pip install -r requirements-lock.txt          # version đã VERIFY
+python src/pipeline.py --input <private_test>/input --output output --backend llm
+python scripts/package_submission.py --output output --input <private_test>/input --n <N>
+```
+
+**Yêu cầu tái lập đã đảm bảo:** seed=42 mọi nơi · `temperature=0` (deterministic) · path tương đối · KB parquet ship kèm (không cần tải/đăng ký) · `requirements-lock.txt` pin version đã test. **Cần internet** để tải base Qwen từ HuggingFace (hoặc mount HF cache / ship weights nếu offline — xem `models/README.md`).
 
 ## Cấu trúc
 ```
@@ -85,11 +109,13 @@ data/
 ```
 
 ## Trạng thái
-- [x] Khung repo reproducible + pipeline chạy được (backend rule)
-- [x] Offset resolver, validator, scorer, packager
-- [x] Dev set ~30 file có nhãn (nháp) + tooling make_dev/review + baseline đo được (P3)
-- [ ] KB: ICD-10 VN + RxNorm index
-- [ ] LLM extractor fine-tune (QLoRA) + synthetic data
-- [ ] Linking hoàn chỉnh (retrieve + rerank)
-- [ ] Mở rộng dev set ~150 file + review tay
+- [x] Khung repo reproducible + pipeline (rule/llm) + offset/validator/scorer/packager
+- [x] official_scorer (metric BTC) — khớp leaderboard (0.20 ≈ 0.197)
+- [x] KB ICD-10-CM + RxNorm + linking tối ưu Jaccard (ICD 0.443 / RxNorm 0.823)
+- [x] Assertion module (~0.94) · LLM extractor + chunking · synthetic 1500 + QLoRA script
+- [x] Dev set 30 file có nhãn + tooling
+- [x] Gói tái lập BTC: Dockerfile + requirements-lock + README rebuild + models/README
+- [ ] QLoRA thật (đang train T4-lite / cần L4-A100 cho full)
+- [ ] Đóng adapter vào gói nộp + test dựng lại máy sạch
+- [ ] (Nên có) mở rộng dev ~150 file · ensemble · semantic v1
 ```
