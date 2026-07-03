@@ -1,0 +1,51 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      82
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "chụp mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      545,
+      558
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hẹp khoảng 65% của động mạch cảnh chung trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      580,
+      624
+    ],
+    "assertions": [],
+    "candidates": [
+      "I65.22"
+    ]
+  }
+]

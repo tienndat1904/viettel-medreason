@@ -1,0 +1,8 @@
+[
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
+  {"text": "bệnh gút không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["M10.9"]},
+  {"text": "bệnh thận mạn, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.9"]},
+  {"text": "ung thư đại tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C18.9"]},
+  {"text": "béo phì", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E66.9"]},
+  {"text": "xơ gan mất bù có tăng áp lực tĩnh mạch cửa", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K74.60"], "note": "decompensated cirrhosis w/ portal HTN; kèm cổ trướng + tràn dịch màng phổi (bỏ khỏi span). 'liệu pháp lợi tiểu' là nhóm điều trị chung -> không gán THUỐC"}
+]

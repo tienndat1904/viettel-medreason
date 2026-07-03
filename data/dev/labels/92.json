@@ -1,0 +1,6 @@
+[
+  {"text": "Nhiễm trùng đường tiết niệu kháng thuốc", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N39.0"], "note": "drug-resistant UTI; Bệnh mạn tính"},
+  {"text": "đại tràng giãn", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K59.3"], "occ": 1, "note": "megacolon/dilated colon; lý do theo dõi"},
+  {"text": "lơ mơ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Bệnh nhân lơ mơ'"},
+  {"text": "chụp CT", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "'đã chụp CT ở tuyến trước'"}
+]

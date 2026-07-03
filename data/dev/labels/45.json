@@ -1,0 +1,6 @@
+[
+  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "occ": 1, "note": "mục 'Các bệnh lý mãn tính'"},
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "occ": 1},
+  {"text": "chụp mạch máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "angiography"},
+  {"text": "hẹp khoảng 65% của động mạch cảnh chung trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I65.22"], "occ": 1, "note": "carotid stenosis 65%; reviewer xác nhận ICD"}
+]
