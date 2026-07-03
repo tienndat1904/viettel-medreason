@@ -123,7 +123,7 @@ class IcdMatcher:
             return []
         # 1) synonym: giữ mã synonym trước, rồi hedge để phủ độ sâu
         for term, codes in self.syn:
-            if term in q or (len(q) >= 4 and q in term):
+            if term in q:            # synonym là cụm nằm TRONG mention (tránh biến thể cụ thể che cụm gốc)
                 out = list(codes)
                 for c in codes:
                     out += self._hedge(c)
