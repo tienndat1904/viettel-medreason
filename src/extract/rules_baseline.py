@@ -12,15 +12,34 @@ import os, re
 
 # --- Gazetteer tối giản (mở rộng dần) ---
 SYMPTOMS = [
-    "khó thở", "đau ngực", "đau bụng", "đau đầu", "buồn nôn", "nôn", "sốt",
-    "ho", "tiêu chảy", "táo bón", "chóng mặt", "mệt mỏi", "đánh trống ngực",
-    "ngất xỉu", "phù", "khò khè", "tiếng rít", "ớn lạnh", "vã mồ hôi",
-    "đau thượng vị", "ợ hơi", "khó chịu", "ảo giác", "đờm",
+    # cụm dài để TRƯỚC (khớp ưu tiên khi quét theo thứ tự)
+    "khó thở khi gắng sức", "cảm giác thắt chặt ngực", "khó chịu vùng ngực",
+    "đau thượng vị", "đánh trống ngực", "nôn ra máu", "phù hai bên", "ăn uống kém",
+    "vã mồ hôi", "đổ mồ hôi", "mất ý thức", "ngất xỉu", "chóng mặt", "mệt mỏi",
+    "khó thở", "đau ngực", "đau bụng", "đau đầu", "đau lưng", "đau khớp", "đau cơ",
+    "đau họng", "buồn nôn", "tiêu chảy", "táo bón", "khò khè", "tiếng rít", "ớn lạnh",
+    "khó nuốt", "khó tiêu", "ợ hơi", "ợ chua", "đầy hơi", "khó chịu", "ảo giác",
+    "sổ mũi", "nghẹt mũi", "ho khan", "ho đờm", "khàn tiếng", "sụt cân", "chán ăn",
+    "mất ngủ", "co giật", "tê bì", "vàng da", "phát ban", "ban đỏ", "chảy máu",
+    "tiểu buốt", "tiểu rắt", "tiểu khó", "hoa mắt", "run tay", "yếu cơ", "sưng",
+    "nôn", "sốt", "ho", "phù", "đờm", "ngứa",
 ]
 LAB_NAMES = [
-    "wbc", "ast", "alt", "troponin", "cea", "creatinine", "cr", "bilirubin",
-    "spo2", "canxi", "canci", "canx", "hgb", "hct", "plt", "neut", "lyph",
-    "bạch cầu", "phosphatase kiềm", "bilirubin toàn phần",
+    # chẩn đoán hình ảnh / thủ thuật
+    "chụp x-quang ngực", "chụp x-quang", "x-quang ngực", "x-quang", "x quang",
+    "siêu âm tim qua thành ngực", "siêu âm bụng", "siêu âm tim", "siêu âm", "doppler",
+    "chụp ct ngực", "chụp ct sọ não", "chụp cắt lớp vi tính", "chụp ct", "ct scan",
+    "chụp cộng hưởng từ", "mri", "điện tâm đồ", "ecg", "monitor holter", "holter",
+    "chụp hida", "nội soi", "sinh thiết",
+    # panel / xét nghiệm
+    "tổng phân tích nước tiểu", "phân tích nước tiểu", "công thức máu", "sinh hóa máu",
+    "chức năng gan", "chức năng thận", "cấy máu", "cấy nước tiểu", "khí máu động mạch",
+    # chỉ số máu / marker
+    "wbc", "ast", "alt", "troponin", "cea", "creatinine", "bilirubin toàn phần",
+    "bilirubin", "spo2", "canxi", "canci", "hgb", "hct", "plt", "neut", "lyph",
+    "bạch cầu", "phosphatase kiềm", "kali", "natri", "lactate", "lymphocyte",
+    "glucose", "hba1c", "ure", "crp", "inr", "bnp", "alp", "albumin", "ferritin",
+    "procalcitonin", "d-dimer", "cholesterol", "triglyceride",
 ]
 
 _num = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*%|\s*[a-zA-Z/]+)?")
@@ -121,9 +140,13 @@ def extract(text: str) -> list[dict]:
     low = text.lower()
     found = []
 
-    # triệu chứng
-    for kw in SYMPTOMS:
-        for m in re.finditer(re.escape(kw), low):
+    # triệu chứng — word-boundary để "ho" không khớp trong "cho/khó", "phù" trong "phù hợp"
+    sym_taken = []
+    for kw in SYMPTOMS:                                  # cụm dài trước -> chiếm chỗ, tránh trùng lồng
+        for m in re.finditer(r"\b" + re.escape(kw) + r"\b", low):
+            if any(a < m.end() and m.start() < b for a, b in sym_taken):
+                continue
+            sym_taken.append((m.start(), m.end()))
             found.append({"text": text[m.start():m.end()], "type": "TRIỆU_CHỨNG"})
 
     # tên xét nghiệm
