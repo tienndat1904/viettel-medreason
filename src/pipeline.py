@@ -18,6 +18,7 @@ for sub in ["", "extract", "linking", "offset", "postprocess", "eval", "kb", "da
 import yaml
 from resolve_spans import resolve_offsets
 from validate import clean_file
+from cleanup import resolve_type_conflicts
 from assertions import annotate as annotate_assertions
 from schema import CHAN_DOAN, THUOC
 
@@ -48,7 +49,8 @@ def process_file(text, extract_fn, linker, assertion_mode="union"):
     spans = extract_fn(text)                 # [{text,type,(assertions)}]
     concepts = resolve_offsets(text, spans)  # + position
     concepts = annotate_assertions(text, concepts, mode=assertion_mode)  # assertion theo ngữ cảnh
-    concepts = clean_file(concepts, text)    # làm sạch + loại trùng
+    concepts = clean_file(concepts, text)          # làm sạch + loại trùng (position,type)
+    concepts = resolve_type_conflicts(concepts)    # bỏ cùng-text-khác-type (tránh phạt kép)
     # linking
     for c in concepts:
         if c["type"] == CHAN_DOAN:
