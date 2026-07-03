@@ -1,0 +1,279 @@
+[
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      68
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      108
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.10"
+    ]
+  },
+  {
+    "text": "Suy tim dãn tâm thu giữ nguyên trương lực",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      125,
+      166
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      261,
+      269
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      369,
+      377
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      397
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      404,
+      412
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tăng tăng cân 3 pound trong 7 ngày qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      457
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      530,
+      540
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      610,
+      618
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tăng tăng cân 3 pound trong 7 ngày qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      620,
+      658
+    ],
+    "assertions": []
+  },
+  {
+    "text": "102",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      729,
+      732
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      733,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      760,
+      767
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      773,
+      775
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      864,
+      872
+    ],
+    "assertions": [
+      "isFamily"
+    ]
+  },
+  {
+    "text": "viêm họng do liên cầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      915,
+      936
+    ],
+    "assertions": [
+      "isNegated",
+      "isFamily"
+    ],
+    "candidates": [
+      "J02.0"
+    ]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      994,
+      1001
+    ],
+    "assertions": []
+  },
+  {
+    "text": "537",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1002,
+      1005
+    ],
+    "assertions": []
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1012,
+      1019
+    ],
+    "assertions": []
+  },
+  {
+    "text": "367",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1036,
+      1039
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bun (ure)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1046,
+      1055
+    ],
+    "assertions": []
+  },
+  {
+    "text": "3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1056,
+      1057
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cr (creatinine)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1064,
+      1079
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1080,
+      1083
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ag (anion gap)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1090,
+      1104
+    ],
+    "assertions": []
+  },
+  {
+    "text": "17",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1105,
+      1107
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ag (anion gap)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1114,
+      1128
+    ],
+    "assertions": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"text": "đau đầu", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "mục 'Các tập tương tự trước đây' (tăng đau đầu) -> tiền sử"},
+  {"text": "đau đầu kéo dài", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Lý do nhập viện / triệu chứng hiện tại"},
+  {"text": "mờ mắt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Lý do nhập viện"},
+  {"text": "nhìn mờ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "occ2 = mục 'Triệu chứng hiện tại'"},
+  {"text": "phù gai thị", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated", "isHistorical"], "occ": 1, "note": "'không phát hiện phù gai thị' trong lần nhập viện trước (tiền sử); papilledema. Có thể xếp CHẨN_ĐOÁN (H47.10)"},
+  {"text": "phù gai thị", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated", "isHistorical"], "occ": 2, "note": "'không có phù gai thị' trong lần nhập viện trước đó"},
+  {"text": "phù gai thị", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3, "note": "hiện tại: giới thiệu Khoa Cấp cứu vì phù gai thị"},
+  {"text": "Phù gai thị", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Dấu hiệu lâm sàng hiện tại"},
+  {"text": "Phù gai thị", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "Các phát hiện chẩn đoán khác"},
+  {"text": "não úng thuỷ khác", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G91.8"], "note": "hydrocephalus khác; mục 'Bệnh lý mãn tính'. Khởi phát sơ sinh -> có thể Q03.9 bẩm sinh"},
+  {"text": "não úng tuỷ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G91.9"], "note": "hydrocephalus (verbatim 'tuỷ'); tiền sử bệnh sơ sinh"},
+  {"text": "não úng thủy", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G91.9"], "note": "chẩn đoán các lần nhập viện trước (verbatim 'thủy')"},
+  {"text": "tăng nhãn áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["H40.9"], "note": "glaucoma; phẫu thuật thời kỳ sơ sinh -> có thể glaucoma bẩm sinh Q15.0"},
+  {"text": "chụp cắt lớp vi tính (ct) đầu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT đầu, lần nhập viện trước"},
+  {"text": "chụp cắt lớp vi tính (ct) đầu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "CT đầu, đối chiếu hiện tại"}
+]

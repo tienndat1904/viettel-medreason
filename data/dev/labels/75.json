@@ -1,0 +1,18 @@
+[
+  {"text": "bệnh động mạch vành sau can thiệp bắc cầu nối", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "CAD s/p CABG; mục 'Các bệnh lý mãn tính'; best-effort (I25.810 nếu tính riêng graft)"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Nhiều lần chụp mạch và can thiệp ... do đau ngực' -> chest pain tiền sử (lý do can thiệp trước đây)"},
+  {"text": "đau ngực trái dữ dội lan xuống cánh tay trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện; đợt cấp hiện tại"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "dyspnea đợt cấp"},
+  {"text": "vã mồ hôi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "diaphoresis"},
+  {"text": "nitroglycerin", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "NTG ngậm dưới lưỡi; span tên trần (route/liều không liền mạch); chuẩn hóa: nitroglycerin SL, no dose; RxNorm để P2 (mức IN). isHistorical? 'các đêm trước' vs đợt hiện tại tuyến cơ sở -> để [] cho reviewer"},
+  {"text": "mỡ nitroglycerin", "type": "THUỐC", "assertions": [], "candidates": [], "note": "NTG dạng bôi/dán (topical); chuẩn hóa: nitroglycerin ointment topical, no dose; RxNorm để P2"},
+  {"text": "aspirin", "type": "THUỐC", "assertions": [], "candidates": [], "note": "dùng tại tuyến cơ sở (đợt hiện tại); chuẩn hóa: aspirin, no dose; RxNorm để P2 (mức IN)"},
+  {"text": "ativan", "type": "THUỐC", "assertions": [], "candidates": [], "note": "ativan = lorazepam (biệt dược); chuẩn hóa: lorazepam, no dose; RxNorm để P2 (mức IN)"},
+  {"text": "lovenox", "type": "THUỐC", "assertions": [], "candidates": [], "note": "lovenox = enoxaparin (biệt dược); chuẩn hóa: enoxaparin, no dose; RxNorm để P2 (mức IN)"},
+  {"text": "điện tim", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "ECG tại tuyến cơ sở"},
+  {"text": "điện tâm đồ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "ECG lúc vào viện"},
+  {"text": "EKG", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "EKG trước đó (mốc so sánh)"},
+  {"text": "troponin", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "troponin"},
+  {"text": "0.10", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "troponin = 0.10"},
+  {"text": "91", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "tần số tim 91 lần/phút (vital; reviewer xác nhận có tính KQ)"}
+]
