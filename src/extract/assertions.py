@@ -26,9 +26,11 @@ _ORDER = [IS_NEGATED, IS_FAMILY, IS_HISTORICAL]
 
 
 def _sa(s: str) -> str:
-    """strip accents + lower — để so cue không lệ thuộc dấu tiếng Việt."""
+    """strip accents + lower + đ→d — để so cue không lệ thuộc dấu tiếng Việt.
+    (đ là CHỮ CÁI, không phải dấu; phải map thủ công, nếu không cue viết 'd' sẽ KHÔNG khớp 'đ'.)"""
     s = unicodedata.normalize("NFD", (s or "").lower())
-    return "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return s.replace("đ", "d")
 
 
 # --- cue phân loại section (đã bỏ dấu) ---
@@ -49,13 +51,14 @@ _HIST_CUES = [
 _NEG_TRIGGERS = ["khong", "phu nhan", "am tinh", "loai tru", "chua ghi nhan",
                  "khong ghi nhan", "khong thay", "khong co", "khong con", " ko "]
 # pseudo-negation sau 'khong' — KHÔNG phải phủ định concept (khớp cụm chính xác)
+# 'khong dap ung/dung nap' = phủ định ĐÁP ỨNG/DUNG NẠP, thuốc phía sau VẪN hiện diện.
 _NEG_PSEUDO = re.compile(
     r"khong\s+(thuoc\s+)?can quang|"
     r"khong\s+(dac hieu|ro rang|xac dinh|dang ke|dieu tri|gi bat thuong|"
-    r"trieu chung khac)")
-# ranh giới kết thúc scope phủ định (KHÔNG dùng 'ghi nhan/phat hien' vì trùng
-# chính trigger 'không ghi nhận/không phát hiện')
-_NEG_STOP = re.compile(r"[.;:]|nhung|tuy nhien")
+    r"trieu chung khac|dap ung|dung nap)")
+# ranh giới kết thúc scope phủ định. Thêm 'nen/chuyen sang/do' (hệ quả/tương phản)
+# để 'không dung nạp X ... chuyển sang Y' KHÔNG lan phủ định tới Y.
+_NEG_STOP = re.compile(r"[.;:]|nhung|tuy nhien|\bnen\b|chuyen sang")
 
 # --- danh từ người nhà (GIỮ DẤU — tránh 'còn'->'con', 'bỏ'->'bố'…) ---
 _FAMILY = ["vợ", "chồng", "bố", "mẹ", "cha", "con", "cháu", "anh trai",
@@ -66,7 +69,9 @@ _FAMILY_RE = re.compile(r"(?<!\w)(" + "|".join(re.escape(f) for f in _FAMILY) + 
 
 # cue lịch sử cục bộ quanh concept (bỏ dấu) — chỉ cue "quá khứ" rõ, KHÔNG dùng 'mạn tính'
 # ('mạn tính' đã xử ở cấp section; dùng cục bộ gây FP với chẩn đoán hiện tại)
-_LOCAL_HIST = re.compile(r"\(?\s*truoc day\s*\)?|\btien su\b|\bcu\b|\btruoc kia\b")
+# 'tien su' có (?!...hien tai) để KHÔNG khớp header "Tiền sử bệnh HIỆN TẠI" (= mục hiện tại).
+_LOCAL_HIST = re.compile(
+    r"\(?\s*truoc day\s*\)?|\btien su\b(?!\s*(benh\s*)?hien tai)|\bcu\b|\btruoc kia\b")
 
 
 def _line_bounds(text: str, pos: int) -> tuple[int, int]:
