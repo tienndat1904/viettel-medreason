@@ -22,13 +22,16 @@ for _s in (sys.stdout, sys.stderr):
         pass
 
 
-def build_examples(path, tok, max_len):
-    """Mỗi dòng JSONL -> dict(input_ids, labels) với labels mask phần prompt (=-100)."""
+def build_examples(path, tok, max_len, max_samples=0):
+    """Mỗi dòng JSONL -> dict(input_ids, labels) với labels mask phần prompt (=-100).
+    max_samples>0: chỉ lấy N mẫu đầu (cấu hình nhẹ cho T4)."""
     import torch  # noqa
     examples = []
     n_trunc = 0
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
+            if max_samples and len(examples) >= max_samples:
+                break
             line = line.strip()
             if not line:
                 continue
@@ -84,6 +87,8 @@ def main():
     ap.add_argument("--grad-accum", type=int, default=16)
     ap.add_argument("--lr", type=float, default=1e-4)
     ap.add_argument("--max-len", type=int, default=2048)
+    ap.add_argument("--max-samples", type=int, default=0,
+                    help="chỉ lấy N mẫu đầu (0=tất cả) — cấu hình nhẹ cho T4")
     ap.add_argument("--lora-r", type=int, default=16)
     ap.add_argument("--lora-alpha", type=int, default=32)
     ap.add_argument("--lora-dropout", type=float, default=0.05)
@@ -102,7 +107,7 @@ def main():
         tok.pad_token = tok.eos_token
 
     print(f"[data] nạp {args.data} ...")
-    examples = build_examples(args.data, tok, args.max_len)
+    examples = build_examples(args.data, tok, args.max_len, args.max_samples)
     print(f"[data] {len(examples)} mẫu train")
 
     # T4 (Turing) KHÔNG hỗ trợ bf16 -> tự chọn bf16 (Ampere+/L4/A100) hoặc fp16 (T4)
