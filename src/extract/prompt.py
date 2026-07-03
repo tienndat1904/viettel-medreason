@@ -52,10 +52,13 @@ VĂN BẢN:
 JSON:"""
 
 
-def build_messages(chunk_text: str):
-    return [
-        {"role": "system", "content": SYSTEM},
-        {"role": "user", "content": _USER_TEMPLATE.format(text=_FEWSHOT_IN)},
-        {"role": "assistant", "content": _FEWSHOT_OUT},
-        {"role": "user", "content": _USER_TEMPLATE.format(text=chunk_text)},
-    ]
+def build_messages(chunk_text: str, fewshot: bool = True):
+    """fewshot=True: kèm 1 ví dụ (dùng cho model CHƯA fine-tune).
+    fewshot=False: chỉ system + user — KHỚP format SFT leaner (gen_synthetic fewshot=False)
+    -> dùng khi chạy model ĐÃ fine-tune (có lora_adapter)."""
+    msgs = [{"role": "system", "content": SYSTEM}]
+    if fewshot:
+        msgs.append({"role": "user", "content": _USER_TEMPLATE.format(text=_FEWSHOT_IN)})
+        msgs.append({"role": "assistant", "content": _FEWSHOT_OUT})
+    msgs.append({"role": "user", "content": _USER_TEMPLATE.format(text=chunk_text)})
+    return msgs
