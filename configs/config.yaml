@@ -31,6 +31,7 @@ linking:
   drug_brands_auto: data/kb/synonyms/drug_brands_auto.tsv  # brand map sinh từ RRF
   icd_fuzzy_threshold: 88             # rapidfuzz token_set_ratio (lexical)
   icd_hedge: false                    # BTC chấm Jaccard mã đầy đủ -> hedge làm tụt điểm (0.44->0.23); tắt
+  icd_who_truncate: true              # BTC chấm ICD ở granularity WHO/BYT 4 ký tự (probe #10: J_cand 19.22->20.72); rút CM 5+ ký tự về 4
   rxnorm_fuzzy_threshold: 90          # sửa typo tên hoạt chất (lexical)
   rxnorm_return_level: tiered         # tiered = mức theo mention (trần→IN, +liều/dạng→SCD, mơ hồ→SCDC). dev Jaccard 0.823 > all-IN 0.661
   # --- semantic (v1) ---
