@@ -122,3 +122,14 @@ tăng natri máu	E87.0
 cường cận giáp nguyên phát	E21.0
 hạ huyết áp	I95.9
 gãy cổ xương đùi	S72.00
+# --- nhóm A: sửa MISS sai-bệnh (kiến thức y khoa chuẩn, ưu tiên cụm dài) ---
+bệnh tim mạch do xơ vữa động mạch	I25.10
+nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin	A41.01
+sỏi ống mật	K80.5
+tụ máu dưới màng cứng mạn tính	I62.03
+máu tụ dưới màng cứng bán cấp	I62.02
+tụ máu ngoài màng cứng	I62.1
+xuất huyết nội sọ không do chấn thương	I62.9
+đái tháo đường có biến chứng bệnh lý thần kinh ngoại biên	E11.42
+bệnh thận mạn không đặc hiệu giai đoạn 4	N18.4
+bệnh thận mạn giai đoạn 4	N18.4

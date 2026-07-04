@@ -121,6 +121,14 @@ class IcdMatcher:
         q = _norm(text)
         if not q:
             return []
+        # 0) luật MI cũ/mạn tính: "nhồi máu cơ tim" + qualifier quá khứ -> I25.2 (Old MI).
+        #    Synonym "nhồi máu cơ tim" -> I21.9 (MI cấp) không bắt được vì qualifier "cũ"/
+        #    "mạn tính" thường bị cụm vị trí ("vùng dưới"/"vùng vách") chen giữa. Tách token
+        #    để "cu" không khớp trong "cục/cũng". Đây là ranh giới mã hoá chuẩn, generalizable.
+        if "nhoi mau co tim" in q:
+            toks = set(q.split())
+            if "cu" in toks or "man" in toks or "di chung" in q:
+                return ["I25.2"]
         # 1) synonym: giữ mã synonym trước, rồi hedge để phủ độ sâu
         for term, codes in self.syn:
             if term in q:            # synonym là cụm nằm TRONG mention (tránh biến thể cụ thể che cụm gốc)
