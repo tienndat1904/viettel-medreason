@@ -14,6 +14,7 @@ import os, re
 SYMPTOMS = [
     # cụm dài để TRƯỚC (khớp ưu tiên khi quét theo thứ tự)
     "khó thở khi gắng sức", "cảm giác thắt chặt ngực", "khó chịu vùng ngực",
+    "giảm dung nạp gắng sức", "sợ ánh sáng", "khô âm đạo", "thiếu oxy",
     "đau thượng vị", "đánh trống ngực", "nôn ra máu", "phù hai bên", "ăn uống kém",
     "vã mồ hôi", "đổ mồ hôi", "mất ý thức", "ngất xỉu", "chóng mặt", "mệt mỏi",
     "khó thở", "đau ngực", "đau bụng", "đau đầu", "đau lưng", "đau khớp", "đau cơ",
@@ -169,14 +170,19 @@ def extract(text: str) -> list[dict]:
     # kết quả xét nghiệm (số): gần tên xét nghiệm / dấu ":" / cue kết quả,
     # loại số theo sau bởi đơn vị thời gian/liều (3 tuần, 325 mg).
     for m in _num.finditer(text):
-        has_unit = bool(m.group(0)[len(m.group(1)):].strip())
+        raw = m.group(1)
+        # bỏ số thứ tự liệt kê "2.", "3." (toàn match là 1-2 chữ số + dấu chấm, không phải kết quả)
+        if re.fullmatch(r"\d{1,2}\.", raw):
+            continue
+        has_unit = bool(m.group(0)[len(raw):].strip())
         after = low[m.end():m.end() + 10]
         if not has_unit and _DUR_AFTER.match(after):
             continue
         pre = low[max(0, m.start() - 28):m.start()]
         if any(k in pre for k in _RESULT_CUE) or any(ln in pre for ln in LAB_NAMES):
-            found.append({"text": text[m.start():m.end()].strip(),
-                          "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
+            txt = text[m.start():m.end()].strip().strip(",.;")   # bỏ dấu câu đuôi: "99," -> "99"
+            if txt:
+                found.append({"text": txt, "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
 
     # thuốc + chẩn đoán (gazetteer từ KB) — để linking P2 chạy
     gz = _load_gazetteers()
