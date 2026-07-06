@@ -1,171 +1,156 @@
 [
   {
-    "text": "viêm phổi",
+    "text": "xơ gan",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      57
+      54
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "J18.9"
+      "K74.60"
     ]
   },
   {
-    "text": "gout",
+    "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      64,
-      68
+      61,
+      69
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "M10.9"
+      "I48.91"
     ]
   },
   {
-    "text": "nitroglycerin 0.4mg po daily",
-    "type": "THUỐC",
-    "position": [
-      105,
-      133
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "4917"
-    ]
-  },
-  {
-    "text": "albuterol q4h",
-    "type": "THUỐC",
-    "position": [
-      140,
-      153
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "435"
-    ]
-  },
-  {
-    "text": "losartan 100mg nebs q4h",
-    "type": "THUỐC",
-    "position": [
-      160,
-      183
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "52175"
-    ]
-  },
-  {
-    "text": "viêm túi mật cấp",
+    "text": "nhiễm khuẩn huyết",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      231,
-      247
+      76,
+      93
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "A41.9"
+    ]
+  },
+  {
+    "text": "sa sút trí tuệ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      100,
+      114
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F03.90"
+    ]
+  },
+  {
+    "text": "insulin glargine 100 đơn vị",
+    "type": "THUỐC",
+    "position": [
+      151,
+      178
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "274783"
+    ]
+  },
+  {
+    "text": "ceftriaxone 1g iv x2",
+    "type": "THUỐC",
+    "position": [
+      185,
+      205
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2193"
+    ]
+  },
+  {
+    "text": "suy tim sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      255,
+      273
     ],
     "assertions": [
       "isHistorical",
       "isFamily"
     ],
     "candidates": [
-      "K81.0"
+      "I50.9"
     ]
+  },
+  {
+    "text": "đau khớp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      384
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      416,
+      422
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      429,
+      438
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      445,
+      452
+    ],
+    "assertions": []
   },
   {
     "text": "phù chi dưới",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      291,
-      303
-    ],
-    "assertions": []
-  },
-  {
-    "text": "đau hạ vị",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      335,
-      344
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tiếng rít",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      351,
-      360
-    ],
-    "assertions": []
-  },
-  {
-    "text": "khó nuốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      367,
-      375
-    ],
-    "assertions": []
-  },
-  {
-    "text": "đổ mồ hôi qua đêm",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      382,
-      399
-    ],
-    "assertions": []
-  },
-  {
-    "text": "hồi hộp",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      406,
-      413
-    ],
-    "assertions": []
-  },
-  {
-    "text": "lơ mơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      465,
-      470
+      501,
+      513
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "chóng mặt",
+    "text": "tiểu dắt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      489,
-      498
-    ],
-    "assertions": [
-      "isNegated"
-    ]
-  },
-  {
-    "text": "đau bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      517,
-      525
+      532,
+      540
     ],
     "assertions": [
       "isNegated"
@@ -175,8 +160,8 @@
     "text": "lymph%",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      583,
-      589
+      598,
+      604
     ],
     "assertions": []
   },
@@ -184,8 +169,8 @@
     "text": "22.9 %",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      591,
-      597
+      606,
+      612
     ],
     "assertions": []
   },
@@ -193,31 +178,13 @@
     "text": "crp",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      604,
-      607
+      619,
+      622
     ],
     "assertions": []
   },
   {
     "text": "110",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      608,
-      611
-    ],
-    "assertions": []
-  },
-  {
-    "text": "inr",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      618,
-      621
-    ],
-    "assertions": []
-  },
-  {
-    "text": "2,5",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
       623,
@@ -226,7 +193,7 @@
     "assertions": []
   },
   {
-    "text": "hgb",
+    "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       633,
@@ -235,11 +202,29 @@
     "assertions": []
   },
   {
+    "text": "2,5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      638,
+      641
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      648,
+      651
+    ],
+    "assertions": []
+  },
+  {
     "text": "7.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      637,
-      640
+      652,
+      655
     ],
     "assertions": []
   },
@@ -247,8 +232,8 @@
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      647,
-      655
+      662,
+      670
     ],
     "assertions": []
   },
@@ -256,8 +241,8 @@
     "text": "0,91",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      657,
-      661
+      672,
+      676
     ],
     "assertions": []
   },
@@ -265,8 +250,17 @@
     "text": "mri sọ não",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      691,
-      701
+      706,
+      716
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không thấy khối choán chỗ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      726,
+      751
     ],
     "assertions": []
   },
@@ -274,21 +268,21 @@
     "text": "cấy nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      708,
-      721
+      758,
+      771
     ],
     "assertions": []
   },
   {
-    "text": "atorvastatin 20mg nebs q4h",
+    "text": "carvedilol 25mg po",
     "type": "THUỐC",
     "position": [
-      741,
-      767
+      791,
+      809
     ],
     "assertions": [],
     "candidates": [
-      "83367"
+      "20352"
     ]
   }
 ]

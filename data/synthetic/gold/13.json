@@ -1,94 +1,80 @@
 [
   {
-    "text": "cường giáp",
+    "text": "suy thận cấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      58
+      60
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "E05.90"
+      "N17.9"
     ]
   },
   {
-    "text": "sa sút trí tuệ",
+    "text": "viêm túi mật cấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      65,
-      79
+      67,
+      83
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "F03.90"
+      "K81.0"
     ]
   },
   {
-    "text": "atenolol 50mg iv x2",
-    "type": "THUỐC",
+    "text": "loét tá tràng",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      116,
-      135
+      90,
+      103
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "1202"
+      "K26.9"
     ]
   },
   {
-    "text": "losartan 50mg",
+    "text": "amlodipine 5mg",
     "type": "THUỐC",
     "position": [
-      142,
-      155
+      140,
+      154
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "52175"
+      "17767"
     ]
   },
   {
-    "text": "methadone 5mg",
+    "text": "aspirin 325mg",
     "type": "THUỐC",
     "position": [
-      162,
-      175
+      161,
+      174
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "6813"
-    ]
-  },
-  {
-    "text": "atorvastatin 40mg",
-    "type": "THUỐC",
-    "position": [
-      182,
-      199
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "83367"
+      "1191"
     ]
   },
   {
     "text": "tăng calci máu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      243,
-      257
+      218,
+      232
     ],
     "assertions": [
       "isHistorical",
@@ -102,8 +88,8 @@
     "text": "ợ hơi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      336,
-      341
+      311,
+      316
     ],
     "assertions": []
   },
@@ -111,8 +97,8 @@
     "text": "ho đờm",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      375,
-      381
+      350,
+      356
     ],
     "assertions": []
   },
@@ -120,8 +106,8 @@
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      390,
-      399
+      365,
+      374
     ],
     "assertions": []
   },
@@ -129,8 +115,8 @@
     "text": "tiếng rít",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      406,
-      415
+      381,
+      390
     ],
     "assertions": []
   },
@@ -138,8 +124,8 @@
     "text": "yếu cơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      422,
-      428
+      397,
+      403
     ],
     "assertions": []
   },
@@ -147,8 +133,8 @@
     "text": "ho đờm xanh",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      435,
-      446
+      410,
+      421
     ],
     "assertions": []
   },
@@ -156,8 +142,8 @@
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      498,
-      506
+      473,
+      481
     ],
     "assertions": [
       "isNegated"
@@ -167,8 +153,8 @@
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      528,
-      530
+      503,
+      505
     ],
     "assertions": [
       "isNegated"
@@ -178,8 +164,8 @@
     "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      546,
-      555
+      521,
+      530
     ],
     "assertions": [
       "isNegated"
@@ -189,8 +175,8 @@
     "text": "glucose",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      613,
-      620
+      588,
+      595
     ],
     "assertions": []
   },
@@ -198,8 +184,8 @@
     "text": "199",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      621,
-      624
+      596,
+      599
     ],
     "assertions": []
   },
@@ -207,8 +193,8 @@
     "text": "bạch cầu (wbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      631,
-      645
+      606,
+      620
     ],
     "assertions": []
   },
@@ -216,8 +202,8 @@
     "text": "17.1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      647,
-      651
+      622,
+      626
     ],
     "assertions": []
   },
@@ -225,8 +211,8 @@
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      658,
-      661
+      633,
+      636
     ],
     "assertions": []
   },
@@ -234,8 +220,8 @@
     "text": "77",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      663,
-      665
+      638,
+      640
     ],
     "assertions": []
   },
@@ -243,8 +229,8 @@
     "text": "wbc",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      672,
-      675
+      647,
+      650
     ],
     "assertions": []
   },
@@ -252,8 +238,8 @@
     "text": "11.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      676,
-      680
+      651,
+      655
     ],
     "assertions": []
   },
@@ -261,8 +247,8 @@
     "text": "protein niệu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      687,
-      699
+      662,
+      674
     ],
     "assertions": []
   },
@@ -270,8 +256,8 @@
     "text": "âm tính",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      701,
-      708
+      676,
+      683
     ],
     "assertions": []
   },
@@ -279,8 +265,8 @@
     "text": "xét nghiệm HIV",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      715,
-      729
+      690,
+      704
     ],
     "assertions": []
   },
@@ -288,8 +274,8 @@
     "text": "âm tính",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      731,
-      738
+      706,
+      713
     ],
     "assertions": []
   },
@@ -297,8 +283,8 @@
     "text": "tổng phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      768,
-      792
+      743,
+      767
     ],
     "assertions": []
   },
@@ -306,8 +292,8 @@
     "text": "siêu âm mạch máu chi dưới",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      799,
-      824
+      774,
+      799
     ],
     "assertions": []
   },
@@ -315,8 +301,8 @@
     "text": "aspirin 81mg po daily",
     "type": "THUỐC",
     "position": [
-      844,
-      865
+      819,
+      840
     ],
     "assertions": [],
     "candidates": [
@@ -327,8 +313,8 @@
     "text": "metformin",
     "type": "THUỐC",
     "position": [
-      872,
-      881
+      847,
+      856
     ],
     "assertions": [],
     "candidates": [
@@ -339,8 +325,8 @@
     "text": "furosemide 80mg hằng ngày",
     "type": "THUỐC",
     "position": [
-      888,
-      913
+      863,
+      888
     ],
     "assertions": [],
     "candidates": [

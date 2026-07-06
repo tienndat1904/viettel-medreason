@@ -38,6 +38,7 @@
     - hgb: 14.9
     - lactate: 3.4
     Chẩn đoán hình ảnh
-    - siêu âm gan mật
+    - siêu âm gan mật cho thấy gan thô echo không đều
     Điều trị
-    - clopidogrel iv x2
+    - carvedilol 25mg q6h
+    - vancomycin 1g po qid

@@ -373,15 +373,36 @@
     "assertions": []
   },
   {
-    "text": "clopidogrel iv x2",
+    "text": "gan thô echo không đều",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      900,
+      922
+    ],
+    "assertions": []
+  },
+  {
+    "text": "carvedilol 25mg q6h",
     "type": "THUỐC",
     "position": [
-      910,
-      927
+      942,
+      961
     ],
     "assertions": [],
     "candidates": [
-      "32968"
+      "20352"
+    ]
+  },
+  {
+    "text": "vancomycin 1g po qid",
+    "type": "THUỐC",
+    "position": [
+      968,
+      988
+    ],
+    "assertions": [],
+    "candidates": [
+      "11124"
     ]
   }
 ]

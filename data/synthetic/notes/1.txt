@@ -31,6 +31,8 @@
     - hba1c: 9,8 %
     Chẩn đoán hình ảnh
     - cấy máu
-    - siêu âm tim
+    - siêu âm tim ghi nhận hở van hai lá mức độ vừa
     Điều trị
-    - atorvastatin nebs q4h
+    - levothyroxine 50mcg đường uống
+    - ciprofloxacin 500mg
+    - morphine 2mg

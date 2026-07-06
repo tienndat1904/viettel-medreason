@@ -1,42 +1,42 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - nhiễm khuẩn đường tiết niệu
-    - bệnh phổi tắc nghẽn mạn tính
-    - suy thận cấp
-    - xơ gan
+    - **bệnh thận mạn**
+    - suy tim
     Thuốc trước khi nhập viện
-    - morphine 4mg
-    - levothyroxine 100mcg iv
-    - prednisone
-    - atenolol 25mg iv
-    Người nhà xin về theo nguyện vọng.
+    - vancomycin
+    - metformin 1000mg iv
+    - clopidogrel 75mg
+    - albuterol nebs iv
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: ho đờm xanh
+    Lý do nhập viện: phù hai bên
     Triệu chứng hiện tại
-    - mệt mỏi
-    - chán ăn
-    - tiêu chảy
-    - khó thở
+    - ợ chua
+    - ho
+    - đau cơ
+    - khó thở về đêm
+    - **ngất xỉu**
     Các triệu chứng liên quan
-    - Không khó nuốt
-    - không có lơ mơ
-    - không có đau ngực
-    - Phủ nhận đau bụng
-    Chẩn đoán sơ bộ: **đái tháo đường típ 1**
-    Bệnh nhân tỉnh, tiếp xúc tốt.
+    - Phủ nhận sụt cân
+    - không có chán ăn
+    Chẩn đoán sơ bộ: hội chứng não gan
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - troponin: 1.86
-    - alt: 339
-    - hct 34.7 %
-    - inr: 2.2
-    - spo2: 93
-    - **hba1c** 9,0
-    - creatinine 4.8
+    - crp: 112
+    - **inr**: 2,1
+    - hemoglobin: 15.0
+    - hct 24.2
+    - hba1c 9.2 %
+    - glucose 75
+    - ure (bun): 82
+    - creatinine: 2.0
+    - test kháng nguyên phế cầu âm tính
     Chẩn đoán hình ảnh
-    - chụp x-quang ngực
+    - ecg
+    - chụp x-quang ngực: bóng tim to
+    - nội soi dạ dày cho thấy viêm trợt niêm mạc dạ dày
     Điều trị
-    - albuterol nebs hằng ngày
-    - vancomycin 1g
+    - atorvastatin
+    - vancomycin
+    - nitroglycerin 0.4mg đường uống

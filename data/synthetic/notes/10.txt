@@ -1,43 +1,47 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - suy tim
-    - **thiếu máu**
-    - suy thận cấp
-    - **ung thư phổi**
+    - sỏi mật
+    - **sa sút trí tuệ**
+    - rối loạn lo âu
+    - bệnh thận mạn
     Thuốc trước khi nhập viện
-    - amoxicillin 875mg
-    - acetaminophen 500mg
-    - aspirin 325mg
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - ibuprofen 600mg po daily
+    - furosemide 20mg hằng ngày
+    Tiền sử gia đình
+    - Con trai bệnh nhân có ung thư phổi
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: mất thăng bằng
+    Lý do nhập viện: đau cơ
     Triệu chứng hiện tại
-    - hồi hộp
-    - chảy nước mũi
-    - phù chi dưới
+    - **sốt**
+    - lú lẫn
+    - đau lưng
+    - tiểu máu
+    - vã mồ hôi
+    - ợ chua
     Các triệu chứng liên quan
-    - Không ghi nhận ớn lạnh
-    - Không ghi nhận tê bì
-    - Phủ nhận táo bón
+    - Không khó thở về đêm
+    - không có tiểu máu
+    - Không lú lẫn
+    Chẩn đoán sơ bộ: viêm tụy cấp
     Người nhà xin về theo nguyện vọng.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - ure (bun) 55
-    - lactate: 3.2
-    - kali: 5.0
-    - hba1c: 9.7
-    - wbc 22.9
-    - glucose: 275
-    - natri: 131
-    - crp 107
-    - protein niệu: âm tính
-    - cấy nước tiểu: dương tính
+    - crp 183
+    - tiểu cầu (plt): 54
+    - spo2: 85
+    - hba1c 8.0 %
+    - hgb: 9.4
+    - glucose 153
+    - **lymph%**: 32.4 %
+    - bilirubin toàn phần: 4.5
+    - test kháng nguyên phế cầu: âm tính
     Chẩn đoán hình ảnh
-    - tổng phân tích nước tiểu
-    - chụp ct sọ não
+    - chụp ct sọ não ghi nhận không thấy xuất huyết nội sọ
+    - siêu âm tim ghi nhận giãn buồng thất trái
     - cấy máu
     Điều trị
-    - metoprolol 50mg nebs q4h
-    - insulin glargine 100 đơn vị
+    - vancomycin 1g iv
+    - warfarin q6h
+    - apixaban iv x2

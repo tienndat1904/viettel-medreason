@@ -1,26 +1,25 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - viêm phổi
-    - gout
+    - xơ gan
+    - rung nhĩ
+    - nhiễm khuẩn huyết
+    - sa sút trí tuệ
     Thuốc trước khi nhập viện
-    - nitroglycerin 0.4mg po daily
-    - albuterol q4h
-    - losartan 100mg nebs q4h
+    - insulin glargine 100 đơn vị
+    - ceftriaxone 1g iv x2
     Tiền sử gia đình
-    - Gia đình có tiền sử viêm túi mật cấp
+    - Con trai bệnh nhân có suy tim sung huyết
+    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: phù chi dưới
+    Lý do nhập viện: đau khớp
     Triệu chứng hiện tại
-    - đau hạ vị
-    - tiếng rít
-    - khó nuốt
-    - đổ mồ hôi qua đêm
-    - hồi hộp
+    - lú lẫn
+    - tiêu chảy
+    - mệt mỏi
     Các triệu chứng liên quan
-    - Không ghi nhận lơ mơ
-    - âm tính với chóng mặt
-    - âm tính với đau bụng
+    - âm tính với phù chi dưới
+    - âm tính với tiểu dắt
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
@@ -30,7 +29,7 @@
     - hgb 7.9
     - troponin: 0,91
     Chẩn đoán hình ảnh
-    - mri sọ não
+    - mri sọ não cho thấy không thấy khối choán chỗ
     - cấy nước tiểu
     Điều trị
-    - atorvastatin 20mg nebs q4h
+    - carvedilol 25mg po

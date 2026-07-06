@@ -1,42 +1,36 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - hen suyễn
-    - rối loạn lo âu
-    - động kinh
+    - tăng calci máu
+    - **động kinh**
     Thuốc trước khi nhập viện
-    - spironolactone 50mg
-    - metformin 500mg
-    - tacrolimus 1mg po daily
-    Người nhà xin về theo nguyện vọng.
+    - aspirin 325mg
+    - clopidogrel 75mg
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: yếu cơ
+    Lý do nhập viện: khó nuốt
     Triệu chứng hiện tại
-    - ợ hơi
-    - buồn nôn
-    - chán ăn
-    - ho
-    - khó nuốt
-    - tiểu buốt
+    - ban đỏ
+    - mất định hướng
+    - sốt cao
+    - đau ngực
+    - tiêu chảy
     Các triệu chứng liên quan
-    - không có phù chi dưới
-    - Phủ nhận ho
-    Chẩn đoán sơ bộ: trầm cảm
+    - không có tiểu máu
+    - âm tính với đau hạ sườn phải
+    - Phủ nhận đổ mồ hôi qua đêm
+    - Phủ nhận khó thở về đêm
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - neut%: 64,4
-    - hct 27,2
-    - ure (bun): 88
-    - tiểu cầu (plt): 429
-    - bnp: 24110
-    - troponin 1.43
-    - wbc 12,9
-    - creatinine  3,8
-    - cấy nước tiểu âm tính
-    - soi phân tìm ký sinh trùng âm tính
+    - inr: 1.2
+    - creatinine 1,9
+    - bilirubin toàn phần 4.1
+    - wbc: 23,8
     Chẩn đoán hình ảnh
-    - cấy nước tiểu
-    - siêu âm ổ bụng
+    - điện tâm đồ ghi nhận block nhánh trái hoàn toàn
+    - tổng phân tích nước tiểu
+    - siêu âm tim
     Điều trị
-    - furosemide 40mg q6h
+    - torsemide 20mg đường uống
+    - metformin 500mg nebs q4h

@@ -1,12 +1,10 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - giãn phế quản
-    - viêm phế quản cấp
+    - thiếu máu
+    - viêm phổi
     Thuốc trước khi nhập viện
-    - pantoprazole 40mg nebs q4h
-    - levothyroxine 100mcg
-    - apixaban 5mg
-    - torsemide 10mg
+    - albuterol nebs
+    - azithromycin 250mg
     Tiền sử gia đình
     - Bố bệnh nhân có viêm phổi thùy
     Bệnh nhân tỉnh, tiếp xúc tốt.
@@ -40,6 +38,5 @@
     Chẩn đoán hình ảnh
     - monitor holter
     Điều trị
-    - albuterol nebs po bid
-    - azithromycin 500mg q6h
-    - ciprofloxacin 500mg q4h
+    - azithromycin 500mg po bid
+    - ciprofloxacin 500mg q6h

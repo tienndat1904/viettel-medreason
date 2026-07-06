@@ -1,6 +1,6 @@
 [
   {
-    "text": "suy tim",
+    "text": "sỏi mật",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
@@ -10,213 +10,253 @@
       "isHistorical"
     ],
     "candidates": [
-      "I50.9"
+      "K80.20"
     ]
   },
   {
-    "text": "thiếu máu",
+    "text": "sa sút trí tuệ",
     "type": "CHẨN_ĐOÁN",
     "position": [
       64,
-      73
+      78
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "D64.9"
+      "F03.90"
     ]
   },
   {
-    "text": "suy thận cấp",
+    "text": "rối loạn lo âu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      82,
-      94
+      87,
+      101
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "N17.9"
+      "F41.9"
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      121
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N18.9"
+    ]
+  },
+  {
+    "text": "ibuprofen 600mg po daily",
+    "type": "THUỐC",
+    "position": [
+      158,
+      182
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "5640"
+    ]
+  },
+  {
+    "text": "furosemide 20mg hằng ngày",
+    "type": "THUỐC",
+    "position": [
+      189,
+      214
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4603"
     ]
   },
   {
     "text": "ung thư phổi",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      103,
-      115
+      264,
+      276
     ],
     "assertions": [
-      "isHistorical"
+      "isHistorical",
+      "isFamily"
     ],
     "candidates": [
       "C34.90"
     ]
   },
   {
-    "text": "amoxicillin 875mg",
-    "type": "THUỐC",
-    "position": [
-      154,
-      171
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "723"
-    ]
-  },
-  {
-    "text": "acetaminophen 500mg",
-    "type": "THUỐC",
-    "position": [
-      178,
-      197
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "161"
-    ]
-  },
-  {
-    "text": "aspirin 325mg",
-    "type": "THUỐC",
-    "position": [
-      204,
-      217
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "1191"
-    ]
-  },
-  {
-    "text": "mất thăng bằng",
+    "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
       320,
-      334
+      326
     ],
     "assertions": []
   },
   {
-    "text": "hồi hộp",
+    "text": "sốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      366,
-      373
+      360,
+      363
     ],
     "assertions": []
   },
   {
-    "text": "chảy nước mũi",
+    "text": "lú lẫn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      380,
+      372,
+      378
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      385,
       393
     ],
     "assertions": []
   },
   {
-    "text": "phù chi dưới",
+    "text": "tiểu máu",
     "type": "TRIỆU_CHỨNG",
     "position": [
       400,
-      412
+      408
     ],
     "assertions": []
   },
   {
-    "text": "ớn lạnh",
+    "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      464,
-      471
+      415,
+      424
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      431,
+      437
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      480,
+      494
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "tê bì",
+    "text": "tiểu máu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      493,
-      498
+      510,
+      518
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "táo bón",
+    "text": "lú lẫn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      514,
-      521
+      531,
+      537
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "ure (bun)",
+    "text": "viêm tụy cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      559,
+      571
+    ],
+    "assertions": [],
+    "candidates": [
+      "K85.9"
+    ]
+  },
+  {
+    "text": "crp",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      618,
-      627
+      668,
+      671
     ],
     "assertions": []
   },
   {
-    "text": "55",
+    "text": "183",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      628,
-      630
+      672,
+      675
     ],
     "assertions": []
   },
   {
-    "text": "lactate",
+    "text": "tiểu cầu (plt)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      637,
-      644
+      682,
+      696
     ],
     "assertions": []
   },
   {
-    "text": "3.2",
+    "text": "54",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      646,
-      649
+      698,
+      700
     ],
     "assertions": []
   },
   {
-    "text": "kali",
+    "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      656,
-      660
+      707,
+      711
     ],
     "assertions": []
   },
   {
-    "text": "5.0",
+    "text": "85",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      662,
-      665
+      713,
+      715
     ],
     "assertions": []
   },
@@ -224,76 +264,22 @@
     "text": "hba1c",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      672,
-      677
+      722,
+      727
     ],
     "assertions": []
   },
   {
-    "text": "9.7",
+    "text": "8.0 %",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      679,
-      682
-    ],
-    "assertions": []
-  },
-  {
-    "text": "wbc",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      689,
-      692
-    ],
-    "assertions": []
-  },
-  {
-    "text": "22.9",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      693,
-      697
-    ],
-    "assertions": []
-  },
-  {
-    "text": "glucose",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      704,
-      711
-    ],
-    "assertions": []
-  },
-  {
-    "text": "275",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      713,
-      716
-    ],
-    "assertions": []
-  },
-  {
-    "text": "natri",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      723,
-      728
-    ],
-    "assertions": []
-  },
-  {
-    "text": "131",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      730,
+      728,
       733
     ],
     "assertions": []
   },
   {
-    "text": "crp",
+    "text": "hgb",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       740,
@@ -302,20 +288,74 @@
     "assertions": []
   },
   {
-    "text": "107",
+    "text": "9.4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      744,
-      747
+      745,
+      748
     ],
     "assertions": []
   },
   {
-    "text": "protein niệu",
+    "text": "glucose",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      754,
+      755,
+      762
+    ],
+    "assertions": []
+  },
+  {
+    "text": "153",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      763,
       766
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      775,
+      781
+    ],
+    "assertions": []
+  },
+  {
+    "text": "32.4 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      785,
+      791
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      798,
+      817
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      819,
+      822
+    ],
+    "assertions": []
+  },
+  {
+    "text": "test kháng nguyên phế cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      829,
+      854
     ],
     "assertions": []
   },
@@ -323,35 +363,8 @@
     "text": "âm tính",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      768,
-      775
-    ],
-    "assertions": []
-  },
-  {
-    "text": "cấy nước tiểu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      782,
-      795
-    ],
-    "assertions": []
-  },
-  {
-    "text": "dương tính",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      797,
-      807
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tổng phân tích nước tiểu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      837,
-      861
+      856,
+      863
     ],
     "assertions": []
   },
@@ -359,8 +372,35 @@
     "text": "chụp ct sọ não",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      868,
-      882
+      893,
+      907
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không thấy xuất huyết nội sọ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      917,
+      945
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      952,
+      963
+    ],
+    "assertions": []
+  },
+  {
+    "text": "giãn buồng thất trái",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      973,
+      993
     ],
     "assertions": []
   },
@@ -368,33 +408,45 @@
     "text": "cấy máu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      889,
-      896
+      1000,
+      1007
     ],
     "assertions": []
   },
   {
-    "text": "metoprolol 50mg nebs q4h",
+    "text": "vancomycin 1g iv",
     "type": "THUỐC",
     "position": [
-      916,
-      940
+      1027,
+      1043
     ],
     "assertions": [],
     "candidates": [
-      "6918"
+      "11124"
     ]
   },
   {
-    "text": "insulin glargine 100 đơn vị",
+    "text": "warfarin q6h",
     "type": "THUỐC",
     "position": [
-      947,
-      974
+      1050,
+      1062
     ],
     "assertions": [],
     "candidates": [
-      "274783"
+      "11289"
+    ]
+  },
+  {
+    "text": "apixaban iv x2",
+    "type": "THUỐC",
+    "position": [
+      1069,
+      1083
+    ],
+    "assertions": [],
+    "candidates": [
+      "1364430"
     ]
   }
 ]

@@ -286,15 +286,48 @@
     "assertions": []
   },
   {
-    "text": "atorvastatin nebs q4h",
+    "text": "hở van hai lá mức độ vừa",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      757,
+      781
+    ],
+    "assertions": []
+  },
+  {
+    "text": "levothyroxine 50mcg đường uống",
     "type": "THUỐC",
     "position": [
-      767,
-      788
+      801,
+      831
     ],
     "assertions": [],
     "candidates": [
-      "83367"
+      "10582"
+    ]
+  },
+  {
+    "text": "ciprofloxacin 500mg",
+    "type": "THUỐC",
+    "position": [
+      838,
+      857
+    ],
+    "assertions": [],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "morphine 2mg",
+    "type": "THUỐC",
+    "position": [
+      864,
+      876
+    ],
+    "assertions": [],
+    "candidates": [
+      "7052"
     ]
   }
 ]

@@ -1,44 +1,43 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - huyết khối tĩnh mạch sâu
-    - tăng lipid máu
-    - viêm mô tế bào
-    - nhồi máu cơ tim cấp
+    - sa sút trí tuệ
+    - xuất huyết dưới nhện
+    - tăng kali máu
     Thuốc trước khi nhập viện
-    - albuterol iv x2
-    - warfarin
-    - morphine 4mg po qid
-    Tiền sử gia đình
-    - Mẹ bệnh nhân có loét tá tràng
+    - ipratropium nebs
+    - tacrolimus 1mg
+    - azithromycin 500mg iv x2
+    - insulin glargine
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: vã mồ hôi
+    Lý do nhập viện: hồi hộp
     Triệu chứng hiện tại
-    - phù hai bên
+    - **nghẹt mũi**
     - ớn lạnh
-    - chán ăn
-    - ngứa
-    - tiểu buốt
+    - ban đỏ
+    - chảy nước mũi
+    - đau thượng vị
+    - tiêu chảy
     Các triệu chứng liên quan
-    - không có **ban đỏ**
-    - Không chảy nước mũi
-    - Không ghi nhận đau thượng vị
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - âm tính với đau đầu
+    - âm tính với nghẹt mũi
+    Chẩn đoán sơ bộ: gout
+    Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - spo2 94
-    - **natri**: 130
-    - hct: 47.9 %
-    - hemoglobin: 9.0
-    - lactate: 5,5
-    - lymph% 33.9 %
-    - bnp 22992
-    - bạch cầu (wbc) 24.2
-    - HBsAg âm tính
-    - khí máu động mạch trong giới hạn bình thường
+    - **lymph%**: 9.0
+    - hba1c 7.8
+    - spo2 88
+    - bạch cầu (wbc) 18.9
+    - hemoglobin 8.8
+    - ast: 375
+    - creatinine: 0.7
+    - bilirubin toàn phần 1.6
     Chẩn đoán hình ảnh
-    - siêu âm ổ bụng
+    - mri sọ não
+    - siêu âm ổ bụng kết luận dịch tự do ổ bụng lượng ít
     Điều trị
-    - clopidogrel 75mg iv x2
-    - morphine hằng ngày
+    - warfarin hằng ngày
+    - metoprolol 100mg
+    - ipratropium

@@ -15,6 +15,21 @@ SYMPTOMS = [
     # cụm dài để TRƯỚC (khớp ưu tiên khi quét theo thứ tự)
     "khó thở khi gắng sức", "cảm giác thắt chặt ngực", "khó chịu vùng ngực",
     "giảm dung nạp gắng sức", "sợ ánh sáng", "khô âm đạo", "thiếu oxy",
+    # --- dấu hiệu thực thể bác sĩ khám (BTC forum: KHÔNG phân loại triệu chứng
+    #     => sign thực thể vẫn tính TRIỆU_CHỨNG). Cụm dài trước cụm ngắn cùng gốc. ---
+    "rì rào phế nang giảm", "thông khí phổi giảm", "phản ứng thành bụng",
+    "đề kháng thành bụng", "cảm ứng phúc mạc", "dấu hiệu thần kinh khu trú",
+    "phản xạ gân xương tăng", "tĩnh mạch cổ nổi", "phù mềm ấn lõm",
+    "rút lõm lồng ngực", "niêm mạc nhợt", "sưng nóng đỏ", "gan lách to",
+    "yếu nửa người", "liệt nửa người", "nhịp tim không đều", "thổi tâm thu",
+    "thổi tâm trương", "tiếng thổi", "ran nổ", "ran ẩm", "ran rít", "ran ngáy",
+    "gan to", "lách to", "hạch to", "cứng gáy", "gõ đục", "bụng chướng",
+    "chướng bụng", "thở nhanh", "thở rít", "ấn đau", "tím tái", "vàng mắt",
+    # --- triệu chứng lâm sàng chuẩn hay gặp (tổng quát hóa được) ---
+    "khó thở khi nằm đầu thấp", "khó thở khi nằm", "phù gai thị", "phù chi dưới",
+    "đau bụng dữ dội", "đau đầu kéo dài", "nghẹt ngực", "nuốt vướng", "nuốt nghẹn",
+    "giọng khàn", "chảy máu mũi", "chảy máu cam", "ho ra máu", "khạc đờm",
+    "đau âm ỉ", "lú lẫn", "lơ mơ",
     "đau thượng vị", "đánh trống ngực", "nôn ra máu", "phù hai bên", "ăn uống kém",
     "vã mồ hôi", "đổ mồ hôi", "mất ý thức", "ngất xỉu", "chóng mặt", "mệt mỏi",
     "khó thở", "đau ngực", "đau bụng", "đau đầu", "đau lưng", "đau khớp", "đau cơ",
@@ -29,15 +44,18 @@ LAB_NAMES = [
     # chẩn đoán hình ảnh / thủ thuật
     "chụp x-quang ngực", "chụp x-quang", "x-quang ngực", "x-quang", "x quang",
     "siêu âm tim qua thành ngực", "siêu âm bụng", "siêu âm tim", "siêu âm", "doppler",
-    "chụp ct ngực", "chụp ct sọ não", "chụp cắt lớp vi tính", "chụp ct", "ct scan",
+    "chụp cắt lớp vi tính sọ não", "chụp ct ngực", "chụp ct sọ não",
+    "chụp cắt lớp vi tính", "chụp ct", "ct scan",
     "chụp cộng hưởng từ", "mri", "điện tâm đồ", "ecg", "monitor holter", "holter",
-    "chụp hida", "nội soi", "sinh thiết",
+    "chụp hida", "nội soi", "sinh thiết", "chọc dò dịch não tủy", "thông tim trái",
+    "thông tim",
     # panel / xét nghiệm
     "tổng phân tích nước tiểu", "phân tích nước tiểu", "công thức máu", "sinh hóa máu",
     "chức năng gan", "chức năng thận", "cấy máu", "cấy nước tiểu", "khí máu động mạch",
     # chỉ số máu / marker
     "wbc", "ast", "alt", "troponin", "cea", "creatinine", "bilirubin toàn phần",
-    "bilirubin", "spo2", "canxi", "canci", "hgb", "hct", "plt", "neut", "lyph",
+    "bilirubin", "spo2", "canxi toàn phần", "canxi ion hóa", "canxi", "canci",
+    "hgb", "hct", "plt", "neut", "lyph",
     "bạch cầu", "phosphatase kiềm", "kali", "natri", "lactate", "lymphocyte",
     "amylase", "lipase",
     "glucose", "hba1c", "ure", "crp", "inr", "bnp", "alp", "albumin", "ferritin",
@@ -51,7 +69,8 @@ _num = re.compile(r"(?<![\w.])(\d[\d.,]*(?:\s*[-x×]\s*\d[\d.,]*)?)" + _RESULT_U
 # số theo sau bởi đơn vị THỜI GIAN/LIỀU -> không phải kết quả xét nghiệm
 _DUR_AFTER = re.compile(r"^\s*(tu[aầ]n|ngày|ngay|tháng|thang|năm|nam|giờ|gio|phút|phut|"
                         r"tuổi|tuoi|lần|lan|viên|vien|gói|goi|mg|ml|mcg|g)\b", re.I)
-_RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm")
+_RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm",
+               "nhiệt độ")
 
 # ---- đường dẫn KB mặc định (khớp configs/config.yaml) ----
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -161,7 +180,7 @@ def extract(text: str) -> list[dict]:
             sym_taken.append((m.start(), m.end()))
             found.append({"text": text[m.start():m.end()], "type": "TRIỆU_CHỨNG"})
 
-    # tên xét nghiệm
+    # tên xét nghiệm (span chồng lấn đã được resolve_offsets ở pipeline dedup)
     for kw in LAB_NAMES:
         for m in re.finditer(r"\b" + re.escape(kw) + r"\b", low):
             found.append({"text": text[m.start():m.end()], "type": "TÊN_XÉT_NGHIỆM",

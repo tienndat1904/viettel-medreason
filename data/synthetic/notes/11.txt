@@ -1,36 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - suy tim
-    - ung thư đại tràng
-    - đợt cấp hen suyễn
+    - đột quỵ nhồi máu não
+    - bệnh tim thiếu máu cục bộ
     Thuốc trước khi nhập viện
-    - rosuvastatin q4h
-    - lisinopril 10mg q6h
-    - morphine 2mg iv x2
+    - ciprofloxacin 500mg x 1
+    - amoxicillin 875mg
+    - losartan 50mg tiêm tĩnh mạch
+    - metoprolol 100mg po bid
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đánh trống ngực
+    Lý do nhập viện: mất định hướng
     Triệu chứng hiện tại
-    - mất ngủ
-    - đánh trống ngực
-    - mất định hướng
-    - khó thở về đêm
+    - đau ngực
+    - đau bụng
+    - ho đờm
+    - đau vai
+    - táo bón
+    - vã mồ hôi
     Các triệu chứng liên quan
-    - không có mệt mỏi
-    - không có đau đầu dữ dội
-    - không có gần ngất
-    - không có hoa mắt
-    Chẩn đoán sơ bộ: đột quỵ nhồi máu não
-    Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
+    - Phủ nhận ợ chua
+    - Không đánh trống ngực
+    - âm tính với tê bì
+    - không có **tiểu dắt**
+    Chẩn đoán sơ bộ: thiếu máu
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - creatinine: 1.7
-    - lymph%: 37,5
-    - hct: 28.3
-    - lactate 1.1
+    - crp 72
+    - ure (bun): 46
+    - bnp 554
+    - hba1c 5.5 %
+    - HBsAg: âm tính
     Chẩn đoán hình ảnh
-    - siêu âm gan mật
+    - mri sọ não: tổn thương chất trắng quanh não thất
+    - cấy máu
+    - chụp ct bụng chậu cho thấy dịch tự do khoang phúc mạc lượng vừa
     Điều trị
-    - amlodipine nebs q4h
-    - spironolactone 50mg
+    - warfarin 2mg

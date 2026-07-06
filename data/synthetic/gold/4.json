@@ -1,94 +1,66 @@
 [
   {
-    "text": "loét tá tràng",
+    "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      48,
-      61
+      50,
+      57
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "K26.9"
+      "E66.9"
     ]
   },
   {
-    "text": "sa sút trí tuệ",
+    "text": "viêm khớp dạng thấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      68,
-      82
+      66,
+      85
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "F03.90"
+      "M06.9"
     ]
   },
   {
-    "text": "suy tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      89,
-      96
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I50.9"
-    ]
-  },
-  {
-    "text": "nhồi máu cơ tim cấp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      103,
-      122
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I21.9"
-    ]
-  },
-  {
-    "text": "atorvastatin 40mg",
+    "text": "methadone 10mg q4h",
     "type": "THUỐC",
     "position": [
-      159,
-      176
+      122,
+      140
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "83367"
+      "6813"
     ]
   },
   {
-    "text": "ipratropium nebs",
+    "text": "albuterol nebs hằng ngày",
     "type": "THUỐC",
     "position": [
-      185,
-      201
+      147,
+      171
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "7213"
+      "435"
     ]
   },
   {
-    "text": "insulin glargine 100 đơn vị",
+    "text": "insulin glargine 100 đơn vị po qid",
     "type": "THUỐC",
     "position": [
-      210,
-      237
+      178,
+      212
     ],
     "assertions": [
       "isHistorical"
@@ -98,155 +70,191 @@
     ]
   },
   {
-    "text": "ngất xỉu",
-    "type": "TRIỆU_CHỨNG",
+    "text": "atorvastatin 40mg",
+    "type": "THUỐC",
     "position": [
-      281,
-      289
-    ],
-    "assertions": []
-  },
-  {
-    "text": "đau ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      321,
-      329
-    ],
-    "assertions": []
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      336,
-      343
-    ],
-    "assertions": []
-  },
-  {
-    "text": "mất ngủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      352,
-      359
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tê bì",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      413,
-      418
+      219,
+      236
     ],
     "assertions": [
-      "isNegated"
+      "isHistorical"
+    ],
+    "candidates": [
+      "83367"
     ]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      286,
+      298
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "N17.9"
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      347
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      379,
+      393
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      409
+    ],
+    "assertions": []
   },
   {
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      434,
-      441
+      416,
+      423
     ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": []
   },
   {
-    "text": "đau thượng vị",
+    "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      454,
-      467
+      466,
+      474
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      490,
+      498
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm mô tế bào",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      489,
-      517
+      520,
+      534
     ],
     "assertions": [],
     "candidates": [
-      "J44.9"
+      "L03.90"
     ]
   },
   {
-    "text": "hct",
+    "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      614,
-      617
+      592,
+      600
     ],
     "assertions": []
   },
   {
-    "text": "43.5 %",
+    "text": "1,66",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      619,
-      625
+      601,
+      605
     ],
     "assertions": []
   },
   {
-    "text": "lymph%",
+    "text": "bilirubin toàn phần",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      632,
-      638
+      612,
+      631
     ],
     "assertions": []
   },
   {
-    "text": "11.4 %",
+    "text": "1.1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      639,
-      645
+      633,
+      636
     ],
     "assertions": []
   },
   {
-    "text": "tiểu cầu (plt)",
+    "text": "natri",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      652,
-      666
+      643,
+      648
     ],
     "assertions": []
   },
   {
-    "text": "417",
+    "text": "130",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      668,
-      671
+      650,
+      653
     ],
     "assertions": []
   },
   {
-    "text": "hba1c",
+    "text": "bạch cầu (wbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      678,
-      683
+      660,
+      674
     ],
     "assertions": []
   },
   {
-    "text": "6.6",
+    "text": "11.1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      685,
-      688
+      675,
+      679
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hgb",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      688,
+      691
+    ],
+    "assertions": []
+  },
+  {
+    "text": "16.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      694,
+      698
     ],
     "assertions": []
   },
@@ -254,23 +262,14 @@
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      695,
-      698
+      705,
+      708
     ],
     "assertions": []
   },
   {
-    "text": "147",
+    "text": "270",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      700,
-      703
-    ],
-    "assertions": []
-  },
-  {
-    "text": "wbc",
-    "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       710,
       713
@@ -278,108 +277,54 @@
     "assertions": []
   },
   {
-    "text": "10,3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      714,
-      718
-    ],
-    "assertions": []
-  },
-  {
-    "text": "inr",
+    "text": "siêu âm tim",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      725,
-      728
-    ],
-    "assertions": []
-  },
-  {
-    "text": "3,9",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      729,
-      732
-    ],
-    "assertions": []
-  },
-  {
-    "text": "creatinine",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      739,
-      749
-    ],
-    "assertions": []
-  },
-  {
-    "text": "3.0",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      751,
+      743,
       754
     ],
     "assertions": []
   },
   {
-    "text": "hồng cầu niệu",
+    "text": "chụp x-quang bàn chân",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      763,
-      776
+      761,
+      782
     ],
     "assertions": []
   },
   {
-    "text": "dương tính",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      780,
-      790
-    ],
-    "assertions": []
-  },
-  {
-    "text": "chụp ct bụng chậu",
+    "text": "siêu âm ổ bụng",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      820,
-      837
+      789,
+      803
     ],
     "assertions": []
   },
   {
-    "text": "monitor holter",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      844,
-      858
-    ],
-    "assertions": []
-  },
-  {
-    "text": "albuterol iv",
+    "text": "atenolol q4h",
     "type": "THUỐC",
     "position": [
-      878,
-      890
+      823,
+      835
     ],
     "assertions": [],
     "candidates": [
-      "435"
+      "1202"
     ]
   },
   {
-    "text": "torsemide 20mg iv",
+    "text": "warfarin",
     "type": "THUỐC",
     "position": [
-      897,
-      914
+      842,
+      850
     ],
     "assertions": [],
     "candidates": [
-      "38413"
+      "11289"
     ]
   }
 ]

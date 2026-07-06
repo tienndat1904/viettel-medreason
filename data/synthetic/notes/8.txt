@@ -1,39 +1,42 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
+    - loét tá tràng
+    - giãn phế quản
     - đợt cấp hen suyễn
-    - viêm phế quản cấp
-    - tăng kali máu
-    - sỏi mật
     Thuốc trước khi nhập viện
-    - amlodipine 10mg
-    - furosemide 20mg q4h
-    - atorvastatin 40mg iv
-    Được thăm khám bởi bác sĩ phụ trách chính.
+    - warfarin 5mg
+    - apixaban 5mg po
+    - atorvastatin 20mg
+    - gabapentin 300mg
+    Tiền sử gia đình
+    - Anh trai bệnh nhân có tăng huyết áp
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: buồn nôn
+    Lý do nhập viện: đau hạ sườn phải
     Triệu chứng hiện tại
-    - ngất xỉu
-    - đau ngực
-    - ợ chua
-    - chóng mặt
+    - buồn nôn
+    - đau vai
+    - phù hai bên
     Các triệu chứng liên quan
-    - âm tính với ngứa
-    - âm tính với táo bón
-    Chẩn đoán sơ bộ: đột quỵ nhồi máu não
+    - Phủ nhận lú lẫn
+    - không có khó nuốt
+    - Phủ nhận ho đờm xanh
+    - Không ghi nhận đau thượng vị
+    Người nhà xin về theo nguyện vọng.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - troponin 1.78
-    - bnp 16864
-    - bilirubin toàn phần 4.2
-    - alt 182
-    - hgb16.7
-    - bạch cầu (wbc): 6.5
-    - khí máu động mạch trong giới hạn bình thường
+    - alt: 380
+    - kali 3,4
+    - lactate: 3.8
+    - ast: 284
+    - crp: 158
+    - bạch cầu (wbc): 12.4
+    - hemoglobin 15,3
     Chẩn đoán hình ảnh
-    - cấy máu
+    - chụp x-quang bàn chân ghi nhận không thấy tổn thương xương
+    - chụp ct sọ não ghi nhận ổ giảm tỷ trọng vùng nhân bèo phải
     Điều trị
-    - metoprolol 25mg tiêm tĩnh mạch
-    - tacrolimus
-    - morphine đường uống
+    - losartan
+    - carvedilol 6.25mg x 1

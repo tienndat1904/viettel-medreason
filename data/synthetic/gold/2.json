@@ -1,38 +1,24 @@
 [
   {
-    "text": "hen suyễn",
+    "text": "tăng calci máu",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      57
+      62
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "J45.909"
-    ]
-  },
-  {
-    "text": "rối loạn lo âu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      64,
-      78
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "F41.9"
+      "E83.52"
     ]
   },
   {
     "text": "động kinh",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      85,
-      94
+      71,
+      80
     ],
     "assertions": [
       "isHistorical"
@@ -42,267 +28,146 @@
     ]
   },
   {
-    "text": "spironolactone 50mg",
+    "text": "aspirin 325mg",
     "type": "THUỐC",
     "position": [
-      131,
-      150
+      119,
+      132
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "9997"
+      "1191"
     ]
   },
   {
-    "text": "metformin 500mg",
+    "text": "clopidogrel 75mg",
     "type": "THUỐC",
     "position": [
-      157,
-      172
+      139,
+      155
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "6809"
+      "32968"
     ]
-  },
-  {
-    "text": "tacrolimus 1mg po daily",
-    "type": "THUỐC",
-    "position": [
-      179,
-      202
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "42316"
-    ]
-  },
-  {
-    "text": "yếu cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      285,
-      291
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ợ hơi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      323,
-      328
-    ],
-    "assertions": []
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      335,
-      343
-    ],
-    "assertions": []
-  },
-  {
-    "text": "chán ăn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      350,
-      357
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      364,
-      366
-    ],
-    "assertions": []
   },
   {
     "text": "khó nuốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      373,
-      381
+      242,
+      250
     ],
     "assertions": []
   },
   {
-    "text": "tiểu buốt",
+    "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      388,
-      397
+      282,
+      288
     ],
     "assertions": []
   },
   {
-    "text": "phù chi dưới",
+    "text": "mất định hướng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      443,
-      455
+      295,
+      309
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      316,
+      323
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      330,
+      338
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      345,
+      354
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      408
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "ho",
+    "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      471,
-      473
+      427,
+      443
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "trầm cảm",
-    "type": "CHẨN_ĐOÁN",
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      495,
-      503
+      459,
+      476
     ],
-    "assertions": [],
-    "candidates": [
-      "F32.9"
+    "assertions": [
+      "isNegated"
     ]
   },
   {
-    "text": "neut%",
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      492,
+      506
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      561,
-      566
+      564,
+      567
     ],
     "assertions": []
   },
   {
-    "text": "64,4",
+    "text": "1.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      568,
+      569,
       572
-    ],
-    "assertions": []
-  },
-  {
-    "text": "hct",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      579,
-      582
-    ],
-    "assertions": []
-  },
-  {
-    "text": "27,2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      583,
-      587
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ure (bun)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      594,
-      603
-    ],
-    "assertions": []
-  },
-  {
-    "text": "88",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      605,
-      607
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tiểu cầu (plt)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      614,
-      628
-    ],
-    "assertions": []
-  },
-  {
-    "text": "429",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      630,
-      633
-    ],
-    "assertions": []
-  },
-  {
-    "text": "bnp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      640,
-      643
-    ],
-    "assertions": []
-  },
-  {
-    "text": "24110",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      645,
-      650
-    ],
-    "assertions": []
-  },
-  {
-    "text": "troponin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      657,
-      665
-    ],
-    "assertions": []
-  },
-  {
-    "text": "1.43",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      666,
-      670
-    ],
-    "assertions": []
-  },
-  {
-    "text": "wbc",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      677,
-      680
-    ],
-    "assertions": []
-  },
-  {
-    "text": "12,9",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      681,
-      685
     ],
     "assertions": []
   },
@@ -310,84 +175,114 @@
     "text": "creatinine",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      692,
-      702
+      579,
+      589
     ],
     "assertions": []
   },
   {
-    "text": "3,8",
+    "text": "1,9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      704,
-      707
+      590,
+      593
     ],
     "assertions": []
   },
   {
-    "text": "cấy nước tiểu",
+    "text": "bilirubin toàn phần",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      714,
-      727
+      600,
+      619
     ],
     "assertions": []
   },
   {
-    "text": "âm tính",
+    "text": "4.1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      728,
-      735
+      620,
+      623
     ],
     "assertions": []
   },
   {
-    "text": "soi phân tìm ký sinh trùng",
+    "text": "wbc",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      742,
-      768
+      630,
+      633
     ],
     "assertions": []
   },
   {
-    "text": "âm tính",
+    "text": "23,8",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      769,
-      776
+      635,
+      639
     ],
     "assertions": []
   },
   {
-    "text": "cấy nước tiểu",
+    "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      806,
-      819
+      669,
+      680
     ],
     "assertions": []
   },
   {
-    "text": "siêu âm ổ bụng",
+    "text": "block nhánh trái hoàn toàn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      690,
+      716
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      826,
-      840
+      723,
+      747
     ],
     "assertions": []
   },
   {
-    "text": "furosemide 40mg q6h",
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      754,
+      765
+    ],
+    "assertions": []
+  },
+  {
+    "text": "torsemide 20mg đường uống",
     "type": "THUỐC",
     "position": [
-      860,
-      879
+      785,
+      810
     ],
     "assertions": [],
     "candidates": [
-      "4603"
+      "38413"
+    ]
+  },
+  {
+    "text": "metformin 500mg nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      817,
+      841
+    ],
+    "assertions": [],
+    "candidates": [
+      "6809"
     ]
   }
 ]

@@ -1,24 +1,10 @@
 [
   {
-    "text": "béo phì",
+    "text": "suy tim sung huyết",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      55
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E66.9"
-    ]
-  },
-  {
-    "text": "suy tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      62,
-      69
+      66
     ],
     "assertions": [
       "isHistorical"
@@ -28,39 +14,67 @@
     ]
   },
   {
-    "text": "thiếu máu",
+    "text": "thuyên tắc phổi",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      76,
-      85
+      73,
+      88
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "D64.9"
+      "I26.99"
     ]
   },
   {
-    "text": "tăng calci máu",
+    "text": "bệnh tim thiếu máu cục bộ",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      92,
-      106
+      95,
+      120
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "E83.52"
+      "I25.9"
     ]
   },
   {
-    "text": "methadone 10mg",
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      127,
+      147
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I60.9"
+    ]
+  },
+  {
+    "text": "carvedilol 25mg",
     "type": "THUỐC",
     "position": [
-      143,
-      157
+      184,
+      199
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "methadone 10mg po bid",
+    "type": "THUỐC",
+    "position": [
+      206,
+      227
     ],
     "assertions": [
       "isHistorical"
@@ -70,110 +84,66 @@
     ]
   },
   {
-    "text": "prednisone 40mg",
-    "type": "THUỐC",
-    "position": [
-      164,
-      179
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "8640"
-    ]
-  },
-  {
-    "text": "morphine 2mg iv",
-    "type": "THUỐC",
-    "position": [
-      186,
-      201
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "7052"
-    ]
-  },
-  {
-    "text": "atenolol 50mg tiêm tĩnh mạch",
-    "type": "THUỐC",
-    "position": [
-      208,
-      236
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "1202"
-    ]
-  },
-  {
-    "text": "khó thở về đêm",
+    "text": "sốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      280,
-      294
+      314,
+      317
     ],
     "assertions": []
   },
   {
-    "text": "đau cơ",
+    "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      326,
-      332
+      349,
+      356
     ],
     "assertions": []
   },
   {
-    "text": "mất định hướng",
+    "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      339,
-      353
+      363,
+      371
     ],
     "assertions": []
   },
   {
-    "text": "mất ngủ",
+    "text": "nôn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      360,
-      367
+      378,
+      381
     ],
     "assertions": []
   },
   {
-    "text": "mất ngủ",
+    "text": "lơ mơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      413,
-      420
+      388,
+      393
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      445,
+      454
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "chóng mặt",
+    "text": "phù chi dưới",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      442,
-      451
-    ],
-    "assertions": [
-      "isNegated"
-    ]
-  },
-  {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      464,
+      467,
       479
     ],
     "assertions": [
@@ -181,50 +151,42 @@
     ]
   },
   {
-    "text": "giãn phế quản",
-    "type": "CHẨN_ĐOÁN",
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      501,
-      514
+      498,
+      515
     ],
-    "assertions": [],
-    "candidates": [
-      "J47.9"
+    "assertions": [
+      "isNegated"
     ]
   },
   {
-    "text": "hgb",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      607,
-      610
+      531,
+      537
     ],
-    "assertions": []
-  },
-  {
-    "text": "15.1",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      612,
-      616
-    ],
-    "assertions": []
+    "assertions": [
+      "isNegated"
+    ]
   },
   {
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      623,
-      626
+      630,
+      633
     ],
     "assertions": []
   },
   {
-    "text": "139",
+    "text": "382",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      628,
-      631
+      633,
+      636
     ],
     "assertions": []
   },
@@ -232,17 +194,89 @@
     "text": "hemoglobin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      638,
-      648
+      643,
+      653
     ],
     "assertions": []
   },
   {
-    "text": "14.5",
+    "text": "11.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      650,
-      654
+      655,
+      659
+    ],
+    "assertions": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      666,
+      676
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      677,
+      680
+    ],
+    "assertions": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      691
+    ],
+    "assertions": []
+  },
+  {
+    "text": "99 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      692,
+      696
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      703,
+      708
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5.7 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      709,
+      714
+    ],
+    "assertions": []
+  },
+  {
+    "text": "natri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      721,
+      726
+    ],
+    "assertions": []
+  },
+  {
+    "text": "137",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      727,
+      730
     ],
     "assertions": []
   },
@@ -250,78 +284,84 @@
     "text": "ure (bun)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      661,
-      670
+      737,
+      746
     ],
     "assertions": []
   },
   {
-    "text": "58",
+    "text": "55",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      671,
-      673
+      748,
+      750
     ],
     "assertions": []
   },
   {
-    "text": "protein niệu",
+    "text": "mri sọ não",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      680,
-      692
+      780,
+      790
     ],
     "assertions": []
   },
   {
-    "text": "âm tính",
+    "text": "ổ nhồi máu cấp thùy thái dương phải",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      693,
-      700
+      800,
+      835
     ],
     "assertions": []
   },
   {
-    "text": "ecg",
+    "text": "chụp x-quang ngực",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      730,
-      733
+      842,
+      859
     ],
     "assertions": []
   },
   {
-    "text": "cấy máu",
+    "text": "xẹp phổi thùy dưới trái do chèn ép",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      869,
+      903
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp ct bụng chậu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      740,
-      747
+      910,
+      927
     ],
     "assertions": []
   },
   {
-    "text": "atenolol 50mg",
+    "text": "dày thành đại tràng sigma",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      937,
+      962
+    ],
+    "assertions": []
+  },
+  {
+    "text": "atenolol 25mg q6h",
     "type": "THUỐC",
     "position": [
-      767,
-      780
+      982,
+      999
     ],
     "assertions": [],
     "candidates": [
       "1202"
-    ]
-  },
-  {
-    "text": "omeprazole 40mg po daily",
-    "type": "THUỐC",
-    "position": [
-      787,
-      811
-    ],
-    "assertions": [],
-    "candidates": [
-      "7646"
     ]
   }
 ]

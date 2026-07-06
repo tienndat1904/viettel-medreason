@@ -174,11 +174,16 @@ def _eval_section(nb: NoteBuilder, rng):
             nb.add(rng.choice([": ", " "]))
             nb.emit(rng.choice(results), KET_QUA_XET_NGHIEM, [])
             nb.add("\n")
-    # hình ảnh / thăm dò
+    # hình ảnh / thăm dò — kèm mô tả kết quả (KQXN dạng chữ, cụm dài) theo BTC forum;
+    # đôi khi để trống -> giữ ca "chỉ có tên xét nghiệm" (HHM #1: tên không cần kết quả).
     nb.add("    Chẩn đoán hình ảnh\n")
     for im in rng.sample(pools.IMAGING, rng.randint(1, 3)):
         nb.add("    - ")
         nb.emit(im, TEN_XET_NGHIEM, [])
+        finds = pools.IMAGING_FINDINGS.get(im)
+        if finds and rng.random() < 0.6:
+            nb.add(rng.choice([": ", " cho thấy ", " ghi nhận ", " kết luận "]))
+            nb.emit(rng.choice(finds), KET_QUA_XET_NGHIEM, [])
         nb.add("\n")
     # thuốc điều trị hiện tại (KHÔNG historical)
     nb.add("    Điều trị\n")

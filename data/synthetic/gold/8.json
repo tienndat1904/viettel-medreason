@@ -1,10 +1,38 @@
 [
   {
-    "text": "đợt cấp hen suyễn",
+    "text": "loét tá tràng",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      65
+      61
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K26.9"
+    ]
+  },
+  {
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      81
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J47.9"
+    ]
+  },
+  {
+    "text": "đợt cấp hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      88,
+      105
     ],
     "assertions": [
       "isHistorical"
@@ -14,81 +42,39 @@
     ]
   },
   {
-    "text": "viêm phế quản cấp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      72,
-      89
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "J20.9"
-    ]
-  },
-  {
-    "text": "tăng kali máu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      96,
-      109
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E87.5"
-    ]
-  },
-  {
-    "text": "sỏi mật",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      116,
-      123
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "K80.20"
-    ]
-  },
-  {
-    "text": "amlodipine 10mg",
+    "text": "warfarin 5mg",
     "type": "THUỐC",
     "position": [
-      160,
-      175
+      142,
+      154
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "17767"
+      "11289"
     ]
   },
   {
-    "text": "furosemide 20mg q4h",
+    "text": "apixaban 5mg po",
     "type": "THUỐC",
     "position": [
-      182,
-      201
+      161,
+      176
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "4603"
+      "1364430"
     ]
   },
   {
-    "text": "atorvastatin 40mg iv",
+    "text": "atorvastatin 20mg",
     "type": "THUỐC",
     "position": [
-      208,
-      228
+      183,
+      200
     ],
     "assertions": [
       "isHistorical"
@@ -98,171 +84,201 @@
     ]
   },
   {
+    "text": "gabapentin 300mg",
+    "type": "THUỐC",
+    "position": [
+      207,
+      223
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      273,
+      286
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      364,
+      380
+    ],
+    "assertions": []
+  },
+  {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      319,
-      327
+      412,
+      420
     ],
     "assertions": []
   },
   {
-    "text": "ngất xỉu",
+    "text": "đau vai",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      359,
-      367
+      427,
+      434
     ],
     "assertions": []
   },
   {
-    "text": "đau ngực",
+    "text": "phù hai bên",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      374,
-      382
+      441,
+      452
     ],
     "assertions": []
   },
   {
-    "text": "ợ chua",
+    "text": "lú lẫn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      389,
-      395
-    ],
-    "assertions": []
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      402,
-      411
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ngứa",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      460,
-      464
+      498,
+      504
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "táo bón",
+    "text": "khó nuốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      483,
-      490
+      520,
+      528
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đột quỵ nhồi máu não",
-    "type": "CHẨN_ĐOÁN",
+    "text": "ho đờm xanh",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      512,
-      532
+      544,
+      555
     ],
-    "assertions": [],
-    "candidates": [
-      "I63.9"
+    "assertions": [
+      "isNegated"
     ]
   },
   {
-    "text": "troponin",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      590,
-      598
+      577,
+      590
     ],
-    "assertions": []
-  },
-  {
-    "text": "1.78",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      599,
-      603
-    ],
-    "assertions": []
-  },
-  {
-    "text": "bnp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      610,
-      613
-    ],
-    "assertions": []
-  },
-  {
-    "text": "16864",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      614,
-      619
-    ],
-    "assertions": []
-  },
-  {
-    "text": "bilirubin toàn phần",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      626,
-      645
-    ],
-    "assertions": []
-  },
-  {
-    "text": "4.2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      646,
-      649
-    ],
-    "assertions": []
+    "assertions": [
+      "isNegated"
+    ]
   },
   {
     "text": "alt",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      656,
-      659
+      687,
+      690
     ],
     "assertions": []
   },
   {
-    "text": "182",
+    "text": "380",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      660,
-      663
+      692,
+      695
     ],
     "assertions": []
   },
   {
-    "text": "hgb",
+    "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      670,
-      673
+      702,
+      706
     ],
     "assertions": []
   },
   {
-    "text": "16.7",
+    "text": "3,4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      673,
-      677
+      707,
+      710
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      717,
+      724
+    ],
+    "assertions": []
+  },
+  {
+    "text": "3.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      726,
+      729
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      736,
+      739
+    ],
+    "assertions": []
+  },
+  {
+    "text": "284",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      741,
+      744
+    ],
+    "assertions": []
+  },
+  {
+    "text": "crp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      751,
+      754
+    ],
+    "assertions": []
+  },
+  {
+    "text": "158",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      756,
+      759
     ],
     "assertions": []
   },
@@ -270,81 +286,96 @@
     "text": "bạch cầu (wbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      684,
-      698
+      766,
+      780
     ],
     "assertions": []
   },
   {
-    "text": "6.5",
+    "text": "12.4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      700,
-      703
+      782,
+      786
     ],
     "assertions": []
   },
   {
-    "text": "khí máu động mạch",
+    "text": "hemoglobin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      710,
-      727
+      793,
+      803
     ],
     "assertions": []
   },
   {
-    "text": "trong giới hạn bình thường",
+    "text": "15,3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      728,
-      754
+      804,
+      808
     ],
     "assertions": []
   },
   {
-    "text": "cấy máu",
+    "text": "chụp x-quang bàn chân",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      784,
-      791
+      838,
+      859
     ],
     "assertions": []
   },
   {
-    "text": "metoprolol 25mg tiêm tĩnh mạch",
+    "text": "không thấy tổn thương xương",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      869,
+      896
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      903,
+      917
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ổ giảm tỷ trọng vùng nhân bèo phải",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      927,
+      961
+    ],
+    "assertions": []
+  },
+  {
+    "text": "losartan",
     "type": "THUỐC",
     "position": [
-      811,
-      841
+      981,
+      989
     ],
     "assertions": [],
     "candidates": [
-      "6918"
+      "52175"
     ]
   },
   {
-    "text": "tacrolimus",
+    "text": "carvedilol 6.25mg x 1",
     "type": "THUỐC",
     "position": [
-      848,
-      858
+      996,
+      1017
     ],
     "assertions": [],
     "candidates": [
-      "42316"
-    ]
-  },
-  {
-    "text": "morphine đường uống",
-    "type": "THUỐC",
-    "position": [
-      865,
-      884
-    ],
-    "assertions": [],
-    "candidates": [
-      "7052"
+      "20352"
     ]
   }
 ]

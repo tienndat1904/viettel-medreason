@@ -1,38 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - béo phì
-    - suy tim
-    - thiếu máu
-    - tăng calci máu
+    - suy tim sung huyết
+    - thuyên tắc phổi
+    - bệnh tim thiếu máu cục bộ
+    - xuất huyết dưới nhện
     Thuốc trước khi nhập viện
-    - methadone 10mg
-    - prednisone 40mg
-    - morphine 2mg iv
-    - atenolol 50mg tiêm tĩnh mạch
+    - carvedilol 25mg
+    - methadone 10mg po bid
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: khó thở về đêm
+    Lý do nhập viện: sốt
     Triệu chứng hiện tại
-    - đau cơ
-    - mất định hướng
-    - mất ngủ
+    - khó thở
+    - đau bụng
+    - nôn
+    - lơ mơ
     Các triệu chứng liên quan
-    - không có mất ngủ
-    - Không ghi nhận chóng mặt
-    - Không đánh trống ngực
-    Chẩn đoán sơ bộ: giãn phế quản
+    - Không ghi nhận tiêu chảy
+    - Không phù chi dưới
+    - âm tính với đổ mồ hôi qua đêm
+    - Phủ nhận yếu cơ
     Sinh hoạt cá nhân bình thường.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hgb: 15.1
-    - ast: 139
-    - hemoglobin: 14.5
-    - ure (bun) 58
-    - protein niệu âm tính
+    - ast382
+    - hemoglobin  11.3
+    - creatinine 5.8
+    - spo2 99 %
+    - hba1c 5.7 %
+    - natri 137
+    - ure (bun): 55
     Chẩn đoán hình ảnh
-    - ecg
-    - cấy máu
+    - mri sọ não ghi nhận ổ nhồi máu cấp thùy thái dương phải
+    - chụp x-quang ngực cho thấy xẹp phổi thùy dưới trái do chèn ép
+    - chụp ct bụng chậu kết luận dày thành đại tràng sigma
     Điều trị
-    - atenolol 50mg
-    - omeprazole 40mg po daily
+    - atenolol 25mg q6h
