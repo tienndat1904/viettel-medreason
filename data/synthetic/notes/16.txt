@@ -1,13 +1,13 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - trầm cảm
-    - suy tim
-    - **viêm phế quản cấp**
-    - béo phì
+    - hội chứng não gan
+    - xơ gan do rượu
+    - nhồi máu cơ tim cấp
+    - đái tháo đường típ 1
     Thuốc trước khi nhập viện
-    - **warfarin 5mg po qid**
-    - morphine 2mg iv
-    - gabapentin
+    - **morphine 4mg po qid**
+    - gabapentin 300mg iv
+    - warfarin
     - **spironolactone 25mg hằng ngày**
     Bệnh nhân tỉnh, tiếp xúc tốt.
 
@@ -36,6 +36,8 @@
     - protein niệu: vết
     - khí máu động mạch trong giới hạn bình thường
     Chẩn đoán hình ảnh
-    - siêu âm ổ bụng
+    - siêu âm ổ bụng cho thấy thận ứ nước độ 1 bên phải
     Điều trị
-    - warfarin 5mg
+    - ceftriaxone
+    - torsemide 20mg
+    - insulin glargine po daily

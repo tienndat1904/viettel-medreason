@@ -112,6 +112,64 @@ IMAGING = [
     "cấy máu", "cấy nước tiểu", "chụp x-quang bàn chân", "siêu âm mạch máu chi dưới",
 ]
 
+# --- KẾT_QUẢ mô tả (định tính, dạng cụm dài) theo modality hình ảnh/thăm dò ---
+# BTC (forum HHM #2): mô tả chẩn đoán hình ảnh ("xẹp phổi thùy dưới phải…",
+# "ổ tụ dịch chia hai thùy…") VẪN là KẾT_QUẢ_XÉT_NGHIỆM. Dạy LLM lấy KQXN mô tả dài
+# (rule không vét được). Không phải modality nào cũng có -> ca thiếu = "chỉ có tên".
+IMAGING_FINDINGS = {
+    "chụp x-quang ngực": [
+        "đông đặc thùy dưới phải", "xẹp phổi thùy dưới trái do chèn ép",
+        "tràn dịch màng phổi hai bên", "bóng tim to", "thâm nhiễm mô kẽ lan tỏa",
+        "không thấy tổn thương nhu mô phổi",
+    ],
+    "chụp ct sọ não": [
+        "nhồi máu não thùy đỉnh trái", "không thấy xuất huyết nội sọ",
+        "teo não lan tỏa theo tuổi", "ổ giảm tỷ trọng vùng nhân bèo phải",
+    ],
+    "chụp ct bụng chậu": [
+        "dày thành đại tràng sigma", "khối u đầu tụy kích thước khoảng 3 cm",
+        "dịch tự do khoang phúc mạc lượng vừa", "sỏi niệu quản phải gây ứ nước thận",
+    ],
+    "siêu âm ổ bụng": [
+        "gan nhiễm mỡ độ 2", "sỏi túi mật kích thước 8 mm",
+        "dịch tự do ổ bụng lượng ít", "thận ứ nước độ 1 bên phải",
+    ],
+    "siêu âm tim": [
+        "phân suất tống máu giảm còn 40%", "hở van hai lá mức độ vừa",
+        "giãn buồng thất trái", "tăng áp động mạch phổi nhẹ",
+    ],
+    "siêu âm gan mật": [
+        "giãn đường mật trong gan", "sỏi ống mật chủ", "gan thô echo không đều",
+    ],
+    "điện tâm đồ": [
+        "rung nhĩ đáp ứng thất nhanh", "nhịp xoang đều",
+        "ST chênh lên ở V1 đến V4", "block nhánh trái hoàn toàn",
+    ],
+    "ecg": [
+        "nhịp nhanh xoang", "ngoại tâm thu thất thưa",
+        "sóng T âm ở các chuyển đạo trước tim",
+    ],
+    "mri sọ não": [
+        "tổn thương chất trắng quanh não thất", "ổ nhồi máu cấp thùy thái dương phải",
+        "không thấy khối choán chỗ",
+    ],
+    "nội soi dạ dày": [
+        "loét hang vị đường kính khoảng 1 cm", "viêm trợt niêm mạc dạ dày",
+        "giãn tĩnh mạch thực quản độ 2",
+    ],
+    "monitor holter": [
+        "nhiều cơn nhịp nhanh trên thất", "cơn rung nhĩ kịch phát",
+    ],
+    "chụp x-quang bàn chân": [
+        "gãy xương bàn ngón 3", "thoái hóa khớp cổ chân",
+        "không thấy tổn thương xương",
+    ],
+    "siêu âm mạch máu chi dưới": [
+        "huyết khối tĩnh mạch sâu đùi phải", "không thấy huyết khối",
+        "hẹp động mạch khoeo",
+    ],
+}
+
 # --- THUỐC -> (ingredient RxNorm rxcui, list hàm lượng phổ biến) ---
 DRUGS = [
     ("metoprolol", "6918", ["25mg", "50mg", "100mg"]),

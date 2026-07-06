@@ -1,249 +1,281 @@
 [
   {
-    "text": "viêm loét dạ dày",
+    "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      64
+      55
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "K25.9"
+      "E66.9"
     ]
   },
   {
-    "text": "thiếu máu",
+    "text": "đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      71,
-      80
+      62,
+      82
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "D64.9"
+      "E11.9"
     ]
   },
   {
-    "text": "metformin 500mg",
-    "type": "THUỐC",
-    "position": [
-      117,
-      132
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "6809"
-    ]
-  },
-  {
-    "text": "clopidogrel",
-    "type": "THUỐC",
-    "position": [
-      139,
-      150
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "32968"
-    ]
-  },
-  {
-    "text": "bệnh thận mạn",
+    "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      200,
-      213
+      89,
+      106
     ],
     "assertions": [
-      "isHistorical",
-      "isFamily"
+      "isHistorical"
     ],
     "candidates": [
-      "N18.9"
+      "K72.90"
     ]
+  },
+  {
+    "text": "ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      130
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C18.9"
+    ]
+  },
+  {
+    "text": "ibuprofen 600mg",
+    "type": "THUỐC",
+    "position": [
+      167,
+      182
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "5640"
+    ]
+  },
+  {
+    "text": "omeprazole 40mg",
+    "type": "THUỐC",
+    "position": [
+      189,
+      204
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "warfarin 5mg q4h",
+    "type": "THUỐC",
+    "position": [
+      211,
+      227
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "11289"
+    ]
+  },
+  {
+    "text": "acetaminophen 1g iv",
+    "type": "THUỐC",
+    "position": [
+      234,
+      253
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "161"
+    ]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      353,
+      367
+    ],
+    "assertions": []
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      316,
-      331
+      399,
+      414
     ],
     "assertions": []
   },
   {
-    "text": "phù hai bên",
+    "text": "ho đờm xanh",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      363,
-      374
+      421,
+      432
     ],
     "assertions": []
   },
   {
-    "text": "hoa mắt",
+    "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      381,
-      388
+      439,
+      446
     ],
     "assertions": []
   },
   {
-    "text": "phù chi dưới",
+    "text": "ợ hơi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      395,
-      407
+      453,
+      458
     ],
     "assertions": []
   },
   {
-    "text": "chán ăn",
+    "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      414,
-      421
+      465,
+      472
     ],
     "assertions": []
   },
   {
-    "text": "đau thượng vị",
+    "text": "lơ mơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      428,
-      441
+      479,
+      484
     ],
     "assertions": []
   },
   {
-    "text": "khò khè",
+    "text": "mất ngủ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      448,
-      455
-    ],
-    "assertions": []
-  },
-  {
-    "text": "sốt cao",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      501,
-      508
+      529,
+      536
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "ngứa",
+    "text": "đau khớp",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      524,
-      528
+      557,
+      565
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đổ mồ hôi qua đêm",
+    "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      547,
-      564
+      581,
+      590
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "bệnh thận mạn",
+    "text": "nhiễm khuẩn đường tiết niệu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      586,
-      599
+      612,
+      639
     ],
     "assertions": [],
     "candidates": [
-      "N18.9"
+      "N39.0"
     ]
-  },
-  {
-    "text": "bnp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      691,
-      694
-    ],
-    "assertions": []
-  },
-  {
-    "text": "21403",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      695,
-      700
-    ],
-    "assertions": []
-  },
-  {
-    "text": "glucose",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      707,
-      714
-    ],
-    "assertions": []
-  },
-  {
-    "text": "177",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      716,
-      719
-    ],
-    "assertions": []
   },
   {
     "text": "alt",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      726,
-      729
+      697,
+      700
     ],
     "assertions": []
   },
   {
-    "text": "69",
+    "text": "204",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      731,
-      733
+      701,
+      704
     ],
     "assertions": []
   },
   {
-    "text": "creatinine",
+    "text": "hemoglobin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      740,
-      750
+      711,
+      721
     ],
     "assertions": []
   },
   {
-    "text": "2,4",
+    "text": "16,8",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      722,
+      726
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      733,
+      738
+    ],
+    "assertions": []
+  },
+  {
+    "text": "8.6 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      739,
+      744
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       751,
       754
@@ -251,74 +283,29 @@
     "assertions": []
   },
   {
-    "text": "neut%",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      761,
-      766
-    ],
-    "assertions": []
-  },
-  {
-    "text": "40,8 %",
+    "text": "48.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      768,
-      774
+      755,
+      759
     ],
     "assertions": []
   },
   {
-    "text": "lymph%",
+    "text": "siêu âm tim",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      781,
-      787
+      789,
+      800
     ],
     "assertions": []
   },
   {
-    "text": "36.3 %",
+    "text": "giãn buồng thất trái",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      787,
-      793
-    ],
-    "assertions": []
-  },
-  {
-    "text": "crp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      800,
-      803
-    ],
-    "assertions": []
-  },
-  {
-    "text": "135",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      805,
-      808
-    ],
-    "assertions": []
-  },
-  {
-    "text": "spo2",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      815,
-      819
-    ],
-    "assertions": []
-  },
-  {
-    "text": "98 %",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      821,
-      825
+      810,
+      830
     ],
     "assertions": []
   },
@@ -326,30 +313,42 @@
     "text": "ecg",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      855,
-      858
+      837,
+      840
     ],
     "assertions": []
   },
   {
-    "text": "tổng phân tích nước tiểu",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "ngoại tâm thu thất thưa",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      865,
-      889
+      850,
+      873
     ],
     "assertions": []
   },
   {
-    "text": "acetaminophen",
+    "text": "apixaban 2.5mg",
     "type": "THUỐC",
     "position": [
-      909,
-      922
+      893,
+      907
     ],
     "assertions": [],
     "candidates": [
-      "161"
+      "1364430"
+    ]
+  },
+  {
+    "text": "metformin 1000mg",
+    "type": "THUỐC",
+    "position": [
+      914,
+      930
+    ],
+    "assertions": [],
+    "candidates": [
+      "6809"
     ]
   }
 ]

@@ -1,12 +1,11 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - cường giáp
-    - sa sút trí tuệ
+    - suy thận cấp
+    - viêm túi mật cấp
+    - loét tá tràng
     Thuốc trước khi nhập viện
-    - atenolol 50mg iv x2
-    - losartan 50mg
-    - methadone 5mg
-    - atorvastatin 40mg
+    - amlodipine 5mg
+    - aspirin 325mg
     Tiền sử gia đình
     - Vợ bệnh nhân có tăng calci máu
     Sinh hoạt cá nhân bình thường.

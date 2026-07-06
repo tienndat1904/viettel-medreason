@@ -1,36 +1,36 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - nhồi máu cơ tim cấp
-    - viêm phổi thùy
-    - nhiễm khuẩn đường tiết niệu
-    - sa sút trí tuệ
+    - bệnh trào ngược dạ dày thực quản
+    - suy thận cấp
     Thuốc trước khi nhập viện
-    - ciprofloxacin 500mg
-    - metoprolol 50mg po qid
-    - prednisone 40mg po bid
+    - gabapentin 300mg hằng ngày
+    - rosuvastatin 10mg iv
+    Người nhà xin về theo nguyện vọng.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: khó thở khi gắng sức
+    Lý do nhập viện: khó nuốt
     Triệu chứng hiện tại
-    - khó nuốt
-    - **táo bón**
-    - chóng mặt
-    - chảy nước mũi
+    - ho khan
+    - đau ngực
+    - **mất ngủ**
+    - buồn nôn
+    - đau hạ sườn phải
     Các triệu chứng liên quan
-    - âm tính với phù chi dưới
-    - Không ghi nhận đánh trống ngực
-    Chẩn đoán sơ bộ: rối loạn lo âu
+    - Không ngất xỉu
+    - âm tính với yếu cơ
+    - Không đổ mồ hôi qua đêm
+    Chẩn đoán sơ bộ: hạ kali máu
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - ast: 212
-    - lymph%: 23.3
-    - tiểu cầu (plt): 430
-    - spo2: 91
+    - ure (bun): 60
+    - ast: 208
+    - hgb 12,5
+    - crp: 36
+    - creatinine: 2,2
+    - khí máu động mạch: trong giới hạn bình thường
     - xét nghiệm HIV âm tính
-    - HBsAg: dương tính
     Chẩn đoán hình ảnh
-    - mri sọ não
+    - nội soi dạ dày cho thấy loét hang vị đường kính khoảng 1 cm
     Điều trị
-    - albuterol nebs nebs q4h
-    - tacrolimus 1mg q4h
+    - carvedilol 12.5mg

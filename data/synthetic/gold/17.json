@@ -1,94 +1,66 @@
 [
   {
-    "text": "giãn phế quản",
+    "text": "thiếu máu",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      61
+      57
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "J47.9"
+      "D64.9"
     ]
   },
   {
-    "text": "viêm phế quản cấp",
+    "text": "viêm phổi",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      68,
-      85
+      64,
+      73
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "J20.9"
+      "J18.9"
     ]
   },
   {
-    "text": "pantoprazole 40mg nebs q4h",
+    "text": "albuterol nebs",
     "type": "THUỐC",
     "position": [
-      122,
-      148
+      110,
+      124
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "40790"
+      "435"
     ]
   },
   {
-    "text": "levothyroxine 100mcg",
+    "text": "azithromycin 250mg",
     "type": "THUỐC",
     "position": [
-      155,
-      175
+      131,
+      149
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "10582"
-    ]
-  },
-  {
-    "text": "apixaban 5mg",
-    "type": "THUỐC",
-    "position": [
-      182,
-      194
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "1364430"
-    ]
-  },
-  {
-    "text": "torsemide 10mg",
-    "type": "THUỐC",
-    "position": [
-      201,
-      215
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "38413"
+      "18631"
     ]
   },
   {
     "text": "viêm phổi thùy",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      259,
-      273
+      193,
+      207
     ],
     "assertions": [
       "isHistorical",
@@ -102,8 +74,8 @@
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      351,
-      358
+      285,
+      292
     ],
     "assertions": []
   },
@@ -111,8 +83,8 @@
     "text": "phù chi dưới",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      390,
-      402
+      324,
+      336
     ],
     "assertions": []
   },
@@ -120,8 +92,8 @@
     "text": "chảy nước mũi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      409,
-      422
+      343,
+      356
     ],
     "assertions": []
   },
@@ -129,8 +101,8 @@
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      429,
-      436
+      363,
+      370
     ],
     "assertions": []
   },
@@ -138,8 +110,8 @@
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      443,
-      451
+      377,
+      385
     ],
     "assertions": []
   },
@@ -147,8 +119,8 @@
     "text": "lơ mơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      458,
-      463
+      392,
+      397
     ],
     "assertions": []
   },
@@ -156,8 +128,8 @@
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      512,
-      518
+      446,
+      452
     ],
     "assertions": [
       "isNegated"
@@ -167,8 +139,8 @@
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      534,
-      549
+      468,
+      483
     ],
     "assertions": [
       "isNegated"
@@ -178,8 +150,8 @@
     "text": "nghẹt mũi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      571,
-      580
+      505,
+      514
     ],
     "assertions": [
       "isNegated"
@@ -189,8 +161,8 @@
     "text": "nhồi máu cơ tim cấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      602,
-      621
+      536,
+      555
     ],
     "assertions": [],
     "candidates": [
@@ -201,8 +173,8 @@
     "text": "tiểu cầu (plt)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      679,
-      693
+      613,
+      627
     ],
     "assertions": []
   },
@@ -210,8 +182,8 @@
     "text": "172",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      694,
-      697
+      628,
+      631
     ],
     "assertions": []
   },
@@ -219,8 +191,8 @@
     "text": "hct",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      704,
-      707
+      638,
+      641
     ],
     "assertions": []
   },
@@ -228,8 +200,8 @@
     "text": "35.6 %",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      708,
-      714
+      642,
+      648
     ],
     "assertions": []
   },
@@ -237,8 +209,8 @@
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      721,
-      724
+      655,
+      658
     ],
     "assertions": []
   },
@@ -246,8 +218,8 @@
     "text": "254",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      726,
-      729
+      660,
+      663
     ],
     "assertions": []
   },
@@ -255,8 +227,8 @@
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      736,
-      744
+      670,
+      678
     ],
     "assertions": []
   },
@@ -264,8 +236,8 @@
     "text": "1.18",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      746,
-      750
+      680,
+      684
     ],
     "assertions": []
   },
@@ -273,8 +245,8 @@
     "text": "bạch cầu (wbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      757,
-      771
+      691,
+      705
     ],
     "assertions": []
   },
@@ -282,8 +254,8 @@
     "text": "22.8",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      772,
-      776
+      706,
+      710
     ],
     "assertions": []
   },
@@ -291,8 +263,8 @@
     "text": "hemoglobin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      783,
-      793
+      717,
+      727
     ],
     "assertions": []
   },
@@ -300,8 +272,8 @@
     "text": "7.8",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      794,
-      797
+      728,
+      731
     ],
     "assertions": []
   },
@@ -309,8 +281,8 @@
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      806,
-      809
+      740,
+      743
     ],
     "assertions": []
   },
@@ -318,8 +290,8 @@
     "text": "2.7",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      813,
-      816
+      747,
+      750
     ],
     "assertions": []
   },
@@ -327,8 +299,8 @@
     "text": "crp",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      823,
-      826
+      757,
+      760
     ],
     "assertions": []
   },
@@ -336,8 +308,8 @@
     "text": "110",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      827,
-      830
+      761,
+      764
     ],
     "assertions": []
   },
@@ -345,8 +317,8 @@
     "text": "cấy nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      837,
-      850
+      771,
+      784
     ],
     "assertions": []
   },
@@ -354,8 +326,8 @@
     "text": "dương tính",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      851,
-      861
+      785,
+      795
     ],
     "assertions": []
   },
@@ -363,8 +335,8 @@
     "text": "cấy máu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      868,
-      875
+      802,
+      809
     ],
     "assertions": []
   },
@@ -372,8 +344,8 @@
     "text": "không mọc vi khuẩn",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      876,
-      894
+      810,
+      828
     ],
     "assertions": []
   },
@@ -381,29 +353,17 @@
     "text": "monitor holter",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      924,
-      938
+      858,
+      872
     ],
     "assertions": []
   },
   {
-    "text": "albuterol nebs po bid",
+    "text": "azithromycin 500mg po bid",
     "type": "THUỐC",
     "position": [
-      958,
-      979
-    ],
-    "assertions": [],
-    "candidates": [
-      "435"
-    ]
-  },
-  {
-    "text": "azithromycin 500mg q6h",
-    "type": "THUỐC",
-    "position": [
-      986,
-      1008
+      892,
+      917
     ],
     "assertions": [],
     "candidates": [
@@ -411,11 +371,11 @@
     ]
   },
   {
-    "text": "ciprofloxacin 500mg q4h",
+    "text": "ciprofloxacin 500mg q6h",
     "type": "THUỐC",
     "position": [
-      1015,
-      1038
+      924,
+      947
     ],
     "assertions": [],
     "candidates": [

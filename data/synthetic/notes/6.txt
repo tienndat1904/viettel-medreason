@@ -1,40 +1,38 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - hạ kali máu
     - đột quỵ nhồi máu não
     - nhiễm khuẩn đường tiết niệu
     Thuốc trước khi nhập viện
-    - atenolol q4h
-    - ceftriaxone nebs q4h
-    - gabapentin 300mg iv
-    - metoprolol 50mg
+    - ceftriaxone 1g
+    - levothyroxine
+    - ciprofloxacin
+    - metformin 500mg hằng ngày
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau bụng
+    Lý do nhập viện: sốt
     Triệu chứng hiện tại
-    - tiếng rít
-    - tê bì
-    - sụt cân
+    - lơ mơ
+    - nghẹt mũi
+    - tiểu buốt
+    - đổ mồ hôi qua đêm
+    - ngất xỉu
+    - chán ăn
     Các triệu chứng liên quan
-    - Không ghi nhận đau hạ sườn phải
-    - Không ghi nhận ho đờm xanh
-    - Không ghi nhận buồn nôn
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - Phủ nhận ban đỏ
+    - Không ợ hơi
+    - Phủ nhận vã mồ hôi
+    Chẩn đoán sơ bộ: hạ kali máu
+    Người nhà xin về theo nguyện vọng.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - wbc 19.6
-    - bnp 3173
-    - bạch cầu (wbc): 19,9
-    - ure (bun)  19
-    - lymph% 17.5 %
-    - hgb: 13.9
-    - hba1c: 11.0
-    - protein niệu âm tính
-    - cấy nước tiểu âm tính
+    - spo2 92
+    - neut%  74.8 %
+    - hgb 14.5
+    - ast 223
+    - creatinine 0.8
+    - test kháng nguyên phế cầu âm tính
     Chẩn đoán hình ảnh
-    - tổng phân tích nước tiểu
-    - monitor holter
+    - cấy nước tiểu
     Điều trị
-    - aspirin 325mg
-    - acetaminophen
+    - morphine 4mg po qid

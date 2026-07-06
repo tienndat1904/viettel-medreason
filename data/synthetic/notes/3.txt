@@ -1,37 +1,33 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
     - tăng lipid máu
-    - ung thư đại tràng
-    - rối loạn lo âu
-    - suy tim
+    - đợt cấp hen suyễn
+    - bệnh tim thiếu máu cục bộ
+    - đái tháo đường típ 1
     Thuốc trước khi nhập viện
-    - apixaban 5mg q6h
-    - tacrolimus đường uống
+    - tacrolimus 1mg q6h
+    - spironolactone 25mg
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: ho
+    Lý do nhập viện: ho đờm xanh
     Triệu chứng hiện tại
-    - tiểu máu
-    - đau cơ
-    - hoa mắt
+    - ho đờm xanh
+    - tiếng rít
+    - tiểu buốt
     Các triệu chứng liên quan
-    - Không ghi nhận **hồi hộp**
-    - Không ghi nhận ho đờm xanh
-    - Không ghi nhận đau hạ vị
-    Chẩn đoán sơ bộ: huyết khối tĩnh mạch sâu
+    - Phủ nhận ợ chua
+    - không có gần ngất
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hct: 42,4
-    - neut% 47.9
-    - kali 3,7
-    - crp: 124
-    - bạch cầu (wbc) 23,6
-    - bnp: 16799
-    - lactate: 0.9
-    - soi phân tìm ký sinh trùng âm tính
+    - hba1c 11.5 %
+    - bnp 1485
+    - wbc: 13.0
+    - hgb 12.6
     Chẩn đoán hình ảnh
+    - chụp ct sọ não kết luận không thấy xuất huyết nội sọ
     - tổng phân tích nước tiểu
+    - siêu âm gan mật: giãn đường mật trong gan
     Điều trị
-    - clopidogrel
-    - ibuprofen 400mg
+    - lisinopril 10mg tiêm tĩnh mạch

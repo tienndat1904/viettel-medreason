@@ -1,41 +1,38 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - loét tá tràng
-    - sa sút trí tuệ
-    - suy tim
-    - nhồi máu cơ tim cấp
+    - **béo phì**
+    - viêm khớp dạng thấp
     Thuốc trước khi nhập viện
+    - methadone 10mg q4h
+    - albuterol nebs hằng ngày
+    - insulin glargine 100 đơn vị po qid
     - atorvastatin 40mg
-    - **ipratropium nebs**
-    - insulin glargine 100 đơn vị
+    Tiền sử gia đình
+    - Con trai bệnh nhân có suy thận cấp
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: ngất xỉu
+    Lý do nhập viện: lơ mơ
     Triệu chứng hiện tại
-    - đau ngực
-    - khó thở
-    - **mất ngủ**
+    - mất thăng bằng
+    - nghẹt mũi
+    - chán ăn
     Các triệu chứng liên quan
-    - Không ghi nhận tê bì
-    - không có chán ăn
-    - Không đau thượng vị
-    Chẩn đoán sơ bộ: bệnh phổi tắc nghẽn mạn tính
-    Người nhà xin về theo nguyện vọng.
+    - Không buồn nôn
+    - Phủ nhận đau ngực
+    Chẩn đoán sơ bộ: viêm mô tế bào
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hct: 43.5 %
-    - lymph% 11.4 %
-    - tiểu cầu (plt): 417
-    - hba1c  6.6
-    - ast: 147
-    - wbc 10,3
-    - inr 3,9
-    - creatinine: 3.0
-    - **hồng cầu niệu**: dương tính
+    - troponin 1,66
+    - bilirubin toàn phần: 1.1
+    - natri  130
+    - bạch cầu (wbc) 11.1
+    - **hgb** 16.3
+    - ast: 270
     Chẩn đoán hình ảnh
-    - chụp ct bụng chậu
-    - monitor holter
+    - siêu âm tim
+    - chụp x-quang bàn chân
+    - siêu âm ổ bụng
     Điều trị
-    - albuterol iv
-    - torsemide 20mg iv
+    - atenolol q4h
+    - warfarin

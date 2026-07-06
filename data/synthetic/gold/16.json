@@ -1,80 +1,66 @@
 [
   {
-    "text": "trầm cảm",
+    "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      56
+      65
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "F32.9"
+      "K72.90"
     ]
   },
   {
-    "text": "suy tim",
+    "text": "xơ gan do rượu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      63,
-      70
+      72,
+      86
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "I50.9"
+      "K70.3"
     ]
   },
   {
-    "text": "viêm phế quản cấp",
+    "text": "nhồi máu cơ tim cấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      79,
-      96
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "J20.9"
-    ]
-  },
-  {
-    "text": "béo phì",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      105,
+      93,
       112
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "E66.9"
+      "I21.9"
     ]
   },
   {
-    "text": "warfarin 5mg po qid",
-    "type": "THUỐC",
+    "text": "đái tháo đường típ 1",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      151,
-      170
+      119,
+      139
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "11289"
+      "E10.9"
     ]
   },
   {
-    "text": "morphine 2mg iv",
+    "text": "morphine 4mg po qid",
     "type": "THUỐC",
     "position": [
-      179,
-      194
+      178,
+      197
     ],
     "assertions": [
       "isHistorical"
@@ -84,11 +70,11 @@
     ]
   },
   {
-    "text": "gabapentin",
+    "text": "gabapentin 300mg iv",
     "type": "THUỐC",
     "position": [
-      201,
-      211
+      206,
+      225
     ],
     "assertions": [
       "isHistorical"
@@ -98,11 +84,25 @@
     ]
   },
   {
+    "text": "warfarin",
+    "type": "THUỐC",
+    "position": [
+      232,
+      240
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "11289"
+    ]
+  },
+  {
     "text": "spironolactone 25mg hằng ngày",
     "type": "THUỐC",
     "position": [
-      220,
-      249
+      249,
+      278
     ],
     "assertions": [
       "isHistorical"
@@ -115,8 +115,8 @@
     "text": "ngất xỉu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      329,
-      337
+      358,
+      366
     ],
     "assertions": []
   },
@@ -124,8 +124,8 @@
     "text": "tiểu dắt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      369,
-      377
+      398,
+      406
     ],
     "assertions": []
   },
@@ -133,8 +133,8 @@
     "text": "gần ngất",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      384,
-      392
+      413,
+      421
     ],
     "assertions": []
   },
@@ -142,8 +142,8 @@
     "text": "khò khè",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      399,
-      406
+      428,
+      435
     ],
     "assertions": []
   },
@@ -151,8 +151,8 @@
     "text": "sốt cao",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      413,
-      420
+      442,
+      449
     ],
     "assertions": []
   },
@@ -160,8 +160,8 @@
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      427,
-      443
+      456,
+      472
     ],
     "assertions": []
   },
@@ -169,8 +169,8 @@
     "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      450,
-      459
+      479,
+      488
     ],
     "assertions": []
   },
@@ -178,8 +178,8 @@
     "text": "yếu cơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      508,
-      514
+      537,
+      543
     ],
     "assertions": [
       "isNegated"
@@ -189,8 +189,8 @@
     "text": "nghẹt mũi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      527,
-      536
+      556,
+      565
     ],
     "assertions": [
       "isNegated"
@@ -200,8 +200,8 @@
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      552,
-      568
+      581,
+      597
     ],
     "assertions": [
       "isNegated"
@@ -211,8 +211,8 @@
     "text": "viêm bể thận",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      590,
-      602
+      619,
+      631
     ],
     "assertions": [],
     "candidates": [
@@ -223,8 +223,8 @@
     "text": "ure (bun)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      697,
-      706
+      726,
+      735
     ],
     "assertions": []
   },
@@ -232,8 +232,8 @@
     "text": "61",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      710,
-      712
+      739,
+      741
     ],
     "assertions": []
   },
@@ -241,8 +241,8 @@
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      719,
-      722
+      748,
+      751
     ],
     "assertions": []
   },
@@ -250,8 +250,8 @@
     "text": "2.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      724,
-      727
+      753,
+      756
     ],
     "assertions": []
   },
@@ -259,8 +259,8 @@
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      734,
-      737
+      763,
+      766
     ],
     "assertions": []
   },
@@ -268,8 +268,8 @@
     "text": "341",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      738,
-      741
+      767,
+      770
     ],
     "assertions": []
   },
@@ -277,8 +277,8 @@
     "text": "natri",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      748,
-      753
+      777,
+      782
     ],
     "assertions": []
   },
@@ -286,8 +286,8 @@
     "text": "139",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      754,
-      757
+      783,
+      786
     ],
     "assertions": []
   },
@@ -295,8 +295,8 @@
     "text": "protein niệu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      764,
-      776
+      793,
+      805
     ],
     "assertions": []
   },
@@ -304,8 +304,8 @@
     "text": "vết",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      778,
-      781
+      807,
+      810
     ],
     "assertions": []
   },
@@ -313,8 +313,8 @@
     "text": "khí máu động mạch",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      788,
-      805
+      817,
+      834
     ],
     "assertions": []
   },
@@ -322,8 +322,8 @@
     "text": "trong giới hạn bình thường",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      806,
-      832
+      835,
+      861
     ],
     "assertions": []
   },
@@ -331,21 +331,54 @@
     "text": "siêu âm ổ bụng",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      862,
-      876
+      891,
+      905
     ],
     "assertions": []
   },
   {
-    "text": "warfarin 5mg",
+    "text": "thận ứ nước độ 1 bên phải",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      915,
+      940
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ceftriaxone",
     "type": "THUỐC",
     "position": [
-      896,
-      908
+      960,
+      971
     ],
     "assertions": [],
     "candidates": [
-      "11289"
+      "2193"
+    ]
+  },
+  {
+    "text": "torsemide 20mg",
+    "type": "THUỐC",
+    "position": [
+      978,
+      992
+    ],
+    "assertions": [],
+    "candidates": [
+      "38413"
+    ]
+  },
+  {
+    "text": "insulin glargine po daily",
+    "type": "THUỐC",
+    "position": [
+      999,
+      1024
+    ],
+    "assertions": [],
+    "candidates": [
+      "274783"
     ]
   }
 ]

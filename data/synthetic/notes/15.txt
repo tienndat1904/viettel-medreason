@@ -1,40 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - huyết khối tĩnh mạch sâu
-    - bệnh phổi tắc nghẽn mạn tính
-    - thiếu máu
-    - gout
+    - xuất huyết dưới nhện
+    - viêm phổi thùy
+    - viêm túi mật cấp
     Thuốc trước khi nhập viện
-    - gabapentin 300mg iv
-    - apixaban 5mg
-    - **amoxicillin iv**
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - ceftriaxone 1g
+    - nitroglycerin 0.4mg q6h
+    - methadone 5mg
+    Tiền sử gia đình
+    - Bố bệnh nhân có rung nhĩ
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau lưng
+    Lý do nhập viện: đau thượng vị
     Triệu chứng hiện tại
-    - tiêu chảy
     - khó thở khi gắng sức
-    - tiểu máu
+    - chóng mặt
+    - nghẹt mũi
+    - gần ngất
+    - ớn lạnh
+    - ho khan
     Các triệu chứng liên quan
-    - Không ghi nhận khó thở khi gắng sức
-    - Không chóng mặt
-    - Không ghi nhận nghẹt mũi
-    Chẩn đoán sơ bộ: rung nhĩ
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - không có khó thở về đêm
+    - Phủ nhận **đau họng**
+    - Không ghi nhận đau lưng
+    Chẩn đoán sơ bộ: viêm mô tế bào
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hct: 42.8 %
-    - spo2: 86 %
-    - bạch cầu (wbc) 20,1
-    - kali 5,1
-    - bilirubin toàn phần  3.3
-    - crp: 71
-    - cấy nước tiểu: dương tính
+    - wbc 15.1
+    - natri: 133
+    - neut%: 62,9 %
+    - hct 35,5 %
     - soi phân tìm ký sinh trùng: âm tính
     Chẩn đoán hình ảnh
-    - mri sọ não
-    - tổng phân tích nước tiểu
+    - siêu âm mạch máu chi dưới
+    - chụp x-quang ngực
     Điều trị
-    - azithromycin nebs q4h
+    - atenolol nebs q4h
+    - azithromycin 250mg

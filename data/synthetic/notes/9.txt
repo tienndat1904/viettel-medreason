@@ -1,42 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - viêm loét dạ dày
-    - thiếu máu
+    - béo phì
+    - đái tháo đường típ 2
+    - hội chứng não gan
+    - ung thư đại tràng
     Thuốc trước khi nhập viện
-    - metformin 500mg
-    - clopidogrel
-    Tiền sử gia đình
-    - Con trai bệnh nhân có bệnh thận mạn
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - ibuprofen 600mg
+    - omeprazole 40mg
+    - warfarin 5mg q4h
+    - acetaminophen 1g iv
+    Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đánh trống ngực
+    Lý do nhập viện: mất thăng bằng
     Triệu chứng hiện tại
-    - phù hai bên
-    - hoa mắt
-    - phù chi dưới
-    - chán ăn
-    - đau thượng vị
-    - khò khè
+    - đánh trống ngực
+    - ho đờm xanh
+    - đau đầu
+    - ợ hơi
+    - mệt mỏi
+    - lơ mơ
     Các triệu chứng liên quan
-    - không có sốt cao
-    - không có ngứa
-    - âm tính với đổ mồ hôi qua đêm
-    Chẩn đoán sơ bộ: bệnh thận mạn
-    Bệnh nhân tỉnh, tiếp xúc tốt.
+    - Không **mất ngủ**
+    - âm tính với đau khớp
+    - Phủ nhận vã mồ hôi
+    Chẩn đoán sơ bộ: nhiễm khuẩn đường tiết niệu
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - bnp 21403
-    - glucose: 177
-    - alt: 69
-    - creatinine 2,4
-    - neut%: 40,8 %
-    - lymph%36.3 %
-    - crp: 135
-    - spo2: 98 %
+    - alt 204
+    - hemoglobin 16,8
+    - hba1c 8.6 %
+    - hct 48.0
     Chẩn đoán hình ảnh
-    - ecg
-    - tổng phân tích nước tiểu
+    - siêu âm tim ghi nhận giãn buồng thất trái
+    - ecg kết luận ngoại tâm thu thất thưa
     Điều trị
-    - acetaminophen
+    - apixaban 2.5mg
+    - metformin 1000mg

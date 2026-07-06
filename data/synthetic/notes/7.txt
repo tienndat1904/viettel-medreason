@@ -1,40 +1,43 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - viêm bể thận
-    - huyết khối tĩnh mạch sâu
-    - béo phì
+    - xơ gan
+    - xơ gan do rượu
+    - hội chứng não gan
     Thuốc trước khi nhập viện
-    - omeprazole 40mg
-    - ibuprofen 600mg
-    Tiền sử gia đình
-    - Mẹ bệnh nhân có giãn phế quản
+    - insulin glargine 100 đơn vị
+    - losartan 50mg
+    - gabapentin 300mg
+    Được thăm khám bởi bác sĩ phụ trách chính.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: mất ngủ
+    Lý do nhập viện: phù chi dưới
     Triệu chứng hiện tại
-    - chán ăn
-    - ho
-    - ợ hơi
-    - đau đầu
-    - khó thở khi gắng sức
+    - ban đỏ
+    - mệt mỏi
+    - đau hạ vị
+    - yếu cơ
+    - tiểu dắt
     Các triệu chứng liên quan
-    - Không vã mồ hôi
-    - Không ghi nhận gần ngất
-    - không có ngứa
-    - không có ho khan
-    Chẩn đoán sơ bộ: viêm bể thận
+    - Không ghi nhận sụt cân
+    - Phủ nhận khó nuốt
+    - Phủ nhận khò khè
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - spo2: 84
-    - alt: 82
-    - natri 145
-    - **kali**: 3,6
-    - hba1c: 6.9 %
-    - lymph%: 39.7 %
-    - cấy máu âm tính
+    - hemoglobin: 12.1
+    - lactate: 1.1
+    - bạch cầu (wbc): 18.6
+    - ure (bun) 32
+    - bnp: 18281
+    - ast 44
+    - inr 2,1
+    - hgb: 15.0
+    - soi phân tìm ký sinh trùng: âm tính
     Chẩn đoán hình ảnh
-    - cấy máu
+    - cấy nước tiểu
+    - ecg
+    - mri sọ não
     Điều trị
-    - lisinopril 20mg po qid
-    - amlodipine 10mg
+    - levothyroxine 50mcg po qid
+    - ibuprofen 600mg đường uống
+    - atenolol 50mg q6h
