@@ -14,7 +14,7 @@ try:
 except Exception:
     fuzz = process = None
 
-from drug_parser import parse_drug
+from drug_parser import parse_drug, COMBO_INGREDIENT
 
 
 def _strip_accents(s):
@@ -87,6 +87,8 @@ class RxNormMatcher:
         if not self.by_ingredient:
             return []
         p = parse_drug(text, self.brand_map)
+        if p["ingredient"] == COMBO_INGREDIENT:   # biệt dược phối hợp -> BTC chấm []
+            return []
         q = _strip_accents((p["ingredient"] or "").lower()).strip()
         if not q:
             return []
