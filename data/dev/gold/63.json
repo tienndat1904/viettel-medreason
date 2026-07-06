@@ -23,7 +23,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "82003"
+    ]
   },
   {
     "text": "đau bụng",
@@ -60,7 +62,9 @@
       625
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "161"
+    ]
   },
   {
     "text": "buồn nôn",

@@ -18,12 +18,12 @@
   {"text": "tê bì", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'tê bì ở cánh tay trái'"},
   {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không nhớ bị đánh trống ngực' -> coi như phủ nhận"},
   {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'không nhớ ... chóng mặt'"},
-  {"text": "80mg po lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["197732"], "note": "furosemide; 'đã dùng thêm ... ở nhà' trước nhập viện; RxNorm TODO"},
-  {"text": "ntg", "type": "THUỐC", "assertions": [], "candidates": ["4917"], "occ": 1, "note": "nitroglycerin sublingual; điều trị hiện tại; RxNorm TODO"},
-  {"text": "asa", "type": "THUỐC", "assertions": [], "candidates": ["1191"], "note": "aspirin; RxNorm TODO"},
-  {"text": "80mg lasix iv", "type": "THUỐC", "assertions": [], "candidates": ["317377"], "note": "furosemide 80 mg IV; RxNorm TODO"},
-  {"text": "8mg morphine", "type": "THUỐC", "assertions": [], "candidates": [], "note": "RxNorm TODO"},
-  {"text": "1mg dilaudid", "type": "THUỐC", "assertions": [], "candidates": [], "note": "hydromorphone; RxNorm TODO"},
-  {"text": "po metoprolol", "type": "THUỐC", "assertions": [], "candidates": ["6918"], "note": "RxNorm TODO"},
-  {"text": "10mg iv diltiazem", "type": "THUỐC", "assertions": [], "candidates": [], "note": "RxNorm TODO"}
+  {"text": "80mg po lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["197732"], "note": "furosemide; 'đã dùng thêm ... ở nhà' trước nhập viện"},
+  {"text": "ntg", "type": "THUỐC", "assertions": [], "candidates": ["4917"], "occ": 1, "note": "nitroglycerin sublingual; điều trị hiện tại"},
+  {"text": "asa", "type": "THUỐC", "assertions": [], "candidates": ["1191"], "note": "aspirin"},
+  {"text": "80mg lasix iv", "type": "THUỐC", "assertions": [], "candidates": ["317377"], "note": "furosemide 80 mg IV"},
+  {"text": "8mg morphine", "type": "THUỐC", "assertions": [], "candidates": ["7052"], "note": "morphine 8mg IV bolus; RxNorm SCDC chỉ có MG/ML (nồng độ) -> fallback IN morphine"},
+  {"text": "1mg dilaudid", "type": "THUỐC", "assertions": [], "candidates": ["3423"], "note": "hydromorphone; hydromorphone 1mg IV; SCDC chỉ MG/ML -> fallback IN"},
+  {"text": "po metoprolol", "type": "THUỐC", "assertions": [], "candidates": ["6918"]},
+  {"text": "10mg iv diltiazem", "type": "THUỐC", "assertions": [], "candidates": ["3443"], "note": "diltiazem 10mg IV; không có SCDC 10 MG -> IN"}
 ]

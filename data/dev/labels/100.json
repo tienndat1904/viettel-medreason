@@ -19,7 +19,7 @@
   {"text": "MRI ngoại trú", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "nhồi máu cũ nhỏ ở vỏ não đỉnh trái", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "'nhồi máu cũ' -> historical; old infarct (ICD I69.x reviewer xác nhận)"},
   {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'xuất hiện một lần đau ngực vào chiều ngày vào viện'"},
-  {"text": "nitroglycerin", "type": "THUỐC", "assertions": [], "candidates": ["4917"], "note": "'01 viên nitroglycerin đặt dưới lưỡi'; RxNorm TODO"},
+  {"text": "nitroglycerin", "type": "THUỐC", "assertions": [], "candidates": ["4917"], "note": "'01 viên nitroglycerin đặt dưới lưỡi'"},
   {"text": "đau ở sau đầu và cổ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "kéo dài từ năm ngoái; reviewer cân nhắc isHistorical"},
   {"text": "canxi toàn phần", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'canxi toàn phần là 12.0'"},
   {"text": "12.0", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 2},
@@ -29,6 +29,6 @@
   {"text": "12.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
   {"text": "cr (creatinine)", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "1.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
-  {"text": "Laxis 20mg", "type": "THUỐC", "assertions": [], "candidates": ["315970"], "note": "Lasix/furosemide 20 mg IV (lỗi chính tả); RxNorm TODO"},
-  {"text": "Natriclori 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9%; RxNorm TODO"}
+  {"text": "Laxis 20mg", "type": "THUỐC", "assertions": [], "candidates": ["315970"], "note": "Lasix/furosemide 20 mg IV (lỗi chính tả)"},
+  {"text": "Natriclori 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9%"}
 ]

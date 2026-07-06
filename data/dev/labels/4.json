@@ -1,7 +1,7 @@
 [
   {"text": "đau đầu gối", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "note": "đau khớp gối; mục 1 Tiền sử, lý do dùng NSAID trước đây"},
   {"text": "NSAID", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "nhóm NSAID (không phải thuốc cụ thể) — borderline theo guide; 'đã ngừng' nhưng đã dùng -> KHÔNG negated; chuẩn hóa: NSAID class, no dose; RxNorm để P2"},
-  {"text": "omeprazole", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "PPI; mục 'tiền sử dụng thuốc' -> historical; chuẩn hóa: omeprazole (hoạt chất), no dose/dạng; RxNorm để P2 (mức IN)"},
+  {"text": "omeprazole", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["7646"], "occ": 1, "note": "PPI; mục 'tiền sử dụng thuốc' -> historical; chuẩn hóa: omeprazole (hoạt chất), no dose/dạng; RxNorm để P2 (mức IN)"},
   {"text": "đau bụng vùng hạ sườn phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện; RUQ pain (biến thể prose 'đau vùng hạ sườn phải' bỏ trùng)"},
   {"text": "chướng bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "abdominal distension (nhiều lần nhắc -> gộp 1)"},
   {"text": "buồn nôn thoáng qua", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "transient nausea"},

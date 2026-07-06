@@ -120,7 +120,9 @@
       624
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "8591"
+    ]
   },
   {
     "text": "kali",
@@ -148,7 +150,9 @@
       807
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "18631"
+    ]
   },
   {
     "text": "nhiệt độ",
@@ -302,7 +306,9 @@
       1146
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "2728724"
+    ]
   },
   {
     "text": "40meq iv k",
@@ -312,7 +318,9 @@
       1168
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "2728723"
+    ]
   },
   {
     "text": "hạ kali máu",

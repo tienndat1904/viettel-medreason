@@ -31,7 +31,7 @@
   {"text": "cvp", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "6", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "'cvp là 6'"},
   {"text": "nhiễm trùng huyết đường vào tiết niệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["A41.9"], "note": "urosepsis (Chẩn đoán hiện tại)"},
-  {"text": "Cefepim", "type": "THUỐC", "assertions": [], "candidates": ["20481"], "note": "cefepime; RxNorm TODO"},
-  {"text": "Vancomycin", "type": "THUỐC", "assertions": [], "candidates": ["11124"], "note": "truyền TM hiện tại; RxNorm TODO"},
-  {"text": "NS 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9% (4000 ml); RxNorm TODO"}
+  {"text": "Cefepim", "type": "THUỐC", "assertions": [], "candidates": ["20481"], "note": "cefepime"},
+  {"text": "Vancomycin", "type": "THUỐC", "assertions": [], "candidates": ["11124"], "note": "truyền TM hiện tại"},
+  {"text": "NS 0.9 %", "type": "THUỐC", "assertions": [], "candidates": ["313002"], "note": "normal saline 0.9% (4000 ml)"}
 ]

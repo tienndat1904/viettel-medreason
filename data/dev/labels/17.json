@@ -1,8 +1,8 @@
 [
   {"text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K21.9"], "note": "GERD without esophagitis; mục 'Bệnh mãn tính'"},
   {"text": "102.9°F", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhiệt độ sốt cao nhất"},
-  {"text": "tylenol", "type": "THUỐC", "assertions": [], "candidates": ["161"], "note": "acetaminophen; 'không đáp ứng với tylenol' -> thuốc đã dùng, KHÔNG negated; RxNorm TODO"},
-  {"text": "advil", "type": "THUỐC", "assertions": [], "candidates": ["5640"], "note": "ibuprofen; RxNorm TODO"},
+  {"text": "tylenol", "type": "THUỐC", "assertions": [], "candidates": ["161"], "note": "acetaminophen; 'không đáp ứng với tylenol' -> thuốc đã dùng, KHÔNG negated"},
+  {"text": "advil", "type": "THUỐC", "assertions": [], "candidates": ["5640"], "note": "ibuprofen"},
   {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 4, "note": "mục 'Triệu chứng hiện tại'"},
   {"text": "đau cơ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3},
   {"text": "đau cổ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3},

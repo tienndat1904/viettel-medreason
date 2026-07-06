@@ -1,7 +1,7 @@
 [
   {"text": "Rối loạn cảm xúc (trầm cảm)", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F32.9"], "note": "mood disorder/depression; 'tiền sử giai đoạn trầm cảm không đặc hiệu'. Dòng có 'ho' đầu dòng là lỗi dịch -> bỏ"},
   {"text": "hội chứng nghiện rượu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F10.2"], "occ": 1, "note": "alcohol dependence; mục 'Các bệnh lý mạn tính' (occ2 = 'yếu tố nguy cơ' -> bỏ)"},
-  {"text": "seroquel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "quetiapine; 'Thuốc trước khi nhập viện lần này' (ngụ ý) -> historical"},
+  {"text": "seroquel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["51272"], "note": "quetiapine; 'Thuốc trước khi nhập viện lần này' (ngụ ý) -> historical"},
   {"text": "tự tử", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "suicidal ideation (thụ động, hiện diện); occ2 = mục 'Triệu chứng hiện tại'"},
   {"text": "tự tử chủ động", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Phủ nhận tự tử chủ động, ý định, kế hoạch' -> negated (khác với SI thụ động ở trên)"},
   {"text": "Lú lẫn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "confusion 'Lú lẫn từng đợt gần đây'"},

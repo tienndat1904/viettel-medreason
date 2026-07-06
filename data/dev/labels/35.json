@@ -9,7 +9,7 @@
   {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N40"], "note": "BPH"},
   {"text": "Nhiều lần ngã gần đây", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "note": "repeated falls; mục bệnh mạn tính"},
   {"text": "ảo giác", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "liệt kê ở mục bệnh mạn tính"},
-  {"text": "gleevec", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["282388"], "occ": 2, "note": "imatinib; 'Thuốc trước khi nhập viện: gleevec (dừng...)'; RxNorm TODO"},
+  {"text": "gleevec", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["282388"], "occ": 2, "note": "imatinib; 'Thuốc trước khi nhập viện: gleevec (dừng...)'"},
   {"text": "Toàn trạng suy kiệt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
   {"text": "ảo giác", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3, "note": "'được vợ nhận thấy' = vợ quan sát triệu chứng CỦA BN -> KHÔNG isFamily"},
   {"text": "Lú lẫn ngày càng nặng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "confusion"},

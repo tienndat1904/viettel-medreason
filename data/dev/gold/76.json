@@ -83,7 +83,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "32968"
+    ]
   },
   {
     "text": "nitrates",
@@ -123,7 +125,9 @@
       644
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "vã mồ hôi",
@@ -214,7 +218,9 @@
       1013
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "5224"
+    ]
   },
   {
     "text": "nitro",
@@ -224,7 +230,9 @@
       1046
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "dilaudid 3mg",
@@ -234,7 +242,9 @@
       1062
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "3423"
+    ]
   },
   {
     "text": "troponin",

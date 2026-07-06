@@ -65,7 +65,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "161"
+    ]
   },
   {
     "text": "mucinex d",
@@ -270,7 +272,9 @@
     "assertions": [
       "isFamily"
     ],
-    "candidates": []
+    "candidates": [
+      "18631"
+    ]
   },
   {
     "text": "spo2",

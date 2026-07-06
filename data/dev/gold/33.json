@@ -137,7 +137,9 @@
       1418
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "315502"
+    ]
   },
   {
     "text": "vancomycin 1 gram",
@@ -147,7 +149,9 @@
       1451
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1807512"
+    ]
   },
   {
     "text": "levofloxacin 750mg iv",
@@ -157,7 +161,9 @@
       1488
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "330371"
+    ]
   },
   {
     "text": "aspirin 325mg",
@@ -167,7 +173,9 @@
       1517
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "212033"
+    ]
   },
   {
     "text": "albuterolipratropium nebulizer",
@@ -187,6 +195,8 @@
       1606
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1743702"
+    ]
   }
 ]

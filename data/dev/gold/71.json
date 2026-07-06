@@ -111,7 +111,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   },
   {
     "text": "mệt mỏi",
@@ -187,7 +189,9 @@
       549
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4603"
+    ]
   },
   {
     "text": "graft SVG bị tắc",

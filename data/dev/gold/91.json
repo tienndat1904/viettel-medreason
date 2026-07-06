@@ -65,7 +65,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "855318"
+    ]
   },
   {
     "text": "INR",
@@ -258,6 +260,8 @@
       1163
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "5224"
+    ]
   }
 ]

@@ -11,10 +11,10 @@
   {"text": "phù chi dưới", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "lower-extremity edema"},
   {"text": "thiếu oxy", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "hypoxia (dấu hiệu EMS phát hiện); 2 mention cùng nghĩa -> label 1 lần"},
   {"text": "86", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "SpO2 = 86 khi thở khí trời; tên vital 'độ bão hòa oxy' KHÔNG gán (theo tiền lệ file 17)"},
-  {"text": "bumetanide 2mg iv", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chuẩn hóa: bumetanide 2 mg, đường IV; RxNorm chưa tra"},
-  {"text": "vancomycin 1 gram", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chuẩn hóa: vancomycin 1 g; đường không ghi (IV giả định); RxNorm chưa tra"},
-  {"text": "levofloxacin 750mg iv", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chuẩn hóa: levofloxacin 750 mg, đường IV; RxNorm chưa tra"},
-  {"text": "aspirin 325mg", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chuẩn hóa: aspirin 325 mg (uống); RxNorm chưa tra"},
+  {"text": "bumetanide 2mg iv", "type": "THUỐC", "assertions": [], "candidates": ["315502"], "note": "chuẩn hóa: bumetanide 2 mg, đường IV"},
+  {"text": "vancomycin 1 gram", "type": "THUỐC", "assertions": [], "candidates": ["1807512"], "note": "chuẩn hóa: vancomycin 1 g; đường không ghi (IV giả định)"},
+  {"text": "levofloxacin 750mg iv", "type": "THUỐC", "assertions": [], "candidates": ["330371"], "note": "chuẩn hóa: levofloxacin 750 mg, đường IV"},
+  {"text": "aspirin 325mg", "type": "THUỐC", "assertions": [], "candidates": ["212033"], "note": "chuẩn hóa: aspirin 325 mg (uống)"},
   {"text": "albuterolipratropium nebulizer", "type": "THUỐC", "assertions": [], "candidates": [], "note": "combo albuterol + ipratropium (Combivent) khí dung; text dính chữ (typo); combo -> [] "},
-  {"text": "methylprednisolone 125mg iv", "type": "THUỐC", "assertions": [], "candidates": [], "note": "chuẩn hóa: methylprednisolone 125 mg, đường IV; RxNorm chưa tra"}
+  {"text": "methylprednisolone 125mg iv", "type": "THUỐC", "assertions": [], "candidates": ["1743702"], "note": "chuẩn hóa: methylprednisolone 125 mg, đường IV"}
 ]

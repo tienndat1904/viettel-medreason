@@ -1,9 +1,9 @@
 [
   {"text": "tái phát u ác trực tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C20"], "occ": 1, "note": "recurrent rectal cancer; mục 'Các bệnh lý mạn tính'"},
   {"text": "ung thư biểu mô tế bào thận", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C64"], "occ": 1, "note": "RCC sau cắt thận phải + tuyến thượng thận; BYT chỉ có C64 (bỏ laterality CM .1/.2)"},
-  {"text": "vancomycin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["11124"], "occ": 1, "note": "Thuốc trước khi nhập viện lần này; RxNorm TODO"},
-  {"text": "ceftazidime", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2191"], "occ": 1, "note": "RxNorm TODO"},
-  {"text": "amiodarone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["703"], "occ": 1, "note": "RxNorm TODO"},
+  {"text": "vancomycin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["11124"], "occ": 1, "note": "Thuốc trước khi nhập viện lần này"},
+  {"text": "ceftazidime", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2191"], "occ": 1},
+  {"text": "amiodarone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["703"], "occ": 1},
   {"text": "suy thận cấp", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N17.9"], "occ": 1, "note": "'Nhập viện ... với suy thận cấp'"},
   {"text": "viêm phổi thuỳ, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J18.1"], "occ": 1, "note": "lobar pneumonia (verbatim 'thuỳ' với ỳ)"},
   {"text": "rung nhĩ điển hình kèm theo đáp ứng thất nhanh", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I48.9"], "note": "atrial flutter with RVR"},

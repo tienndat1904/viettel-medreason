@@ -26,10 +26,10 @@
   {"text": "tổng phân tích nước tiểu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "chụp x-quang ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'phù hợp với viêm phổi kẽ'"},
   {"text": "viêm phổi kẽ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J84.9"], "note": "interstitial pneumonia"},
-  {"text": "Albuterol", "type": "THUỐC", "assertions": [], "candidates": ["435"], "note": "khí dung phối hợp; RxNorm TODO"},
-  {"text": "Ipratropium", "type": "THUỐC", "assertions": [], "candidates": ["7213"], "note": "RxNorm TODO"},
-  {"text": "Ceftriaxone 1 gram", "type": "THUỐC", "assertions": [], "candidates": ["1665021"], "note": "RxNorm TODO"},
-  {"text": "Tylenol 1 gram", "type": "THUỐC", "assertions": [], "candidates": ["332608"], "note": "acetaminophen 1 g; RxNorm TODO"},
+  {"text": "Albuterol", "type": "THUỐC", "assertions": [], "candidates": ["435"], "note": "khí dung phối hợp"},
+  {"text": "Ipratropium", "type": "THUỐC", "assertions": [], "candidates": ["7213"]},
+  {"text": "Ceftriaxone 1 gram", "type": "THUỐC", "assertions": [], "candidates": ["1665021"]},
+  {"text": "Tylenol 1 gram", "type": "THUỐC", "assertions": [], "candidates": ["332608"], "note": "acetaminophen 1 g"},
   {"text": "cấy máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "cấy nước tiểu", "type": "TÊN_XÉT_NGHIỆM", "assertions": []}
 ]

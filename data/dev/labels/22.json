@@ -1,6 +1,6 @@
 [
   {"text": "bệnh mạch máu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I77.9"], "note": "vascular disease (generic); mục 'Bệnh lý mãn tính'"},
-  {"text": "aspirin 325mg hằng ngày", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["212033"], "note": "aspirin 325 mg oral; mục 'Thuốc trước khi nhập viện'; RxNorm TODO"},
+  {"text": "aspirin 325mg hằng ngày", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["212033"], "note": "aspirin 325 mg oral; mục 'Thuốc trước khi nhập viện'"},
   {"text": "rối loạn thần kinh", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có rối loạn thần kinh'; reviewer: TRIỆU_CHỨNG vs CHẨN_ĐOÁN?"},
   {"text": "chụp ct sọ não không thuốc cản quang", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "khối máu tụ dưới màng cứng bán cấp hai bên", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I62.0"], "note": "bilateral subacute subdural hematoma (nontraumatic)"},

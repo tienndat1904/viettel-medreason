@@ -41,7 +41,9 @@
       799
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "khó thở",
@@ -78,7 +80,9 @@
       1233
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "1191"
+    ]
   },
   {
     "text": "mỡ nitroglycerin",
@@ -88,7 +92,9 @@
       1334
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "4917"
+    ]
   },
   {
     "text": "ativan",
@@ -98,7 +104,9 @@
       1348
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "6470"
+    ]
   },
   {
     "text": "lovenox",
@@ -108,7 +116,9 @@
       1375
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "67108"
+    ]
   },
   {
     "text": "troponin",

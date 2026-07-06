@@ -87,7 +87,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "3640"
+    ]
   },
   {
     "text": "Suy giảm miễn dịch",
@@ -130,7 +132,9 @@
       963
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "3640"
+    ]
   },
   {
     "text": "viêm mô tế bào",
