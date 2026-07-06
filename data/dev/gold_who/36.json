@@ -1,0 +1,164 @@
+[
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      41,
+      58
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Q61.3"
+    ]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "position": [
+      208,
+      220
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1256"
+    ]
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "position": [
+      233,
+      240
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "42316"
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      294,
+      302
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "68149"
+    ]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      386,
+      409
+    ],
+    "assertions": [],
+    "candidates": [
+      "N19"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      457,
+      467
+    ],
+    "assertions": []
+  },
+  {
+    "text": "1.4-1.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      539,
+      546
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      626,
+      635
+    ],
+    "assertions": []
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      794,
+      797
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1024,
+      1036
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đào thải kháng thể hữu hình cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1129,
+      1165
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1193,
+      1196
+    ],
+    "assertions": []
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1223,
+      1226
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2139,
+      2154
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2282,
+      2300
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

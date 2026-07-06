@@ -24,13 +24,16 @@ NOISE = {
     # tiếng Việt
     "hằng", "hàng", "ngày", "uống", "tiêm", "ngậm", "dưới", "lưỡi", "mỗi",
     "lần", "viên", "khí", "dung", "truyền", "đường", "tĩnh", "mạch", "bôi",
-    "nhỏ", "giọt", "ống", "gói", "x", "và", "của", "cho",
+    "nhỏ", "giọt", "ống", "gói", "x", "và", "của", "cho", "ml",
 }
 
-# đơn vị hàm lượng — SẮP DÀI TRƯỚC NGẮN để 'mg/ml' không bị nuốt thành 'mg' + '/ml'
+# đơn vị hàm lượng — SẮP DÀI TRƯỚC NGẮN để 'mg/ml' không bị nuốt thành 'mg' + '/ml'.
+# KHÔNG có 'ml' trần: "5 ml" là THỂ TÍCH liều, không phải hàm lượng (giữ 'mg/ml' nồng độ).
 _UNIT = (r"(mg/ml|mcg/ml|g/ml|meq/ml|units?/ml|mg/actuation|mcg/actuation|"
-         r"mg|mcg|g|ml|meq|iu|units?|đơn\s*vị|%)")
+         r"mg|mcg|g|meq|iu|units?|đơn\s*vị|%)")
 _STRENGTH = re.compile(r"(\d+(?:[.,]\d+)?)\s*" + _UNIT, re.IGNORECASE)
+# dải liều "325-650 mg": _STRENGTH chỉ bắt số sau (650); nhóm 1=thấp, 2=cao, 3=đơn vị
+_RANGE = re.compile(r"(\d+(?:[.,]\d+)?)\s*[-–]\s*(\d+(?:[.,]\d+)?)\s*" + _UNIT, re.IGNORECASE)
 
 # cue suy ra dạng bào chế (khớp trên chuỗi gốc)
 _FORM_CUES = [
@@ -86,10 +89,17 @@ def parse_drug(text: str, brand_map: dict | None = None) -> dict:
     t = (text or "").strip()
     strengths = [f"{m.group(1).replace(',', '.')} {m.group(2).lower().replace(' ', '')}"
                  for m in _STRENGTH.finditer(t)]
+    # dải liều "325-650 mg": _STRENGTH bắt số cao (650); BTC thường lấy mức THẤP -> thay bằng 325
+    for m in _RANGE.finditer(t):
+        lo = f"{m.group(1).replace(',', '.')} {m.group(3).lower().replace(' ', '')}"
+        hi = f"{m.group(2).replace(',', '.')} {m.group(3).lower().replace(' ', '')}"
+        strengths = [lo if s == hi else s for s in strengths]
+        if lo not in strengths:
+            strengths.append(lo)
     form = infer_form(t)
 
     name = _STRENGTH.sub(" ", t)                      # bỏ phần hàm lượng khỏi chuỗi
-    tokens = re.split(r"[\s,()/\-]+", name)
+    tokens = re.split(r"[\s,()/\-:]+", name)          # tách cả ':' (vd 'qid:prn' -> route/tần suất)
     ingr_tokens = []
     for tok in tokens:
         low = _strip_accents(tok.lower())
