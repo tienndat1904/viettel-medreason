@@ -1,233 +1,212 @@
 [
   {
-    "text": "viêm loét dạ dày",
+    "text": "huyết khối tĩnh mạch sâu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      50,
-      66
+      48,
+      72
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "K25.9"
+      "I82.409"
     ]
   },
   {
-    "text": "xơ gan",
+    "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      75,
-      81
+      79,
+      107
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "K74.60"
+      "J44.9"
     ]
   },
   {
-    "text": "suy tim sung huyết",
+    "text": "thiếu máu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      88,
-      106
+      114,
+      123
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "I50.9"
-    ]
-  },
-  {
-    "text": "tacrolimus 1mg nebs q4h",
-    "type": "THUỐC",
-    "position": [
-      145,
-      168
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "42316"
-    ]
-  },
-  {
-    "text": "rosuvastatin 10mg",
-    "type": "THUỐC",
-    "position": [
-      177,
-      194
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "301542"
-    ]
-  },
-  {
-    "text": "nitroglycerin 0.4mg q4h",
-    "type": "THUỐC",
-    "position": [
-      203,
-      226
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "4917"
+      "D64.9"
     ]
   },
   {
     "text": "gout",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      278,
-      282
+      130,
+      134
     ],
     "assertions": [
-      "isHistorical",
-      "isFamily"
+      "isHistorical"
     ],
     "candidates": [
       "M10.9"
     ]
   },
   {
+    "text": "gabapentin 300mg iv",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "25480"
+    ]
+  },
+  {
+    "text": "apixaban 5mg",
+    "type": "THUỐC",
+    "position": [
+      197,
+      209
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1364430"
+    ]
+  },
+  {
+    "text": "amoxicillin iv",
+    "type": "THUỐC",
+    "position": [
+      218,
+      232
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      321,
+      329
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      361,
+      370
+    ],
+    "assertions": []
+  },
+  {
     "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      326,
-      346
+      377,
+      397
     ],
     "assertions": []
   },
   {
-    "text": "đau cơ",
+    "text": "tiểu máu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      378,
-      384
+      404,
+      412
     ],
     "assertions": []
   },
   {
-    "text": "khó thở về đêm",
+    "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      391,
-      405
-    ],
-    "assertions": []
-  },
-  {
-    "text": "hoa mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      412,
-      419
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ngất xỉu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      426,
-      434
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tê bì",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      441,
-      446
-    ],
-    "assertions": []
-  },
-  {
-    "text": "tiếng rít",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      453,
-      462
-    ],
-    "assertions": []
-  },
-  {
-    "text": "lú lẫn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      508,
-      514
+      464,
+      484
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đau ngực",
+    "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      530,
-      538
+      497,
+      506
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "ợ hơi",
+    "text": "nghẹt mũi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      554,
-      559
+      528,
+      537
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đổ mồ hôi qua đêm",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      575,
-      592
-    ],
-    "assertions": [
-      "isNegated"
-    ]
-  },
-  {
-    "text": "bệnh thận mạn",
+    "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      614,
-      627
+      559,
+      567
     ],
     "assertions": [],
     "candidates": [
-      "N18.9"
+      "I48.91"
     ]
   },
   {
-    "text": "hba1c",
+    "text": "hct",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      685,
+      668,
+      671
+    ],
+    "assertions": []
+  },
+  {
+    "text": "42.8 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      673,
+      679
+    ],
+    "assertions": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      686,
       690
     ],
     "assertions": []
   },
   {
-    "text": "11.5",
+    "text": "86 %",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
       692,
@@ -236,56 +215,56 @@
     "assertions": []
   },
   {
-    "text": "bilirubin toàn phần",
+    "text": "bạch cầu (wbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       703,
+      717
+    ],
+    "assertions": []
+  },
+  {
+    "text": "20,1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      718,
       722
     ],
     "assertions": []
   },
   {
-    "text": "3,2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      723,
-      726
-    ],
-    "assertions": []
-  },
-  {
-    "text": "alt",
+    "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      733,
-      736
+      729,
+      733
     ],
     "assertions": []
   },
   {
-    "text": "117",
+    "text": "5,1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      737,
-      740
+      734,
+      737
     ],
     "assertions": []
   },
   {
-    "text": "lactate",
+    "text": "bilirubin toàn phần",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      747,
-      754
+      744,
+      763
     ],
     "assertions": []
   },
   {
-    "text": "0.8",
+    "text": "3.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      756,
-      759
+      765,
+      768
     ],
     "assertions": []
   },
@@ -293,81 +272,84 @@
     "text": "crp",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      766,
-      769
+      775,
+      778
     ],
     "assertions": []
   },
   {
-    "text": "171",
+    "text": "71",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      770,
-      773
+      780,
+      782
     ],
     "assertions": []
   },
   {
-    "text": "chụp ct sọ não",
+    "text": "cấy nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      803,
-      817
+      789,
+      802
     ],
     "assertions": []
   },
   {
-    "text": "ecg",
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      804,
+      814
+    ],
+    "assertions": []
+  },
+  {
+    "text": "soi phân tìm ký sinh trùng",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      824,
-      827
+      821,
+      847
     ],
     "assertions": []
   },
   {
-    "text": "cấy máu",
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      849,
+      856
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mri sọ não",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      834,
-      841
+      886,
+      896
     ],
     "assertions": []
   },
   {
-    "text": "apixaban 2.5mg hằng ngày",
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      903,
+      927
+    ],
+    "assertions": []
+  },
+  {
+    "text": "azithromycin nebs q4h",
     "type": "THUỐC",
     "position": [
-      861,
-      885
+      947,
+      968
     ],
     "assertions": [],
     "candidates": [
-      "1364430"
-    ]
-  },
-  {
-    "text": "albuterol nebs q4h",
-    "type": "THUỐC",
-    "position": [
-      892,
-      910
-    ],
-    "assertions": [],
-    "candidates": [
-      "435"
-    ]
-  },
-  {
-    "text": "gabapentin 300mg nebs q4h",
-    "type": "THUỐC",
-    "position": [
-      917,
-      942
-    ],
-    "assertions": [],
-    "candidates": [
-      "25480"
+      "18631"
     ]
   }
 ]

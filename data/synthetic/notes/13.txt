@@ -1,34 +1,41 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - rung nhĩ
+    - cường giáp
     - sa sút trí tuệ
-    - **hen suyễn**
     Thuốc trước khi nhập viện
-    - metformin 500mg
-    - spironolactone 25mg
-    - atorvastatin 20mg
-    Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
+    - atenolol 50mg iv x2
+    - losartan 50mg
+    - methadone 5mg
+    - atorvastatin 40mg
+    Tiền sử gia đình
+    - Vợ bệnh nhân có tăng calci máu
+    Sinh hoạt cá nhân bình thường.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau bụng
+    Lý do nhập viện: ợ hơi
     Triệu chứng hiện tại
-    - ớn lạnh
-    - **ngứa**
-    - hoa mắt
+    - **ho đờm**
+    - chóng mặt
+    - tiếng rít
+    - yếu cơ
+    - ho đờm xanh
     Các triệu chứng liên quan
-    - âm tính với tiểu dắt
-    - Không đánh trống ngực
+    - Không ghi nhận đau ngực
+    - Không ghi nhận ho
+    - Phủ nhận vã mồ hôi
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - alt: 27
-    - troponin 0.92
-    - lymph%32.4
-    - inr: 1.1
+    - glucose 199
+    - bạch cầu (wbc): 17.1
+    - ast: 77
+    - wbc 11.0
+    - protein niệu: âm tính
+    - xét nghiệm HIV: âm tính
     Chẩn đoán hình ảnh
-    - cấy máu
-    - nội soi dạ dày
+    - tổng phân tích nước tiểu
+    - siêu âm mạch máu chi dưới
     Điều trị
-    - pantoprazole 40mg
-    - morphine 2mg po qid
-    - nitroglycerin 0.4mg nebs q4h
+    - aspirin 81mg po daily
+    - metformin
+    - furosemide 80mg hằng ngày

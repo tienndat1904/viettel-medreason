@@ -1,38 +1,38 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - viêm khớp dạng thấp
-    - viêm tụy cấp
+    - béo phì
+    - suy tim
+    - thiếu máu
+    - tăng calci máu
     Thuốc trước khi nhập viện
-    - spironolactone 50mg iv x2
-    - furosemide 40mg q4h
-    - carvedilol 25mg
-    Mất việc làm cách đây 2 tuần, nhiều căng thẳng.
+    - methadone 10mg
+    - prednisone 40mg
+    - morphine 2mg iv
+    - atenolol 50mg tiêm tĩnh mạch
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: buồn nôn
+    Lý do nhập viện: khó thở về đêm
     Triệu chứng hiện tại
-    - chảy nước mũi
-    - tiêu chảy
-    - tiểu dắt
-    - sốt cao
-    - hồi hộp
-    - đau ngực
+    - đau cơ
+    - mất định hướng
+    - mất ngủ
     Các triệu chứng liên quan
-    - không có đau cơ
-    - Không ghi nhận **chảy nước mũi**
-    - âm tính với chán ăn
-    Chẩn đoán sơ bộ: thuyên tắc phổi
+    - không có mất ngủ
+    - Không ghi nhận chóng mặt
+    - Không đánh trống ngực
+    Chẩn đoán sơ bộ: giãn phế quản
+    Sinh hoạt cá nhân bình thường.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hemoglobin: 10.3
-    - crp  93
-    - lymph% 6.5 %
-    - bilirubin toàn phần: 2.0
-    - wbc: 15.9
-    - bnp 20846
+    - hgb: 15.1
+    - ast: 139
+    - hemoglobin: 14.5
+    - ure (bun) 58
+    - protein niệu âm tính
     Chẩn đoán hình ảnh
-    - chụp x-quang bàn chân
+    - ecg
+    - cấy máu
     Điều trị
-    - metformin 1000mg x 1
-    - amoxicillin 875mg po bid
+    - atenolol 50mg
+    - omeprazole 40mg po daily

@@ -1,41 +1,42 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - trầm cảm
-    - suy tim
-    - **viêm phế quản cấp**
-    - béo phì
+    - nhiễm khuẩn đường tiết niệu
+    - bệnh phổi tắc nghẽn mạn tính
+    - suy thận cấp
+    - xơ gan
     Thuốc trước khi nhập viện
-    - **warfarin 5mg po qid**
-    - morphine 2mg iv
-    - gabapentin
-    - **spironolactone 25mg hằng ngày**
-    Bệnh nhân tỉnh, tiếp xúc tốt.
+    - morphine 4mg
+    - levothyroxine 100mcg iv
+    - prednisone
+    - atenolol 25mg iv
+    Người nhà xin về theo nguyện vọng.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: ngất xỉu
+    Lý do nhập viện: ho đờm xanh
     Triệu chứng hiện tại
-    - tiểu dắt
-    - gần ngất
-    - khò khè
-    - sốt cao
-    - đau hạ sườn phải
-    - vã mồ hôi
+    - mệt mỏi
+    - chán ăn
+    - tiêu chảy
+    - khó thở
     Các triệu chứng liên quan
-    - âm tính với yếu cơ
-    - Không nghẹt mũi
-    - không có đau hạ sườn phải
-    Chẩn đoán sơ bộ: viêm bể thận
-    Sinh hoạt cá nhân bình thường.
+    - Không khó nuốt
+    - không có lơ mơ
+    - không có đau ngực
+    - Phủ nhận đau bụng
+    Chẩn đoán sơ bộ: **đái tháo đường típ 1**
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - **ure (bun)**: 61
-    - inr  2.2
-    - ast 341
-    - natri 139
+    - troponin: 1.86
+    - alt: 339
+    - hct 34.7 %
+    - inr: 2.2
+    - spo2: 93
+    - **hba1c** 9,0
+    - creatinine 4.8
     Chẩn đoán hình ảnh
-    - tổng phân tích nước tiểu
-    - siêu âm gan mật
+    - chụp x-quang ngực
     Điều trị
-    - lisinopril 20mg iv
-    - spironolactone 25mg po daily
+    - albuterol nebs hằng ngày
+    - vancomycin 1g

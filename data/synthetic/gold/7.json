@@ -1,196 +1,202 @@
 [
   {
-    "text": "rung nhĩ",
+    "text": "viêm bể thận",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      56
+      60
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "I48.91"
+      "N12"
     ]
   },
   {
-    "text": "rối loạn lo âu",
+    "text": "huyết khối tĩnh mạch sâu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      63,
-      77
+      67,
+      91
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "F41.9"
+      "I82.409"
     ]
   },
   {
-    "text": "amlodipine 5mg iv x2",
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      98,
+      105
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "omeprazole 40mg",
     "type": "THUỐC",
     "position": [
-      114,
-      134
+      142,
+      157
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "17767"
+      "7646"
     ]
   },
   {
-    "text": "insulin glargine 100 đơn vị po bid",
+    "text": "ibuprofen 600mg",
     "type": "THUỐC",
     "position": [
-      141,
-      175
+      164,
+      179
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "274783"
+      "5640"
     ]
   },
   {
-    "text": "chóng mặt",
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      223,
+      236
+    ],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": [
+      "J47.9"
+    ]
+  },
+  {
+    "text": "mất ngủ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      253,
-      262
+      280,
+      287
     ],
     "assertions": []
   },
   {
-    "text": "ban đỏ",
+    "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      294,
-      300
+      319,
+      326
     ],
     "assertions": []
   },
   {
-    "text": "mất định hướng",
+    "text": "ho",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      307,
-      321
+      333,
+      335
     ],
     "assertions": []
   },
   {
-    "text": "ho đờm",
+    "text": "ợ hơi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      328,
-      334
+      342,
+      347
     ],
     "assertions": []
   },
   {
-    "text": "lơ mơ",
+    "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      380,
-      385
+      354,
+      361
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      368,
+      388
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      431,
+      440
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đau thượng vị",
+    "text": "gần ngất",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      398,
-      411
+      462,
+      470
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "ung thư phổi",
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      486,
+      490
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      513
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      433,
-      445
+      535,
+      547
     ],
     "assertions": [],
     "candidates": [
-      "C34.90"
+      "N12"
     ]
   },
   {
-    "text": "kali",
+    "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      546,
-      550
-    ],
-    "assertions": []
-  },
-  {
-    "text": "6.2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      551,
-      554
-    ],
-    "assertions": []
-  },
-  {
-    "text": "hemoglobin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      561,
-      571
-    ],
-    "assertions": []
-  },
-  {
-    "text": "15,3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      572,
-      576
-    ],
-    "assertions": []
-  },
-  {
-    "text": "lactate",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      583,
-      590
-    ],
-    "assertions": []
-  },
-  {
-    "text": "4.9",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      591,
-      594
-    ],
-    "assertions": []
-  },
-  {
-    "text": "wbc",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      601,
-      604
-    ],
-    "assertions": []
-  },
-  {
-    "text": "17,6",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
       605,
       609
@@ -198,51 +204,153 @@
     "assertions": []
   },
   {
-    "text": "crp",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "84",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      616,
-      619
+      611,
+      613
     ],
     "assertions": []
   },
   {
-    "text": "99",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      621,
+      620,
       623
     ],
     "assertions": []
   },
   {
-    "text": "siêu âm tim",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "82",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      653,
-      664
+      625,
+      627
     ],
     "assertions": []
   },
   {
-    "text": "điện tâm đồ",
+    "text": "natri",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      671,
+      634,
+      639
+    ],
+    "assertions": []
+  },
+  {
+    "text": "145",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      640,
+      643
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      652,
+      656
+    ],
+    "assertions": []
+  },
+  {
+    "text": "3,6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      660,
+      663
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      670,
+      675
+    ],
+    "assertions": []
+  },
+  {
+    "text": "6.9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      677,
       682
     ],
     "assertions": []
   },
   {
-    "text": "methadone hằng ngày",
+    "text": "lymph%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      689,
+      695
+    ],
+    "assertions": []
+  },
+  {
+    "text": "39.7 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      697,
+      703
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      710,
+      717
+    ],
+    "assertions": []
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      718,
+      725
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      755,
+      762
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lisinopril 20mg po qid",
     "type": "THUỐC",
     "position": [
-      702,
-      721
+      782,
+      804
     ],
     "assertions": [],
     "candidates": [
-      "6813"
+      "29046"
+    ]
+  },
+  {
+    "text": "amlodipine 10mg",
+    "type": "THUỐC",
+    "position": [
+      811,
+      826
+    ],
+    "assertions": [],
+    "candidates": [
+      "17767"
     ]
   }
 ]

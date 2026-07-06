@@ -1,38 +1,43 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - béo phì
-    - viêm bể thận
+    - suy tim
+    - **thiếu máu**
+    - suy thận cấp
+    - **ung thư phổi**
     Thuốc trước khi nhập viện
-    - gabapentin 300mg
-    - azithromycin 500mg q4h
-    Bệnh nhân tỉnh, tiếp xúc tốt.
+    - amoxicillin 875mg
+    - acetaminophen 500mg
+    - aspirin 325mg
+    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: buồn nôn
+    Lý do nhập viện: mất thăng bằng
     Triệu chứng hiện tại
-    - đau ngực
-    - **ban đỏ**
-    - tiếng rít
-    - đau vai
-    - **đổ mồ hôi qua đêm**
+    - hồi hộp
+    - chảy nước mũi
+    - phù chi dưới
     Các triệu chứng liên quan
-    - Không ghi nhận mệt mỏi
-    - Phủ nhận lơ mơ
-    - Phủ nhận tiểu máu
-    - Không ghi nhận vã mồ hôi
-    Chẩn đoán sơ bộ: đái tháo đường típ 2
+    - Không ghi nhận ớn lạnh
+    - Không ghi nhận tê bì
+    - Phủ nhận táo bón
+    Người nhà xin về theo nguyện vọng.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - spo2: 92 %
-    - tiểu cầu (plt): 97
-    - kali: 4.7
-    - bnp: 6108
-    - wbc 14.2
+    - ure (bun) 55
+    - lactate: 3.2
+    - kali: 5.0
+    - hba1c: 9.7
+    - wbc 22.9
+    - glucose: 275
+    - natri: 131
+    - crp 107
+    - protein niệu: âm tính
+    - cấy nước tiểu: dương tính
     Chẩn đoán hình ảnh
-    - monitor holter
-    - chụp x-quang bàn chân
+    - tổng phân tích nước tiểu
+    - chụp ct sọ não
+    - cấy máu
     Điều trị
-    - omeprazole
-    - metoprolol 100mg po daily
-    - pantoprazole 40mg đường uống
+    - metoprolol 50mg nebs q4h
+    - insulin glargine 100 đơn vị

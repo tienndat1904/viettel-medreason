@@ -1,80 +1,66 @@
 [
   {
-    "text": "trầm cảm",
+    "text": "nhiễm khuẩn đường tiết niệu",
     "type": "CHẨN_ĐOÁN",
     "position": [
       48,
-      56
+      75
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "F32.9"
+      "N39.0"
     ]
   },
   {
-    "text": "suy tim",
+    "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      63,
-      70
+      82,
+      110
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "I50.9"
+      "J44.9"
     ]
   },
   {
-    "text": "viêm phế quản cấp",
+    "text": "suy thận cấp",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      79,
-      96
+      117,
+      129
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "J20.9"
+      "N17.9"
     ]
   },
   {
-    "text": "béo phì",
+    "text": "xơ gan",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      105,
-      112
+      136,
+      142
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "E66.9"
+      "K74.60"
     ]
   },
   {
-    "text": "warfarin 5mg po qid",
-    "type": "THUỐC",
-    "position": [
-      151,
-      170
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "11289"
-    ]
-  },
-  {
-    "text": "morphine 2mg iv",
+    "text": "morphine 4mg",
     "type": "THUỐC",
     "position": [
       179,
-      194
+      191
     ],
     "assertions": [
       "isHistorical"
@@ -84,156 +70,199 @@
     ]
   },
   {
-    "text": "gabapentin",
+    "text": "levothyroxine 100mcg iv",
     "type": "THUỐC",
     "position": [
-      201,
-      211
+      198,
+      221
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "25480"
+      "10582"
     ]
   },
   {
-    "text": "spironolactone 25mg hằng ngày",
+    "text": "prednisone",
     "type": "THUỐC",
     "position": [
-      220,
-      249
+      228,
+      238
     ],
     "assertions": [
       "isHistorical"
     ],
     "candidates": [
-      "9997"
+      "8640"
     ]
   },
   {
-    "text": "ngất xỉu",
+    "text": "atenolol 25mg iv",
+    "type": "THUỐC",
+    "position": [
+      245,
+      261
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1202"
+    ]
+  },
+  {
+    "text": "ho đờm xanh",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      329,
-      337
+      344,
+      355
     ],
     "assertions": []
   },
   {
-    "text": "tiểu dắt",
+    "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      369,
-      377
+      387,
+      394
     ],
     "assertions": []
   },
   {
-    "text": "gần ngất",
+    "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      384,
-      392
+      401,
+      408
     ],
     "assertions": []
   },
   {
-    "text": "khò khè",
+    "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      399,
-      406
+      415,
+      424
     ],
     "assertions": []
   },
   {
-    "text": "sốt cao",
+    "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      413,
-      420
+      431,
+      438
     ],
     "assertions": []
   },
   {
-    "text": "đau hạ sườn phải",
+    "text": "khó nuốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      427,
-      443
-    ],
-    "assertions": []
-  },
-  {
-    "text": "vã mồ hôi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      450,
-      459
-    ],
-    "assertions": []
-  },
-  {
-    "text": "yếu cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      508,
-      514
+      481,
+      489
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "nghẹt mũi",
+    "text": "lơ mơ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      527,
-      536
+      505,
+      510
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "đau hạ sườn phải",
+    "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      552,
-      568
+      526,
+      534
     ],
     "assertions": [
       "isNegated"
     ]
   },
   {
-    "text": "viêm bể thận",
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      550,
+      558
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đái tháo đường típ 1",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      590,
+      582,
       602
     ],
     "assertions": [],
     "candidates": [
-      "N12"
+      "E10.9"
     ]
   },
   {
-    "text": "ure (bun)",
+    "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      697,
-      706
+      696,
+      704
     ],
     "assertions": []
   },
   {
-    "text": "61",
+    "text": "1.86",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      710,
-      712
+      706,
+      710
+    ],
+    "assertions": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      717,
+      720
+    ],
+    "assertions": []
+  },
+  {
+    "text": "339",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      722,
+      725
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      732,
+      735
+    ],
+    "assertions": []
+  },
+  {
+    "text": "34.7 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      736,
+      742
     ],
     "assertions": []
   },
@@ -241,49 +270,13 @@
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      719,
-      722
+      749,
+      752
     ],
     "assertions": []
   },
   {
     "text": "2.2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      724,
-      727
-    ],
-    "assertions": []
-  },
-  {
-    "text": "ast",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      734,
-      737
-    ],
-    "assertions": []
-  },
-  {
-    "text": "341",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      738,
-      741
-    ],
-    "assertions": []
-  },
-  {
-    "text": "natri",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      748,
-      753
-    ],
-    "assertions": []
-  },
-  {
-    "text": "139",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
       754,
@@ -292,45 +285,90 @@
     "assertions": []
   },
   {
-    "text": "tổng phân tích nước tiểu",
+    "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      787,
-      811
+      764,
+      768
     ],
     "assertions": []
   },
   {
-    "text": "siêu âm gan mật",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "93",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      818,
-      833
+      770,
+      772
     ],
     "assertions": []
   },
   {
-    "text": "lisinopril 20mg iv",
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      781,
+      786
+    ],
+    "assertions": []
+  },
+  {
+    "text": "9,0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      789,
+      792
+    ],
+    "assertions": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      799,
+      809
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      810,
+      813
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      843,
+      860
+    ],
+    "assertions": []
+  },
+  {
+    "text": "albuterol nebs hằng ngày",
     "type": "THUỐC",
     "position": [
-      853,
-      871
+      880,
+      904
     ],
     "assertions": [],
     "candidates": [
-      "29046"
+      "435"
     ]
   },
   {
-    "text": "spironolactone 25mg po daily",
+    "text": "vancomycin 1g",
     "type": "THUỐC",
     "position": [
-      878,
-      906
+      911,
+      924
     ],
     "assertions": [],
     "candidates": [
-      "9997"
+      "11124"
     ]
   }
 ]

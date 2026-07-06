@@ -1,36 +1,37 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - **béo phì**
-    - đợt cấp hen suyễn
+    - tăng lipid máu
+    - ung thư đại tràng
+    - rối loạn lo âu
+    - suy tim
     Thuốc trước khi nhập viện
-    - rosuvastatin
-    - lisinopril 20mg po daily
+    - apixaban 5mg q6h
+    - tacrolimus đường uống
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: hoa mắt
+    Lý do nhập viện: ho
     Triệu chứng hiện tại
-    - chảy nước mũi
-    - đánh trống ngực
-    - đau đầu
-    - khó thở về đêm
+    - tiểu máu
     - đau cơ
-    - mất thăng bằng
+    - hoa mắt
     Các triệu chứng liên quan
-    - không có ho đờm xanh
-    - Không tiếng rít
-    Chẩn đoán sơ bộ: thiếu máu
-    Sinh hoạt cá nhân bình thường.
+    - Không ghi nhận **hồi hộp**
+    - Không ghi nhận ho đờm xanh
+    - Không ghi nhận đau hạ vị
+    Chẩn đoán sơ bộ: huyết khối tĩnh mạch sâu
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - **hgb** 13.5
-    - alt: 102
-    - **bnp** 22563
-    - hemoglobin: 14.9
-    - bạch cầu (wbc) 20.2
+    - hct: 42,4
+    - neut% 47.9
+    - kali 3,7
+    - crp: 124
+    - bạch cầu (wbc) 23,6
+    - bnp: 16799
+    - lactate: 0.9
+    - soi phân tìm ký sinh trùng âm tính
     Chẩn đoán hình ảnh
-    - chụp ct sọ não
+    - tổng phân tích nước tiểu
     Điều trị
-    - albuterol nebs đường uống
-    - amlodipine 5mg po bid
-    - gabapentin 300mg tiêm tĩnh mạch
+    - clopidogrel
+    - ibuprofen 400mg

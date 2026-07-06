@@ -1,37 +1,43 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - xơ gan
-    - viêm bể thận
+    - hội chứng não gan
+    - béo phì
+    - thiếu máu
+    - ung thư đại tràng
     Thuốc trước khi nhập viện
-    - gabapentin 300mg po bid
-    - lisinopril 10mg
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - albuterol nebs
+    - **aspirin 81mg q6h**
+    - ibuprofen 600mg po bid
+    - lisinopril 20mg
+    Được thăm khám bởi bác sĩ phụ trách chính.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đánh trống ngực
+    Lý do nhập viện: sốt
     Triệu chứng hiện tại
-    - **đau vai**
-    - mất thăng bằng
-    - tiểu máu
-    - ngất xỉu
-    - tiểu buốt
+    - đổ mồ hôi qua đêm
+    - đau thượng vị
+    - ho đờm xanh
+    - gần ngất
+    - khó thở về đêm
+    - chảy nước mũi
     Các triệu chứng liên quan
-    - Phủ nhận mất thăng bằng
-    - không có phù hai bên
-    Chẩn đoán sơ bộ: hội chứng não gan
-    Người nhà xin về theo nguyện vọng.
+    - Phủ nhận gần ngất
+    - không có ợ hơi
+    - không có lơ mơ
+    Chẩn đoán sơ bộ: trầm cảm
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - inr 1.7
-    - spo2: 85
-    - hba1c 5.6 %
-    - bnp: 8123
-    - **wbc** 6.4
-    - natri 135
-    - lactate: 2,4
-    - tiểu cầu (plt): 261
+    - crp: 183
+    - glucose: 106
+    - kali: 5.2
+    - natri 144
+    - hct: 35,3 %
+    - creatinine 4,7
+    - hgb: 14.9
+    - lactate: 3.4
     Chẩn đoán hình ảnh
-    - chụp x-quang ngực
+    - siêu âm gan mật
     Điều trị
-    - prednisone
+    - clopidogrel iv x2

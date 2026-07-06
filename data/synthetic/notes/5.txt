@@ -1,38 +1,36 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
+    - nhồi máu cơ tim cấp
+    - viêm phổi thùy
     - nhiễm khuẩn đường tiết niệu
     - sa sút trí tuệ
-    - thuyên tắc phổi
     Thuốc trước khi nhập viện
-    - ceftriaxone q6h
-    - carvedilol
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - ciprofloxacin 500mg
+    - metoprolol 50mg po qid
+    - prednisone 40mg po bid
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau vai
+    Lý do nhập viện: khó thở khi gắng sức
     Triệu chứng hiện tại
-    - ban đỏ
-    - nôn
-    - ớn lạnh
+    - khó nuốt
+    - **táo bón**
+    - chóng mặt
+    - chảy nước mũi
     Các triệu chứng liên quan
-    - không có sốt cao
-    - không có **ho khan**
-    - âm tính với đau ngực
-    - không có mất ngủ
-    Được thăm khám bởi bác sĩ phụ trách chính.
+    - âm tính với phù chi dưới
+    - Không ghi nhận đánh trống ngực
+    Chẩn đoán sơ bộ: rối loạn lo âu
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - bạch cầu (wbc) 11,0
-    - ast 341
-    - wbc 11.9
-    - troponin 1.35
-    - bnp: 30
-    - neut% 72.7
+    - ast: 212
+    - lymph%: 23.3
+    - tiểu cầu (plt): 430
+    - spo2: 91
+    - xét nghiệm HIV âm tính
+    - HBsAg: dương tính
     Chẩn đoán hình ảnh
-    - siêu âm gan mật
-    - monitor holter
-    - chụp ct sọ não
+    - mri sọ não
     Điều trị
-    - nitroglycerin 0.4mg
-    - ipratropium nebs po
+    - albuterol nebs nebs q4h
+    - tacrolimus 1mg q4h

@@ -1,43 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - **viêm loét dạ dày**
-    - xơ gan
-    - suy tim sung huyết
+    - huyết khối tĩnh mạch sâu
+    - bệnh phổi tắc nghẽn mạn tính
+    - thiếu máu
+    - gout
     Thuốc trước khi nhập viện
-    - **tacrolimus 1mg nebs q4h**
-    - rosuvastatin 10mg
-    - **nitroglycerin 0.4mg q4h**
-    Tiền sử gia đình
-    - Con trai bệnh nhân có gout
+    - gabapentin 300mg iv
+    - apixaban 5mg
+    - **amoxicillin iv**
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: khó thở khi gắng sức
+    Lý do nhập viện: đau lưng
     Triệu chứng hiện tại
-    - đau cơ
-    - khó thở về đêm
-    - hoa mắt
-    - ngất xỉu
-    - tê bì
-    - tiếng rít
+    - tiêu chảy
+    - khó thở khi gắng sức
+    - tiểu máu
     Các triệu chứng liên quan
-    - Phủ nhận lú lẫn
-    - không có đau ngực
-    - Phủ nhận ợ hơi
-    - Phủ nhận đổ mồ hôi qua đêm
-    Chẩn đoán sơ bộ: bệnh thận mạn
+    - Không ghi nhận khó thở khi gắng sức
+    - Không chóng mặt
+    - Không ghi nhận nghẹt mũi
+    Chẩn đoán sơ bộ: rung nhĩ
+    Người bệnh uống nhiều cà phê mỗi ngày.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hba1c: 11.5
-    - bilirubin toàn phần 3,2
-    - alt 117
-    - lactate: 0.8
-    - crp 171
+    - hct: 42.8 %
+    - spo2: 86 %
+    - bạch cầu (wbc) 20,1
+    - kali 5,1
+    - bilirubin toàn phần  3.3
+    - crp: 71
+    - cấy nước tiểu: dương tính
+    - soi phân tìm ký sinh trùng: âm tính
     Chẩn đoán hình ảnh
-    - chụp ct sọ não
-    - ecg
-    - cấy máu
+    - mri sọ não
+    - tổng phân tích nước tiểu
     Điều trị
-    - apixaban 2.5mg hằng ngày
-    - albuterol nebs q4h
-    - gabapentin 300mg nebs q4h
+    - azithromycin nebs q4h

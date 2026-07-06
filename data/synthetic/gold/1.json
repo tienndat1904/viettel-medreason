@@ -268,36 +268,33 @@
     "assertions": []
   },
   {
-    "text": "monitor holter",
+    "text": "cấy máu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       722,
-      736
+      729
     ],
     "assertions": []
   },
   {
-    "text": "omeprazole 40mg q6h",
-    "type": "THUỐC",
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      756,
-      775
+      736,
+      747
     ],
-    "assertions": [],
-    "candidates": [
-      "7646"
-    ]
+    "assertions": []
   },
   {
-    "text": "lisinopril 20mg po daily",
+    "text": "atorvastatin nebs q4h",
     "type": "THUỐC",
     "position": [
-      782,
-      806
+      767,
+      788
     ],
     "assertions": [],
     "candidates": [
-      "29046"
+      "83367"
     ]
   }
 ]

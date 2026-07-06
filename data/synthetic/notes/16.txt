@@ -1,38 +1,41 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - thiếu máu
-    - tăng kali máu
-    - gout
+    - trầm cảm
+    - suy tim
+    - **viêm phế quản cấp**
+    - béo phì
     Thuốc trước khi nhập viện
-    - ipratropium nebs nebs q4h
-    - amlodipine
-    - lisinopril 10mg
+    - **warfarin 5mg po qid**
+    - morphine 2mg iv
+    - gabapentin
+    - **spironolactone 25mg hằng ngày**
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau bụng
+    Lý do nhập viện: ngất xỉu
     Triệu chứng hiện tại
-    - táo bón
-    - chán ăn
+    - tiểu dắt
+    - gần ngất
     - khò khè
+    - sốt cao
+    - đau hạ sườn phải
+    - vã mồ hôi
     Các triệu chứng liên quan
-    - Không đau họng
-    - Không ghi nhận tiểu dắt
-    - Không khó nuốt
-    - Phủ nhận ợ hơi
-    Chẩn đoán sơ bộ: viêm phế quản cấp
-    Mất việc làm cách đây 2 tuần, nhiều căng thẳng.
+    - âm tính với yếu cơ
+    - Không nghẹt mũi
+    - không có đau hạ sườn phải
+    Chẩn đoán sơ bộ: viêm bể thận
+    Sinh hoạt cá nhân bình thường.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - **hgb** 15.4
-    - kali: 3.3
-    - hemoglobin 14.7
-    - troponin 1,35
-    - bnp: 11234
+    - **ure (bun)**: 61
+    - inr  2.2
+    - ast 341
+    - natri 139
+    - protein niệu: vết
+    - khí máu động mạch trong giới hạn bình thường
     Chẩn đoán hình ảnh
-    - điện tâm đồ
-    - siêu âm gan mật
+    - siêu âm ổ bụng
     Điều trị
-    - ibuprofen q4h
-    - morphine
-    - pantoprazole iv
+    - warfarin 5mg

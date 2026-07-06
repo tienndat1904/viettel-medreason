@@ -165,6 +165,15 @@ def _eval_section(nb: NoteBuilder, rng):
         nb.emit(vs + (f" {unit}" if unit and rng.random() < 0.5 else ""),
                 KET_QUA_XET_NGHIEM, [])
         nb.add("\n")
+    # xét nghiệm cho KẾT_QUẢ dạng CHỮ (định tính) — dạy model lấy "âm tính/dương tính/bình thường"
+    if rng.random() < 0.55:
+        for name, results in rng.sample(pools.LABS_TEXT, rng.randint(1, 2)):
+            nb.add("    - ")
+            pre, suf = _maybe_bold(rng, name)
+            nb.add(pre); nb.emit(name, TEN_XET_NGHIEM, []); nb.add(suf)
+            nb.add(rng.choice([": ", " "]))
+            nb.emit(rng.choice(results), KET_QUA_XET_NGHIEM, [])
+            nb.add("\n")
     # hình ảnh / thăm dò
     nb.add("    Chẩn đoán hình ảnh\n")
     for im in rng.sample(pools.IMAGING, rng.randint(1, 3)):
