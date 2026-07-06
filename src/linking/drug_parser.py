@@ -61,9 +61,16 @@ def _norm_key(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+# biệt dược PHỐI HỢP (map về >=2 hoạt chất khác nhau) -> linker trả [] vì BTC chấm
+# 1 RXCUI, combo mơ hồ không map được (vd percocet, sinemet, dyazide, tenoretic...).
+COMBO_INGREDIENT = "__combo__"
+
+
 def load_brand_map(path: str) -> dict:
-    """Đọc drug_brands.tsv -> {alias_norm: ingredient_lower}."""
+    """Đọc drug_brands.tsv -> {alias_norm: ingredient_lower}.
+    Alias xuất hiện với >=2 hoạt chất KHÁC nhau -> đánh dấu COMBO_INGREDIENT."""
     m = {}
+    seen: dict[str, set] = {}
     if path and os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             for ln in f:
@@ -72,7 +79,11 @@ def load_brand_map(path: str) -> dict:
                     continue
                 parts = ln.split("\t")
                 if len(parts) >= 2 and parts[0].strip() and parts[1].strip():
-                    m[_norm_key(parts[0])] = parts[1].strip().lower()
+                    k = _norm_key(parts[0])
+                    ing = parts[1].strip().lower()
+                    s = seen.setdefault(k, set())
+                    s.add(ing)
+                    m[k] = COMBO_INGREDIENT if len(s) > 1 else ing
     return m
 
 
