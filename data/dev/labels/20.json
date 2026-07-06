@@ -4,7 +4,7 @@
   {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "ASCVD; tách khỏi 'Nhồi máu cơ tim gần đây'"},
   {"text": "Nhồi máu cơ tim gần đây", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I21.9"], "note": "recent MI"},
   {"text": "rung nhĩ kịch phát", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.0"], "occ": 1, "note": "paroxysmal AF; mục bệnh mãn tính"},
-  {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N40.0"], "occ": 1, "note": "BPH; mục bệnh mãn tính"},
+  {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N40"], "occ": 1, "note": "BPH; mục bệnh mãn tính"},
   {"text": "xạ hình tưới máu cơ tim mibi", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "candidates": [], "note": "myocardial perfusion imaging (MIBI); line10 single-space"},
   {"text": "metoprolol", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["6918"], "note": "metoprolol; giảm 50mg->25mg/ngày; mục 'Thuốc trước khi nhập viện'"},
   {"text": "desmopressin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["3251"], "note": "desmopressin; mục 'Thuốc trước khi nhập viện'"},
@@ -43,5 +43,5 @@
   {"text": "Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.2"], "note": "old/chronic MI finding"},
   {"text": "rung nhĩ kịch phát", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I48.0"], "occ": 2, "note": "line60 - phát hiện hiện tại"},
   {"text": "tiểu đêm nhiều", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "nocturia"},
-  {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N40.0"], "occ": 2, "note": "line61 - phát hiện hiện tại"}
+  {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N40"], "occ": 2, "note": "line61 - phát hiện hiện tại"}
 ]

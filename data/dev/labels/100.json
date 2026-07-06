@@ -15,7 +15,7 @@
   {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'Không có các biểu hiện đau ngực, khó thở, chóng mặt'"},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"]},
   {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"]},
-  {"text": "động kinh", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["R56.9"], "note": "'Không có biểu hiện động kinh'"},
+  {"text": "động kinh", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["R56.8"], "note": "'Không có biểu hiện động kinh'"},
   {"text": "MRI ngoại trú", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "nhồi máu cũ nhỏ ở vỏ não đỉnh trái", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "'nhồi máu cũ' -> historical; old infarct (ICD I69.x reviewer xác nhận)"},
   {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'xuất hiện một lần đau ngực vào chiều ngày vào viện'"},

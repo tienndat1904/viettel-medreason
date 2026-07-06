@@ -1,6 +1,6 @@
 [
   {"text": "tái phát u ác trực tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C20"], "occ": 1, "note": "recurrent rectal cancer; mục 'Các bệnh lý mạn tính'"},
-  {"text": "ung thư biểu mô tế bào thận", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C64.1"], "occ": 1, "note": "RCC sau cắt thận phải + tuyến thượng thận"},
+  {"text": "ung thư biểu mô tế bào thận", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C64"], "occ": 1, "note": "RCC sau cắt thận phải + tuyến thượng thận; BYT chỉ có C64 (bỏ laterality CM .1/.2)"},
   {"text": "vancomycin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["11124"], "occ": 1, "note": "Thuốc trước khi nhập viện lần này; RxNorm TODO"},
   {"text": "ceftazidime", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2191"], "occ": 1, "note": "RxNorm TODO"},
   {"text": "amiodarone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["703"], "occ": 1, "note": "RxNorm TODO"},

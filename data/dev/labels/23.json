@@ -4,7 +4,7 @@
   {"text": "Rối loạn lipid máu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"]},
   {"text": "Đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"]},
   {"text": "Cơn rối loạn ý thức thoáng qua", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do vào viện"},
-  {"text": "cơn co giật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R56.9"], "note": "'nghi ngờ cơn co giật'"},
+  {"text": "cơn co giật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R56.8"], "note": "'nghi ngờ cơn co giật'"},
   {"text": "xuất huyết dưới nhện", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I60.9"], "occ": 1, "note": "'~1 tháng trước ... được chẩn đoán xuất huyết dưới nhện'"},
   {"text": "Chụp cắt lớp vi tính sọ não", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "bầm dập nhu mô vùng trán phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "brain contusion (do ngã 1 tháng trước)"},

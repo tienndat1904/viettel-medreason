@@ -16,5 +16,5 @@
   {"text": "test hơi thở h. pylori", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
   {"text": "Nội soi", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "endoscopy (tiền sử thủ thuật)"},
   {"text": "loét thực quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K22.1"], "occ": 1, "note": "'loét thực quản dưới 6 mm có điểm sắc tố'"},
-  {"text": "Viêm thực quản độ C ở thực quản dưới", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K20.9"], "note": "mục 'Các phát hiện chẩn đoán khác'"}
+  {"text": "Viêm thực quản độ C ở thực quản dưới", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K20"], "note": "mục 'Các phát hiện chẩn đoán khác'"}
 ]
