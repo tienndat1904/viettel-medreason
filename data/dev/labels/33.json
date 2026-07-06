@@ -1,7 +1,7 @@
 [
   {"text": "béo phì", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E66.9"], "note": "obesity; mục 'Các bệnh lý mãn tính'"},
   {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "diet-controlled DM; type không ghi -> E11.9 best-effort (KHÔNG chắc type)"},
-  {"text": "ngừng thở khi ngủ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G47.30"], "note": "sleep apnea unspecified"},
+  {"text": "ngừng thở khi ngủ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G47.3"], "note": "sleep apnea unspecified"},
   {"text": "suy tim, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I50.9"], "note": "heart failure unspecified; text bỏ tiền tố 'tiền sử lâm sàng'"},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "dyspnea; label 1 lần (occ1 = Lý do nhập viện); 4 mention cùng nghĩa"},
   {"text": "khó nằm vào ban đêm để ngủ vì thở", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "orthopnea (khó nằm ngủ vì thở)"},

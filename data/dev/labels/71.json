@@ -2,11 +2,11 @@
   {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "occ": 1, "note": "hypertension; mục 'Các bệnh lý mãn tính' (occ2 rơi vào 'Tăng huyết áp phổi')"},
   {"text": "Tăng lipid máu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"], "note": "hyperlipidemia"},
   {"text": "Đái tháo đường típ 2", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "type 2 diabetes"},
-  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "ASCVD; verbatim '...sau CABG' -> chốt core"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "ASCVD; verbatim '...sau CABG' -> chốt core"},
   {"text": "suy tim, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I50.9"], "note": "heart failure unspecified (EF ~50%)"},
   {"text": "hệ số tống máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "ejection fraction (EF)"},
   {"text": "50", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "EF = 50; 'inch' là lỗi dịch của '%'"},
-  {"text": "Tăng huyết áp phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I27.20"], "note": "pulmonary hypertension"},
+  {"text": "Tăng huyết áp phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I27.2"], "note": "pulmonary hypertension"},
   {"text": "lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "furosemide; 'Thuốc trước khi nhập viện: lasix (tăng liều gần đây)' -> historical"},
   {"text": "lasix", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 2, "note": "furosemide; 'điều trị bằng cách tăng liều lasix' tại ED (đợt hiện tại) -> KHÔNG historical"},
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "fatigue"},
@@ -17,5 +17,5 @@
   {"text": "phù", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "edema (bullet riêng '- phù'; occ1/occ3 nằm trong 'sưng phù')"},
   {"text": "Suy tim sung huyết cấp", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I50.9"], "note": "acute CHF; 'đến ED vì...' (đợt cấp hiện tại) -> không historical"},
   {"text": "graft SVG bị tắc", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "occluded SVG graft (finding thông tim); không có ICD-10-CM sạch -> []"},
-  {"text": "Bệnh động mạch vành phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.10"], "note": "RCA disease ('nặng hơn với 60 RPL và 40 mid RCA'); % hẹp cath không tách KQ riêng"}
+  {"text": "Bệnh động mạch vành phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.1"], "note": "RCA disease ('nặng hơn với 60 RPL và 40 mid RCA'); % hẹp cath không tách KQ riêng"}
 ]

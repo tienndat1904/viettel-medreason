@@ -14,7 +14,7 @@
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": []},
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'mệt mỏi' xuất hiện 7 lần (lý do NV / khởi phát / diễn biến / TC hiện tại x2 / dấu hiệu lâm sàng x2)"},
   {"text": "Viêm phổi bệnh viện", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J18.9"], "occ": 1, "note": "HAP; 'Diễn biến bệnh' - biến chứng đợt nhập viện TRƯỚC (đã xuất viện) -> historical"},
-  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.91"], "note": "AF; đợt nhập viện trước (Diễn biến bệnh)"},
+  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.9"], "note": "AF; đợt nhập viện trước (Diễn biến bệnh)"},
   {"text": "nhịp nhanh trên thất", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I47.1"], "occ": 1, "note": "SVT; đợt nhập viện trước"},
   {"text": "hạ huyết áp, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I95.9"], "occ": 1, "note": "'Triệu chứng hiện tại'"},
   {"text": "khó khăn khi ra khỏi giường", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
@@ -41,9 +41,9 @@
   {"text": "26.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []},
   {"text": "28", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "'ổn định ở mức 28 hậu phẫu tuần trước'"},
   {"text": "chụp x-quang ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
-  {"text": "xẹp phổi thùy dưới phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J98.11"], "note": "atelectasis 'do chèn ép'"},
+  {"text": "xẹp phổi thùy dưới phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J98.1"], "note": "atelectasis 'do chèn ép'"},
   {"text": "tràn dịch màng phổi", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J90"], "note": "pleural effusion"},
   {"text": "Viêm phổi bệnh viện", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J18.9"], "occ": 2, "note": "'Các phát hiện chẩn đoán khác' (mục 3, hiện tại)"},
-  {"text": "Rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I48.91"], "note": "'Rung nhĩ kèm nhịp nhanh trên thất' (mục 3, hiện tại); tách AF"},
+  {"text": "Rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I48.9"], "note": "'Rung nhĩ kèm nhịp nhanh trên thất' (mục 3, hiện tại); tách AF"},
   {"text": "nhịp nhanh trên thất", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I47.1"], "occ": 2, "note": "SVT; tách khỏi 'Rung nhĩ kèm...'"}
 ]

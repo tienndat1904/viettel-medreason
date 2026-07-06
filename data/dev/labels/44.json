@@ -1,5 +1,5 @@
 [
-  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.91"], "note": "mục 'Các bệnh lý mạn tính'"},
+  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.9"], "note": "mục 'Các bệnh lý mạn tính'"},
   {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
   {"text": "suy tim, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I50.9"]},
   {"text": "béo phì", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E66.9"]},

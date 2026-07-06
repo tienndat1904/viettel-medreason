@@ -6,7 +6,7 @@
   {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"], "occ": 1, "note": "hyperlipidemia unspecified; bỏ alias lặp trong ngoặc"},
   {"text": "Đái tháo đường type 2", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "T2DM; bỏ alias '(Đái tháo đường típ 2)'"},
   {"text": "bệnh phổi tắc nghẽn mạn tính, không xác định", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J44.9"], "occ": 1, "note": "COPD unspecified; bỏ alias lặp"},
-  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "occ": 1, "note": "ASCVD; bỏ alias lặp; 'sp CABG' là thủ thuật -> không gán"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "occ": 1, "note": "ASCVD; bỏ alias lặp; 'sp CABG' là thủ thuật -> không gán"},
   {"text": "Đột quỵ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I63.9"], "note": "'do Đột quỵ gần đây' (lý do đổi prasugrel->clopidogrel)"},
   {"text": "aspirin 81mg", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "aspirin (acetylsalicylic acid) 81 mg, viên uống; mục 'Thuốc trước khi nhập viện'"},
   {"text": "clopidogrel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "clopidogrel, thuốc trần (không hàm lượng/dạng)"},

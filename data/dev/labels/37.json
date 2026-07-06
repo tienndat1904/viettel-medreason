@@ -1,6 +1,6 @@
 [
   {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
-  {"text": "Đái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.42"], "note": "DM with polyneuropathy"},
+  {"text": "Đái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.4"], "note": "DM with polyneuropathy"},
   {"text": "Suy tim không do thiếu máu cơ tim", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I50.9"], "note": "'(theo chẩn đoán trước đây)' -> historical"},
   {"text": "Bệnh thận mạn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.9"]},
   {"text": "Torsemide", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["38413"], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện'; RxNorm TODO"},

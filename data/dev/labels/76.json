@@ -1,7 +1,7 @@
 [
   {"text": "Đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "DM (không rõ type -> unspecified/type2 mặc định); Các bệnh lý mãn tính"},
   {"text": "tăng lipid máu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"], "note": "hyperlipidemia"},
-  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "CAD"},
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "CAD"},
   {"text": "Nhồi máu cơ tim", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.2"], "note": "old MI (mục bệnh mãn tính) -> I25.2 nhồi máu cũ"},
   {"text": "thử nghiệm gắng sức", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "stress test; 'đã từng âm tính thử nghiệm gắng sức' (âm tính = KQ định tính, không gán; TÊN_XN không có assertion)"},
   {"text": "Thông tim trái", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "left heart catheterization"},

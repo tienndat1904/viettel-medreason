@@ -1,8 +1,8 @@
 [
   {"text": "viêm tủy xương mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["M86.6"], "occ": 1, "note": "chronic osteomyelitis"},
   {"text": "bàng quang thần kinh", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N31.9"], "note": "neurogenic bladder"},
-  {"text": "liệt hai chi dưới", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G82.20"], "note": "paraplegia"},
-  {"text": "loét tì đè giai đoạn IV mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["L89.95"], "note": "stage IV pressure ulcer"},
+  {"text": "liệt hai chi dưới", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G82.2"], "note": "paraplegia"},
+  {"text": "loét tì đè giai đoạn IV mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["L89.9"], "note": "stage IV pressure ulcer"},
   {"text": "nhiễm khuẩn đường tiết niệu tái phát", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N39.0"], "note": "recurrent UTI do sonde tiểu"},
   {"text": "vancozosyn", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "'Đã sử dụng...nhưng hiện tại đang dừng'; RxNorm TODO"},
   {"text": "bactrim", "type": "THUỐC", "assertions": [], "candidates": [], "occ": 1, "note": "'đang dùng bactrim' - reviewer: current vs section 'đã dùng trước đây'; RxNorm TODO"},

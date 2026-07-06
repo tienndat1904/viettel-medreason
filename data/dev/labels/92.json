@@ -1,11 +1,11 @@
 [
   {"text": "Nhiễm trùng đường tiết niệu kháng thuốc", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N39.0"], "note": "drug-resistant UTI; mục 'Bệnh mạn tính'"},
   {"text": "đại tràng giãn", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K59.3"], "occ": 1, "note": "megacolon/dilated colon; 'Lý do nhập viện: theo dõi đại tràng giãn'"},
-  {"text": "tăng bạch cầu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D72.829"], "note": "leukocytosis; 'xét nghiệm máu có tăng bạch cầu'; KHÔNG chắc DX vs bỏ (định tính, không số)"},
+  {"text": "tăng bạch cầu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D72.8"], "note": "leukocytosis; 'xét nghiệm máu có tăng bạch cầu'; KHÔNG chắc DX vs bỏ (định tính, không số)"},
   {"text": "ý thúc chậm hơn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "rối loạn/chậm ý thức (verbatim lỗi 'ý thúc' = ý thức)"},
   {"text": "chụp CT", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'đã chụp CT ở tuyến trước' (chẩn đoán hình ảnh)"},
   {"text": "lơ mơ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Bệnh nhân lơ mơ' (obtundation)"},
-  {"text": "Bạch cầu tăng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D72.829"], "note": "leukocytosis; 'Kết quả xét nghiệm: Bạch cầu tăng'; KHÔNG chắc DX vs bỏ"},
+  {"text": "Bạch cầu tăng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D72.8"], "note": "leukocytosis; 'Kết quả xét nghiệm: Bạch cầu tăng'; KHÔNG chắc DX vs bỏ"},
   {"text": "chụp ct", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'chụp ctchưa phát hiện...' (verbatim dính chữ 'ctchưa')"},
   {"text": "đại tràng giãn", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K59.3"], "occ": 2, "note": "'Các kết quả khác: Theo dõi đại tràng giãn'"}
 ]

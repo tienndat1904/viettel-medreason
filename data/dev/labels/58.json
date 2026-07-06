@@ -1,5 +1,5 @@
 [
-  {"text": "bệnh Graves", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E05.00"], "note": "mục 'Các bệnh lý mạn tính'"},
+  {"text": "bệnh Graves", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E05.0"], "note": "mục 'Các bệnh lý mạn tính'"},
   {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"]},
   {"text": "yếu sức nửa người bên phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện; right hemiparesis"},
   {"text": "tình trạng tri giác giảm sút", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},

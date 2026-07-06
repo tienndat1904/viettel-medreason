@@ -1,6 +1,6 @@
 [
   {"text": "Đái tháo đường típ 2", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "T2DM; mục 'Các bệnh lý mãn tính'"},
-  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "ASCVD; 'đặt stent' theo sau = thủ thuật, KHÔNG gán"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "ASCVD; 'đặt stent' theo sau = thủ thuật, KHÔNG gán"},
   {"text": "Suy tim dãn tâm thu giữ nguyên trương lực", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": [], "note": "suy tim - phrasing lộn xộn (tâm thu vs 'giữ nguyên trương lực'/preserved mâu thuẫn) -> ICD chưa chắc I50.2/I50.3/I50.9"},
   {"text": "đau họng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Lý do nhập viện"},
   {"text": "đau họng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'đau họng kèm theo nuốt vướng'"},

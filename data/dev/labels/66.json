@@ -29,5 +29,5 @@
   {"text": "chụp x-quang bàn chân phải", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "gãy xương", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": [], "note": "'không phát hiện gãy xương'"},
   {"text": "viêm xương tủy", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["M86.9"], "note": "osteomyelitis; negated"},
-  {"text": "huyết khối tĩnh mạch sâu (DVT)", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["I82.409"], "note": "'âm tính với DVT'"}
+  {"text": "huyết khối tĩnh mạch sâu (DVT)", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["I82.4"], "note": "'âm tính với DVT'"}
 ]

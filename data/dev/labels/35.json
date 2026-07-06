@@ -1,9 +1,9 @@
 [
-  {"text": "Bệnh bạch cầu dòng tủy mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C92.10"], "note": "CML; 'đang dùng gleevec'"},
+  {"text": "Bệnh bạch cầu dòng tủy mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C92.1"], "note": "CML; 'đang dùng gleevec'"},
   {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
   {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"]},
   {"text": "Đái tháo đường típ 2", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"]},
-  {"text": "hẹp ống sống", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["M48.06"]},
+  {"text": "hẹp ống sống", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["M48.0"]},
   {"text": "Giả gout", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["M11.9"], "note": "pseudogout"},
   {"text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.4"]},
   {"text": "tăng sản tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N40.0"], "note": "BPH"},

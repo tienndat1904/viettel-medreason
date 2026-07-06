@@ -1,9 +1,9 @@
 [
-  {"text": "hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.909"], "occ": 1, "note": "mục 'Các bệnh mãn tính'"},
+  {"text": "hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.9"], "occ": 1, "note": "mục 'Các bệnh mãn tính'"},
   {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F41.9"]},
   {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "occ": 1, "note": "'tăng huyết áp (tăng huyết áp)'"},
-  {"text": "Táo bón mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K59.00"]},
-  {"text": "ngưng thở khi ngủ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G47.30"]},
+  {"text": "Táo bón mãn tính", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K59.0"]},
+  {"text": "ngưng thở khi ngủ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G47.3"]},
   {"text": "nhịp thở nhanh", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
   {"text": "thiếu oxy", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "hypoxia"},
   {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},

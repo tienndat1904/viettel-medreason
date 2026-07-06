@@ -1,5 +1,5 @@
 [
-  {"text": "bệnh động mạch vành sau can thiệp bắc cầu nối", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "CAD s/p CABG; mục 'Các bệnh lý mãn tính'; best-effort (I25.810 nếu tính riêng graft)"},
+  {"text": "bệnh động mạch vành sau can thiệp bắc cầu nối", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "CAD s/p CABG; mục 'Các bệnh lý mãn tính'; best-effort (I25.810 nếu tính riêng graft)"},
   {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Nhiều lần chụp mạch và can thiệp ... do đau ngực' -> chest pain tiền sử (lý do can thiệp trước đây)"},
   {"text": "đau ngực trái dữ dội lan xuống cánh tay trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện; đợt cấp hiện tại"},
   {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "dyspnea đợt cấp"},

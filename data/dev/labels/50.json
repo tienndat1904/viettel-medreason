@@ -1,6 +1,6 @@
 [
-  {"text": "đợt cấp hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.901"], "note": "'Nhập viện trong quá khứ vì đợt cấp hen suyễn'"},
-  {"text": "hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.909"], "occ": 2, "note": "'Bệnh mạn tính: hen suyễn' (occ1 nằm trong 'đợt cấp hen suyễn')"},
+  {"text": "đợt cấp hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.9"], "note": "'Nhập viện trong quá khứ vì đợt cấp hen suyễn'"},
+  {"text": "hen suyễn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J45.9"], "occ": 2, "note": "'Bệnh mạn tính: hen suyễn' (occ1 nằm trong 'đợt cấp hen suyễn')"},
   {"text": "albuterol nebs q4h tại nhà", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["435"], "note": "Thuốc trước khi nhập viện; RxNorm TODO"},
   {"text": "z-pack", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["18631"], "note": "azithromycin pack; RxNorm TODO"},
   {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'không dung nạp amoxicillin do xuất hiện tiêu chảy'"},

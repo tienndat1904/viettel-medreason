@@ -10,7 +10,7 @@
       "isHistorical"
     ],
     "candidates": [
-      "C92.10"
+      "C92.1"
     ]
   },
   {
@@ -52,7 +52,7 @@
       "isHistorical"
     ],
     "candidates": [
-      "I48.91"
+      "I48.9"
     ]
   },
   {
@@ -150,7 +150,7 @@
       "isHistorical"
     ],
     "candidates": [
-      "A41.01"
+      "A41.0"
     ]
   },
   {
@@ -173,7 +173,7 @@
       "isNegated"
     ],
     "candidates": [
-      "I82.90"
+      "I82.9"
     ]
   },
   {
@@ -194,7 +194,7 @@
     ],
     "assertions": [],
     "candidates": [
-      "I26.99"
+      "I26.9"
     ]
   },
   {
@@ -273,7 +273,7 @@
     ],
     "assertions": [],
     "candidates": [
-      "A41.01"
+      "A41.0"
     ]
   }
 ]

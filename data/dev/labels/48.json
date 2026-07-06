@@ -28,5 +28,5 @@
   {"text": "khó khăn khi ước lượng vị trí ngồi xuống ghế", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
   {"text": "khó khăn khi ăn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
   {"text": "cảm giác bất thường ở bên phải đầu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2},
-  {"text": "xuất huyết dưới màng cứng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I62.00"], "note": "subdural hemorrhage; phát hiện tại BV bên ngoài (hiện tại); không chấn thương -> nontraumatic I62.00 (UNCERTAIN: nếu do ngã -> S06.5)"}
+  {"text": "xuất huyết dưới màng cứng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I62.0"], "note": "subdural hemorrhage; phát hiện tại BV bên ngoài (hiện tại); không chấn thương -> nontraumatic I62.00 (UNCERTAIN: nếu do ngã -> S06.5)"}
 ]

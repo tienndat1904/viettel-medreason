@@ -15,7 +15,7 @@
   {"text": "áp xe", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["L02.9"], "note": "abscess vùng cổ; 'áp xe/viêm khớp nhiễm trùng'"},
   {"text": "viêm khớp nhiễm trùng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["M00.9"], "note": "septic arthritis"},
   {"text": "đau khi vận động cánh tay", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không đau khi vận động cánh tay'"},
-  {"text": "viêm mô tế bào", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["L03.90"], "note": "'Không có dấu hiệu viêm mô tế bào'"},
+  {"text": "viêm mô tế bào", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["L03.9"], "note": "'Không có dấu hiệu viêm mô tế bào'"},
   {"text": "siêu âm vùng cổ phải", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "occ1 = mục diễn biến (không kèm '(scm)')"},
   {"text": "x-quang", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "'x-quang đề nghị mri'"},
   {"text": "mri", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},

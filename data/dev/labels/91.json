@@ -1,7 +1,7 @@
 [
   {"text": "Viêm nội tâm mạc", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I38"], "note": "mục 'Các bệnh lý mãn tính'; endocarditis (có thể I33.9 nếu nhiễm trùng)"},
-  {"text": "rối loạn chức năng tâm thất phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I51.89"], "note": "RV dysfunction; mã không chắc"},
-  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.91"], "note": "atrial fibrillation"},
+  {"text": "rối loạn chức năng tâm thất phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I51.8"], "note": "RV dysfunction; mã không chắc"},
+  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I48.9"], "note": "atrial fibrillation"},
   {"text": "Suy thận mạn giai V", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.5"], "note": "CKD giai đoạn V; đang chạy thận nhân tạo -> thực tế ESRD N18.6"},
   {"text": "coumadin 3.0 mg /ngày", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "mục 'Thuốc trước khi nhập viện'. Chuẩn hóa: warfarin 3 mg đường uống, /ngày (coumadin = warfarin). RxNorm: không đoán"},
   {"text": "heparin truyền tĩnh mạch liên tục", "type": "THUỐC", "assertions": [], "note": "điều trị hiện tại (KHÔNG historical). Chuẩn hóa: heparin, đường tĩnh mạch, truyền liên tục; hàm lượng không ghi. RxNorm: không đoán"},

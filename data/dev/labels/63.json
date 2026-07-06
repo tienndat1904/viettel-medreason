@@ -1,5 +1,5 @@
 [
-  {"text": "Bệnh túi thừa ở cả ruột non và đại tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K57.50"], "note": "diverticulosis cả ruột non+đại tràng, uncomplicated ('chưa có biến chứng thủng/áp xe' -> fold qualifier như ví dụ GERD, KHÔNG tách negated); best-effort"},
+  {"text": "Bệnh túi thừa ở cả ruột non và đại tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K57.5"], "note": "diverticulosis cả ruột non+đại tràng, uncomplicated ('chưa có biến chứng thủng/áp xe' -> fold qualifier như ví dụ GERD, KHÔNG tách negated); best-effort"},
   {"text": "colace", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "colace = docusate (làm mềm phân); 'Thuốc trước khi nhập viện' -> historical; chuẩn hóa: docusate, no dose; RxNorm để P2"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
   {"text": "đau hố chậu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'khởi phát đột ngột đau hố chậu'"},
