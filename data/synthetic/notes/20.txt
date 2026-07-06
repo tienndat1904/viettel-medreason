@@ -1,43 +1,36 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - nhiễm khuẩn đường tiết niệu
+    - viêm phổi
     - gout
-    - trầm cảm
-    - đái tháo đường típ 2
     Thuốc trước khi nhập viện
-    - metformin 500mg q4h
-    - ciprofloxacin 500mg nebs q4h
-    - prednisone q4h
+    - nitroglycerin 0.4mg po daily
+    - albuterol q4h
+    - losartan 100mg nebs q4h
     Tiền sử gia đình
-    - Vợ bệnh nhân có suy giáp
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - Gia đình có tiền sử viêm túi mật cấp
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: gần ngất
+    Lý do nhập viện: phù chi dưới
     Triệu chứng hiện tại
-    - đau thượng vị
-    - khó thở về đêm
-    - ho đờm xanh
-    - tiêu chảy
+    - đau hạ vị
+    - tiếng rít
+    - khó nuốt
+    - đổ mồ hôi qua đêm
+    - hồi hộp
     Các triệu chứng liên quan
-    - âm tính với nghẹt mũi
-    - Phủ nhận sốt
-    Chẩn đoán sơ bộ: tăng calci máu
+    - Không ghi nhận lơ mơ
+    - âm tính với chóng mặt
+    - âm tính với đau bụng
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - wbc: 15,8
-    - hgb15.4
-    - glucose  108
-    - troponin 0.10
-    - alt: 186
-    - lymph% 29,4
-    - neut%  58,3 %
+    - lymph%: 22.9 %
+    - crp 110
+    - inr: 2,5
+    - hgb 7.9
+    - troponin: 0,91
     Chẩn đoán hình ảnh
-    - monitor holter
-    - cấy máu
-    - ecg
+    - mri sọ não
+    - cấy nước tiểu
     Điều trị
-    - morphine 4mg tiêm tĩnh mạch
-    - aspirin iv x2
-    - nitroglycerin 0.4mg
+    - atorvastatin 20mg nebs q4h

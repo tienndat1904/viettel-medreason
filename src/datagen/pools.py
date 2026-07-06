@@ -89,6 +89,21 @@ LABS = [
     ("spo2", "%", 82.0, 100.0, 0),
 ]
 
+# --- xét nghiệm cho KẾT_QUẢ dạng CHỮ (định tính) -> (tên, list kết quả chữ) ---
+# BTC (forum): giá trị chữ "dương tính"/"âm tính"/"bình thường" VẪN lấy làm KẾT_QUẢ_XÉT_NGHIỆM.
+LABS_TEXT = [
+    ("cấy máu", ["âm tính", "dương tính", "không mọc vi khuẩn"]),
+    ("cấy nước tiểu", ["âm tính", "dương tính"]),
+    ("test nhanh cúm", ["âm tính", "dương tính"]),
+    ("xét nghiệm HIV", ["âm tính"]),
+    ("HBsAg", ["âm tính", "dương tính"]),
+    ("protein niệu", ["âm tính", "dương tính", "vết"]),
+    ("hồng cầu niệu", ["âm tính", "dương tính"]),
+    ("khí máu động mạch", ["trong giới hạn bình thường"]),
+    ("soi phân tìm ký sinh trùng", ["âm tính"]),
+    ("test kháng nguyên phế cầu", ["âm tính", "dương tính"]),
+]
+
 # --- TÊN_XÉT_NGHIỆM (hình ảnh / thăm dò, không kèm giá trị số) ---
 IMAGING = [
     "chụp x-quang ngực", "chụp ct sọ não", "chụp ct bụng chậu", "siêu âm ổ bụng",

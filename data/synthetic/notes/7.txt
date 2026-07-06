@@ -1,33 +1,40 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - rung nhĩ
-    - rối loạn lo âu
+    - viêm bể thận
+    - huyết khối tĩnh mạch sâu
+    - béo phì
     Thuốc trước khi nhập viện
-    - amlodipine 5mg iv x2
-    - insulin glargine 100 đơn vị po bid
-    Bệnh nhân tỉnh, tiếp xúc tốt.
+    - omeprazole 40mg
+    - ibuprofen 600mg
+    Tiền sử gia đình
+    - Mẹ bệnh nhân có giãn phế quản
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: chóng mặt
+    Lý do nhập viện: mất ngủ
     Triệu chứng hiện tại
-    - ban đỏ
-    - mất định hướng
-    - ho đờm
+    - chán ăn
+    - ho
+    - ợ hơi
+    - đau đầu
+    - khó thở khi gắng sức
     Các triệu chứng liên quan
-    - Phủ nhận lơ mơ
-    - Không đau thượng vị
-    Chẩn đoán sơ bộ: ung thư phổi
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - Không vã mồ hôi
+    - Không ghi nhận gần ngất
+    - không có ngứa
+    - không có ho khan
+    Chẩn đoán sơ bộ: viêm bể thận
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - kali 6.2
-    - hemoglobin 15,3
-    - lactate 4.9
-    - wbc 17,6
-    - crp: 99
+    - spo2: 84
+    - alt: 82
+    - natri 145
+    - **kali**: 3,6
+    - hba1c: 6.9 %
+    - lymph%: 39.7 %
+    - cấy máu âm tính
     Chẩn đoán hình ảnh
-    - siêu âm tim
-    - điện tâm đồ
+    - cấy máu
     Điều trị
-    - methadone hằng ngày
+    - lisinopril 20mg po qid
+    - amlodipine 10mg

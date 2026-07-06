@@ -1,42 +1,36 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - sỏi mật
-    - đột quỵ nhồi máu não
-    - xơ gan
-    - viêm phổi thùy
+    - suy tim
+    - ung thư đại tràng
+    - đợt cấp hen suyễn
     Thuốc trước khi nhập viện
-    - carvedilol 12.5mg x 1
-    - albuterol nebs po
-    - gabapentin po bid
+    - rosuvastatin q4h
+    - lisinopril 10mg q6h
+    - morphine 2mg iv x2
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: phù chi dưới
+    Lý do nhập viện: đánh trống ngực
     Triệu chứng hiện tại
-    - tiểu buốt
-    - đau thượng vị
+    - mất ngủ
     - đánh trống ngực
+    - mất định hướng
+    - khó thở về đêm
     Các triệu chứng liên quan
-    - Không ghi nhận sốt cao
-    - không có lơ mơ
-    - âm tính với đau khớp
-    Chẩn đoán sơ bộ: viêm mô tế bào
+    - không có mệt mỏi
+    - không có đau đầu dữ dội
+    - không có gần ngất
+    - không có hoa mắt
+    Chẩn đoán sơ bộ: đột quỵ nhồi máu não
     Bệnh nhân được chuyển từ khoa cấp cứu lên khoa nội.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hgb 14.6
-    - **lymph%** 6.2 %
-    - hba1c 7.9 %
-    - kali 5.3
-    - crp 92
-    - spo2: 92 %
-    - ast 385
-    - hemoglobin 15,5
+    - creatinine: 1.7
+    - lymph%: 37,5
+    - hct: 28.3
+    - lactate 1.1
     Chẩn đoán hình ảnh
-    - nội soi dạ dày
-    - chụp x-quang ngực
-    - cấy nước tiểu
+    - siêu âm gan mật
     Điều trị
-    - ciprofloxacin 500mg
-    - omeprazole
-    - metoprolol
+    - amlodipine nebs q4h
+    - spironolactone 50mg

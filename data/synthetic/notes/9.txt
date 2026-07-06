@@ -1,40 +1,42 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - động kinh
-    - **bệnh tim thiếu máu cục bộ**
-    - cường giáp
+    - viêm loét dạ dày
+    - thiếu máu
     Thuốc trước khi nhập viện
-    - prednisone 20mg
-    - losartan 100mg q6h
-    - metformin 1000mg tiêm tĩnh mạch
-    - torsemide hằng ngày
+    - metformin 500mg
+    - clopidogrel
     Tiền sử gia đình
-    - Vợ bệnh nhân có sa sút trí tuệ
-    Người bệnh uống nhiều cà phê mỗi ngày.
+    - Con trai bệnh nhân có bệnh thận mạn
+    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau hạ vị
+    Lý do nhập viện: đánh trống ngực
     Triệu chứng hiện tại
-    - đánh trống ngực
-    - gần ngất
-    - đau khớp
+    - phù hai bên
+    - hoa mắt
+    - phù chi dưới
+    - chán ăn
+    - đau thượng vị
+    - khò khè
     Các triệu chứng liên quan
-    - Không tiêu chảy
-    - không có đau khớp
-    - âm tính với đau vai
-    - Phủ nhận phù chi dưới
-    Chẩn đoán sơ bộ: rối loạn lo âu
-    Mất việc làm cách đây 2 tuần, nhiều căng thẳng.
+    - không có sốt cao
+    - không có ngứa
+    - âm tính với đổ mồ hôi qua đêm
+    Chẩn đoán sơ bộ: bệnh thận mạn
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - bạch cầu (wbc) 19.5
-    - tiểu cầu (plt)330
-    - kali2.9
-    - inr: 3.9
+    - bnp 21403
+    - glucose: 177
+    - alt: 69
+    - creatinine 2,4
+    - neut%: 40,8 %
+    - lymph%36.3 %
+    - crp: 135
+    - spo2: 98 %
     Chẩn đoán hình ảnh
-    - mri sọ não
-    - nội soi dạ dày
-    - chụp x-quang ngực
+    - ecg
+    - tổng phân tích nước tiểu
     Điều trị
-    - gabapentin 300mg
+    - acetaminophen

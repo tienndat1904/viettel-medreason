@@ -1,37 +1,45 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - rối loạn lo âu
-    - xuất huyết dưới nhện
+    - giãn phế quản
+    - viêm phế quản cấp
     Thuốc trước khi nhập viện
-    - methadone 5mg đường uống
+    - pantoprazole 40mg nebs q4h
+    - levothyroxine 100mcg
+    - apixaban 5mg
     - torsemide 10mg
-    Người nhà xin về theo nguyện vọng.
+    Tiền sử gia đình
+    - Bố bệnh nhân có viêm phổi thùy
+    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đổ mồ hôi qua đêm
+    Lý do nhập viện: chán ăn
     Triệu chứng hiện tại
-    - **hoa mắt**
-    - khò khè
-    - khó thở khi gắng sức
-    - mệt mỏi
-    - chóng mặt
+    - phù chi dưới
+    - chảy nước mũi
+    - chán ăn
+    - đau bụng
+    - lơ mơ
     Các triệu chứng liên quan
-    - Không ghi nhận ho đờm
-    - Phủ nhận tiêu chảy
-    Chẩn đoán sơ bộ: **gout**
-    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
+    - âm tính với ban đỏ
+    - không có đánh trống ngực
+    - Không ghi nhận nghẹt mũi
+    Chẩn đoán sơ bộ: nhồi máu cơ tim cấp
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hct 23.3
-    - bnp: 11439
-    - inr 1.0
-    - troponin: 1,23
-    - ast: 43
+    - tiểu cầu (plt) 172
+    - hct 35.6 %
+    - ast: 254
+    - troponin: 1.18
+    - bạch cầu (wbc) 22.8
+    - hemoglobin 7.8
+    - **inr**: 2.7
+    - crp 110
+    - cấy nước tiểu dương tính
+    - cấy máu không mọc vi khuẩn
     Chẩn đoán hình ảnh
-    - chụp x-quang ngực
-    - điện tâm đồ
-    - cấy nước tiểu
+    - monitor holter
     Điều trị
-    - carvedilol po
-    - ceftriaxone 1g nebs q4h
+    - albuterol nebs po bid
+    - azithromycin 500mg q6h
+    - ciprofloxacin 500mg q4h

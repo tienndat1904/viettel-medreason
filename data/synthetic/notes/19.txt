@@ -1,39 +1,44 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - tăng kali máu
-    - sỏi mật
-    - suy giáp
+    - huyết khối tĩnh mạch sâu
+    - tăng lipid máu
+    - viêm mô tế bào
+    - nhồi máu cơ tim cấp
     Thuốc trước khi nhập viện
-    - pantoprazole 40mg
-    - levothyroxine po bid
+    - albuterol iv x2
+    - warfarin
+    - morphine 4mg po qid
+    Tiền sử gia đình
+    - Mẹ bệnh nhân có loét tá tràng
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: mất thăng bằng
+    Lý do nhập viện: vã mồ hôi
     Triệu chứng hiện tại
-    - đau lưng
-    - khó thở
+    - phù hai bên
+    - ớn lạnh
     - chán ăn
-    - ợ chua
-    - tiêu chảy
+    - ngứa
+    - tiểu buốt
     Các triệu chứng liên quan
-    - Phủ nhận đổ mồ hôi qua đêm
-    - Phủ nhận chóng mặt
-    - Không đau ngực
-    Chẩn đoán sơ bộ: đột quỵ nhồi máu não
+    - không có **ban đỏ**
+    - Không chảy nước mũi
+    - Không ghi nhận đau thượng vị
+    Lên lịch tái khám với bác sĩ chuyên khoa vào tuần tới.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - hgb: 15,2
-    - spo2: 90
-    - kali 5,2
-    - glucose 86
-    - bilirubin toàn phần: 3.6
-    - troponin: 1.69
-    - ast: 59
-    - bnp: 4233
+    - spo2 94
+    - **natri**: 130
+    - hct: 47.9 %
+    - hemoglobin: 9.0
+    - lactate: 5,5
+    - lymph% 33.9 %
+    - bnp 22992
+    - bạch cầu (wbc) 24.2
+    - HBsAg âm tính
+    - khí máu động mạch trong giới hạn bình thường
     Chẩn đoán hình ảnh
-    - monitor holter
-    - cấy nước tiểu
-    - nội soi dạ dày
+    - siêu âm ổ bụng
     Điều trị
-    - atenolol 50mg
+    - clopidogrel 75mg iv x2
+    - morphine hằng ngày

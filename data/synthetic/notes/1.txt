@@ -30,7 +30,7 @@
     - alt 218
     - hba1c: 9,8 %
     Chẩn đoán hình ảnh
-    - monitor holter
+    - cấy máu
+    - siêu âm tim
     Điều trị
-    - omeprazole 40mg q6h
-    - lisinopril 20mg po daily
+    - atorvastatin nebs q4h

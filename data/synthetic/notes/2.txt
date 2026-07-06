@@ -1,37 +1,42 @@
 1.  Tiền sử bệnh
     Các bệnh lý mạn tính
-    - thuyên tắc phổi
-    - suy giáp
+    - hen suyễn
+    - rối loạn lo âu
+    - động kinh
     Thuốc trước khi nhập viện
-    - ciprofloxacin q6h
-    - amoxicillin 500mg po daily
-    - rosuvastatin 10mg tiêm tĩnh mạch
+    - spironolactone 50mg
+    - metformin 500mg
+    - tacrolimus 1mg po daily
+    Người nhà xin về theo nguyện vọng.
 
 2.  Bệnh sử hiện tại
-    Lý do nhập viện: đau vai
+    Lý do nhập viện: yếu cơ
     Triệu chứng hiện tại
+    - ợ hơi
+    - buồn nôn
+    - chán ăn
+    - ho
     - khó nuốt
     - tiểu buốt
-    - đau ngực
     Các triệu chứng liên quan
-    - Phủ nhận sốt cao
-    - không có đau ngực
-    - Phủ nhận tiêu chảy
-    - Không ngất xỉu
+    - không có phù chi dưới
+    - Phủ nhận ho
     Chẩn đoán sơ bộ: trầm cảm
-    Bệnh nhân tỉnh, tiếp xúc tốt.
 
 3.  Đánh giá tại bệnh viện
     Kết quả xét nghiệm
-    - bnp: 12225
-    - troponin: 1,61
-    - wbc: 4.7
-    - inr: 2,6
-    - creatinine: 1.5
+    - neut%: 64,4
+    - hct 27,2
+    - ure (bun): 88
+    - tiểu cầu (plt): 429
+    - bnp: 24110
+    - troponin 1.43
+    - wbc 12,9
+    - creatinine  3,8
+    - cấy nước tiểu âm tính
+    - soi phân tìm ký sinh trùng âm tính
     Chẩn đoán hình ảnh
-    - điện tâm đồ
-    - tổng phân tích nước tiểu
-    - siêu âm tim
+    - cấy nước tiểu
+    - siêu âm ổ bụng
     Điều trị
-    - amoxicillin po qid
-    - ibuprofen 600mg đường uống
+    - furosemide 40mg q6h
