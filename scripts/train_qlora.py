@@ -46,15 +46,17 @@ def build_examples(path, tok, max_len, max_samples=0):
             prompt_ids = tok(prompt_text, add_special_tokens=False)["input_ids"]
             full_ids = tok(full_text, add_special_tokens=False)["input_ids"]
             if len(full_ids) > max_len:
-                full_ids = full_ids[:max_len]
+                # BỎ QUA (không cắt): cắt full_ids sẽ mất phần CUỐI = target JSON
+                # -> dạy model xuất JSON cụt. Thà bỏ mẫu dài còn hơn dạy sai.
                 n_trunc += 1
+                continue
             labels = list(full_ids)
             for i in range(min(len(prompt_ids), len(labels))):
                 labels[i] = -100          # chỉ học phần assistant
             examples.append({"input_ids": full_ids, "labels": labels})
     if n_trunc:
-        print(f"[data] {n_trunc} mẫu bị cắt vì > max_len={max_len} "
-              f"(cân nhắc tăng max_len hoặc note ngắn hơn)")
+        print(f"[data] BỎ QUA {n_trunc} mẫu > max_len={max_len} (giữ {len(examples)} mẫu hoàn chỉnh). "
+              f"Nếu bỏ quá nhiều -> tăng --max-len (vd 2048) để giữ thêm mẫu.")
     return examples
 
 
