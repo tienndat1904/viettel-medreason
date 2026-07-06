@@ -6,7 +6,7 @@ v0 lexical (không GPU): từ điển đồng nghĩa + fuzzy cho ICD; parse + kh
 Backend 'semantic' (bge-m3 + reranker) sẽ bổ sung ở v1.
 """
 from __future__ import annotations
-import os
+import os, re
 
 from drug_parser import load_brand_map
 from icd_match import IcdMatcher, load_synonyms
@@ -20,11 +20,20 @@ def _first_existing(*paths):
     return None
 
 
+def _who4(code: str) -> str:
+    """Rút mã ICD-10-CM về granularity WHO/BYT (tối đa 4 ký tự): I25.10 -> I25.1, S72.00 -> S72.0.
+    Bằng chứng leaderboard (probe #10): BTC chấm ở mức 4 ký tự, mã CM 5+ ký tự bị scoring 0
+    (J_candidates 19.22 -> 20.72). Mã <=4 ký tự giữ nguyên."""
+    d = re.sub(r"[^A-Za-z0-9]", "", str(code))[:4]
+    return d if len(d) <= 3 else d[:3] + "." + d[3:]
+
+
 class Linker:
     def __init__(self, cfg: dict):
         self.cfg = cfg
         L = cfg.get("linking", {})
         self.backend = L.get("backend", "lexical")
+        self._icd_who = L.get("icd_who_truncate", False)   # True -> rút mã ICD về 4 ký tự (WHO/BYT)
         self._icd = None
         self._rx = None
         self.ready = False
@@ -75,7 +84,15 @@ class Linker:
 
     # ---- API (hợp đồng cố định) ----
     def link_diagnosis(self, text: str, context: str = "") -> list[str]:
-        return self._icd.match(text, context) if self._icd else []
+        codes = self._icd.match(text, context) if self._icd else []
+        if not (self._icd_who and codes):
+            return codes
+        seen, out = set(), []                              # rút về 4 ký tự (WHO/BYT) + khử trùng
+        for c in (_who4(c) for c in codes):
+            if c not in seen:
+                seen.add(c)
+                out.append(c)
+        return out
 
     def link_drug(self, text: str, context: str = "") -> list[str]:
         return self._rx.match(text, context) if self._rx else []

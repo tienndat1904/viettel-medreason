@@ -1,0 +1,157 @@
+[
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      109,
+      121
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K81.9"
+    ]
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "position": [
+      161,
+      172
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      303,
+      323
+    ],
+    "assertions": []
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      359,
+      388
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K81.9"
+    ]
+  },
+  {
+    "text": "bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      436,
+      501
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K57.9"
+    ]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      582,
+      590
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ vị bên phải và hạ vị bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      662,
+      703
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng ở vùng bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      741,
+      766
+    ],
+    "assertions": []
+  },
+  {
+    "text": "táo bón trở nên tồi tệ hơn gần đây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      912
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      936
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      961
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      974,
+      983
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      1003
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1037,
+      1043
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  }
+]

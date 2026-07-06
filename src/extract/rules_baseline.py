@@ -14,6 +14,7 @@ import os, re
 SYMPTOMS = [
     # cụm dài để TRƯỚC (khớp ưu tiên khi quét theo thứ tự)
     "khó thở khi gắng sức", "cảm giác thắt chặt ngực", "khó chịu vùng ngực",
+    "giảm dung nạp gắng sức", "sợ ánh sáng", "khô âm đạo", "thiếu oxy",
     "đau thượng vị", "đánh trống ngực", "nôn ra máu", "phù hai bên", "ăn uống kém",
     "vã mồ hôi", "đổ mồ hôi", "mất ý thức", "ngất xỉu", "chóng mặt", "mệt mỏi",
     "khó thở", "đau ngực", "đau bụng", "đau đầu", "đau lưng", "đau khớp", "đau cơ",
@@ -38,11 +39,19 @@ LAB_NAMES = [
     "wbc", "ast", "alt", "troponin", "cea", "creatinine", "bilirubin toàn phần",
     "bilirubin", "spo2", "canxi", "canci", "hgb", "hct", "plt", "neut", "lyph",
     "bạch cầu", "phosphatase kiềm", "kali", "natri", "lactate", "lymphocyte",
+    "amylase", "lipase",
     "glucose", "hba1c", "ure", "crp", "inr", "bnp", "alp", "albumin", "ferritin",
     "procalcitonin", "d-dimer", "cholesterol", "triglyceride",
 ]
 
-_num = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*%|\s*[a-zA-Z/]+)?")
+# số + đơn vị kết quả hợp lệ (gộp vào text): %, °C, range, nồng độ...
+_RESULT_UNIT = (r"(?:\s*(?:%|°?[cCfF]\b|mmol/l|mg/dl|ng/ml|ng/dl|ng|g/l|meq/l|"
+                r"mm[hH]g|bpm|mm|cm|/min|x?10\^?\d*|[kK]/[uµ]l|[gG]/[dD][lL]))?")
+_num = re.compile(r"(?<![\w.])(\d[\d.,]*(?:\s*[-x×]\s*\d[\d.,]*)?)" + _RESULT_UNIT)
+# số theo sau bởi đơn vị THỜI GIAN/LIỀU -> không phải kết quả xét nghiệm
+_DUR_AFTER = re.compile(r"^\s*(tu[aầ]n|ngày|ngay|tháng|thang|năm|nam|giờ|gio|phút|phut|"
+                        r"tuổi|tuoi|lần|lan|viên|vien|gói|goi|mg|ml|mcg|g)\b", re.I)
+_RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm")
 
 # ---- đường dẫn KB mặc định (khớp configs/config.yaml) ----
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -53,7 +62,10 @@ _BRANDS = [os.path.join(_ROOT, "data/kb/synonyms/drug_brands_auto.tsv"),
 
 # hoạt chất là từ tiếng Anh phổ thông -> bỏ để tránh dương tính giả
 _DRUG_STOP = {"water", "oxygen", "air", "alcohol", "iron", "zinc", "gold", "lead",
-              "salt", "tar", "coal", "honey", "starch", "sugar", "nicotine", "caffeine"}
+              "salt", "tar", "coal", "honey", "starch", "sugar", "nicotine", "caffeine",
+              # enzyme/acid amin = xét nghiệm, KHÔNG phải thuốc (tránh type-confusion)
+              "amylase", "lipase", "aspartate", "alanine", "phosphatase", "globulin",
+              "aminotransferase", "creatine", "lactate", "albumin"}
 # cụm hay theo sau "chẩn đoán" nhưng không phải tên bệnh
 _DX_STOP = {"khác", "hình ảnh", "sơ bộ", "phân biệt", "xác định", "ban đầu",
             "cuối cùng", "chính", "kèm theo", "và điều trị"}
@@ -155,13 +167,22 @@ def extract(text: str) -> list[dict]:
             found.append({"text": text[m.start():m.end()], "type": "TÊN_XÉT_NGHIỆM",
                           "assertions": []})
 
-    # kết quả xét nghiệm (số) — chỉ lấy số đứng gần từ khóa xét nghiệm/kết quả
+    # kết quả xét nghiệm (số): gần tên xét nghiệm / dấu ":" / cue kết quả,
+    # loại số theo sau bởi đơn vị thời gian/liều (3 tuần, 325 mg).
     for m in _num.finditer(text):
-        ctx = low[max(0, m.start() - 25):m.start()]
-        if any(k in ctx for k in ["là ", "wbc", "troponin", "canxi", "ast",
-                                   "alt", "cr ", "cea", ": ", "spo2", "bilirubin"]):
-            found.append({"text": text[m.start():m.end()],
-                          "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
+        raw = m.group(1)
+        # bỏ số thứ tự liệt kê "2.", "3." (toàn match là 1-2 chữ số + dấu chấm, không phải kết quả)
+        if re.fullmatch(r"\d{1,2}\.", raw):
+            continue
+        has_unit = bool(m.group(0)[len(raw):].strip())
+        after = low[m.end():m.end() + 10]
+        if not has_unit and _DUR_AFTER.match(after):
+            continue
+        pre = low[max(0, m.start() - 28):m.start()]
+        if any(k in pre for k in _RESULT_CUE) or any(ln in pre for ln in LAB_NAMES):
+            txt = text[m.start():m.end()].strip().strip(",.;")   # bỏ dấu câu đuôi: "99," -> "99"
+            if txt:
+                found.append({"text": txt, "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
 
     # thuốc + chẩn đoán (gazetteer từ KB) — để linking P2 chạy
     gz = _load_gazetteers()
