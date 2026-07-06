@@ -2,8 +2,17 @@
 
 QUAN TRỌNG: KHÔNG bao giờ tin offset do LLM sinh ra. LLM chỉ trả `text`,
 module này tự dò offset trong input gốc:
-  1) khớp exact, ưu tiên occurrence chưa dùng, quét trái→phải theo thứ tự;
+  1) khớp exact, MỌI occurrence chưa dùng, quét trái→phải theo thứ tự;
   2) fallback: khớp linh hoạt (bỏ qua khác biệt khoảng trắng / hoa-thường / '**').
+
+MỖI occurrence (mỗi lần xuất hiện) sinh 1 concept riêng với position riêng —
+BTC yêu cầu trích MỌI lần xuất hiện. Đường LLM dedup {text,type} về 1 mention;
+expand ở đây để không mất occurrence lặp. Đường rule vốn emit N span cho N
+occurrence: span đầu đã "nuốt" hết occurrence, các span sau tìm thấy đều 'used'
+-> KHÔNG nhân đôi. Assertion tính lại per-position ở annotate() nên vẫn đúng.
+
+Chỉ nhận match có RANH GIỚI TỪ (ký tự kề không phải chữ-số) để span ngắn
+('ho', 'sốt') không nổ substring ('hoặc', 'sốt ruột'...).
 """
 from __future__ import annotations
 import re
@@ -19,49 +28,55 @@ def _flexible_pattern(span: str) -> re.Pattern:
     return re.compile(pat, re.IGNORECASE)
 
 
+def _word_bounded(text: str, s: int, e: int) -> bool:
+    """True nếu [s,e] không dính vào chữ-số kề bên (tránh khớp substring giữa từ)."""
+    before_ok = s == 0 or not text[s - 1].isalnum()
+    after_ok = e >= len(text) or not text[e].isalnum()
+    return before_ok and after_ok
+
+
 def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
-    """Trả về danh sách concept có thêm khóa 'position'; bỏ span không tìm thấy."""
+    """Trả về danh sách concept có thêm khóa 'position'; bỏ span không tìm thấy.
+
+    Mỗi occurrence chưa dùng của một span -> 1 concept (giữ MỌI lần xuất hiện)."""
     used: list[tuple[int, int]] = []
 
     def overlaps(s, e):
         return any(not (e <= us or s >= ue) for us, ue in used)
+
+    def _emit(sp, out, s, e):
+        used.append((s, e))
+        concept = dict(sp)
+        concept["text"] = text[s:e]
+        concept["position"] = [s, e]
+        out.append(concept)
 
     out = []
     for sp in spans:
         raw = (sp.get("text") or "").strip()
         if not raw:
             continue
-        start = end = None
 
-        # 1) exact match, occurrence chưa dùng, tính từ trái
+        # 1) exact match — MỌI occurrence chưa dùng, có ranh giới từ
+        n = 0
         idx = 0
         while True:
             i = text.find(raw, idx)
             if i < 0:
                 break
-            if not overlaps(i, i + len(raw)):
-                start, end = i, i + len(raw)
-                break
+            j = i + len(raw)
+            if _word_bounded(text, i, j) and not overlaps(i, j):
+                _emit(sp, out, i, j)
+                n += 1
             idx = i + 1
 
-        # 2) fallback linh hoạt
-        if start is None:
-            pat = _flexible_pattern(raw)
-            for m in pat.finditer(text):
-                if not overlaps(m.start(), m.end()):
-                    start, end = m.start(), m.end()
-                    # cập nhật text về đúng chuỗi gốc trong input
-                    raw = text[start:end]
-                    break
+        # 2) fallback linh hoạt — chỉ khi KHÔNG có exact nào; cũng lấy mọi occurrence
+        if n == 0:
+            for m in _flexible_pattern(raw).finditer(text):
+                if _word_bounded(text, m.start(), m.end()) and not overlaps(m.start(), m.end()):
+                    _emit(sp, out, m.start(), m.end())
 
-        if start is None:
-            continue  # không định vị được → bỏ (validator sẽ không nhận span thiếu vị trí)
-
-        used.append((start, end))
-        concept = dict(sp)
-        concept["text"] = text[start:end]
-        concept["position"] = [start, end]
-        out.append(concept)
+        # không định vị được -> bỏ (validator sẽ không nhận span thiếu vị trí)
 
     # sắp theo vị trí xuất hiện cho gọn
     out.sort(key=lambda c: c["position"][0])
