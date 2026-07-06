@@ -1,5 +1,5 @@
 [
   {"text": "xuất huyết nội sọ không do chấn thương, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I62.9"], "occ": 1, "note": "nontraumatic intracranial hemorrhage, unspecified; 'không do chấn thương/không đặc hiệu' là 1 phần TÊN bệnh, KHÔNG phải phủ định"},
   {"text": "xuất huyết nội sọ không do chấn thương, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I62.9"], "occ": 2},
-  {"text": "yếu tố IX đậm đặc", "type": "THUỐC", "assertions": [], "candidates": [], "note": "factor IX concentrate (chế phẩm/thuốc) trong 'Truyền dịch yếu tố IX đậm đặc'; RxNorm TODO. 'Điều trị chống đông' là nhóm điều trị chung -> bỏ"}
+  {"text": "yếu tố IX đậm đặc", "type": "THUỐC", "assertions": [], "candidates": ["4249"], "note": "factor IX concentrate (chế phẩm/thuốc) trong 'Truyền dịch yếu tố IX đậm đặc'; factor IX concentrate -> IN factor IX (alt 1670383 factor IX complex)"}
 ]

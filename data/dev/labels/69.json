@@ -1,0 +1,12 @@
+[
+  {"text": "ung thư biểu mô tế bào thận", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C64"], "occ": 1, "note": "RCC (đã cắt thận trái); BYT chỉ có C64 (bỏ laterality CM)"},
+  {"text": "ung thư biểu mô tuyến giật nhú", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C73"], "occ": 1, "note": "papillary thyroid carcinoma (typo 'giật'=giáp); đã cắt tuyến giáp"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1},
+  {"text": "thiếu máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D64.9"], "occ": 1, "note": "anemia"},
+  {"text": "phân có guaiac dương tính", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "guaiac-positive stool (occult blood)"},
+  {"text": "Nội soi đại tràng", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
+  {"text": "khối ở chỗ uốn gan", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "occ": 1, "note": "mass at hepatic flexure; ICD reviewer (C18.3?)"},
+  {"text": "ung thư biểu mô tuyến", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["C18.9"], "occ": 1, "note": "adenocarcinoma trên sinh thiết (đại tràng)"},
+  {"text": "sinh thiết", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1},
+  {"text": "chụp cắt lớp vi tính ổ bụng", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CT bụng năm ngoái"}
+]

@@ -1,0 +1,6 @@
+[
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Lý do nhập viện"},
+  {"text": "đau quanh vết mổ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "Lý do nhập viện; đau quanh vết mổ = triệu chứng"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'"},
+  {"text": "đau quanh vết mổ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'"}
+]

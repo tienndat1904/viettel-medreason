@@ -1,0 +1,7 @@
+[
+  {"text": "giọng khàn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "hoarseness; 'Lý do khám bệnh'"},
+  {"text": "tổn thương dây thanh quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J38.3"], "occ": 1, "note": "vocal cord lesion; 'giọng khàn do tổn thương dây thanh quản'; KHÔNG chắc DX vs TC"},
+  {"text": "giọng khàn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'"},
+  {"text": "tổn thương dây thanh quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J38.3"], "occ": 2, "note": "'tổn thương dây thanh quản thật sự' (bỏ hậu tố 'thật sự')"},
+  {"text": "tổn thương dây thanh quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J38.3"], "occ": 3, "note": "'nạo vét tổn thương dây thanh quản' (mục thủ thuật)"}
+]

@@ -24,7 +24,7 @@
       "isHistorical"
     ],
     "candidates": [
-      "E11.42"
+      "E11.6"
     ]
   },
   {
@@ -93,7 +93,9 @@
     "assertions": [
       "isHistorical"
     ],
-    "candidates": []
+    "candidates": [
+      "6057"
+    ]
   },
   {
     "text": "Rosuvastatin (Crestor)",
@@ -329,7 +331,9 @@
       1687
     ],
     "assertions": [],
-    "candidates": []
+    "candidates": [
+      "253182"
+    ]
   },
   {
     "text": "dextrose",

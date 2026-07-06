@@ -1,0 +1,18 @@
+[
+  {"text": "đau đầu gối", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "note": "đau khớp gối; mục 1 Tiền sử, lý do dùng NSAID trước đây"},
+  {"text": "NSAID", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "nhóm NSAID (không phải thuốc cụ thể) — borderline theo guide; 'đã ngừng' nhưng đã dùng -> KHÔNG negated; chuẩn hóa: NSAID class, no dose; RxNorm để P2"},
+  {"text": "omeprazole", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["7646"], "occ": 1, "note": "PPI; mục 'tiền sử dụng thuốc' -> historical; chuẩn hóa: omeprazole (hoạt chất), no dose/dạng; RxNorm để P2 (mức IN)"},
+  {"text": "đau bụng vùng hạ sườn phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện; RUQ pain (biến thể prose 'đau vùng hạ sườn phải' bỏ trùng)"},
+  {"text": "chướng bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "abdominal distension (nhiều lần nhắc -> gộp 1)"},
+  {"text": "buồn nôn thoáng qua", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "transient nausea"},
+  {"text": "nôn ói", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Bệnh nhân không ghi nhận nôn ói'"},
+  {"text": "Nôn mửa", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "MÂU THUẪN: liệt kê trong 'Các triệu chứng hiện tại' (khẳng định) nhưng prose 'không nôn'/'không ghi nhận nôn ói'; reviewer xác nhận"},
+  {"text": "đau lưng kéo dài", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'tiền sử đau lưng kéo dài từ lâu' -> historical"},
+  {"text": "đau lưng âm ỉ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "mục 'Các triệu chứng hiện tại'"},
+  {"text": "viêm dạ dày", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K29.7"], "occ": 1, "note": "gastritis (kết quả nội soi); best-effort ICD"},
+  {"text": "sỏi đoạn cuối ống mật chủ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K80.5"], "occ": 1, "note": "choledocholithiasis (sỏi CBD đoạn cuối); best-effort (biến thể 'sỏi ống dẫn mật chung đoạn cuối' bỏ trùng)"},
+  {"text": "men gan tăng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["R74.0"], "note": "tăng men gan/transaminitis; KHÔNG có số -> không phải KQ; DX best-effort, reviewer xác nhận (vs bỏ)"},
+  {"text": "nội soi thực quản - dạ dày - tá tràng", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "EGD; dùng chẩn đoán -> TXN (biến thể chữ hoa dòng khác bỏ trùng)"},
+  {"text": "Xét nghiệm chức năng gan", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "LFT panel"},
+  {"text": "Chụp cộng hưởng từ mật tụy", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "MRCP (biến thể 'Cộng hưởng từ mật tụy'/'chụp...' bỏ trùng); ERCP là thủ thuật -> KHÔNG gán"}
+]

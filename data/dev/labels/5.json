@@ -1,5 +1,5 @@
 [
-  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.10"], "note": "ASCVD; mục 'Các bệnh lý mạn tính'"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "ASCVD; mục 'Các bệnh lý mạn tính'"},
   {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
   {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"], "note": "hyperlipidemia unspecified"},
   {"text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K21.9"], "note": "GERD without esophagitis (verbatim: 'dạ dày-' không có dấu cách)"},
@@ -30,7 +30,7 @@
   {"text": "Siêu âm gan mật", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
   {"text": "giãn đường mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K83.8"], "note": "biliary dilation"},
   {"text": "tắc nghẽn đường mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K83.1"], "note": "biliary obstruction"},
-  {"text": "levophed", "type": "THUỐC", "assertions": [], "candidates": ["7512"], "note": "norepinephrine (brand); RxNorm TODO"},
-  {"text": "propofol", "type": "THUỐC", "assertions": [], "candidates": ["8782"], "note": "'propofol để an thần'; RxNorm TODO"},
-  {"text": "phentolamine", "type": "THUỐC", "assertions": [], "candidates": ["8153"], "note": "'Đã đặt phentolamine'; RxNorm TODO"}
+  {"text": "levophed", "type": "THUỐC", "assertions": [], "candidates": ["7512"], "note": "norepinephrine (brand)"},
+  {"text": "propofol", "type": "THUỐC", "assertions": [], "candidates": ["8782"], "note": "'propofol để an thần'"},
+  {"text": "phentolamine", "type": "THUỐC", "assertions": [], "candidates": ["8153"], "note": "'Đã đặt phentolamine'"}
 ]

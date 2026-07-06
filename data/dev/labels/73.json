@@ -1,0 +1,23 @@
+[
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực'"},
+  {"text": "Nhồi máu cơ tim", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated", "isHistorical"], "candidates": ["I21.9"], "note": "'loại trừ Nhồi máu cơ tim' (ruled out) trong đợt nhập viện trước"},
+  {"text": "Hội chứng mạch vành cấp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I24.9"], "note": "ACS; 'nghi ngờ thấp' (uncertainty, không coi negated); mã không đơn nhất - reviewer xác nhận"},
+  {"text": "tăng huyết áp vô căn (nguyên phát)", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "essential HTN; mục 'Các bệnh lý mãn tính'; bỏ alias '(Tăng huyết áp)'"},
+  {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E78.5"], "occ": 1, "note": "hyperlipidemia unspecified; bỏ alias lặp trong ngoặc"},
+  {"text": "Đái tháo đường type 2", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "T2DM; bỏ alias '(Đái tháo đường típ 2)'"},
+  {"text": "bệnh phổi tắc nghẽn mạn tính, không xác định", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J44.9"], "occ": 1, "note": "COPD unspecified; bỏ alias lặp"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "occ": 1, "note": "ASCVD; bỏ alias lặp; 'sp CABG' là thủ thuật -> không gán"},
+  {"text": "Đột quỵ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I63.9"], "note": "'do Đột quỵ gần đây' (lý do đổi prasugrel->clopidogrel)"},
+  {"text": "aspirin 81mg", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["243670"], "note": "aspirin (acetylsalicylic acid) 81 mg, viên uống; mục 'Thuốc trước khi nhập viện'"},
+  {"text": "clopidogrel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["32968"], "occ": 1, "note": "clopidogrel, thuốc trần (không hàm lượng/dạng)"},
+  {"text": "prasugrel", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["613391"], "note": "prasugrel, thuốc trần; đã đổi sang clopidogrel -> thuốc đã dùng, KHÔNG negated"},
+  {"text": "metoprolol succinate 100mg daily", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["866412"], "note": "metoprolol succinate 100 mg, uống, 1 lần/ngày (dạng phóng thích kéo dài)"},
+  {"text": "lasix 40mg daily", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["313988"], "note": "furosemide (Lasix) 40 mg, uống, 1 lần/ngày"},
+  {"text": "atorvastatin 80mg daily", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["259255"], "note": "atorvastatin 80 mg, uống, 1 lần/ngày"},
+  {"text": "lisinopril 2.5mg daily", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["311353"], "note": "lisinopril 2.5 mg, uống, 1 lần/ngày"},
+  {"text": "ranexa 500mg daily", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["616749"], "note": "ranolazine (Ranexa) 500 mg, uống, 1 lần/ngày (phóng thích kéo dài)"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 5, "note": "'Triệu chứng hiện tại: đau ngực' (present); gộp các lần present khác (occ3/4)"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 6, "note": "'Không có đau ngực, khó thở, đánh trống ngực'"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có ... khó thở'"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có ... đánh trống ngực'"}
+]

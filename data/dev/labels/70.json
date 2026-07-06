@@ -9,7 +9,7 @@
   {"text": "tăng bilirubin máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "occ": 1, "note": "hyperbilirubinemia; ICD chưa chắc (E80.6/R17)"},
   {"text": "tăng bilirubin máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "occ": 2},
   {"text": "tăng bilirubin máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "occ": 3},
-  {"text": "sỏi mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K80.20", "K80"], "note": "cholelithiasis; 'đã tống ra một viên sỏi mật'"},
+  {"text": "sỏi mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K80.2", "K80"], "note": "cholelithiasis; 'đã tống ra một viên sỏi mật'"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "candidates": [], "occ": 1, "note": "lý do nhập viện"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "candidates": [], "occ": 2, "note": "'Tiền sử 2 ngày ...'"},
   {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "candidates": [], "occ": 3, "note": "'Tiền sử 2 tháng ...'"},

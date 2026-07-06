@@ -1,0 +1,116 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      21,
+      23
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      107,
+      110
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng quặn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      126,
+      139
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      142,
+      151
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      162,
+      177
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không tăng cân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      180,
+      200
+    ],
+    "assertions": []
+  },
+  {
+    "text": "cea (kháng nguyên ung thư phôi)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      247,
+      278
+    ],
+    "assertions": []
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      292,
+      295
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mri vùng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      325,
+      338
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      402,
+      409
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      625,
+      642
+    ],
+    "assertions": [],
+    "candidates": [
+      "C20"
+    ]
+  },
+  {
+    "text": "u tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      718,
+      725
+    ],
+    "assertions": [],
+    "candidates": [
+      "D12.8"
+    ]
+  }
+]

@@ -1,0 +1,375 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      54,
+      68
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      88
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      102
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "ngưng thở khi ngủ do tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      109,
+      139
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      176,
+      183
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "161"
+    ]
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      190,
+      199
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      302,
+      311
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      407,
+      409
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      416,
+      426
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      469
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      476,
+      483
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      490,
+      497
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      504,
+      507
+    ],
+    "assertions": []
+  },
+  {
+    "text": "101",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      516,
+      519
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      539,
+      548
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đi tiểu nhiều lần vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      576,
+      605
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau buốt khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      616,
+      636
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      906,
+      914
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      930,
+      938
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      939,
+      942
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đổ mồ hôi đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      971
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      987,
+      1002
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "khó thở khi nằm đột ngột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1018,
+      1042
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1175,
+      1188
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "J47"
+    ]
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      1207,
+      1219
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1361,
+      1365
+    ],
+    "assertions": []
+  },
+  {
+    "text": "90-92%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1369,
+      1375
+    ],
+    "assertions": []
+  },
+  {
+    "text": "93%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1399,
+      1402
+    ],
+    "assertions": []
+  },
+  {
+    "text": "số lượng bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1532,
+      1549
+    ],
+    "assertions": []
+  },
+  {
+    "text": "12.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1553,
+      1557
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1564,
+      1588
+    ],
+    "assertions": []
+  },
+  {
+    "text": "protein niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1614,
+      1626
+    ],
+    "assertions": [],
+    "candidates": [
+      "R80"
+    ]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1636,
+      1644
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1688,
+      1705
+    ],
+    "assertions": []
+  },
+  {
+    "text": "viêm phổi thùy dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1718,
+      1742
+    ],
+    "assertions": [],
+    "candidates": [
+      "J18.1"
+    ]
+  }
+]

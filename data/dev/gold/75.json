@@ -1,0 +1,168 @@
+[
+  {
+    "text": "bệnh động mạch vành sau can thiệp bắc cầu nối",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      93
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      145,
+      153
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau ngực trái dữ dội lan xuống cánh tay trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      640,
+      684
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      786,
+      799
+    ],
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      885,
+      892
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1083,
+      1092
+    ],
+    "assertions": []
+  },
+  {
+    "text": "điện tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1154,
+      1162
+    ],
+    "assertions": []
+  },
+  {
+    "text": "aspirin",
+    "type": "THUỐC",
+    "position": [
+      1226,
+      1233
+    ],
+    "assertions": [],
+    "candidates": [
+      "1191"
+    ]
+  },
+  {
+    "text": "mỡ nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      1318,
+      1334
+    ],
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  },
+  {
+    "text": "ativan",
+    "type": "THUỐC",
+    "position": [
+      1342,
+      1348
+    ],
+    "assertions": [],
+    "candidates": [
+      "6470"
+    ]
+  },
+  {
+    "text": "lovenox",
+    "type": "THUỐC",
+    "position": [
+      1368,
+      1375
+    ],
+    "assertions": [],
+    "candidates": [
+      "67108"
+    ]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1603,
+      1611
+    ],
+    "assertions": []
+  },
+  {
+    "text": "0.10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1615,
+      1619
+    ],
+    "assertions": []
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1657,
+      1668
+    ],
+    "assertions": []
+  },
+  {
+    "text": "91",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1707,
+      1709
+    ],
+    "assertions": []
+  },
+  {
+    "text": "EKG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1812,
+      1815
+    ],
+    "assertions": []
+  }
+]

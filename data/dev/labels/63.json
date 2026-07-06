@@ -1,0 +1,19 @@
+[
+  {"text": "Bệnh túi thừa ở cả ruột non và đại tràng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["K57.5"], "note": "diverticulosis cả ruột non+đại tràng, uncomplicated ('chưa có biến chứng thủng/áp xe' -> fold qualifier như ví dụ GERD, KHÔNG tách negated); best-effort"},
+  {"text": "colace", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["82003"], "note": "colace = docusate (làm mềm phân); 'Thuốc trước khi nhập viện' -> historical; chuẩn hóa: docusate, no dose; RxNorm để P2"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "lý do nhập viện"},
+  {"text": "đau hố chậu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'khởi phát đột ngột đau hố chậu'"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "constipation"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "nausea"},
+  {"text": "tylenol", "type": "THUỐC", "assertions": [], "candidates": ["161"], "occ": 1, "note": "tylenol = acetaminophen; dùng cho đau đợt hiện tại (đã dùng -> KHÔNG negated); chuẩn hóa: acetaminophen, no dose; RxNorm để P2"},
+  {"text": "97.8", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhiệt độ T97.8 (°F)"},
+  {"text": "84", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhịp tim 84 (vital)"},
+  {"text": "15670", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "huyết áp 156/70 viết liền (vital)"},
+  {"text": "20", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "nhịp thở 20 (vital)"},
+  {"text": "99", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "SpO2 99 khi thở khí trời (vital)"},
+  {"text": "thiếu máu hồng cầu nhỏ", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D50.9"], "note": "microcytic anemia; best-effort (thường do thiếu sắt; D64.9 nếu chỉ 'anemia'); reviewer"},
+  {"text": "27.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "'thiếu máu hồng cầu nhỏ là 27.2' (có thể Hct/Hgb)"},
+  {"text": "bun/creatinine", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "BUN/Creatinine (chỉ định, không kèm giá trị)"},
+  {"text": "chụp ct bụng, chậu, không thuốc cản quang", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CT bụng-chậu không cản quang"},
+  {"text": "viêm túi mật cấp tính không biến chứng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K81.0"], "occ": 1, "note": "text ghi 'túi mật'=cholecystitis (K81.0) NHƯNG CT mô tả quanh đại tràng sigma + tiền sử túi thừa -> nhiều khả năng viêm túi thừa cấp (K57.32); reviewer xác nhận"}
+]

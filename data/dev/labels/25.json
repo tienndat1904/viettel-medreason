@@ -1,0 +1,5 @@
+[
+  {"text": "tách thành động mạch chủ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I71.0"], "occ": 1, "note": "aortic dissection; Bệnh lý mãn tính"},
+  {"text": "liệt hai chân", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G82.2"], "note": "paraplegia (biến chứng)"},
+  {"text": "Rò động - tĩnh mạch đùi phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I77.0"], "note": "iatrogenic femoral AV fistula (hiện tăng kích thước)"}
+]

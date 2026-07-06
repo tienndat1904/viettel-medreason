@@ -1,0 +1,169 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "position": [
+      59,
+      64
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      88
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      353
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      376
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      404,
+      410
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      442,
+      458
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      871,
+      897
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1057,
+      1064
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1085,
+      1098
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nội soi thực quản - dạ dày - tá tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1467,
+      1504
+    ],
+    "assertions": []
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1533,
+      1544
+    ],
+    "assertions": [],
+    "candidates": [
+      "K29.7"
+    ]
+  },
+  {
+    "text": "Chụp cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1608,
+      1634
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1645,
+      1670
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.5"
+    ]
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1672,
+      1696
+    ],
+    "assertions": []
+  },
+  {
+    "text": "men gan tăng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1706,
+      1718
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  }
+]

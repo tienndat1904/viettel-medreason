@@ -1,0 +1,218 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      52
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      55,
+      69
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      72,
+      92
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      128
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      140,
+      163
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "hệ số tống máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      164,
+      178
+    ],
+    "assertions": []
+  },
+  {
+    "text": "50",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      179,
+      181
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tăng huyết áp phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      189,
+      207
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I27.2"
+    ]
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      272,
+      277
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4603"
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      349
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      376
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      379,
+      386
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sưng phù hai mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      392,
+      416
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      434
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      437,
+      440
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Suy tim sung huyết cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      485,
+      507
+    ],
+    "assertions": [],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      544,
+      549
+    ],
+    "assertions": [],
+    "candidates": [
+      "4603"
+    ]
+  },
+  {
+    "text": "graft SVG bị tắc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      812,
+      828
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh động mạch vành phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      852,
+      876
+    ],
+    "assertions": [],
+    "candidates": [
+      "I25.1"
+    ]
+  }
+]

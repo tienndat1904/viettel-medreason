@@ -1,0 +1,18 @@
+[
+  {"text": "nhiễm trùng tụ cầu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["A49.0"], "note": "staph infection (lý do cắt cụt ngón chân); mục 'Tiền sử phẫu thuật'; thủ thuật cắt cụt không gán"},
+  {"text": "cảm giác như bị xịt nước", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "cảm giác ngực bất thường lan ngực trái -> phải; các paraphrase 'vòi nước'/'tương tự' bỏ"},
+  {"text": "nhồi máu cơ tim", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["I21.9"], "note": "'loại trừ khả năng nhồi máu cơ tim' -> negated"},
+  {"text": "siêu âm tim", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "echocardiogram; occ1 = siêu âm tim thường"},
+  {"text": "hẹp van động mạch chủ nghiêm trọng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I35.0"], "note": "severe aortic valve stenosis (chẩn đoán chính); 5 mention -> label 1 lần"},
+  {"text": "siêu âm tim gắng sức dobutamine", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "dobutamine stress echo; 'dobutamine' là phần tên test, KHÔNG gán THUỐC"},
+  {"text": "thông tim trái", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "left heart cath; 'thông tim' dòng trên là dự định -> bỏ"},
+  {"text": "chụp tim trái", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "left heart angiography (cùng thủ thuật cath)"},
+  {"text": "hẹp gây hạn chế dòng chảy", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": [], "note": "'không ghi nhận hẹp gây hạn chế dòng chảy' -> loại trừ hẹp mạch vành; 2 mention -> 1 lần"},
+  {"text": "chụp tim mạch", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "cardiac angiography (mục Thủ thuật đã thực hiện)"},
+  {"text": "LHC", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "Left Heart Cath; 2 mention -> 1 lần"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'phủ nhận ... khó thở'; occ1 = span đứng riêng"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'phủ nhận ... đau ngực'"},
+  {"text": "khó thở khi nằm", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "orthopnea, phủ nhận"},
+  {"text": "khó thở khi ngủ", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "PND, phủ nhận"},
+  {"text": "ngất xỉu", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "syncope, phủ nhận"}
+]
