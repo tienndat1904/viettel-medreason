@@ -1,7 +1,7 @@
 """So sánh 2 thư mục output theo METRIC CHÍNH THỨC BTC — dùng để biết LLM có VƯỢT rule chưa.
 
-Chấm cả 2 dir bằng official_scorer trên CÙNG 1 gold (mặc định data/dev/gold_who — dev gold
-đã căn granularity WHO/BYT 4 ký tự cho khớp cách BTC chấm ICD; xem docs/LLM_EVAL_HANDOFF.md),
+Chấm cả 2 dir bằng official_scorer trên CÙNG 1 gold (mặc định data/dev/gold — P3 đã chuẩn
+hóa granularity WHO/BYT 4 ký tự + điền RxNorm tiered, PR#32; xem docs/LLM_EVAL_HANDOFF.md),
 in cạnh nhau + delta + phán quyết "LLM vượt rule?".
 
 LƯU Ý calibration: text_score/WER offline ≈ leaderboard; candidates_score offline LẠC QUAN
@@ -42,7 +42,7 @@ def main():
     ap.add_argument("--b", required=True, help="thư mục output B (vd LLM)")
     ap.add_argument("--a-name", default="A")
     ap.add_argument("--b-name", default="B")
-    ap.add_argument("--gold", default="data/dev/gold_who")
+    ap.add_argument("--gold", default="data/dev/gold")
     args = ap.parse_args()
 
     a = score_dir(args.a, args.gold)

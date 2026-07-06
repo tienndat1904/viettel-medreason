@@ -39,8 +39,8 @@ tăng calci máu	E83.52
 tăng kali máu	E87.5
 hạ natri máu	E87.1
 xơ vữa động mạch	I70.90
-động kinh	R56.9
-co giật	R56.9
+động kinh	R56.8
+co giật	R56.8
 áp xe	L02.91
 viêm mô tế bào	L03.90
 viêm mô bào	L03.90
@@ -52,7 +52,7 @@ cơn đau thắt ngực ổn định	I20.8
 cơn đau thắt ngực	I20.9
 đau thắt ngực	I20.9
 bệnh thận mạn không đặc hiệu	N18.9
-huyết khối tĩnh mạch sâu	I82.409
+huyết khối tĩnh mạch sâu	I80.2
 thuyên tắc phổi	I26.99
 khí phế thủng	J43.9
 nang màng nhện	G93.0
@@ -85,7 +85,7 @@ viêm bể thận	N12
 ung thư đại tràng	C18.9
 ung thư trực tràng	C20
 u ác trực tràng	C20
-ung thư biểu mô tế bào thận	C64.1
+ung thư biểu mô tế bào thận	C64
 suy hô hấp	J96.9
 tai biến mạch máu não	I63.9
 đột quỵ	I63.9
@@ -108,8 +108,8 @@ nhịp nhanh thất	I47.2
 nhịp nhanh trên thất	I47.1
 tim to	I51.7
 tăng lipid máu	E78.5
-tăng sản tuyến tiền liệt	N40.0
-phì đại tuyến tiền liệt	N40.0
+tăng sản tuyến tiền liệt	N40
+phì đại tuyến tiền liệt	N40
 tăng bilirubin máu	R17
 ngoại tâm thu nhĩ	I49.1
 ngoại tâm thu thất	I49.3
@@ -133,3 +133,29 @@ xuất huyết nội sọ không do chấn thương	I62.9
 đái tháo đường có biến chứng bệnh lý thần kinh ngoại biên	E11.42
 bệnh thận mạn không đặc hiệu giai đoạn 4	N18.4
 bệnh thận mạn giai đoạn 4	N18.4
+# --- nhóm A round 2 (gold WHO 60-file): sửa MISS sai-bệnh, mã WHO/BYT ---
+thiếu máu cơ tim cục bộ	I25.9
+thiếu máu hồng cầu nhỏ	D50.9
+thiếu máu	D64.9
+bệnh động mạch vành	I25.1
+hội chứng mạch vành cấp	I24.9
+viêm phổi thùy	J18.1
+tổn thương dây thanh quản	J38.3
+bệnh bạch cầu dòng tủy mãn tính	C92.1
+đại tràng giãn	K59.3
+tăng bạch cầu	D72.8
+bạch cầu tăng	D72.8
+bệnh phổi kẽ	J84.9
+liệt hai chân	G82.2
+viêm dạ dày	K29.7
+thủy đậu zona	B02.9
+tăng huyết áp phổi	I27.2
+men gan tăng	R74.0
+protein niệu	R80
+bệnh đa xơ cứng	G35
+nhiễm clostridioides difficile	A04.7
+nhiễm trùng vết mổ	T81.4
+viêm tủy xương mãn tính	M86.6
+não úng thủy	G91.9
+suy giảm miễn dịch	D84.9
+tăng nhãn áp	H40.9
