@@ -56,7 +56,8 @@ Baseline backend `rule` trên 30 file dev: **F1(span+type) ≈ 0.34 (overlap) / 
 CHẨN_ĐOÁN & THUỐC span = 0 (rule chưa phủ) → cần LLM extractor (P1). Assertion (P1) ≈ 0.97.
 Linking (P2, đo riêng): ICD hit@k 16.5%, RxNorm ingredient-hit 78.9%.
 
-## Synthetic data + QLoRA (train LLM extractor)
+## Synthetic data + QLoRA (train LLM extractor) — ⚠️ THÍ NGHIỆM, KHÔNG dùng khi nộp
+> LLM extractor sai biên span trên bệnh án thật (dev 0.156 ≪ rule 0.368). Giữ lại để tham khảo; **bản nộp dùng `rule`**.
 ```bash
 # Sinh 1500 bệnh án VN + gold + train_sft.jsonl (offline, không API — reproducible, seed=42)
 python src/datagen/gen_synthetic.py --n 1500 --seed 42
@@ -69,26 +70,27 @@ python scripts/train_qlora.py --data data/synthetic/train_sft.jsonl --model Qwen
 Chi tiết bộ dữ liệu: `data/synthetic/DATA_CARD.md`. `train_sft.jsonl` khớp `prompt.py` (target `[{text,type}]`).
 
 ## Tái lập cho BTC (nộp source-code vòng top-15)
-BTC dựng lại & chấm trên **private test**. Gói nộp gồm: toàn bộ code, data (synthetic + KB parquet đã ship), **LoRA adapter** (`models/`, xem `models/README.md`), README này.
+BTC dựng lại & chấm trên **private test**. Gói nộp gồm: toàn bộ code, data (synthetic + KB parquet đã ship), README này.
 
-**Cách 1 — Docker (khuyến nghị, bulletproof):**
-```bash
-docker build -t viettel-medreason .
-docker run --gpus all -v /path/private_test/input:/data/input -v $PWD/out:/app/output \
-    viettel-medreason python3 src/pipeline.py --input /data/input --output output --backend llm
-docker run --gpus all -v $PWD/out:/app/output viettel-medreason \
-    python3 scripts/package_submission.py --output output --input /data/input --n <N>
-```
+> **BẢN NỘP CHÍNH THỨC = `--backend rule`** (đạt leaderboard 32.74). Đường này **KHÔNG cần GPU, KHÔNG cần internet** (KB đã ship trong `data/kb/*.parquet`) → tái lập tuyệt đối, chạy vài giây/100 file. Các nhánh LLM (QLoRA) và RAG (bge-m3) là **thí nghiệm — KHÔNG dùng khi nộp** (LLM sai biên span, RAG không cải thiện; xem `docs/`). Đừng chạy `--backend llm`.
 
-**Cách 2 — pip (không Docker):**
+**Cách 1 — pip (khuyến nghị, không cần GPU):**
 ```bash
-pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128   # khớp CUDA
-pip install -r requirements-lock.txt          # version đã VERIFY
-python src/pipeline.py --input <private_test>/input --output output --backend llm
+pip install -r requirements-submit.txt        # 6 gói core đã PIN, KHÔNG torch/GPU/internet
+python src/pipeline.py --input <private_test>/input --output output --backend rule
 python scripts/package_submission.py --output output --input <private_test>/input --n <N>
 ```
 
-**Yêu cầu tái lập đã đảm bảo:** seed=42 mọi nơi · `temperature=0` (deterministic) · path tương đối · KB parquet ship kèm (không cần tải/đăng ký) · `requirements-lock.txt` pin version đã test. **Cần internet** để tải base Qwen từ HuggingFace (hoặc mount HF cache / ship weights nếu offline — xem `models/README.md`).
+**Cách 2 — Docker (bulletproof):**
+```bash
+docker build -t viettel-medreason .
+docker run -v /path/private_test/input:/data/input -v $PWD/out:/app/output \
+    viettel-medreason python3 src/pipeline.py --input /data/input --output output --backend rule
+docker run -v $PWD/out:/app/output viettel-medreason \
+    python3 scripts/package_submission.py --output output --input /data/input --n <N>
+```
+
+**Yêu cầu tái lập đã đảm bảo:** seed=42 mọi nơi · `temperature=0` (deterministic) · path tương đối · KB parquet ship kèm (không cần tải/đăng ký/internet) · `requirements-lock.txt` pin version đã test · rule không phụ thuộc model ngoài → output bất biến trên mọi máy.
 
 ## Cấu trúc
 ```
