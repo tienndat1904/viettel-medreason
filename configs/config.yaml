@@ -24,6 +24,9 @@ extract:
   temperature: 0.0
   max_new_tokens: 1536
   max_chunk_chars: 1800               # chunk theo dòng để tránh cắt output
+  hybrid:                             # backend=hybrid: rule (nền) + LLM vét bệnh/thuốc lạ
+    llm_types: [CHẨN_ĐOÁN, THUỐC]     # loại LLM được phép bổ sung (mang candidate 0.4)
+    max_words: 6                      # bỏ span LLM > 6 từ (chặn "chép cả câu")
 
 linking:
   backend: lexical                    # lexical (v0, không GPU) | semantic (v1, bge-m3+reranker)
