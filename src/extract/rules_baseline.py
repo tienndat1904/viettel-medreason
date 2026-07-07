@@ -75,6 +75,23 @@ _DUR_AFTER = re.compile(r"^\s*(tu[aầ]n|ngày|ngay|tháng|thang|năm|nam|giờ|
 _RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm",
                "nhiệt độ")
 
+# ===== EXPERIMENT (forum #1, chưa đo được trên dev — chỉ leaderboard xác nhận) =====
+# (a) KQXN dạng MÔ TẢ: tên XN hình ảnh + cue -> lấy cụm mô tả tới hết câu (HHM #2).
+_EXP_KQXN_DESC = True
+_IMG_KW = ("chụp cắt lớp vi tính sọ não", "chụp cộng hưởng từ", "chụp x-quang ngực",
+           "điện tâm đồ", "chụp x-quang", "chụp ct ngực", "chụp ct sọ não", "chụp ct",
+           "siêu âm tim", "siêu âm bụng", "siêu âm", "x-quang", "x quang", "mri",
+           "nội soi", "xạ hình", "chụp hida", "chọc dò", "chụp")
+_IMG_DESC_CUE = re.compile(
+    r"\s*(?::|cho thấy|ghi nhận|kết luận|cho kết quả|phát hiện(?:\s+có)?|thấy(?:\s+có)?)\s+",
+    re.I)
+_DESC_STOP = re.compile(r"[.\n;]|\s-\s")            # hết câu / xuống dòng / bullet kế
+_DESC_NUMONLY = re.compile(r"^[\d.,%°cCfFxX×/\s\-a-z]+$")   # thuần số/đơn vị -> đã xử lý riêng
+# (b) TRIỆU_CHỨNG: nuốt trạng từ tần suất/mức độ đứng TRƯỚC ("đôi khi đau quặn").
+_EXP_SYM_ADV = True
+_SYM_ADV = re.compile(r"(đôi khi|thỉnh thoảng|thi thoảng|đôi lúc|thường xuyên|liên tục|"
+                      r"từng cơn)\s+$", re.I)
+
 # ---- đường dẫn KB mặc định (khớp configs/config.yaml) ----
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 _KB_RXNORM = os.path.join(_ROOT, "data/kb/rxnorm_scd.parquet")
@@ -178,10 +195,15 @@ def extract(text: str) -> list[dict]:
     sym_taken = []
     for kw in SYMPTOMS:                                  # cụm dài trước -> chiếm chỗ, tránh trùng lồng
         for m in re.finditer(r"\b" + re.escape(kw) + r"\b", low):
-            if any(a < m.end() and m.start() < b for a, b in sym_taken):
+            s0, e0 = m.start(), m.end()
+            if _EXP_SYM_ADV:                             # nuốt trạng từ tần suất/mức độ đứng trước
+                am = _SYM_ADV.search(low[max(0, s0 - 14):s0])
+                if am:
+                    s0 = max(0, s0 - 14) + am.start()
+            if any(a < e0 and s0 < b for a, b in sym_taken):
                 continue
-            sym_taken.append((m.start(), m.end()))
-            found.append({"text": text[m.start():m.end()], "type": "TRIỆU_CHỨNG"})
+            sym_taken.append((s0, e0))
+            found.append({"text": text[s0:e0], "type": "TRIỆU_CHỨNG"})
 
     # tên xét nghiệm (span chồng lấn đã được resolve_offsets ở pipeline dedup)
     for kw in LAB_NAMES:
@@ -205,6 +227,26 @@ def extract(text: str) -> list[dict]:
             txt = text[m.start():m.end()].strip().strip(",.;")   # bỏ dấu câu đuôi: "99," -> "99"
             if txt:
                 found.append({"text": txt, "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
+
+    # KQXN dạng MÔ TẢ (hình ảnh/siêu âm): tên XN + cue -> cụm mô tả tới hết câu
+    if _EXP_KQXN_DESC:
+        kq_taken = []
+        for kw in _IMG_KW:
+            for m in re.finditer(r"\b" + re.escape(kw) + r"\b", low):
+                cue = _IMG_DESC_CUE.match(text[m.end():])
+                if not cue:
+                    continue
+                seg_start = m.end() + cue.end()
+                seg = text[seg_start:]
+                stop = _DESC_STOP.search(seg)
+                desc = (seg[:stop.start()] if stop else seg[:160]).strip(" .,;:-\n\t")
+                if len(desc) < 10 or _DESC_NUMONLY.match(desc.lower()):
+                    continue                             # ngắn/thuần số -> đã có nhánh số
+                s, e = seg_start, seg_start + len(desc)
+                if any(a < e and s < b for a, b in kq_taken):
+                    continue
+                kq_taken.append((s, e))
+                found.append({"text": desc, "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": []})
 
     # thuốc + chẩn đoán (gazetteer từ KB) — để linking P2 chạy
     gz = _load_gazetteers()
