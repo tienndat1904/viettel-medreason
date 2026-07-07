@@ -30,9 +30,9 @@ Mục tiêu: tạo **gold labels** nhất quán để P1/P2 đo tiến bộ offl
 
 | Nhãn | Gồm | KHÔNG gồm |
 |---|---|---|
-| **TRIỆU_CHỨNG** | Triệu chứng/than phiền của BN: `khó thở`, `ho`, `đau đầu`, `đánh trống ngực`, `khò khè`, `tiếng rít`, `mệt mỏi`, `buồn nôn`, `đau hạ vị`, `phù` | Bệnh/chẩn đoán (→ CHẨN_ĐOÁN) |
+| **TRIỆU_CHỨNG** | Triệu chứng cơ năng của BN (`khó thở`, `ho`, `đau đầu`, `đánh trống ngực`, `mệt mỏi`, `buồn nôn`, `đau hạ vị`, `phù`) **VÀ dấu hiệu thực thể bác sĩ khám** (`ran nổ`/`ran ẩm`/`ran rít`, `thổi tâm thu`, `gan to`, `lách to`, `phản ứng thành bụng`, `cảm ứng phúc mạc`, `tĩnh mạch cổ nổi`, `cứng gáy`, `niêm mạc nhợt`, `tím tái`, `phù mềm ấn lõm`, `lơ mơ`, `lú lẫn`) — BTC: "không phân loại triệu chứng" | Bệnh/chẩn đoán (→ CHẨN_ĐOÁN) |
 | **TÊN_XÉT_NGHIỆM** | Tên xét nghiệm/cận lâm sàng có định danh: lab (`wbc`, `neut%`, `troponin`, `ast`, `creatinine`); hình ảnh/thăm dò (`x-quang ngực`, `điện tâm đồ`/`ecg`, `siêu âm tim`, `monitor holter`, `phân tích nước tiểu`, `tổng phân tích tế bào máu`) | Giá trị số (→ KẾT_QUẢ) |
-| **KẾT_QUẢ_XÉT_NGHIỆM** | **Giá trị số** (kèm đơn vị/`%` nếu liền): `14,43`, `76,4`, `11.6`, `0.01`, `90%`, `98.3` | Mô tả định tính (`bình thường`, `không bất thường`) → **không gán** |
+| **KẾT_QUẢ_XÉT_NGHIỆM** | **Giá trị số** (kèm đơn vị/`%` nếu liền): `14,43`, `76,4`, `11.6`, `0.01`, `90%`, `98.3`; **VÀ mô tả chẩn đoán hình ảnh/siêu âm** (BTC HHM#2): `xẹp phổi thùy dưới phải do chèn ép`, `không thấy tổn thương choán chỗ` | Mô tả định tính chung chung không phải KQ hình ảnh (`bình thường`) → không gán |
 | **CHẨN_ĐOÁN** | Bệnh/chẩn đoán bác sĩ: `viêm phổi`, `xơ gan do rượu`, `hội chứng não gan`, `bệnh trào ngược dạ dày - thực quản`, `đợt cấp hen suyễn`, `hen suyễn`(bệnh mạn), `tăng huyết áp` | Triệu chứng (→ TRIỆU_CHỨNG) |
 | **THUỐC** | Cụm thuốc như viết: tên + hàm lượng + đường/tần suất khi **liền mạch**: `metoprolol 25mg po bid`, `albuterol nebs q4h`, `prednisone 40 mg/ngày`, `aspirin 325mg`, `azithromycin`, `iv magnesium`, `z-pack` | Nhóm/hoạt chất chung chung không phải thuốc cụ thể |
 
@@ -64,15 +64,19 @@ Tập con của `{isNegated, isFamily, isHistorical}`. Một khái niệm có th
     "được chỉ định điều trị") → **KHÔNG** historical.
 
 ## 4. `candidates`  (chấm bằng **Jaccard** — trả đúng tập mã, KHÔNG thừa)
-- **CHẨN_ĐOÁN → ICD-10** (vd `"K21.0"`). Metric so exact mã → gán đúng độ sâu; 1–2 mã khi
-  thật sự có biến thể gần nhau, tránh trả thừa (Jaccard phạt union to). P2/KB xác nhận.
+- **CHẨN_ĐOÁN → ICD-10 mức WHO/BYT (tối đa 4 ký tự)** — BTC chấm ở granularity Bộ Y tế, KHÔNG
+  phải ICD-10-CM 5+ ký tự (issue #40). **Đối chiếu `data/kb/icd10_vn.parquet`** (11.360 mã BYT):
+  mã gán PHẢI tồn tại trong đó. VD `I48.9` (không `I48.91`), `C64` (không `C64.1`), `E11.6`
+  (BYT thiếu `E11.4`). Metric Jaccard exact → 1 mã đúng nhất, tránh trả thừa.
 - **THUỐC → RxNorm theo NGUYÊN TẮC "mã ở mức cụ thể nhất mention hỗ trợ"** (dung hòa IN-vs-SCD):
   | Mention có | Mức mã | Ví dụ |
   |---|---|---|
   | hoạt chất + hàm lượng + dạng | **SCD** | `amlodipine 10 mg po` → `308135` |
   | hoạt chất + hàm lượng (dạng mơ hồ, IV) | **SCDC** | `iv lasix 40 mg` → `315971` (furosemide 40 MG) |
   | **chỉ hoạt chất** (thuốc trần) | **IN** | `omeprazole` → `7646` |
-  Không tra được mã sạch (combo, có liều nhưng KB thiếu SCD/SCDC, hoạt chất mơ hồ) → `[]` + `note`.
+  Không tra được mã sạch (**combo/biệt dược phối hợp**, có liều nhưng KB thiếu SCD/SCDC, hoạt chất
+  mơ hồ, nhóm thuốc như `NSAID`/`Corticoid`) → `[]` + `note`. **Mã PHẢI có trong KB live**
+  (`data/kb/rxnorm_scd.parquet`) — KHÔNG lấy mã từ file demo BTC (có mã đã thu hồi, vd `360047`).
   Linker (P2) cũng trả ĐÚNG MỨC này. *(Ví dụ đề đều là thuốc có liều → SCD; thuốc trần
   không thể có SCD duy nhất → IN là mức đúng nhất. Cần BTC xác nhận cách mã hóa thuốc không liều.)*
 - Các type khác (`TÊN_XÉT_NGHIỆM`/`KẾT_QUẢ`): KHÔNG có candidates (metric không tính).
