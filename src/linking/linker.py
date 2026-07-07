@@ -59,14 +59,16 @@ class Linker:
                                  L.get("icd_top_k_return", 3),
                                  hedge=L.get("icd_hedge", True))
         self._icd = lexical_icd
+        self._icd_sem = None                # semantic (RAG) làm LỚP VÉT sau lexical, không thay thế
         self._icd_mode = "lexical"
-        # backend semantic (v1): thử nạp bge-m3 index; thiếu -> giữ lexical
+        # backend semantic (v1): nạp bge-m3 index; giữ lexical (synonym+fuzzy) làm chính,
+        # semantic CHỈ chạy khi lexical trả rỗng -> chỉ thêm recall, không bao giờ regress.
         if self.backend == "semantic":
             from icd_semantic import load_semantic
             sem = load_semantic(cfg, syn)
             if sem is not None:
-                self._icd = sem
-                self._icd_mode = "semantic"
+                self._icd_sem = sem
+                self._icd_mode = "lexical+semantic"
 
         self._rx = RxNormMatcher(rx_df, brands,
                                  L.get("rxnorm_fuzzy_threshold", 90),
@@ -85,6 +87,8 @@ class Linker:
     # ---- API (hợp đồng cố định) ----
     def link_diagnosis(self, text: str, context: str = "") -> list[str]:
         codes = self._icd.match(text, context) if self._icd else []
+        if not codes and self._icd_sem is not None:        # lexical rỗng -> vét bằng RAG semantic
+            codes = self._icd_sem.match(text, context)
         if not (self._icd_who and codes):
             return codes
         seen, out = set(), []                              # rút về 4 ký tự (WHO/BYT) + khử trùng

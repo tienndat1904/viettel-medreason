@@ -17,6 +17,7 @@ data/kb/raw/**
 # không cần tải/đăng ký; brand map auto sinh từ RRF cũng ship kèm.
 # Embedding index semantic (T2) — lớn, rebuild bằng src/kb/build_icd_index.py trên GPU
 data/kb/*_emb.npy
+data/kb/*_meta.parquet
 data/kb/icd10cm_index_meta.parquet
 models/*.safetensors
 models/*.bin

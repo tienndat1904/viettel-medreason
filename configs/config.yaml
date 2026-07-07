@@ -9,9 +9,10 @@ paths:
   kb_rxnorm: data/kb/rxnorm_scd.parquet    # KB thật (build_rxnorm_kb.py)
   kb_icd_seed: data/kb/seed/icd10_vn.parquet     # seed nhỏ, fallback khi chưa build KB thật
   kb_rxnorm_seed: data/kb/seed/rxnorm_scd.parquet
-  # semantic (T2): sinh bằng build_icd_index.py trên GPU (KHÔNG commit — lớn)
-  icd_emb: data/kb/icd10cm_emb.npy
-  icd_index_meta: data/kb/icd10cm_index_meta.parquet
+  # semantic (T2/RAG): index KB WHO/BYT (icd10_vn, 11360 mã ~4 ký tự = đúng granularity BTC chấm),
+  # KHÔNG index CM 98k (5-7 ký tự, _who4 gộp lại nhiều -> nhiễu). Build bằng build_icd_index.py trên GPU (KHÔNG commit — lớn).
+  icd_emb: data/kb/icd_who_emb.npy
+  icd_index_meta: data/kb/icd_who_meta.parquet
   rxnorm_index: data/kb/rxnorm.faiss
 
 extract:
