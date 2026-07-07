@@ -1,25 +1,27 @@
-# Môi trường tái lập cho BTC dựng lại & chấm trên private test (GPU).
+# Moi truong tai lap cho BTC dung lai & cham tren private test.
+# BAN NOP CHINH THUC = --backend rule: KHONG GPU, KHONG internet (KB da ship trong
+# data/kb/*.parquet). Base python-slim nhe, tai lap tuyet doi, chay vai giay/100 file.
+#
 # Build:  docker build -t viettel-medreason .
-# Run  :  docker run --gpus all -v /path/private_test:/data/input \
-#              -v $PWD/out:/app/output viettel-medreason \
-#              python3 src/pipeline.py --input /data/input --output output --backend llm
-#         (rồi: python3 scripts/package_submission.py --output output --input /data/input --n <N>)
-FROM nvidia/cuda:12.8.0-cudnn-runtime-ubuntu22.04
+# Run  :  docker run -v /path/private_test/input:/data/input -v $PWD/out:/app/output \
+#              viettel-medreason \
+#              python3 src/pipeline.py --input /data/input --output output --backend rule
+#         docker run -v $PWD/out:/app/output viettel-medreason \
+#              python3 scripts/package_submission.py --output output --input /data/input --n <N>
+#
+# (LLM/RAG la thi nghiem, KHONG dung khi nop - chay tren GPU Kaggle/Colab qua notebooks/,
+#  deps o requirements-gpu.txt / requirements-semantic.txt. Dung dung Dockerfile nay cho chung.)
+FROM python:3.11-slim
 
-ENV DEBIAN_FRONTEND=noninteractive PYTHONUNBUFFERED=1 HF_HOME=/app/.hf_cache
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        python3 python3-pip git ca-certificates && \
-    rm -rf /var/lib/apt/lists/*
+ENV PYTHONUNBUFFERED=1 PYTHONUTF8=1
 
 WORKDIR /app
 
-# torch cu128 trước (khớp base CUDA 12.8), rồi phần còn lại từ lock
-RUN pip3 install --no-cache-dir torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
-COPY requirements-lock.txt .
-RUN pip3 install --no-cache-dir -r requirements-lock.txt
+# Chi can 6 goi core cho duong rule (da PIN, khong torch/GPU).
+COPY requirements-submit.txt .
+RUN pip3 install --no-cache-dir -r requirements-submit.txt
 
 COPY . .
 
-# Mặc định: chạy pipeline LLM trên data/test/input (đổi --input khi mount private test).
-# Model Qwen + LoRA adapter: xem models/README.md (ship adapter + tải base).
-CMD ["python3", "src/pipeline.py", "--input", "data/test/input", "--output", "output", "--backend", "llm"]
+# Mac dinh: chay pipeline rule tren data/test/input (doi --input khi mount private test).
+CMD ["python3", "src/pipeline.py", "--input", "data/test/input", "--output", "output", "--backend", "rule"]

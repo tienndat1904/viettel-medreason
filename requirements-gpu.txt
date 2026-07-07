@@ -1,11 +1,11 @@
-# Môi trường CHẠY LLM (Kaggle/Colab GPU). Cài THÊM sau requirements.txt.
-# Dùng RANGE (không pin cứng) để tương thích stack có sẵn của Colab/Kaggle.
-# torch thường có sẵn trên Kaggle/Colab.
+# Moi truong CHAY LLM (Kaggle/Colab GPU). Cai THEM sau requirements.txt.
+# Dung RANGE (khong pin cung) de tuong thich stack co san cua Colab/Kaggle.
+# torch thuong co san tren Kaggle/Colab.
 #
-# LƯU Ý QUAN TRỌNG: bitsandbytes < 0.45 lỗi `No module named 'triton.ops'` với
-# triton 3.x trên Colab -> BẮT BUỘC >= 0.45. Trên Colab nên chạy: pip install -U bitsandbytes
+# LUU Y QUAN TRONG: bitsandbytes < 0.45 loi `No module named 'triton.ops'` voi
+# triton 3.x tren Colab -> BAT BUOC >= 0.45. Tren Colab nen chay: pip install -U bitsandbytes
 transformers>=4.46,<4.50
 accelerate>=1.0
-bitsandbytes>=0.45           # >=0.45 để tương thích triton 3.x (0.44 crash triton.ops)
-peft>=0.13                   # nạp LoRA adapter (sau fine-tune)
+bitsandbytes>=0.45           # >=0.45 de tuong thich triton 3.x (0.44 crash triton.ops)
+peft>=0.13                   # nap LoRA adapter (sau fine-tune)
 sentencepiece>=0.2

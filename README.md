@@ -38,7 +38,7 @@ LLM chỉ sinh `{text, type}` (few-shot), offset do `resolve_spans` tính, asser
 điền (`extract.assertion_mode`), candidates do `linker`. Điền `extract.lora_adapter` sau khi QLoRA.
 
 ## Dev set có nhãn (để đo offline)
-30 file dev đã gán nhãn (bản nháp — xem `data/dev/ANNOTATION_GUIDE.md`, cần người review).
+60 file dev đã gán nhãn (bản nháp — xem `data/dev/ANNOTATION_GUIDE.md`, cần người review).
 ```bash
 # Sinh gold từ label spec (tự tính offset ký tự, validate schema)
 python src/datagen/make_dev.py                    # data/dev/labels/*.json -> data/dev/gold/*.json
@@ -52,9 +52,9 @@ python src/pipeline.py --input data/test/input --output output --backend rule
 python src/eval/scorer.py --pred output --gold data/dev/gold --mode overlap   # span+type, assertion
 python src/eval/eval_linking.py                                               # linking ICD/RxNorm (tách khỏi extractor)
 ```
-Baseline backend `rule` trên 30 file dev: **F1(span+type) ≈ 0.34 (overlap) / 0.24 (exact)**;
-CHẨN_ĐOÁN & THUỐC span = 0 (rule chưa phủ) → cần LLM extractor (P1). Assertion (P1) ≈ 0.97.
-Linking (P2, đo riêng): ICD hit@k 16.5%, RxNorm ingredient-hit 78.9%.
+Chấm chính thức bằng `official_scorer` (metric BTC) trên **60 file** `data/dev/gold`:
+backend `rule` (bản nộp) FINAL ≈ **0.3679** (sau offset-fix giữ mọi occurrence). Đây là baseline
+go/no-go: chỉ chuyển sang LLM nếu `compare_backends.py` cho FINAL(llm) > FINAL(rule).
 
 ## Synthetic data + QLoRA (train LLM extractor) — ⚠️ THÍ NGHIỆM, KHÔNG dùng khi nộp
 > LLM extractor sai biên span trên bệnh án thật (dev 0.156 ≪ rule 0.368). Giữ lại để tham khảo; **bản nộp dùng `rule`**.
@@ -115,9 +115,9 @@ data/
 - [x] official_scorer (metric BTC) — khớp leaderboard (0.20 ≈ 0.197)
 - [x] KB ICD-10-CM + RxNorm + linking tối ưu Jaccard (ICD 0.443 / RxNorm 0.823)
 - [x] Assertion module (~0.94) · LLM extractor + chunking · synthetic 1500 + QLoRA script
-- [x] Dev set 30 file có nhãn + tooling
+- [x] Dev set 60 file có nhãn + tooling (ICD chuẩn WHO/BYT, RxNorm tiered)
 - [x] Gói tái lập BTC: Dockerfile + requirements-lock + README rebuild + models/README
 - [ ] QLoRA thật (đang train T4-lite / cần L4-A100 cho full)
-- [ ] Đóng adapter vào gói nộp + test dựng lại máy sạch
+- [x] Test dựng lại máy sạch (venv sạch + requirements-submit → rule pipeline + package = 100 file hợp lệ, không GPU/internet). Adapter LLM là thí nghiệm, KHÔNG vào bản nộp rule.
 - [ ] (Nên có) mở rộng dev ~150 file · ensemble · semantic v1
 ```
