@@ -17,6 +17,8 @@ Chỉ nhận match có RANH GIỚI TỪ (ký tự kề không phải chữ-số)
 from __future__ import annotations
 import re
 
+_MAX_OCC = 100   # cap occurrence/1 span: concept thật lặp 2-5 lần; cap chống file bệnh lý (16k từ 1 dòng)
+
 
 def _flexible_pattern(span: str) -> re.Pattern:
     """Regex khớp span cho phép khác biệt whitespace và ký tự '*' markdown."""
@@ -51,16 +53,31 @@ def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
         concept["position"] = [s, e]
         out.append(concept)
 
-    out = []
+    # DEDUP span theo (text_chuẩn, type) trước khi expand: extractor rule emit N span
+    # trùng text cho N occurrence; nếu xử lý từng span sẽ quét lại toàn bộ occurrence
+    # N lần -> O(n^3), treo trên file bất thường. Expand đã lấy MỌI occurrence rồi nên
+    # xử lý 1 lần/text là đủ và cho kết quả y hệt.
+    seen_key = set()
+    uniq = []
     for sp in spans:
         raw = (sp.get("text") or "").strip()
         if not raw:
             continue
+        key = (raw, sp.get("type"))   # case-SENSITIVE: exact find bên dưới cũng phân biệt hoa/thường
+        #                               (dedup casefold sẽ nuốt mất occurrence khác hoa/thường)
+        if key in seen_key:
+            continue
+        seen_key.add(key)
+        uniq.append(sp)
 
-        # 1) exact match — MỌI occurrence chưa dùng, có ranh giới từ
+    out = []
+    for sp in uniq:
+        raw = (sp.get("text") or "").strip()
+
+        # 1) exact match — MỌI occurrence chưa dùng, có ranh giới từ (cap chống file bệnh lý)
         n = 0
         idx = 0
-        while True:
+        while n < _MAX_OCC:
             i = text.find(raw, idx)
             if i < 0:
                 break
@@ -73,8 +90,11 @@ def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
         # 2) fallback linh hoạt — chỉ khi KHÔNG có exact nào; cũng lấy mọi occurrence
         if n == 0:
             for m in _flexible_pattern(raw).finditer(text):
+                if n >= _MAX_OCC:
+                    break
                 if _word_bounded(text, m.start(), m.end()) and not overlaps(m.start(), m.end()):
                     _emit(sp, out, m.start(), m.end())
+                    n += 1
 
         # không định vị được -> bỏ (validator sẽ không nhận span thiếu vị trí)
 
