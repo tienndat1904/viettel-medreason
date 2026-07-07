@@ -48,10 +48,13 @@ LAB_NAMES = [
     "chụp cắt lớp vi tính", "chụp ct", "ct scan",
     "chụp cộng hưởng từ", "mri", "điện tâm đồ", "ecg", "monitor holter", "holter",
     "chụp hida", "nội soi", "sinh thiết", "chọc dò dịch não tủy", "thông tim trái",
-    "thông tim",
+    "thông tim", "cholangiogram",
+    "xạ hình tưới máu cơ tim mibi", "xạ hình tưới máu cơ tim",
+    "lấy mẫu bằng bàn chải",
     # panel / xét nghiệm
     "tổng phân tích nước tiểu", "phân tích nước tiểu", "công thức máu", "sinh hóa máu",
     "chức năng gan", "chức năng thận", "cấy máu", "cấy nước tiểu", "khí máu động mạch",
+    "anion gap",
     # chỉ số máu / marker
     "wbc", "ast", "alt", "troponin", "cea", "creatinine", "bilirubin toàn phần",
     "bilirubin", "spo2", "canxi toàn phần", "canxi ion hóa", "canxi", "canci",
