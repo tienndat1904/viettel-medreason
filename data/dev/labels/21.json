@@ -1,0 +1,6 @@
+[
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "mục 'Các bệnh lý mãn tính'"},
+  {"text": "suy tim, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I50.9"], "note": "heart failure unspecified"},
+  {"text": "bệnh thận mạn, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.9"], "note": "CKD unspecified"},
+  {"text": "phình động mạch chủ ngực – bụng", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I71.6"], "note": "thoracoabdominal aortic aneurysm; điều kiện đã mổ (stent graft) -> historical; 'thuốc lá' là yếu tố nguy cơ -> không gán"}
+]

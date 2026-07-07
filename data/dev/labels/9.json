@@ -1,0 +1,16 @@
+[
+  {"text": "u cơ trơn tử cung, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["D25.9"], "note": "leiomyoma uterus unspecified; mục 'Bệnh lý mãn tính' -> historical; tên khớp CHÍNH XÁC KB BYT"},
+  {"text": "iron", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["90176"], "note": "mục 'Thuốc trước khi nhập viện' -> historical; hoạt chất trần -> IN 90176 (KB có IN 'iron')"},
+  {"text": "lower abdominal pain", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "mục 'Triệu chứng hiện tại' (tiếng Anh trong input); đã gộp lần nhắc 'đau bụng dưới' ở lý do nhập viện"},
+  {"text": "chảy máu nhiều", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại' (occ1 ở lý do nhập viện gộp vào đây)"},
+  {"text": "huyết cầu tố", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "hemoglobin; 'huyết cầu tố là 26.1' (sự kiện trước NV)"},
+  {"text": "26.1", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1},
+  {"text": "huyết cầu tố", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "'huyết cầu tố 26.1' mục Kết quả PTN"},
+  {"text": "26.1", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 2},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "'siêu âm được thực hiện vào [Date]'"},
+  {"text": "siêu âm tử cung", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "mục Kết quả chẩn đoán hình ảnh"},
+  {"text": "14,2 x 8,8 x 7,5 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "kích thước tử cung trên siêu âm"},
+  {"text": "4,1 x 4,8 x 4,1 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "kích thước u cơ trơn lớn nhất"},
+  {"text": "Không thấy dịch tự do trong túi cùng Douglas", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "phát hiện siêu âm âm tính (tương tự VD 'không thấy tổn thương choán chỗ' = KQ)"},
+  {"text": "Không có giãn bể thận", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "phát hiện siêu âm âm tính"}
+]

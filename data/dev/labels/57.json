@@ -1,0 +1,7 @@
+[
+  {"text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["M54.1"], "occ": 1, "note": "radiculopathy; 'Lý do nhập viện'; M54.1 'Bệnh rễ thần kinh tủy sống'"},
+  {"text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["M54.1"], "occ": 2, "note": "'Triệu chứng hiện tại' — cùng chẩn đoán (bệnh, không phải triệu chứng)"},
+  {"text": "chụp cộng hưởng từ (mri) cột sống cổ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "MRI cột sống cổ"},
+  {"text": "hẹp ống sống", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["M48.0"], "note": "spinal stenosis (MRI thấy đa tầng C4-C7); tên bệnh khớp BYT M48.0 (như file 35); bỏ list tầng khỏi span"},
+  {"text": "hẹp lỗ liên hợp", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["M48.0"], "note": "neural foraminal stenosis; xếp M48.0 'Hẹp ống sống'"}
+]

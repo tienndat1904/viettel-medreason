@@ -1,0 +1,10 @@
+[
+  {"text": "Nghẽn tắc và hẹp động mạch cảnh", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I65.2"], "note": "carotid occlusion+stenosis; mục 'Tiền sử bệnh nội khoa' + 'có tiền sử' -> historical; tên khớp CHÍNH XÁC KB BYT"},
+  {"text": "siêu âm Doppler động mạch", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "input dính chữ 'động mạchcho' -> span dừng ở 'mạch'"},
+  {"text": "nghẽn tắc và hẹp động mạch cảnh", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I65.2"], "note": "lần nhắc 2 (chữ thường) ở mục 'Tiền sử bệnh hiện tại' - bệnh đang hoạt động/được theo dõi -> coi hiện tại; RANH GIỚI: reviewer có thể chọn isHistorical hoặc bỏ (trùng khái niệm lần 1)"},
+  {"text": "siêu âm doppler hai chiều", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
+  {"text": "hẹp nặng", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "kết quả doppler (severe stenosis); low-conf: mô tả định tính, reviewer có thể bỏ"},
+  {"text": "tỷ số PSV/EDV", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "tham số doppler; low-conf"},
+  {"text": "7", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "giá trị 'tỷ số PSV/EDV > 7'; low-conf"},
+  {"text": "vận tốc dòng chảy tăng rõ", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả kết quả doppler; low-conf"}
+]

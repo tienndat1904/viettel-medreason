@@ -1,0 +1,20 @@
+[
+  {"text": "U Sacoit tổn thương chủ yếu tại tim", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["D86.8"], "note": "cardiac sarcoidosis ('U Sacoit' = sarcoidosis); mục 'Bệnh lý mãn tính' -> historical; D86.8 (sarcoid khu vực khác) là mã 4 ký tự sát nhất, KB không có mã tim riêng"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 9, "note": "mục 'Triệu chứng hiện tại' ('- ho'); đã gộp các lần nhắc ho ở lý do NV/khởi phát/diễn biến"},
+  {"text": "ho ra máu cỡ đồng xu x3 đêm qua", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "hemoptysis; mục 'Triệu chứng hiện tại'"},
+  {"text": "ho ra máu", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 3, "note": "'Không có thêm ho ra máu kể từ sáng nay' -> negated (lần nhắc phủ định riêng)"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'"},
+  {"text": "Đờm pha màu hồng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "pink-tinged sputum; mục 'Triệu chứng hiện tại'"},
+  {"text": "fever", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "sốt (input tiếng Anh); mục 'Triệu chứng hiện tại'"},
+  {"text": "Đau bụng  âm ỉ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "dull abdominal pain; input có DOUBLE-SPACE giữa 'bụng' và 'âm'"},
+  {"text": "levofloxacin", "type": "THUỐC", "assertions": [], "candidates": ["82122"], "note": "'Được cho dùng levofloxacin' ở cấp cứu = điều trị hiện tại, KHÔNG historical; hoạt chất trần -> IN"},
+  {"text": "tylenol", "type": "THUỐC", "assertions": [], "candidates": ["161"], "note": "biệt dược acetaminophen (đơn chất, không liều) -> IN 161; reviewer có thể để [] nếu không map biệt dược"},
+  {"text": "viêm phế quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J40"], "note": "'nghi ngờ viêm phế quản...' -> suspected, KHÔNG negated; J40 (không rõ cấp/mãn); reviewer: J20.9 nếu coi là cấp"},
+  {"text": "viêm phổi mắc phải cộng đồng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["J18.9"], "note": "CAP nghi ngờ; J18.9 (pneumonia unspecified) - WHO không có mã CAP riêng"},
+  {"text": "công thức máu (cbc)", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
+  {"text": "11.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "'công thức máu (cbc) nâng cao lên 11.3'"},
+  {"text": "chụp x-quang ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
+  {"text": "viêm phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["J18.9"], "occ": 2, "note": "'chụp x-quang ngực không phát hiện viêm phổi' -> negated (lần nhắc trên hình ảnh)"},
+  {"text": "phù phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["J81"], "note": "'không phát hiện ... phù phổi' -> negated"},
+  {"text": "cấy máu", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'Lấy mẫu cấy máu' - xét nghiệm vi sinh; RANH GIỚI: nằm ở mục 'Các thủ thuật đã thực hiện'"}
+]
