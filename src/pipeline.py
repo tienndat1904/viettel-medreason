@@ -28,20 +28,33 @@ def load_cfg(path):
         return yaml.safe_load(f)
 
 
+def _make_llm(cfg):
+    from llm_extractor import LLMExtractor
+    return LLMExtractor(
+        model_id=cfg["extract"]["llm_model"],
+        lora_adapter=cfg["extract"].get("lora_adapter", ""),
+        max_new_tokens=cfg["extract"]["max_new_tokens"],
+        temperature=cfg["extract"]["temperature"],
+        max_chunk_chars=cfg["extract"].get("max_chunk_chars", 1800),
+        seed=cfg["seed"])
+
+
 def get_extractor(backend, cfg):
     if backend == "rule":
         import rules_baseline
         return rules_baseline.extract
     elif backend == "llm":
-        from llm_extractor import LLMExtractor
-        ex = LLMExtractor(
-            model_id=cfg["extract"]["llm_model"],
-            lora_adapter=cfg["extract"].get("lora_adapter", ""),
-            max_new_tokens=cfg["extract"]["max_new_tokens"],
-            temperature=cfg["extract"]["temperature"],
-            max_chunk_chars=cfg["extract"].get("max_chunk_chars", 1800),
-            seed=cfg["seed"])
-        return ex.extract
+        return _make_llm(cfg).extract
+    elif backend == "hybrid":
+        # Hệ AI: rule (nền) + LLM vét bệnh/thuốc lạ (recall), span LLM bị lọc + snap offset
+        import rules_baseline
+        from hybrid import HybridExtractor
+        H = cfg["extract"].get("hybrid", {})
+        from schema import CHAN_DOAN, THUOC
+        types = H.get("llm_types", [CHAN_DOAN, THUOC])
+        return HybridExtractor(rules_baseline.extract, _make_llm(cfg).extract,
+                               allowed_types=tuple(types),
+                               max_words=H.get("max_words", 6)).extract
     raise ValueError(f"backend không hợp lệ: {backend}")
 
 
@@ -65,7 +78,7 @@ def main():
     ap.add_argument("--config", default="configs/config.yaml")
     ap.add_argument("--input", default=None)
     ap.add_argument("--output", default=None)
-    ap.add_argument("--backend", default=None, choices=["rule", "llm"])
+    ap.add_argument("--backend", default=None, choices=["rule", "llm", "hybrid"])
     ap.add_argument("--resume", action="store_true",
                     help="bỏ qua file N.json đã có & hợp lệ (chạy tiếp sau khi Colab ngắt)")
     args = ap.parse_args()
