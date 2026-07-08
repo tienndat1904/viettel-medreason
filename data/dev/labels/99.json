@@ -1,0 +1,9 @@
+[
+  {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F41.9"], "note": "anxiety disorder; 'rối loạn lo âu, không biệt định nghiêm trọng'; bệnh lý mãn tính"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "đau dai dẳng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "constipation; 'Lý do nhập viện'"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "đau dai dẳng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"}
+]

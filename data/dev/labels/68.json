@@ -1,0 +1,6 @@
+[
+  {"text": "bệnh phổi tắc nghẽn mạn tính, không xác định", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["J44.9"], "note": "COPD; bệnh lý mãn tính"},
+  {"text": "tâm thần phân liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F20.9"], "note": "schizophrenia; bệnh lý mãn tính"},
+  {"text": "yếu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "weakness; 'Lý do nhập viện'"},
+  {"text": "yếu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Các triệu chứng hiện tại'"}
+]

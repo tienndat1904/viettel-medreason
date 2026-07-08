@@ -1,0 +1,23 @@
+[
+  {"text": "Suy thận mạn giai đoạn V", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.5"], "note": "CKD stage 5; bệnh lý mạn tính"},
+  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E11.9"], "note": "'do đái tháo đường và tăng huyết áp'"},
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "HTN"},
+  {"text": "u ác của tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C61"], "occ": 1, "note": "prostate cancer; bệnh lý mạn tính"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "mất trí nhớ chi tiết", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'khó chịu mệt mỏi nhiều'"},
+  {"text": "ăn không ngon miệng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "anorexia"},
+  {"text": "ngứa da toàn thân", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "generalized pruritus"},
+  {"text": "khó thở khi gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "exertional dyspnea"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Tuần qua có buồn nôn'"},
+  {"text": "Ăn không ngon miệng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "khám hiện tại"},
+  {"text": "Ngứa da toàn thân", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "khám hiện tại"},
+  {"text": "mất trí nhớ chi tiết", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3, "note": "khám hiện tại '- mất trí nhớ chi tiết'"},
+  {"text": "khó thở khi gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "khám hiện tại"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "khám '- buồn nôn và nôn'"},
+  {"text": "u ác của tuyến tiền liệt", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["C61"], "occ": 2, "note": "'tạm hoãn ghép thận do chẩn đoán u ác của tuyến tiền liệt'"},
+  {"text": "creatinine", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "creatinine"},
+  {"text": "Ure", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "urea"},
+  {"text": "photpho", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "phosphorus"},
+  {"text": "8.4", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "photpho 8.4"}
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "text": "klonopin",
+    "type": "THUỐC",
+    "position": [
+      46,
+      54
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2598"
+    ]
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      195,
+      211
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F39"
+    ]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      219,
+      237
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F31.9"
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      244,
+      258
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.9"
+    ]
+  },
+  {
+    "text": "klonopin",
+    "type": "THUỐC",
+    "position": [
+      360,
+      368
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2598"
+    ]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "position": [
+      398,
+      407
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2599"
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "position": [
+      435,
+      443
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      660,
+      672
+    ],
+    "assertions": []
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      726,
+      734
+    ],
+    "assertions": [],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1100,
+      1105
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1106,
+      1114
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1121,
+      1132
+    ],
+    "assertions": []
+  }
+]

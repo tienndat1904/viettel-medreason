@@ -1,0 +1,18 @@
+[
+  {"text": "ung thư vú", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C50.9"], "note": "breast cancer; bệnh lý mãn tính"},
+  {"text": "ung thư phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C34.9"], "note": "lung cancer; bệnh lý mãn tính"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'ung thư phổi gây ho ... kéo dài tại nhà'"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'gây ho khó thở kéo dài tại nhà'"},
+  {"text": "suy nhược toàn thân", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "suy nhược toàn thân", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng lúc vào viện'"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'- ho' (hiện tại)"},
+  {"text": "hồi hộp", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "palpitations"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "palpitations"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 3, "note": "'khó thở liên tục, nhất là khi nằm' (orthopnea, hiện tại)"},
+  {"text": "hồi hộp", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'- hồi hộp (đánh trống ngực'"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "triệu chứng lúc vào"},
+  {"text": "chỉ số bão hòa oxy", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "SpO2"},
+  {"text": "dưới 90 %", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "SpO2 <90%"},
+  {"text": "Siêu âm tim", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "echocardiogram"},
+  {"text": "chèn ép tim", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I31.9"], "note": "cardiac tamponade; I31.9 (I31.4 không có trong KB BYT)"}
+]

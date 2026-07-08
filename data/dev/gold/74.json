@@ -1,0 +1,244 @@
+[
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "position": [
+      165,
+      170
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      177,
+      184
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      206,
+      256
+    ],
+    "assertions": [],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      360,
+      373
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      563,
+      571
+    ],
+    "assertions": []
+  },
+  {
+    "text": "iv morphine",
+    "type": "THUỐC",
+    "position": [
+      634,
+      645
+    ],
+    "assertions": [],
+    "candidates": [
+      "7052"
+    ]
+  },
+  {
+    "text": "toradol",
+    "type": "THUỐC",
+    "position": [
+      661,
+      668
+    ],
+    "assertions": [],
+    "candidates": [
+      "35827"
+    ]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      700,
+      713
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      720,
+      727
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      734,
+      754
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó chịu khi đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      761,
+      782
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      895,
+      945
+    ],
+    "assertions": [],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "position": [
+      1012,
+      1017
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "2551"
+    ]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      1021,
+      1028
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1187,
+      1194
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1372,
+      1380
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1382,
+      1389
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1396,
+      1404
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "công thức máu (cbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1527,
+      1546
+    ],
+    "assertions": []
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1550,
+      1552
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1597,
+      1622
+    ],
+    "assertions": []
+  },
+  {
+    "text": "một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1645,
+      1722
+    ],
+    "assertions": []
+  },
+  {
+    "text": "áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1768,
+      1773
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]
