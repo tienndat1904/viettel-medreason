@@ -1,0 +1,40 @@
+[
+  {
+    "text": "tách thành động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I71.0"
+    ]
+  },
+  {
+    "text": "liệt hai chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      89,
+      102
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Rò động - tĩnh mạch đùi phải do thủ thuật can thiệp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      335,
+      386
+    ],
+    "assertions": [],
+    "candidates": [
+      "I77.0"
+    ]
+  }
+]

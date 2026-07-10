@@ -1,0 +1,16 @@
+[
+  {"text": "Ung thư vú di căn ER+/HER2−", "type": "CHẨN_ĐOÁN"},
+  {"text": "weekly taxol", "type": "THUỐC"},
+  {"text": "fulvestrant", "type": "THUỐC"},
+  {"text": "đau bụng vùng hạ sườn phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng hạ sườn phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đau bụng hạ sườn phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "Buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "đi ngoài phân lỏng", "type": "TRIỆU_CHỨNG"},
+  {"text": "compazine", "type": "THUỐC"},
+  {"text": "aleve", "type": "THUỐC"},
+  {"text": "morphine", "type": "THUỐC"},
+  {"text": "lorazepam", "type": "THUỐC"}
+]

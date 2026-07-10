@@ -1,0 +1,9 @@
+[
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "Khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "siêu âm tim", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "hở van hai lá nặng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN"},
+  {"text": "lợi tiểu", "type": "THUỐC"}
+]

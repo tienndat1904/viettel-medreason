@@ -1,0 +1,162 @@
+[
+  {
+    "text": "u cơ trơn tử cung, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "D25.9"
+    ]
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "position": [
+      104,
+      108
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "90176"
+    ]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      165,
+      178
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      182,
+      196
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lower abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      228,
+      248
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      255,
+      269
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      312,
+      319
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      352,
+      364
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      368,
+      372
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      694,
+      706
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      707,
+      711
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      749,
+      764
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "14,2 x 8,8 x 7,5 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      803,
+      822
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "4,1 x 4,8 x 4,1 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      875,
+      893
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1057,
+      1069
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {"text": "ung thư biểu mô tế bào thận", "type": "CHẨN_ĐOÁN"},
+  {"text": "ung thư biểu mô tuyến giật nhú", "type": "CHẨN_ĐOÁN"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG"},
+  {"text": "thiếu máu", "type": "CHẨN_ĐOÁN"},
+  {"text": "phân có guaiac dương tính", "type": "TRIỆU_CHỨNG"},
+  {"text": "Nội soi đại tràng", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "nội soi đại tràng", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "khối ở chỗ uốn gan", "type": "CHẨN_ĐOÁN"},
+  {"text": "ung thư biểu mô tuyến", "type": "CHẨN_ĐOÁN"},
+  {"text": "chụp cắt lớp vi tính ổ bụng", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "khối u thận", "type": "CHẨN_ĐOÁN"}
+]

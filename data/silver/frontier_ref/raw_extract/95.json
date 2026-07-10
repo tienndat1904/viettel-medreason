@@ -1,0 +1,12 @@
+[
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau âm ỉ vùng quanh rốn", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng âm ỉ quanh rốn", "type": "TRIỆU_CHỨNG"},
+  {"text": "xuất huyết dưới da", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"}
+]

@@ -1,0 +1,12 @@
+[
+  {"text": "ung thư vú trái giai IIIB", "type": "CHẨN_ĐOÁN"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau khi sờ nắn", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ấn vùng mổ", "type": "TRIỆU_CHỨNG"},
+  {"text": "sưng nề", "type": "TRIỆU_CHỨNG"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "levafloxacin", "type": "THUỐC"},
+  {"text": "cephalexin", "type": "THUỐC"},
+  {"text": "vancomycin", "type": "THUỐC"}
+]

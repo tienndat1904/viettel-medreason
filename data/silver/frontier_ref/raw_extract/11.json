@@ -1,0 +1,11 @@
+[
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh gút không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh thận mạn, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "ung thư đại tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "béo phì", "type": "CHẨN_ĐOÁN"},
+  {"text": "xơ gan mất bù có tăng áp lực tĩnh mạch cửa", "type": "CHẨN_ĐOÁN"},
+  {"text": "cổ trướng", "type": "CHẨN_ĐOÁN"},
+  {"text": "tràn dịch màng phổi", "type": "CHẨN_ĐOÁN"},
+  {"text": "liệu pháp lợi tiểu", "type": "THUỐC"}
+]

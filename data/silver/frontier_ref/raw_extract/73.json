@@ -1,0 +1,21 @@
+[
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "Nhồi máu cơ tim", "type": "CHẨN_ĐOÁN"},
+  {"text": "Hội chứng mạch vành cấp", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng huyết áp vô căn (nguyên phát)", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng lipid máu, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "Đái tháo đường type 2", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh phổi tắc nghẽn mạn tính, không xác định", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN"},
+  {"text": "Đột quỵ", "type": "CHẨN_ĐOÁN"},
+  {"text": "aspirin 81mg", "type": "THUỐC"},
+  {"text": "clopidogrel", "type": "THUỐC"},
+  {"text": "prasugrel", "type": "THUỐC"},
+  {"text": "metoprolol succinate 100mg daily", "type": "THUỐC"},
+  {"text": "lasix 40mg daily", "type": "THUỐC"},
+  {"text": "atorvastatin 80mg daily", "type": "THUỐC"},
+  {"text": "lisinopril 2.5mg daily", "type": "THUỐC"},
+  {"text": "ranexa 500mg daily", "type": "THUỐC"}
+]

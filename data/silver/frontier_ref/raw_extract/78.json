@@ -1,0 +1,13 @@
+[
+  {"text": "ung thư vú", "type": "CHẨN_ĐOÁN"},
+  {"text": "ung thư phổi", "type": "CHẨN_ĐOÁN"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "suy nhược toàn thân", "type": "TRIỆU_CHỨNG"},
+  {"text": "hồi hộp", "type": "TRIỆU_CHỨNG"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "độ bão hòa oxy", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "90 %", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "Siêu âm tim", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "chèn ép tim", "type": "CHẨN_ĐOÁN"}
+]

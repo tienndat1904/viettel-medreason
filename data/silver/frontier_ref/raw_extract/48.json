@@ -1,0 +1,17 @@
+[
+  {"text": "ngất xỉu do phản ứng thần kinh mạch máu", "type": "CHẨN_ĐOÁN"},
+  {"text": "xuất huyết dưới màng cứng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Yếu nửa người trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm thấy yếu sức", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó khăn khi cài cúc áo", "type": "TRIỆU_CHỨNG"},
+  {"text": "kéo khóa quần", "type": "TRIỆU_CHỨNG"},
+  {"text": "vụng về", "type": "TRIỆU_CHỨNG"},
+  {"text": "tiểu tiện ra sàn", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó khăn khi ra khỏi ghế tựa", "type": "TRIỆU_CHỨNG"},
+  {"text": "kéo lê chân trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "Cánh tay trái lơ lửng", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó khăn khi ước lượng vị trí ngồi xuống ghế", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó khăn khi ăn", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm giác bất thường ở bên phải đầu", "type": "TRIỆU_CHỨNG"},
+  {"text": "chụp ct não", "type": "TÊN_XÉT_NGHIỆM"}
+]

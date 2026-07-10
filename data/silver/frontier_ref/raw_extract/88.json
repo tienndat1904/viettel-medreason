@@ -1,0 +1,16 @@
+[
+  {"text": "Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên", "type": "CHẨN_ĐOÁN"},
+  {"text": "Viêm gan virus C và B", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng áp động mạch phổi mức độ trung bình", "type": "CHẨN_ĐOÁN"},
+  {"text": "U lympho không hodgkin tế bàoB lớn lan toả", "type": "CHẨN_ĐOÁN"},
+  {"text": "Phù chân trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "phù chân", "type": "TRIỆU_CHỨNG"},
+  {"text": "Phù 2 chân nặng", "type": "TRIỆU_CHỨNG"},
+  {"text": "Loét 2 bàn chân", "type": "TRIỆU_CHỨNG"},
+  {"text": "chảy dịch vàng", "type": "TRIỆU_CHỨNG"},
+  {"text": "hoại tử", "type": "TRIỆU_CHỨNG"},
+  {"text": "methadone", "type": "THUỐC"},
+  {"text": "lasix", "type": "THUỐC"},
+  {"text": "Lasix", "type": "THUỐC"},
+  {"text": "Loét bàn chân nhiễm trùng", "type": "CHẨN_ĐOÁN"}
+]

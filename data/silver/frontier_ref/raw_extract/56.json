@@ -1,0 +1,18 @@
+[
+  {"text": "Đái tháo đường", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "thiếu máu cơ tim cục bộ", "type": "CHẨN_ĐOÁN"},
+  {"text": "khó chịu vùng ngực gián đoạn", "type": "TRIỆU_CHỨNG"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "đổ mồ hôi", "type": "TRIỆU_CHỨNG"},
+  {"text": "xét nghiệm gắng sức", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "điện tâm đồ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "Nghiệm pháp gắng sức", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "nghiệm pháp gắng sức trên máy chạy bộ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "36.7°c", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "139/68 mmhg", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "67 lần/phút", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "16 lần/phút", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "100%", "type": "KẾT_QUẢ_XÉT_NGHIỆM"}
+]

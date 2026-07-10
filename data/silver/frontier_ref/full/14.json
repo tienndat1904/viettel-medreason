@@ -1,0 +1,140 @@
+[
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      92,
+      99
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      123,
+      136
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      139,
+      146
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      149,
+      158
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      182,
+      195
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      239,
+      246
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      330,
+      339
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      416,
+      436
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xạ hình tưới máu cơ tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      472,
+      495
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu cơ tim vùng dưới và thành bên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      513,
+      552
+    ],
+    "assertions": [],
+    "candidates": [
+      "D64.9"
+    ]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      553,
+      572
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp 60% đoạn gần động mạch liên thất trước trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      574,
+      621
+    ],
+    "assertions": [],
+    "candidates": [
+      "I77.1"
+    ]
+  },
+  {
+    "text": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim, hẹp 60% đoạn gần động mạch liên thất trước trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      699,
+      796
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  }
+]

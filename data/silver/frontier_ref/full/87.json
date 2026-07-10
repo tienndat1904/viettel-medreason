@@ -1,0 +1,138 @@
+[
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      34,
+      46
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      116
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      121,
+      135
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.9"
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      179,
+      198
+    ],
+    "assertions": [],
+    "candidates": [
+      "S25.1"
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      441,
+      460
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "S25.1"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      555,
+      563
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      595,
+      607
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      633,
+      652
+    ],
+    "assertions": [],
+    "candidates": [
+      "S25.1"
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      768,
+      791
+    ],
+    "assertions": [],
+    "candidates": [
+      "I26.9"
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      795,
+      857
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      943,
+      963
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

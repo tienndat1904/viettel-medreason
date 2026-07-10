@@ -1,0 +1,268 @@
+[
+  {
+    "text": "Bệnh phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      56
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J84.9"
+    ]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      124,
+      162
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      177
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.9"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      184,
+      209
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Corticoid",
+    "type": "THUỐC",
+    "position": [
+      317,
+      326
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      430,
+      441
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "Suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      478,
+      496
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "D84.9"
+    ]
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      584,
+      622
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "position": [
+      921,
+      933
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "position": [
+      953,
+      963
+    ],
+    "assertions": [],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      976,
+      990
+    ],
+    "assertions": [],
+    "candidates": [
+      "L03.9"
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1008,
+      1014
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bọng nước",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1114,
+      1123
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1150,
+      1159
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1344,
+      1382
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1763,
+      1769
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy mủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1771,
+      1778
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      1887,
+      1894
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      1898,
+      1909
+    ],
+    "assertions": [],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1986,
+      1992
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nhiễm virus Herpes simplex (HSV)",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2488,
+      2520
+    ],
+    "assertions": [],
+    "candidates": [
+      "B00.9"
+    ]
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2526,
+      2544
+    ],
+    "assertions": [],
+    "candidates": [
+      "B02.9"
+    ]
+  }
+]

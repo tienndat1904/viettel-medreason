@@ -1,0 +1,11 @@
+[
+  {"text": "đau ngực trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG"},
+  {"text": "nghiệm pháp gắng sức", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "Xạ hình tưới máu cơ tim", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "thiếu máu cơ tim vùng dưới và thành bên", "type": "CHẨN_ĐOÁN"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "hẹp 60% đoạn gần động mạch liên thất trước trái", "type": "CHẨN_ĐOÁN"},
+  {"text": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim, hẹp 60% đoạn gần động mạch liên thất trước trái", "type": "CHẨN_ĐOÁN"}
+]

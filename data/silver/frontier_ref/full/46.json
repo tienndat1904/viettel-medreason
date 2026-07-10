@@ -1,0 +1,92 @@
+[
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      59,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      213,
+      240
+    ],
+    "assertions": [],
+    "candidates": [
+      "I95.9"
+    ]
+  },
+  {
+    "text": "khó kiểm soát huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      247,
+      269
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đi khập khiễng cách quãng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      284,
+      309
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      343,
+      368
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      393,
+      426
+    ],
+    "assertions": [],
+    "candidates": [
+      "I77.1"
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      487,
+      512
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      522,
+      555
+    ],
+    "assertions": [],
+    "candidates": [
+      "I77.1"
+    ]
+  }
+]

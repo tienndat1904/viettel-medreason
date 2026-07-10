@@ -1,0 +1,389 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "position": [
+      59,
+      64
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      88
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      227
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      315,
+      336
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      353
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      376
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      404,
+      410
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      442,
+      450
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      643
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      676,
+      695
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      743,
+      751
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      871,
+      897
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      979,
+      1005
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1012,
+      1023
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1031,
+      1050
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1057,
+      1064
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1085,
+      1098
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1138,
+      1146
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1161,
+      1169
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1302,
+      1310
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1312,
+      1323
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1358,
+      1369
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1372,
+      1391
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1398,
+      1406
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội soi thực quản - dạ dày - tá tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1467,
+      1504
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1533,
+      1544
+    ],
+    "assertions": [],
+    "candidates": [
+      "K29.7"
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1596,
+      1606
+    ],
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1613,
+      1634
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1645,
+      1670
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.6"
+    ]
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1672,
+      1696
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1823,
+      1847
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1940,
+      1951
+    ],
+    "assertions": [],
+    "candidates": [
+      "K29.7"
+    ]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1977,
+      2002
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.6"
+    ]
+  },
+  {
+    "text": "cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2160,
+      2181
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2214,
+      2245
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.6"
+    ]
+  }
+]

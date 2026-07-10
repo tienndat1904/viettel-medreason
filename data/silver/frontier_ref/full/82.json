@@ -1,0 +1,314 @@
+[
+  {
+    "text": "Suy thận mạn giai đoạn V",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N18.9"
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      76,
+      90
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      94,
+      107
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      138
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C61"
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      394
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      396,
+      416
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      439,
+      447
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      455
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ăn không ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      463,
+      482
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngứa da toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      484,
+      501
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      512,
+      532
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      554
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      568,
+      576
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      581,
+      584
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      628,
+      635
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ăn không ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      648,
+      667
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ngứa da toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      674,
+      691
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      704,
+      724
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      731,
+      751
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      759,
+      767
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      771,
+      774
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      823,
+      833
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      842,
+      845
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "6.3 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      850,
+      859
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      885,
+      888
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "69",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      897,
+      899
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "91 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      904,
+      912
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "photpho",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      953,
+      960
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "8.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      961,
+      964
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

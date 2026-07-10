@@ -1,0 +1,20 @@
+[
+  {"text": "Viêm loét đại tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Bệnh gan do rượu", "type": "CHẨN_ĐOÁN"},
+  {"text": "thuốc giảm đau opioid", "type": "THUỐC"},
+  {"text": "ăn uống kém", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó chịu vùng bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "run rẩy", "type": "TRIỆU_CHỨNG"},
+  {"text": "mất cảm giác ngon miệng", "type": "TRIỆU_CHỨNG"},
+  {"text": "chán ăn", "type": "TRIỆU_CHỨNG"},
+  {"text": "suy nhược", "type": "TRIỆU_CHỨNG"},
+  {"text": "Toàn trạng suy kiệt", "type": "TRIỆU_CHỨNG"},
+  {"text": "toàn trạng suy kiệt", "type": "TRIỆU_CHỨNG"},
+  {"text": "thiểu niệu", "type": "TRIỆU_CHỨNG"},
+  {"text": "giảm lượng nước tiểu", "type": "TRIỆU_CHỨNG"},
+  {"text": "chảy dịch từ lỗ dò", "type": "TRIỆU_CHỨNG"}
+]

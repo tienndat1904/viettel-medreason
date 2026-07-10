@@ -1,0 +1,12 @@
+[
+  {"text": "khối u thần kinh nội tiết ở thân tụy", "type": "CHẨN_ĐOÁN"},
+  {"text": "rò ống tuỵ mật", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhiễm Clostridioides difficile", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhiễm trùng vết mổ", "type": "CHẨN_ĐOÁN"},
+  {"text": "huyết khối tĩnh mạch sâu", "type": "CHẨN_ĐOÁN"},
+  {"text": "sưng nề, đỏ", "type": "TRIỆU_CHỨNG"},
+  {"text": "octreotide", "type": "THUỐC"},
+  {"text": "flagyl", "type": "THUỐC"},
+  {"text": "nội soi mật tuỵ ngược dòng (ERCP)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM"}
+]

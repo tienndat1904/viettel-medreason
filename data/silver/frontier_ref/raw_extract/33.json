@@ -1,0 +1,21 @@
+[
+  {"text": "béo phì", "type": "CHẨN_ĐOÁN"},
+  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN"},
+  {"text": "ngừng thở khi ngủ", "type": "CHẨN_ĐOÁN"},
+  {"text": "suy tim, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó nằm vào ban đêm để ngủ", "type": "TRIỆU_CHỨNG"},
+  {"text": "căng cứng vai trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "ho có đờm trắng", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "phù chi dưới", "type": "TRIỆU_CHỨNG"},
+  {"text": "thiếu oxy", "type": "TRIỆU_CHỨNG"},
+  {"text": "độ bão hòa oxy", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "86", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "bumetanide 2mg iv", "type": "THUỐC"},
+  {"text": "vancomycin 1 gram", "type": "THUỐC"},
+  {"text": "levofloxacin 750mg iv", "type": "THUỐC"},
+  {"text": "aspirin 325mg", "type": "THUỐC"},
+  {"text": "albuterolipratropium nebulizer", "type": "THUỐC"},
+  {"text": "methylprednisolone 125mg iv", "type": "THUỐC"}
+]

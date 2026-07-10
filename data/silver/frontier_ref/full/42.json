@@ -1,0 +1,231 @@
+[
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      66,
+      79
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "methadone",
+    "type": "THUỐC",
+    "position": [
+      162,
+      171
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6813"
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      229,
+      232
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      243,
+      246
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      250,
+      257
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau tăng dần khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      262,
+      285
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      321,
+      332
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      339,
+      345
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      365,
+      368
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      375,
+      382
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau tăng dần khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      389,
+      412
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      540,
+      543
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      545,
+      551
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      562,
+      565
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      567,
+      574
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      713,
+      718
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      812
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      816,
+      822
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      842,
+      850
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      866,
+      873
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      889,
+      897
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

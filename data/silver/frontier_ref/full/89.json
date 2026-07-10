@@ -1,0 +1,134 @@
+[
+  {
+    "text": "nội soi mật tuỵ ngược dòng (ERCP)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      53,
+      86
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối u thần kinh nội tiết ở thân tụy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      130,
+      166
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "octreotide",
+    "type": "THUỐC",
+    "position": [
+      206,
+      216
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7617"
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "position": [
+      223,
+      229
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6922"
+    ]
+  },
+  {
+    "text": "rò ống tuỵ mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      470,
+      484
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm Clostridioides difficile",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      665,
+      695
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "A04.7"
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "position": [
+      742,
+      748
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "6922"
+    ]
+  },
+  {
+    "text": "sưng nề, đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      930,
+      941
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sưng nề, đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1171,
+      1182
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1327,
+      1334
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "huyết khối tĩnh mạch sâu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1353,
+      1377
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "I80.2"
+    ]
+  }
+]

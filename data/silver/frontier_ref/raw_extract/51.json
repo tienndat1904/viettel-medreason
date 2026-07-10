@@ -1,0 +1,23 @@
+[
+  {"text": "Đái tháo đường type 2", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "khó chịu chung", "type": "TRIỆU_CHỨNG"},
+  {"text": "nghẹt mũi", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau đầu bên trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG"},
+  {"text": "kali", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "2.4", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "2.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "97.5", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "85", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "18", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "14279", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "96", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "azithromycin", "type": "THUỐC"},
+  {"text": "kali 80mEq", "type": "THUỐC"},
+  {"text": "40meq po k", "type": "THUỐC"},
+  {"text": "40meq iv k", "type": "THUỐC"},
+  {"text": "hạ kali máu rõ rệt", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhiễm trùng đường hô hấp trên cấp, không xác định", "type": "CHẨN_ĐOÁN"}
+]

@@ -1,0 +1,14 @@
+[
+  {"text": "phù hai bên", "type": "TRIỆU_CHỨNG"},
+  {"text": "phù", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau tăng dần khi đi lại", "type": "TRIỆU_CHỨNG"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG"},
+  {"text": "lơ mơ", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "bệnh tim mạch", "type": "CHẨN_ĐOÁN"},
+  {"text": "methadone", "type": "THUỐC"}
+]

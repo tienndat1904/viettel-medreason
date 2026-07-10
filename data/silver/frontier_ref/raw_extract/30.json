@@ -1,0 +1,12 @@
+[
+  {"text": "Bệnh bạch cầu dòng tủy mãn tính", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng cholesterol máu đơn thuần", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "gleevec", "type": "THUỐC"},
+  {"text": "allopurinol", "type": "THUỐC"},
+  {"text": "Thuốc giảm đau", "type": "THUỐC"},
+  {"text": "thuốc giảm đau", "type": "THUỐC"},
+  {"text": "ảo giác", "type": "TRIỆU_CHỨNG"},
+  {"text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định", "type": "CHẨN_ĐOÁN"},
+  {"text": "hoang tưởng", "type": "TRIỆU_CHỨNG"}
+]

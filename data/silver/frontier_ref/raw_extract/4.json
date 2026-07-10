@@ -1,0 +1,20 @@
+[
+  {"text": "NSAID", "type": "THUỐC"},
+  {"text": "omeprazole", "type": "THUỐC"},
+  {"text": "đau đầu gối", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau vùng hạ sườn phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng vùng hạ sườn phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "chướng bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn thoáng qua", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn ói", "type": "TRIỆU_CHỨNG"},
+  {"text": "Nôn mửa", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau lưng âm ỉ", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau lưng", "type": "TRIỆU_CHỨNG"},
+  {"text": "viêm dạ dày", "type": "CHẨN_ĐOÁN"},
+  {"text": "sỏi đoạn cuối ống mật chủ", "type": "CHẨN_ĐOÁN"},
+  {"text": "sỏi ống dẫn mật chung đoạn cuối", "type": "CHẨN_ĐOÁN"},
+  {"text": "nội soi thực quản - dạ dày - tá tràng", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "cộng hưởng từ mật tụy", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "Xét nghiệm chức năng gan", "type": "TÊN_XÉT_NGHIỆM"}
+]

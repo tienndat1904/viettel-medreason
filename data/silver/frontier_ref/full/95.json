@@ -1,0 +1,126 @@
+[
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      51,
+      59
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau âm ỉ vùng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      120,
+      143
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng âm ỉ quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      207,
+      230
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xuất huyết dưới da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      351,
+      369
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau âm ỉ vùng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      399
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      430,
+      438
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      450,
+      453
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      466,
+      469
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      478,
+      485
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      544,
+      552
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      565,
+      572
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực trái dữ dội lan xuống cánh tay trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "vã mồ hôi", "type": "TRIỆU_CHỨNG"},
+  {"text": "nitroglycerin", "type": "THUỐC"},
+  {"text": "aspirin", "type": "THUỐC"},
+  {"text": "mỡ nitroglycerin", "type": "THUỐC"},
+  {"text": "ativan", "type": "THUỐC"},
+  {"text": "lovenox", "type": "THUỐC"},
+  {"text": "điện tim", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "troponin", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "điện tâm đồ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "EKG", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "0.10", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "91 lần/phút", "type": "KẾT_QUẢ_XÉT_NGHIỆM"}
+]

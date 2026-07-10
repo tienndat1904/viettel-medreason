@@ -1,0 +1,23 @@
+[
+  {"text": "metoprolol 25mg po bid", "type": "THUỐC"},
+  {"text": "doxycycline", "type": "THUỐC"},
+  {"text": "viêm tuyến mồ hôi", "type": "CHẨN_ĐOÁN"},
+  {"text": "atenolol", "type": "THUỐC"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG"},
+  {"text": "giảm dung nạp gắng sức", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "đổ mồ hôi", "type": "TRIỆU_CHỨNG"},
+  {"text": "monitor holter", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm tim qua thành ngực", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "aspirin 325mg x 1", "type": "THUỐC"},
+  {"text": "x-quang ngực", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "phân tích nước tiểu", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "ecg", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "điện tâm đồ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "ngoại tâm thu nhĩ", "type": "CHẨN_ĐOÁN"},
+  {"text": "ngoại tâm thu thất", "type": "CHẨN_ĐOÁN"}
+]

@@ -1,0 +1,21 @@
+[
+  {"text": "Viêm nội tâm mạc", "type": "CHẨN_ĐOÁN"},
+  {"text": "rối loạn chức năng tâm thất phải", "type": "CHẨN_ĐOÁN"},
+  {"text": "rung nhĩ", "type": "CHẨN_ĐOÁN"},
+  {"text": "Suy thận mạn giai V", "type": "CHẨN_ĐOÁN"},
+  {"text": "coumadin 3.0 mg /ngày", "type": "THUỐC"},
+  {"text": "INR", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "chảy máu mũi", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "36.5", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "88", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "120/70", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "20", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "92 %", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "1.7", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "heparin truyền tĩnh mạch liên tục", "type": "THUỐC"}
+]

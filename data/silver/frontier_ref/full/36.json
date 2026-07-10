@@ -1,0 +1,430 @@
+[
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      41,
+      58
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Q61.3"
+    ]
+  },
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      85
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Q61.3"
+    ]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "position": [
+      208,
+      220
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1256"
+    ]
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "position": [
+      233,
+      240
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "42316"
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      294,
+      302
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "68149"
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      324,
+      332
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "68149"
+    ]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      386,
+      409
+    ],
+    "assertions": [],
+    "candidates": [
+      "N19"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      457,
+      467
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      514,
+      524
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "1.4-1.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      539,
+      546
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      573,
+      583
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      626,
+      635
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      653,
+      661
+    ],
+    "assertions": [],
+    "candidates": [
+      "68149"
+    ]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      665,
+      673
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      692,
+      702
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      794,
+      797
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      839,
+      848
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "position": [
+      893,
+      900
+    ],
+    "assertions": [],
+    "candidates": [
+      "42316"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      953,
+      963
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1024,
+      1036
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1179,
+      1189
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1193,
+      1196
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1223,
+      1226
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1271,
+      1294
+    ],
+    "assertions": [],
+    "candidates": [
+      "N19"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1358,
+      1367
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      1385,
+      1393
+    ],
+    "assertions": [],
+    "candidates": [
+      "68149"
+    ]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1397,
+      1405
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1419,
+      1422
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "position": [
+      1469,
+      1476
+    ],
+    "assertions": [],
+    "candidates": [
+      "42316"
+    ]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1529,
+      1541
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1736,
+      1746
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1747,
+      1750
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1754,
+      1757
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1936,
+      1946
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1947,
+      1950
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1965,
+      1968
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1981,
+      1984
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2045,
+      2057
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2282,
+      2300
+    ],
+    "assertions": [],
+    "candidates": [
+      "A22"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {"text": "Ung thư phổi không tế bào nhỏ", "type": "CHẨN_ĐOÁN"},
+  {"text": "Di căn não vùng trán phải", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "Sa van hai lá", "type": "CHẨN_ĐOÁN"},
+  {"text": "vicodin", "type": "THUỐC"},
+  {"text": "đau bẹn trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "Bầm máu vùng bẹn trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm giác tê", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm giác châm chích", "type": "TRIỆU_CHỨNG"},
+  {"text": "cảm giác nặng ở chân trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "yếu", "type": "TRIỆU_CHỨNG"}
+]

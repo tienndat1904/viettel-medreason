@@ -1,0 +1,17 @@
+[
+  {"text": "Bệnh thận đa nang", "type": "CHẨN_ĐOÁN"},
+  {"text": "Suy thận ngày càng nặng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Bệnh lý thận do BK", "type": "CHẨN_ĐOÁN"},
+  {"text": "azathioprine", "type": "THUỐC"},
+  {"text": "prograf", "type": "THUỐC"},
+  {"text": "cellcept", "type": "THUỐC"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG"},
+  {"text": "uống kém", "type": "TRIỆU_CHỨNG"},
+  {"text": "creatinine", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "creatinin", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "5.1", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "1.4-1.6", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "5.8", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "pcr", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm thận", "type": "TÊN_XÉT_NGHIỆM"}
+]

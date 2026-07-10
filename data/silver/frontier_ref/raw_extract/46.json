@@ -1,0 +1,9 @@
+[
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "hạ huyết áp, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "khó kiểm soát huyết áp", "type": "TRIỆU_CHỨNG"},
+  {"text": "đi khập khiễng cách quãng", "type": "TRIỆU_CHỨNG"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "tắc hẹp 80% động mạch thận trái L", "type": "CHẨN_ĐOÁN"},
+  {"text": "80%", "type": "KẾT_QUẢ_XÉT_NGHIỆM"}
+]

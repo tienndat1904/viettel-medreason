@@ -1,0 +1,298 @@
+[
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      109,
+      121
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K81.9"
+    ]
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "position": [
+      161,
+      172
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      273,
+      281
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chụp chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      298,
+      323
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      359,
+      388
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K81.9"
+    ]
+  },
+  {
+    "text": "bệnh túi thừa của cả ruột non và đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      436,
+      478
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K38.2"
+    ]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      508,
+      515
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      582,
+      590
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ vị bên phải và hạ vị bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      662,
+      703
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      741,
+      749
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ vị bên phải và hạ vị bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      830,
+      871
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      885
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      936
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      961
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      974,
+      983
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      1003
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1206,
+      1215
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "position": [
+      1262,
+      1273
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      1400,
+      1408
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1430,
+      1433
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1446,
+      1455
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1468,
+      1475
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1572,
+      1589
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1611,
+      1614
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chụp chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1657,
+      1682
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1718,
+      1747
+    ],
+    "assertions": [],
+    "candidates": [
+      "K81.9"
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "text": "Đái tháo đường type 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      78
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      85,
+      98
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "khó chịu chung",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      214,
+      228
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      235,
+      244
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      261,
+      277
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      284,
+      291
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      298,
+      307
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      339,
+      348
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      359,
+      368
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      418,
+      427
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      583,
+      587
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      591,
+      594
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali 80mEq",
+    "type": "THUỐC",
+    "position": [
+      614,
+      624
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      718,
+      722
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      738,
+      741
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      795,
+      807
+    ],
+    "assertions": [],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "97.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      908,
+      912
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "85",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      919,
+      921
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "18",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      932,
+      934
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "14279",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      945,
+      950
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "96",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      957,
+      959
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1032,
+      1036
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1040,
+      1043
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1050,
+      1054
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1070,
+      1073
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1080,
+      1084
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1094,
+      1097
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "40meq po k",
+    "type": "THUỐC",
+    "position": [
+      1136,
+      1146
+    ],
+    "assertions": [],
+    "candidates": [
+      "11258"
+    ]
+  },
+  {
+    "text": "40meq iv k",
+    "type": "THUỐC",
+    "position": [
+      1158,
+      1168
+    ],
+    "assertions": [],
+    "candidates": [
+      "11258"
+    ]
+  },
+  {
+    "text": "hạ kali máu rõ rệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1203,
+      1221
+    ],
+    "assertions": [],
+    "candidates": [
+      "E87.6"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1237,
+      1246
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1262,
+      1311
+    ],
+    "assertions": [],
+    "candidates": [
+      "J06.9"
+    ]
+  }
+]
