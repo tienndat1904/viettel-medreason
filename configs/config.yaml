@@ -22,7 +22,7 @@ extract:
   lora_adapter: ""                    # để trống = few-shot chưa fine-tune; điền path adapter sau QLoRA
   max_seq_len: 4096
   temperature: 0.0
-  max_new_tokens: 1536
+  max_new_tokens: 512                 # JSON concept list ngắn (~300 tok); 512 đủ & nhanh 3x so với 1536
   max_chunk_chars: 1800               # chunk theo dòng để tránh cắt output
   hybrid:                             # backend=hybrid: rule (nền) + LLM vét bệnh/thuốc lạ
     llm_types: [CHẨN_ĐOÁN, THUỐC]     # loại LLM được phép bổ sung (mang candidate 0.4)
