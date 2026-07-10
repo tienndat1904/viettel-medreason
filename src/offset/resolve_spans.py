@@ -49,6 +49,7 @@ def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
     def _emit(sp, out, s, e):
         used.append((s, e))
         concept = dict(sp)
+        concept.pop("_src", None)          # cờ nội bộ (ưu tiên nguồn) — không để lọt ra output
         concept["text"] = text[s:e]
         concept["position"] = [s, e]
         out.append(concept)
@@ -70,10 +71,12 @@ def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
         seen_key.add(key)
         uniq.append(sp)
 
-    # LONGEST-MATCH cross-type: span DÀI chiếm vị trí trước (stable theo thứ tự emit khi
-    # bằng độ dài) -> cụm bệnh dài ("tăng kali máu") thắng term ngắn chồng vị trí ("kali"
-    # =TÊN_XÉT_NGHIỆM), sửa lỗi sai-type/sai-biên mà emit-order không xử được.
-    uniq.sort(key=lambda sp: len((sp.get("text") or "").strip()), reverse=True)
+    # Thứ tự chiếm vị trí: (1) NGUỒN rule trước LLM; (2) trong cùng nguồn, span DÀI trước.
+    # - Longest-match cross-type: cụm bệnh dài ("tăng kali máu") thắng term ngắn chồng vị trí
+    #   ("kali"=TÊN_XÉT_NGHIỆM) — sửa sai-type/sai-biên mà emit-order không xử được.
+    # - Ưu tiên nguồn giữ GUARANTEE "rule là sàn" cho backend hybrid: span LLM dài hơn KHÔNG
+    #   đè được span rule chồng vị trí. Bản nộp rule không gắn _src -> chỉ còn longest-match.
+    uniq.sort(key=lambda sp: (sp.get("_src") == "llm", -len((sp.get("text") or "").strip())))
 
     out = []
     for sp in uniq:

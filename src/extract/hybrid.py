@@ -31,7 +31,7 @@ def filter_llm_spans(llm_spans, allowed_types, max_words: int) -> list[dict]:
         if key in seen:
             continue
         seen.add(key)
-        out.append({"text": t, "type": typ})
+        out.append({"text": t, "type": typ, "_src": "llm"})   # nguồn LLM: rule luôn thắng khi chồng
     return out
 
 

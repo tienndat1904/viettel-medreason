@@ -18,7 +18,8 @@ def test_filter_drops_long_and_wrong_type():
         {"text": "  ", "type": THUOC},                                 # rỗng -> bỏ
     ]
     out = filter_llm_spans(spans, (CHAN_DOAN, THUOC), max_words=6)
-    assert out == [{"text": "viêm tụy", "type": CHAN_DOAN}]
+    # span LLM gắn _src="llm" để resolve_offsets cho rule thắng khi chồng vị trí (rule là sàn)
+    assert out == [{"text": "viêm tụy", "type": CHAN_DOAN, "_src": "llm"}]
 
 
 def test_llm_adds_unseen_disease_without_breaking_rule():
