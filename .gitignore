@@ -37,3 +37,6 @@ data/dev/review/
 # OS
 .DS_Store
 Thumbs.db
+
+# SFT data sinh từ scripts (distill_frontier.py + mix_sft.py) — build khi cần, không commit
+data/silver/frontier_ref/train_sft_*.jsonl
