@@ -1,0 +1,13 @@
+[
+  {"text": "ung thư đường mật", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C24.9"], "note": "cholangiocarcinoma; 'nghi ngờ ... không thể cắt bỏ' - nghi ngờ (uncertainty) KHÔNG negated; tiền sử phẫu thuật -> historical; C24.9 (đường mật, không đặc hiệu)"},
+  {"text": "run rẩy", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "rigors; 'Triệu chứng hiện tại: run rẩy kèm sốt'"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'run rẩy kèm sốt' (present)"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'kèm theo sốt' (verbatim lặp trong cùng câu)"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 3, "note": "'Gần đây nhập viện vì sốt' - đợt nhập viện trước -> historical"},
+  {"text": "áp xe", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": [], "note": "'các ổ dịch trong ổ bụng được cho là áp xe' (đợt nhập viện gần đây -> historical); vị trí ổ bụng không rõ -> [] (không chắc mã)"},
+  {"text": "kháng sinh tĩnh mạch", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "IV antibiotics (nhóm, không hoạt chất) -> []; điều trị đợt nằm viện trước -> historical"},
+  {"text": "Augmentin đường uống", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "note": "amoxicillin/clavulanate (biệt dược phối hợp) -> []; đơn ra viện đợt trước -> historical"},
+  {"text": "mrcp (chụp cộng hưởng từ mật tụy)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "MRCP"},
+  {"text": "nhiều nang tụy nhỏ", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "MRCP finding: multiple small pancreatic cysts (mô tả chẩn đoán hình ảnh -> KQ)"},
+  {"text": "một ổ dịch sau phẫu thuật giảm kích thước", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "imaging finding: postop fluid collection decreased in size"}
+]

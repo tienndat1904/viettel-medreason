@@ -1,6 +1,6 @@
-# PIN chính xác các version ĐÃ VERIFY chạy được (Colab T4, CUDA 12.8) — dùng cho BTC dựng lại.
-# Nếu môi trường BTC khác CUDA, cài torch khớp CUDA của họ rồi giữ nguyên các version còn lại.
-# (Bản range mềm cho Colab: requirements.txt + requirements-gpu.txt.)
+# PIN chinh xac cac version DA VERIFY chay duoc (Colab T4, CUDA 12.8) - dung cho BTC dung lai.
+# Neu moi truong BTC khac CUDA, cai torch khop CUDA cua ho roi giu nguyen cac version con lai.
+# (Ban range mem cho Colab: requirements.txt + requirements-gpu.txt.)
 #
 # torch cu128: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
 torch==2.11.0

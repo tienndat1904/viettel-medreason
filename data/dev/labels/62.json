@@ -1,0 +1,6 @@
+[
+  {"text": "loét mới ở ngón chân út bên phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["L97"], "note": "new toe ulcer; BN có tiền sử bắc cầu + stent mạch -> nghi loét thiếu máu chi; L97 'Loét chi dưới'; KHÔNG CHẮC CHẨN_ĐOÁN vs TRIỆU_CHỨNG (loét khác trong KB đều là CHẨN_ĐOÁN)"},
+  {"text": "loét đau", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "loét đau (dấu hiệu viêm); 'Triệu chứng hiện tại'"},
+  {"text": "loét đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "loét đỏ (đỏ)"},
+  {"text": "loét sưng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "loét sưng (sưng)"}
+]

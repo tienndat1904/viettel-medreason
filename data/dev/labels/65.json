@@ -1,0 +1,13 @@
+[
+  {"text": "đại tiện ra máu đỏ tươi gián đoạn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "hematochezia; 'Lý do nhập viện'"},
+  {"text": "đại tiện ra máu đỏ tươi gián đoạn", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "dizziness; 'Triệu chứng hiện tại'"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng kèm theo'"},
+  {"text": "rối loạn đông máu", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["D68.9"], "note": "coagulopathy; 'nhập viện để đánh giá rối loạn đông máu'; D68.9 (BYT)"},
+  {"text": "inr", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "INR"},
+  {"text": "2.0", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "INR=2.0"},
+  {"text": "inr", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "mục 3 KQXN"},
+  {"text": "2.0", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "mục 3 KQXN"},
+  {"text": "Cr", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "creatinine; 'tăng Cr'"},
+  {"text": "Cr", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "mục 3 KQXN"}
+]

@@ -1,0 +1,15 @@
+[
+  {"text": "ung thư vú trái", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C50.9"], "occ": 1, "note": "mục 'Bệnh lý mãn tính'; đã cắt tuyến vú -> bệnh nền có trước đợt này -> historical; bỏ modifier 'giai IIIB'; C50.9 (WHO không mã hoá bên/giai đoạn)"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "erythema; 'Lý do nhập viện'"},
+  {"text": "đau khi sờ nắn ở vết mổ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "tenderness; 'Lý do nhập viện'"},
+  {"text": "levafloxacin", "type": "THUỐC", "assertions": [], "candidates": ["82122"], "note": "levofloxacin (verbatim lỗi 'levafloxacin'); thuốc trần -> IN; kê ở phòng khám trong đợt bệnh hiện tại -> không historical"},
+  {"text": "cephalexin", "type": "THUỐC", "assertions": [], "candidates": ["2231"], "note": "thuốc trần -> IN"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 5, "note": "'Triệu chứng hiện tại'; bỏ qua occ2/3/4 (narrative Triệu chứng Bắt đầu / Diễn biến)"},
+  {"text": "đau khi sờ nắn vùng mổ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Triệu chứng hiện tại'"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại' (occ1 trong narrative Diễn biến)"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 1, "note": "'không sốt' (Triệu chứng hiện tại)"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 6, "note": "'Dấu hiệu lâm sàng'"},
+  {"text": "đau ấn vùng mổ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Dấu hiệu lâm sàng'"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 2, "note": "'không sốt' (Dấu hiệu lâm sàng)"},
+  {"text": "vancomycin", "type": "THUỐC", "assertions": [], "candidates": ["11124"], "note": "'Thủ thuật đã thực hiện: dùng vancomycin' -> điều trị hiện tại; thuốc trần -> IN"}
+]

@@ -1,0 +1,10 @@
+[
+  {"text": "ý định tự tử", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "occ": 1, "note": "'Nhiều lần có ý định tự tử trước đây'"},
+  {"text": "trầm cảm", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F32.9"], "occ": 1, "note": "depression; bệnh lý mãn tính"},
+  {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F41.9"], "note": "anxiety; bệnh lý mãn tính"},
+  {"text": "tổn thương chi dưới", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "occ": 1, "note": "lower limb injury do nhảy cầu; mã chấn thương chưa rõ -> []"},
+  {"text": "trầm cảm", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated", "isHistorical"], "candidates": ["F32.9"], "occ": 2, "note": "'Không xác nhận đã bị trầm cảm trước đó' -> phủ định + quá khứ"},
+  {"text": "ý định tự tử", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "occ": 2, "note": "'không xác nhận có ý định tự tử'"},
+  {"text": "thuyên tắc phổi hai bên", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I26.9"], "note": "bilateral PE; I26.9"},
+  {"text": "nhiễm trùng chi dưới bên phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "VRE infection; mã đặc hiệu chưa rõ -> []"}
+]

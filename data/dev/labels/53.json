@@ -1,0 +1,12 @@
+[
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "note": "ASCVD; mục 'Bệnh lý mãn tính'; khớp tên BYT I25.1"},
+  {"text": "blốc nhĩ thất, hoàn toàn", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I44.2"], "note": "complete AV block; khớp tên BYT I44.2; 'sau khi đặt máy tạo nhịp (PPM)' là thủ thuật -> không gán"},
+  {"text": "bệnh thận mạn, không đặc hiệu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["N18.9"], "note": "CKD unspecified; mục 'Bệnh lý mãn tính'"},
+  {"text": "Suy giảm nhận thức nhẹ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F06.7"], "note": "mild cognitive impairment; text gốc lặp 'Suy giảm nhận thức nhẹ suy giảm nhận thức' -> lấy cụm đầu; F06.7 'Rối loạn nhận thức nhẹ'"},
+  {"text": "Cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "chest tightness; 'Lý do nhập viện: Các đợt...' (hiện tại)"},
+  {"text": "Cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại' (dưới xương ức, nghiêm trọng - bỏ modifier vị trí/mức độ)"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "dyspnea; 'Triệu chứng hiện tại'"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng kèm theo'"},
+  {"text": "Cơn đau thắt ngực không ổn định", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I20.0"], "occ": 1, "note": "unstable angina; 'lo ngại' = quan ngại (không negated); khớp tên BYT I20.0"},
+  {"text": "Cơn đau thắt ngực không ổn định", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I20.0"], "occ": 2, "note": "'Các phát hiện chẩn đoán khác: Lo ngại...' (đánh giá tại BV)"}
+]

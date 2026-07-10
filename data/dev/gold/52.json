@@ -1,0 +1,117 @@
+[
+  {
+    "text": "ung thư đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      183,
+      200
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C24.9"
+    ]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      408
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      416
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      426,
+      429
+    ],
+    "assertions": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      493,
+      496
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      536,
+      541
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      562,
+      582
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Augmentin đường uống",
+    "type": "THUỐC",
+    "position": [
+      630,
+      650
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mrcp (chụp cộng hưởng từ mật tụy)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      798,
+      831
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nhiều nang tụy nhỏ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      841,
+      859
+    ],
+    "assertions": []
+  },
+  {
+    "text": "một ổ dịch sau phẫu thuật giảm kích thước",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      906,
+      947
+    ],
+    "assertions": []
+  }
+]

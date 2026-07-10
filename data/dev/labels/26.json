@@ -1,0 +1,3 @@
+[
+  {"text": "béo phì", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E66.9"], "note": "obesity; mục 'Các bệnh lý mãn tính'; phần còn lại (giảm/tăng cân, ăn kiêng) là lối sống -> không gán"}
+]

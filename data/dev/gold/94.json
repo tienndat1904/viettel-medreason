@@ -1,0 +1,223 @@
+[
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      49,
+      66
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C50.9"
+    ]
+  },
+  {
+    "text": "weekly taxol",
+    "type": "THUỐC",
+    "position": [
+      98,
+      110
+    ],
+    "assertions": [],
+    "candidates": [
+      "56946"
+    ]
+  },
+  {
+    "text": "fulvestrant",
+    "type": "THUỐC",
+    "position": [
+      114,
+      125
+    ],
+    "assertions": [],
+    "candidates": [
+      "282357"
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      181,
+      207
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      326
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đi ngoài phân lỏng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      359
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      559,
+      580
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      582,
+      590
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      647,
+      655
+    ],
+    "assertions": []
+  },
+  {
+    "text": "130/76 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      656,
+      667
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      668,
+      672
+    ],
+    "assertions": []
+  },
+  {
+    "text": "93 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      674,
+      680
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Nhiệt độ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      681,
+      689
+    ],
+    "assertions": []
+  },
+  {
+    "text": "36.3 độ C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      692,
+      701
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Nhịp thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      702,
+      710
+    ],
+    "assertions": []
+  },
+  {
+    "text": "14 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      712,
+      718
+    ],
+    "assertions": []
+  },
+  {
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      720,
+      724
+    ],
+    "assertions": []
+  },
+  {
+    "text": "99 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      726,
+      730
+    ],
+    "assertions": []
+  },
+  {
+    "text": "compazine",
+    "type": "THUỐC",
+    "position": [
+      764,
+      773
+    ],
+    "assertions": [],
+    "candidates": [
+      "8704"
+    ]
+  },
+  {
+    "text": "aleve",
+    "type": "THUỐC",
+    "position": [
+      777,
+      782
+    ],
+    "assertions": [],
+    "candidates": [
+      "7258"
+    ]
+  },
+  {
+    "text": "morphine",
+    "type": "THUỐC",
+    "position": [
+      812,
+      820
+    ],
+    "assertions": [],
+    "candidates": [
+      "7052"
+    ]
+  },
+  {
+    "text": "lorazepam",
+    "type": "THUỐC",
+    "position": [
+      829,
+      838
+    ],
+    "assertions": [],
+    "candidates": [
+      "6470"
+    ]
+  }
+]

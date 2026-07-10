@@ -1,0 +1,18 @@
+[
+  {"text": "Đái tháo đường típ 1", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["E10.9"], "note": "T1DM; bệnh lý mãn tính"},
+  {"text": "viêm thần kinh ngoại biên", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G62.9"], "note": "'có biến chứng viêm thần kinh ngoại biên'"},
+  {"text": "Viêm gan virus C và B", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["B18.9"], "note": "chronic viral hepatitis; nêu cả C và B -> B18.9 không đặc hiệu"},
+  {"text": "Tăng áp động mạch phổi", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I27.0"], "note": "pulmonary hypertension; I27.0"},
+  {"text": "U lympho không hodgkin tế bàoB lớn lan toả", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C83.3"], "note": "DLBCL; C83.3 (text OCR dính 'tế bàoB')"},
+  {"text": "methadone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["6813"], "note": "'Thuốc đang dùng trước khi nhập viện'; text dính 'Dùngmethadonekéo'"},
+  {"text": "lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["4603"], "occ": 1, "note": "furosemide; 'lasixđã dừng cách vài tuần'"},
+  {"text": "Phù chân trái", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Lý do nhập viện: Phù chân trái và hoại tử'"},
+  {"text": "hoại tử", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "necrosis"},
+  {"text": "Lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["4603"], "occ": 1, "note": "'tự ý dừng Lasix'; ngừng thuốc -> vẫn đã dùng, KHÔNG negated"},
+  {"text": "lasix", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["4603"], "occ": 2, "note": "'Sau khi dừng sử dụng lasix cách đây vài tuần'"},
+  {"text": "phù chân", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'xuất hiện phù chân'"},
+  {"text": "Phù 2 chân", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "khám lúc vào 'Phù 2 chân nặng'"},
+  {"text": "Loét 2 bàn chân", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "foot ulcers (dấu hiệu thực thể)"},
+  {"text": "chảy dịch vàng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "yellow discharge"},
+  {"text": "Loét bàn chân nhiễm trùng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": [], "note": "'Theo dõi Loét bàn chân nhiễm trùng'; mã đặc hiệu chưa rõ -> []"}
+]

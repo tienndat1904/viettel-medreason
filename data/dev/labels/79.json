@@ -1,0 +1,6 @@
+[
+  {"text": "bàn chân vẹo bẩm sinh", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["Q66.0"], "occ": 1, "note": "congenital clubfoot; Q66.0 bàn chân khoèo; bệnh lý mãn tính"},
+  {"text": "bàn chân vẹo bẩm sinh", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["Q66.0"], "occ": 2, "note": "'đã phẫu thuật ... trong quá khứ vì bàn chân vẹo bẩm sinh'"},
+  {"text": "chảy dịch liên tục từ mặt trong của bàn chân trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "drainage; 'Lý do nhập viện'"},
+  {"text": "chảy dịch liên tục từ mặt trong của bàn chân trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"}
+]

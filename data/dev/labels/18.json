@@ -1,0 +1,10 @@
+[
+  {"text": "Thuyên tắc tĩnh mạch sâu chi dưới ở chân trái", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I80.2"], "note": "DVT chi dưới; mục 'Các bệnh mãn tính' + 'nhiều lần' -> historical; KB không có I82.4 -> dùng I80.2 (viêm tắc TM sâu chi dưới)"},
+  {"text": "đau ngực trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'; gộp lần nhắc 'đau ngực trái cấp tính' ở lý do NV"},
+  {"text": "đau sau xương ức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'; gộp lần nhắc ở lý do NV"},
+  {"text": "đau lan ra sau lưng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "mục 'Triệu chứng hiện tại'; gộp 'đau ngực lan ra sau lưng' ở tình trạng trước NV"},
+  {"text": "chụp cắt lớp vi tính mạch máu (ctma) ngực", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CTA ngực; occ2 ở 'Các thủ thuật đã thực hiện' là nhắc lại thủ tục -> gộp"},
+  {"text": "Không thấy hình ảnh thuyên tắc mạch phổi", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "phát hiện âm tính PE trên CTA (tương tự VD 'không thấy tổn thương choán chỗ' = KQ); RANH GIỚI: reviewer có thể tách 'thuyên tắc mạch phổi' = CHẨN_ĐOÁN isNegated"},
+  {"text": "bóc tách động mạch chủ Stanford loại B", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I71.0"], "note": "aortic dissection type B phát hiện trên CTA; I71.0 (WHO không phân Stanford A/B); RANH GIỚI: reviewer có thể coi = KQ hình ảnh"},
+  {"text": "bóc tách động mạch chủ loại B", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I71.0"], "note": "mục 'Các phát hiện chẩn đoán khác' - lần nhắc chẩn đoán riêng"}
+]
