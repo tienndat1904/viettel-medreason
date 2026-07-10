@@ -74,6 +74,10 @@ _DUR_AFTER = re.compile(r"^\s*(tu[aầ]n|ngày|ngay|tháng|thang|năm|nam|giờ|
                         r"tuổi|tuoi|lần|lan|viên|vien|gói|goi|mg|ml|mcg|g)\b", re.I)
 _RESULT_CUE = (":", "là ", "kết quả", "chỉ số", "nồng độ", "mức ", "kqxn", "chỉ điểm",
                "nhiệt độ")
+# GHI CHÚ (đã thử & BỎ 10/07): KQXN định tính "dương tính/âm tính" — forum BTC nói "lấy"
+# nhưng gold nhóm (5/5 file kiểm) chỉ giữ TÊN xét nghiệm, KHÔNG tách kết quả định tính
+# thành KQXN riêng -> trích bare token bị dev-âm (-0.0023). Không trích. Revisit nếu
+# private-gold BTC gán khác (span/type kết quả định tính chưa được forum nói rõ).
 
 # ===== EXPERIMENT (forum #1, chưa đo được trên dev — chỉ leaderboard xác nhận) =====
 # (a) KQXN dạng MÔ TẢ: tên XN hình ảnh + cue -> lấy cụm mô tả tới hết câu (HHM #2).
