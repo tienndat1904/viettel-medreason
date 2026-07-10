@@ -1,0 +1,6 @@
+[
+  {"text": "cơn co tử cung", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "uterine contractions; 'Hiện có cơn co tử cung' (present)"},
+  {"text": "ra huyết âm đạo", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'chưa ra huyết âm đạo (VB -)' -> negated"},
+  {"text": "vỡ ối", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'chưa vỡ ối/rỉ ối (LOF -)' -> negated"},
+  {"text": "rỉ ối", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'chưa vỡ ối/rỉ ối (LOF -)' -> negated"}
+]

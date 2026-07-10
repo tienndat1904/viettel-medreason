@@ -1,6 +1,6 @@
-# BẢN NỘP CHÍNH THỨC (--backend rule) — deps ĐÃ PIN, KHÔNG torch/GPU/internet.
-# BTC dựng lại chỉ cần: pip install -r requirements-submit.txt
-# (LLM/RAG là thí nghiệm, KHÔNG dùng khi nộp — deps của chúng ở requirements-lock.txt / -semantic.txt.)
+# BAN NOP CHINH THUC (--backend rule) - deps DA PIN, KHONG torch/GPU/internet.
+# BTC dung lai chi can: pip install -r requirements-submit.txt
+# (LLM/RAG la thi nghiem, KHONG dung khi nop - deps cua chung o requirements-lock.txt / -semantic.txt.)
 numpy==2.0.2
 pandas==2.2.3
 pyarrow==17.0.0

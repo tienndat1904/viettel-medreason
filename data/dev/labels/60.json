@@ -1,0 +1,7 @@
+[
+  {"text": "Trào ngược dạ dày thực quản", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K21.9"], "note": "GERD; 'Lý do nhập viện: ... ngày càng tăng' (hiện tại); K21.9 (như file 5/17)"},
+  {"text": "triệu chứng trào ngược", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "reflux symptoms; bệnh sử hiện tại (khởi phát ~1 năm, mức độ nhẹ)"},
+  {"text": "triệu chứng trào ngược", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "thoát vị hoành", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated", "isHistorical"], "candidates": ["K44.9"], "note": "hiatal hernia; 'không cho thấy thoát vị hoành cách đây một năm' -> phủ định + quá khứ; K44.9 (như file 20); KHÔNG CHẮC có nên gắn isHistorical"},
+  {"text": "thoát vị cạnh thực quản khá lớn", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K44.9"], "note": "large paraesophageal hernia (hiện tại); K44.9; giữ 'khá lớn' theo phong cách file 20 'thoát vị hoành nhỏ'"}
+]

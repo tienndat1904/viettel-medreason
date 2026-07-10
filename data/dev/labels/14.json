@@ -1,0 +1,11 @@
+[
+  {"text": "đau ngực trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'; gộp lần nhắc ở lý do NV (occ1) và đặc điểm triệu chứng (occ3)"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "mục 'Triệu chứng hiện tại'; 'do dị ứng theo mùa' là quy kết nguyên nhân, KHÔNG negated"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "mục 'Triệu chứng hiện tại'"},
+  {"text": "nghiệm pháp gắng sức", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "'kết quả bất thường' định tính không số -> không gán KQ riêng"},
+  {"text": "Xạ hình tưới máu cơ tim", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "myocardial perfusion scintigraphy"},
+  {"text": "thiếu máu cơ tim vùng dưới và thành bên", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "phát hiện trên xạ hình -> KQ hình ảnh (HHM#2)"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM", "assertions": []},
+  {"text": "hẹp 60% đoạn gần động mạch liên thất trước trái", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "kết quả chụp mạch vành (occ2 lặp trong chẩn đoán sơ bộ -> gộp)"},
+  {"text": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.9"], "note": "chẩn đoán sơ bộ (hiện tại); chronic ischaemic heart disease unspecified; reviewer: I25.1 nếu nhấn xơ vữa"}
+]

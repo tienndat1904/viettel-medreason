@@ -1,0 +1,8 @@
+[
+  {"text": "khó thở khi gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'vài tuần trước ... có khó thở khi gắng sức'"},
+  {"text": "Khó thở khi gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Tình trạng lúc vào viện'"},
+  {"text": "siêu âm tim", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "echocardiogram"},
+  {"text": "hở van hai lá nặng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I34.0"], "note": "severe mitral regurgitation; I34.0"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "coronary angiography"},
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN", "assertions": ["isNegated"], "candidates": ["I25.1"], "note": "'không có bệnh động mạch vành' -> phủ định"}
+]

@@ -1,0 +1,10 @@
+[
+  {"text": "đau vùng xương bánh chè – đùi phải", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "note": "patellofemoral pain (P); 'triệu chứng tương tự trước đây ... cách đây vài tháng'; bỏ 'dữ dội'"},
+  {"text": "đau đầu gối phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "right knee pain; 'Lý do nhập viện: Tái khám vì...' (hiện tại)"},
+  {"text": "Đau bánh chè đùi phải", "type": "TRIỆU_CHỨNG", "assertions": ["isHistorical"], "note": "'Đau bánh chè đùi phải dữ dội cách đây vài tháng' (diễn biến); bỏ 'dữ dội'"},
+  {"text": "đau đầu gối phải", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "x-quang", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "X-quang khớp bánh chè đùi"},
+  {"text": "những thay đổi thoái hóa nghiêm trọng của khớp bánh chè đùi phải", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả chẩn đoán hình ảnh (degenerative changes); KHÔNG CHẮC: có thể là CHẨN_ĐOÁN thoái hóa khớp gối M17"},
+  {"text": "chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CT"},
+  {"text": "góc tăng lên", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "increased angle (finding định lượng trên CT)"}
+]

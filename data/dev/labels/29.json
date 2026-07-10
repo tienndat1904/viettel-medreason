@@ -1,0 +1,9 @@
+[
+  {"text": "tiểu tiện không tự chủ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "urinary incontinence; 'Lý do nhập viện'; 'không tự chủ' = són tiểu, KHÔNG phải negation"},
+  {"text": "sa âm đạo", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N81.9"], "occ": 1, "note": "vaginal/genital prolapse; 'Lý do nhập viện'; tiền lệ 49.json 'Khối sa âm đạo' -> N81.9"},
+  {"text": "tiểu tiện không tự chủ", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "sa âm đạo", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["N81.9"], "occ": 2, "note": "'Triệu chứng hiện tại'"},
+  {"text": "bàng quang căng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "distended bladder; 'Triệu chứng hiện tại'"},
+  {"text": "cảm giác bí tiếu liên tục", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "cảm giác bí tiểu liên tục (urinary retention); 'Triệu chứng hiện tại'"},
+  {"text": "khối cứng trong âm đạo", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Kết quả khám thực thể: sờ thấy một khối cứng trong âm đạo' (dấu hiệu thực thể)"}
+]

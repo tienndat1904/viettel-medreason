@@ -1,0 +1,10 @@
+[
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "'tiền sử tăng huyết áp'"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "cough; 'Triệu chứng hiện tại'"},
+  {"text": "đau lưng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "back pain"},
+  {"text": "phim chụp CT", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "CT"},
+  {"text": "tổn thương tiêu xương lan tỏa", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả CT (HHM#2)"},
+  {"text": "Định lượng IgA", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "IgA quantification"},
+  {"text": "các tổn thương ổ tiêu xương lan tỏa", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả chẩn đoán hình ảnh (HHM#2)"},
+  {"text": "Đa u tủy xương", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["C90.0"], "note": "multiple myeloma; 'Chẩn đoán: Đa u tủy xương'; C90.0"}
+]

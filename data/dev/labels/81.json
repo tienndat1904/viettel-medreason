@@ -1,0 +1,8 @@
+[
+  {"text": "vết thương thấu bụng giữa bên phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["S31"], "occ": 1, "note": "penetrating abdominal wound; S31 vết thương hở của bụng (BYT 3 ký tự); 'Lý do nhập viện'"},
+  {"text": "vết thương thấu bụng giữa bên phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["S31"], "occ": 2, "note": "'Triệu chứng khi đến'"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT sọ trước mổ"},
+  {"text": "độ dày niêm mạc xoang hàm dày lên", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả CT (HHM#2)"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "CT bụng"},
+  {"text": "không có tổn thương rõ ràng khác", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "CT bụng âm tính (HHM#2)"}
+]

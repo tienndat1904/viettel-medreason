@@ -1,0 +1,8 @@
+[
+  {"text": "gãy xương sườn trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["S22.4"], "occ": 1, "note": "rib fracture; CT thấy gãy 3 xương -> S22.4 gãy phức tạp xương sườn; 'Lý do nhập viện'"},
+  {"text": "gãy xương sườn trái", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["S22.4"], "occ": 2, "note": "'Triệu chứng lúc vào'"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT cột sống cổ"},
+  {"text": "không thấy tổn thương", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT cột sống cổ âm tính (HHM#2)"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "CT lồng ngực"},
+  {"text": "gãy 3 xương sườn 9, 10 và 11", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả CT (HHM#2)"}
+]

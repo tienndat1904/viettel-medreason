@@ -1,0 +1,62 @@
+[
+  {
+    "text": "gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      146,
+      165
+    ],
+    "assertions": [],
+    "candidates": [
+      "S22.4"
+    ]
+  },
+  {
+    "text": "gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      316,
+      335
+    ],
+    "assertions": [],
+    "candidates": [
+      "S22.4"
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      359,
+      384
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không thấy tổn thương",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      397,
+      418
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      425,
+      450
+    ],
+    "assertions": []
+  },
+  {
+    "text": "gãy 3 xương sườn 9, 10 và 11",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      470,
+      498
+    ],
+    "assertions": []
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "text": "đại tiện ra máu đỏ tươi gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      99,
+      132
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đại tiện ra máu đỏ tươi gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      196,
+      229
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      232,
+      241
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      334,
+      343
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      418,
+      421
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      425,
+      428
+    ],
+    "assertions": []
+  },
+  {
+    "text": "rối loạn đông máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      489,
+      506
+    ],
+    "assertions": [],
+    "candidates": [
+      "D68.9"
+    ]
+  },
+  {
+    "text": "Cr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      536,
+      538
+    ],
+    "assertions": []
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      606,
+      609
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      613,
+      616
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Cr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      624,
+      626
+    ],
+    "assertions": []
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {"text": "nốt sần tuyến giáp phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 1, "note": "thyroid nodule; E04.1 bướu giáp đơn nhân không độc (BYT)"},
+  {"text": "đau vùng hạ sườn phải", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "RUQ pain"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "ultrasound"},
+  {"text": "sỏi mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K80.2"], "occ": 1, "note": "cholelithiasis; K80.2 (như dev khác)"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "mục 3 KQ chẩn đoán hình ảnh"},
+  {"text": "sỏi mật", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["K80.2"], "occ": 2, "note": "mục 3"},
+  {"text": "nốt sần tuyến giáp phải", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["E04.1"], "occ": 2, "note": "mục 3 phát hiện chẩn đoán khác"}
+]

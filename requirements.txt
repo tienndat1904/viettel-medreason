@@ -1,14 +1,14 @@
-# Core — đủ cho: rule pipeline, lexical linking, eval, build KB.
-# (KHÔNG chứa transformers/FlagEmbedding để tránh xung đột trên Colab/Kaggle;
-#  chạy LLM -> requirements-gpu.txt; linking semantic v1 -> requirements-semantic.txt)
+# Core - du cho: rule pipeline, lexical linking, eval, build KB.
+# (KHONG chua transformers/FlagEmbedding de tranh xung dot tren Colab/Kaggle;
+#  chay LLM -> requirements-gpu.txt; linking semantic v1 -> requirements-semantic.txt)
 #
-# Dùng RANGE (>=), KHÔNG pin cứng: pin numpy==1.26 hạ cấp numpy 2.x của Colab
-# -> vỡ ABI ("numpy.dtype size changed") với torch/transformers build cho numpy 2.
+# Dung RANGE (>=), KHONG pin cung: pin numpy==1.26 ha cap numpy 2.x cua Colab
+# -> vo ABI ("numpy.dtype size changed") voi torch/transformers build cho numpy 2.
 pyyaml>=6.0
 tqdm>=4.66
-numpy>=1.26                  # để nguyên numpy 2.x có sẵn của Colab/Kaggle (KHÔNG hạ cấp)
+numpy>=1.26                  # de nguyen numpy 2.x co san cua Colab/Kaggle (KHONG ha cap)
 pandas>=2.2
-pyarrow>=17                  # đọc/ghi parquet (KB ICD-10 / RxNorm)
-xlrd>=2.0                    # đọc Danh mục ICD-10 BYT định dạng .xls (BIFF cũ)
-openpyxl>=3.1               # đọc .xlsx (nếu BYT phát hành bản mới)
+pyarrow>=17                  # doc/ghi parquet (KB ICD-10 / RxNorm)
+xlrd>=2.0                    # doc Danh muc ICD-10 BYT dinh dang .xls (BIFF cu)
+openpyxl>=3.1               # doc .xlsx (neu BYT phat hanh ban moi)
 rapidfuzz>=3.10

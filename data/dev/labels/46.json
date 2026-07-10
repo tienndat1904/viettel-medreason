@@ -1,0 +1,10 @@
+[
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"], "note": "'Bệnh lý mãn tính: tiền sử lâu dài của tăng huyết áp'"},
+  {"text": "khó khăn với hạ huyết áp, không đặc hiệu", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Triệu chứng hiện tại'; dịch máy mơ hồ (khó kiểm soát HA?); KHÔNG chắc TC vs DX (uncontrolled HTN); 'hạ huyết áp' ở đây KHÔNG phải hypotension nên không gán I95.9"},
+  {"text": "khó kiểm soát huyết áp đáng kể", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "difficulty controlling BP"},
+  {"text": "đi khập khiễng cách quãng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "intermittent claudication"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT; 'Sự kiện trước khi nhập viện'"},
+  {"text": "tắc hẹp 80% động mạch thận trái L", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "CT finding: 80% left renal artery stenosis (mô tả chẩn đoán hình ảnh -> KQ)"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 2, "note": "'Kết quả chẩn đoán hình ảnh'"},
+  {"text": "tắc hẹp 80% động mạch thận trái L", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "occ": 2}
+]

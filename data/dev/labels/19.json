@@ -1,0 +1,15 @@
+[
+  {"text": "Ung thư phổi không tế bào nhỏ", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C34.9"], "note": "NSCLC giai đoạn IV; mục 'Các bệnh lý nội khoa mạn tính'; bỏ modifier 'Giai đoạn IV'; C34.9 (BYT không có mã theo giai đoạn)"},
+  {"text": "Di căn não vùng trán phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["C79.3"], "note": "secondary malignant neoplasm of brain; 'dã phẫu thuật lấy u' là thủ thuật -> không gán"},
+  {"text": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I82.2"], "note": "embolism/thrombosis of vena cava (IVC+SVC); I82.2 bao trùm cả 2 tĩnh mạch chủ"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I10"]},
+  {"text": "Sa van hai lá", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I34.1"], "note": "mitral valve prolapse"},
+  {"text": "vicodin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "mục 'Thuốc trước khi nhập viện'; biệt dược phối hợp hydrocodone+acetaminophen -> combo -> []; 'uống không thấy giảm đau' KHÔNG negated (thuốc vẫn đã dùng)"},
+  {"text": "đau bẹn trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'Lý do nhập viện'"},
+  {"text": "đau bẹn trái", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'Triệu chứng hiện tại'; bỏ qua các mention 'đau' trần trong 'Diễn biến bệnh' (narrative)"},
+  {"text": "cảm giác tê", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có cảm giác tê, ...'"},
+  {"text": "cảm giác châm chích", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "tingling; 'Không có ...'"},
+  {"text": "yếu", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "weakness; 'Không có ... yếu ...'"},
+  {"text": "cảm giác nặng ở chân trái", "type": "TRIỆU_CHỨNG", "assertions": ["isNegated"], "note": "'Không có ... cảm giác nặng ở chân trái'"},
+  {"text": "Bầm máu vùng bẹn trái", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'Dấu hiệu lâm sàng' (ecchymosis/hematoma - dấu hiệu thực thể)"}
+]

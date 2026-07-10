@@ -1,0 +1,14 @@
+[
+  {"text": "klonopin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2598"], "occ": 1, "note": "clonazepam (IN 2598); text OCR dính 'klonopinclonidine'; tiền sử quá liều"},
+  {"text": "Rối loạn cảm xúc", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F39"], "note": "mood disorder; F39 rối loạn khí sắc biệt định; bệnh mãn tính"},
+  {"text": "Rối loạn lưỡng cực", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F31.9"], "note": "bipolar; F31.9"},
+  {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["F41.9"], "occ": 1, "note": "anxiety disorder; F41.9"},
+  {"text": "klonopin", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2598"], "occ": 2, "note": "'klonopinclonidine (được kê đơn)'; thuốc trước nhập viện"},
+  {"text": "clonidine", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": ["2599"], "occ": 3, "note": "clonidine (IN 2599); 'clonidine (mua trên đường phố)' - occ 1&2 nằm trong 'klonopinclonidine'"},
+  {"text": "suboxone", "type": "THUỐC", "assertions": ["isHistorical"], "candidates": [], "occ": 1, "note": "buprenorphine+naloxone (combo) -> []; thuốc trước nhập viện"},
+  {"text": "ý định tự tử", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "suicidal ideation; 'Lý do nhập viện'"},
+  {"text": "trầm cảm", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["F32.9"], "occ": 1, "note": "depression; 'bị trầm cảm ngày càng nặng' (hiện tại)"},
+  {"text": "lo âu", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'- lo âu' (triệu chứng); occ 1 nằm trong 'rối loạn lo âu'"},
+  {"text": "hoảng sợ", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "panic"},
+  {"text": "hoang tưởng", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "delusion; 'hoang tưởng như đang chiếm khí oxy'"}
+]

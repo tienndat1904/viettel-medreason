@@ -1,0 +1,15 @@
+[
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["I25.1"], "occ": 1, "note": "CAD; bệnh lý mãn tính"},
+  {"text": "bệnh lý thần kinh ngoại biên", "type": "CHẨN_ĐOÁN", "assertions": ["isHistorical"], "candidates": ["G62.9"], "occ": 1, "note": "peripheral neuropathy; bệnh mãn tính"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'thi thoảng xuất hiện mệt mỏi'"},
+  {"text": "khó thở tăng", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "'gắng sức khó thở tăng'"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 2, "note": "'- mệt mỏi' (khám)"},
+  {"text": "Khó thở tăng khi vận động gắng sức", "type": "TRIỆU_CHỨNG", "assertions": [], "occ": 1, "note": "khám lúc vào"},
+  {"text": "Đi lại khó khăn", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'cần dùng gậy hỗ trợ'"},
+  {"text": "Đau hai bàn chân", "type": "TRIỆU_CHỨNG", "assertions": [], "note": "'do bệnh lý thần kinh ngoại biên'"},
+  {"text": "bệnh lý thần kinh ngoại biên", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["G62.9"], "occ": 2, "note": "'Đau hai bàn chân do bệnh lý thần kinh ngoại biên'"},
+  {"text": "Đo sức bền cơ tim bằng đồng vị phóng xạ", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "note": "myocardial perfusion/stress test"},
+  {"text": "giảm chức năng tâm thu thất trái nghiêm trọng", "type": "KẾT_QUẢ_XÉT_NGHIỆM", "assertions": [], "note": "mô tả kết quả thăm dò (HHM#2)"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM", "assertions": [], "occ": 1, "note": "coronary angiography"},
+  {"text": "bệnh ba thân động mạch vành nghiêm trọng", "type": "CHẨN_ĐOÁN", "assertions": [], "candidates": ["I25.1"], "note": "severe 3-vessel CAD; I25.1"}
+]
