@@ -1,0 +1,20 @@
+[
+  {"text": "Bệnh phổi kẽ", "type": "CHẨN_ĐOÁN"},
+  {"text": "Hội chứng kháng enzym tổng hợp protein", "type": "CHẨN_ĐOÁN"},
+  {"text": "béo phì", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng huyết áp nguyên phát", "type": "CHẨN_ĐOÁN"},
+  {"text": "Suy giảm miễn dịch", "type": "CHẨN_ĐOÁN"},
+  {"text": "viêm mô tế bào", "type": "CHẨN_ĐOÁN"},
+  {"text": "Nhiễm virus Herpes simplex (HSV)", "type": "CHẨN_ĐOÁN"},
+  {"text": "Bệnh thủy đậu/Zona", "type": "CHẨN_ĐOÁN"},
+  {"text": "Corticoid", "type": "THUỐC"},
+  {"text": "bactrim", "type": "THUỐC"},
+  {"text": "doxycycline", "type": "THUỐC"},
+  {"text": "cotrimoxazol", "type": "THUỐC"},
+  {"text": "doxycyclin", "type": "THUỐC"},
+  {"text": "tổn thương vùng âm hộ và mông bên phải", "type": "TRIỆU_CHỨNG"},
+  {"text": "ban đỏ", "type": "TRIỆU_CHỨNG"},
+  {"text": "chảy mủ", "type": "TRIỆU_CHỨNG"},
+  {"text": "bọng nước", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau nhiều", "type": "TRIỆU_CHỨNG"}
+]

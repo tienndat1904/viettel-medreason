@@ -159,3 +159,50 @@ viêm tủy xương mãn tính	M86.6
 não úng thủy	G91.9
 suy giảm miễn dịch	D84.9
 tăng nhãn áp	H40.9
+# --- P2 nhóm1 biên + nhóm2 cụm dài (từ EXTRACTION_MISS_DX.md, mã truncate 4-char) ---
+tăng lipid máu, không đặc hiệu	E78.5
+hạ huyết áp, không đặc hiệu	I95.9
+bệnh thận mạn, không đặc hiệu	N18.9
+suy tim, không đặc hiệu	I50.9
+đái tháo đường típ 2	E11.9
+đái tháo đường típ 1	E10.9
+viêm phổi bệnh viện	J18.9
+viêm phổi thùy dưới phải	J18.9
+viêm phổi thùy dưới trái	J18.9
+xuất huyết nội sọ không do chấn thương, không đặc hiệu	I62.9
+nốt tuyến giáp thùy trái	E04.1
+nốt tuyến giáp trái	E04.1
+gãy cổ xương đùi di lệch	S72.00
+gãy cổ xương đùi phải	S72.00
+tràn dịch màng phổi hai bên	J90
+thoát vị hoành nhỏ	K44.9
+thay đổi khí phế thủng	J43.9
+xẹp phổi hai đáy	J98.11
+xẹp phổi thùy dưới phải	J98.11
+nhịp tim chậm tương đối	R00.1
+nhịp tim chậm nặng	R00.1
+nhồi máu cơ tim vùng dưới cũ	I25.2
+đợt cấp hen suyễn	J45.909
+tăng huyết áp nguyên phát	I10
+bệnh phổi tắc nghẽn mạn tính, không xác định	J44.9
+táo bón mãn tính	K59.0
+# --- P2 nhóm3 bệnh phổ biến còn thiếu (mã chắc, tổng quát hóa) ---
+ung thư biểu mô tuyến	C80.1
+chấn thương đầu	S09.90
+tách thành động mạch chủ	I71.00
+viêm nội tâm mạc	I33.9
+viêm xương tủy	M86.9
+ngưng thở khi ngủ	G47.30
+ngừng thở khi ngủ	G47.30
+nhịp tim nhanh	R00.0
+loét thực quản	K22.10
+viêm họng do liên cầu	J02.0
+u ác của tuyến tiền liệt	C61
+u ác của đại tràng	C18.9
+u ác của đầu tuỵ	C25.0
+nhiễm virus herpes simplex	B00.9
+nhiễm trùng đường hô hấp trên	J06.9
+nhiễm trùng đường hô hấp trên cấp	J06.9
+loạn thần	F29
+tăng huyết áp vô căn	I10
+bệnh túi thừa ở cả ruột non và đại tràng	K57.90

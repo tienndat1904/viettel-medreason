@@ -1,0 +1,139 @@
+Bài 2: Hỏi về version & format mã chuẩn ICD-10 và RxNorm dùng để chấm điểm
+Trần Ngọc Quang · 1 ngày trước
+
+Kính gửi BTC,
+
+Đề bài mục 4 ghi các đội "được cung cấp cơ sở tri thức ICD và RxNorm", tuy nhiên trong dataset vòng 1 chỉ có folder input. Nhóm em xin BTC làm rõ mấy điểm sau để các đội thống nhất khi ánh xạ mã:
+
+1. RxNorm:
+
+BTC chấm theo RxNorm release nào (tháng/năm)? Ví dụ trong đề dùng mã 360047 cho "Chlorpheniramine 0.4 MG/ML" — đây là mã của bản ~2019, hiện đã được NLM remap sang 2178097. Nếu nộp mã của bản mới nhất thì có được tính điểm không?
+BTC có thể cung cấp file danh mục RxNorm chuẩn (RXNCONSO hoặc bảng RXCUI + tên) dùng để chấm không ạ?
+2. ICD-10:
+
+Chấm theo ICD-10 WHO hay ICD-10-CM? Bản/năm nào?
+Format mã có dấu chấm hay không (VD "K21.0" hay "K210"), và mức chi tiết yêu cầu (3 hay 4 ký tự)?
+Tên bệnh trong văn bản là tiếng Việt — BTC có dùng danh mục ICD-10 song ngữ của Bộ Y tế không ạ?
+Các điểm này ảnh hưởng trực tiếp đến candidates_score (trọng số 0.4) nên mong BTC sớm giải đáp hoặc cung cấp bộ danh mục chuẩn.
+
+Em cảm ơn BTC!
+
+Admin AI RACE
+8 giờ trước
+Phiên bản RxNorm dùng bản năm 2026, còn ICD-10 dùng bản tiếng Việt bạn nhé. BTC sẽ không cung cấp thêm file danh mục cho 2 chuẩn dữ liệu này.
+
+V/v trùng lặp khái niệm y tế
+Trần Hùng Đức · 1 ngày trước
+
+Thưa BTC, em muốn xác nhận là trong trường hợp tài liệu xuất hiện cùng một khái niệm y tế ở nhiều vị trí trong văn bản thì đầu ra mong muốn sẽ là nhiều json của cùng khái niệm y tế đó (chỉ sai khác position) có chính xác không ạ?
+
+Đồng thời nếu có trường hợp xét nghiệm y tế không trả về giá trị số mà là các giá trị văn bản như "bình thường", "dương tính", "âm tính" thì có được ghi nhận không, cũng như trong đề bài ghi trả về KQXN là "giá trị và đơn vị" nhưng theo ví dụ em đang thấy đơn vị không đi kèm trong KQXN (WBC không được nêu đơn vị, NEUT% và LYMPH% có thể không cần vì đã có trong tên XN).
+
+Mong BTC giải đáp ạ
+
+Admin AI RACE
+8 giờ trước
+Với trường hợp 1 khái niệm ở nhiều vị trí thì đầu ra mong muốn đúng là nhiều json của khái niệm này. Với trường hợp kết quả xét nghiệm: giá trị văn bản như "dương tính", "âm tính", ... vẫn lấy bình thường. Nếu trong bản ghi có đơn vị thì lấy cả đơn vị, còn nếu không có thì không lấy.
+
+Xin hỏi về version của chuẩn RxNorm
+Trung Tran Van · 1 ngày trước
+
+Em muốn hỏi về version của chuẩn RxNorm đang được sử dụng ạ? Vì sau nhiều năm thì loại thuốc và mã thuốc đã được cập nhật và thay đổi nhiều.
+
+Như trong ví dụ:
+
+Chlorpheniramine 0.4 MG/ML" - mã RxNorm 360047 (mã năm 2019)
+Nhưng mã mới nhất hiện tại là: 2178097 (mã năm 2026)
+Và nếu lấy mã mới nhất thì có ảnh hưởng đến kết quả ko ạ? Tương tự với mã ICD-10 ạ.
+
+Admin AI RACE
+8 giờ trước
+BTC sẽ không cung cấp dữ liệu chuẩn RxNorm. Bản sử dụng là năm 2026
+
+Hỏi về Model Size - Bài 2
+Nguyen Dang Hung · 1 ngày trước
+
+Dạ cho nhóm em hỏi hôm bữa đề có ghi giới hạn model là local, size < 9B mà hôm nay em không thấy quy định nữa. Không biết quy định này còn hiệu lực không ạ
+
+
+Admin AI RACE
+8 giờ trước
+Quy định về model <= 9B vẫn còn hiệu lực bạn nhé. Tuy nhiên, bạn lưu ý 1 số điểm sau:
+
+Mức 9B ở đây là TỔNG tham số các models (tức là trong trường hợp đội thi dùng nhiều hơn 1 model thì tất cả phải <= 9B, không được dùng nhiều model 9B). Tuy nhiên, nếu đội thi sử dụng 1 số các kỹ thuật khi training/finetune model (ví dụ như thêm LoRA) dẫn đến model > 9B thì vẫn chấp nhận được nếu model sau khi thực hiện kỹ thuật không quá lớn (<= 9.5B)
+Con số 9B với model pretrained hàm ý do nhà cung cấp quy định. (VD: Nếu đội thi sử dụng model Qwen trên HuggingFace ghi 9B mà thực tế tham số khoảng 9.01B thì vẫn được chấp nhận)
+
+Bổ sung dữ liệu mẫu Track 2
+Nguyễn Nam Quân · 13 giờ trước
+
+Trong quá trình tìm hiểu đề bài, đội có một số góp ý nhằm giúp các thí sinh nắm bắt yêu cầu chính xác hơn:
+
+Dữ liệu mẫu chưa sát thực tế: Ví dụ duy nhất trong đề bài đơn giản và sạch, khác xa thực tế tập test vốn chứa nhiều thông tin nhiễu. Điều này khiến thí sinh rất khó đối chiếu xem mình đã hiểu đúng luật gán nhãn chưa.
+
+Trong phần mô tả, thuốc "Chlorpheniramine 0.4 MG/ML" được gán mã RxNorm 360047. Dù BTC cho biết đang dùng bản RxNorm 2026, mã này thực tế đã được cập nhật thành 2178097. Nếu đúng 2178097 thì BTC nên update lại mô tả bài toán để tránh hiểu sai.
+
+Đề xuất: Mong BTC xem xét cung cấp thêm khoảng 10 samples đại diện hơn được gán nhãn hoàn chỉnh (không nằm trong tập test 100 file) để làm tiêu chuẩn tham chiếu. Việc này sẽ giúp loại bỏ các điểm gây nhầm lẫn và giúp thí sinh đi đúng hướng hơn
+
+
+Admin AI RACE
+3 giờ trước
+BTC đã kiểm tra lại và mã RxNorm bạn tìm ra đã bị thu hồi, không còn được sử dụng.
+
+[Track 2] Các câu hỏi về data
+Hoàng Hùng Mạnh · 14 giờ trước
+
+Trong quá trình annotate thử một số bản ghi trong tập test public, nhóm gặp một số điểm chưa rõ trong định nghĩa nhãn / format output. Mong BTC làm rõ để đảm bảo nhóm annotate và dự đoán đúng quy ước chấm điểm. Mỗi câu hỏi kèm ví dụ trích nguyên văn từ tập test public.
+
+A. TÊN_XÉT_NGHIỆM và KẾT_QUẢ_XÉT_NGHIỆM
+A1. Một TÊN_XÉT_NGHIỆM có bắt buộc phải đi kèm một KẾT_QUẢ_XÉT_NGHIỆM không, và ngược lại? Trong văn bản có trường hợp chỉ có tên xét nghiệm mà không có kết quả (hoặc kết quả "đang chờ"), và ngược lại có con số kết quả nhưng không nêu rõ tên xét nghiệm.
+
+Ví dụ (file 17): - hiv vl đang chờ → có tên xét nghiệm nhưng chưa có kết quả.
+Ví dụ (file 17): - 80 neutrophil, - 11 lymphocyte → giá trị đứng trước, tên đứng sau. → Hai loại này có được trích xuất độc lập không, hay chỉ trích khi có đủ cặp tên–kết quả?
+A2. KẾT_QUẢ_XÉT_NGHIỆM bắt buộc là con số (giá trị + đơn vị), hay chấp nhận kết quả dạng mô tả (chuỗi văn bản)? Bảng nhãn trong đề định nghĩa KẾT_QUẢ_XÉT_NGHIỆM là "bao gồm giá trị và đơn vị" (gợi ý là số), nhưng nhiều kết quả — nhất là chẩn đoán hình ảnh / siêu âm — lại là mô tả định tính.
+
+Ví dụ số (file 10): cea (kháng nguyên ung thư phôi) tăng nhẹ lên 4.9 → kết quả 4.9.
+Ví dụ mô tả (file 10): siêu âm ... cho thấy có thể có một tổn thương t2.
+Ví dụ mô tả (file 16): chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi.
+Ví dụ mô tả (file 17): siêu âm vùng cổ phải: ổ tụ dịch chia làm hai thùy, giới hạn và bờ không rõ... → Kết quả dạng mô tả (imaging/siêu âm) có được coi là KẾT_QUẢ_XÉT_NGHIỆM không? Nếu có, span lấy tới đâu (xem A4)? Kết quả chẩn đoán hình ảnh có phải là KẾT_QUẢ_XÉT_NGHIỆM hay là một loại khác?
+A3. Với một xét nghiệm cho ra nhiều chỉ số con (vd panel xét nghiệm máu), quy ước ghép tên–kết quả như thế nào?
+
+Ví dụ (file 17), mục "Kết quả xét nghiệm máu": - bạch cầu 13.9, - 80 neutrophil, - 11 lymphocyte, - ck 58, - alt 92. → Cách nào đúng:
+(1) Mỗi chỉ số con là một cặp: TÊN_XÉT_NGHIỆM="bạch cầu" + KẾT_QUẢ_XÉT_NGHIỆM="13.9"; "ck"+"58"; "alt"+"92"…
+(2) Hay dùng tên xét nghiệm mẹ "xét nghiệm máu" làm một TÊN_XÉT_NGHIỆM duy nhất? Nhóm hiểu là cách (1), mong BTC xác nhận.
+A4. Với kết quả dạng mô tả dài, span của KẾT_QUẢ_XÉT_NGHIỆM bao gồm toàn bộ đoạn mô tả hay chỉ phần "kết luận"? Ranh giới giữa "kết quả" và "thông tin bổ sung/diễn giải" chưa rõ.
+
+Ví dụ (file 17): ổ tụ dịch chia làm hai thùy, giới hạn và bờ không rõ. Cấu trúc tổn thương giảm âm, có hồi âm lợn cợn (vẩn đục) bên trong. Kích thước đo được khoảng 3.7 x 0.7 cm... Ổ dịch có xu hướng lan lên trên... → Lấy cả đoạn làm 1 KẾT_QUẢ_XÉT_NGHIỆM? Hay tách phần kích thước 3.7 x 0.7 cm riêng? Định nghĩa "thông tin bổ sung" (không cần trích) là gì?
+A5. TÊN_XÉT_NGHIỆM / KẾT_QUẢ_XÉT_NGHIỆM có áp dụng cho các xét nghiệm đã thực hiện TRƯỚC khi nhập viện (trong phần tiền sử) không?
+
+Ví dụ (file 17), mục "Các biến trước khi nhập viện": Đã thực hiện siêu âm vùng cổ phải cho kết quả là áp xe/viêm khớp nhiễm trùng. → Có trích không? Nếu có, có gắn assertion isHistorical cho TÊN_XÉT_NGHIỆM/KẾT_QUẢ không (đề chỉ cho phép assertion với CHẨN_ĐOÁN, THUỐC, TRIỆU_CHỨNG)?
+B. TRIỆU_CHỨNG — định nghĩa và phạm vi
+B1. TRIỆU_CHỨNG chỉ gồm triệu chứng cơ năng (bệnh nhân kể), hay bao gồm cả dấu hiệu thực thể do bác sĩ khám/quan sát và các chỉ số đo được? Đây là điểm mơ hồ lớn nhất, ảnh hưởng trực tiếp tới việc phân loại type (đề nêu rõ sai type bị phạt gấp đôi).
+
+Ví dụ dấu hiệu do khám (file 16): Khám thấy ran nổ, phù phù, dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac — đây là dấu hiệu thực thể (sign), không phải bệnh nhân kể.
+Ví dụ dấu hiệu sản khoa đo/quan sát (file 31): thai máy tốt (FM +), chưa ra huyết âm đạo (VB -), chưa vỡ ối/rỉ ối (LOF -). → Các dấu hiệu thực thể / quan sát của bác sĩ này có phải TRIỆU_CHỨNG không? Nếu không thì thuộc loại nào?
+B2. Các từ chỉ tần suất / mức độ đi kèm triệu chứng có nằm trong span text không?
+
+Ví dụ (file 10): - đôi khi đau bụng quặn, - đôi khi đi ngoài ra máu. → Span là "đau bụng quặn" hay "đôi khi đau bụng quặn"? (Nhóm nghĩ nên giữ vì thể hiện mức độ/tần suất bệnh.)
+B3. Một triệu chứng xuất hiện lặp lại nhiều lần trong văn bản thì trích tất cả các lần, hay chỉ một lần (dedupe)?
+
+Ví dụ (file 16): "mệt mỏi" xuất hiện ở cả mục "Diễn biến bệnh", "Triệu chứng hiện tại" (2 lần liền), và "Dấu hiệu lâm sàng" — tổng ~3–4 lần ở các vị trí khác nhau. → Trích mọi lần xuất hiện (mỗi lần một entity với position riêng), hay chỉ trích một lần?
+C. CHẨN_ĐOÁN và assertions
+C1. Các bệnh cũ / bệnh mạn tính trong mục "Tiền sử bệnh" có được coi là CHẨN_ĐOÁN với assertion isHistorical không?
+
+Ví dụ (file 16), mục "Các bệnh lý mạn tính": - Ung thư biểu mô tuyến đại tràng, - bệnh phổi tắc nghẽn mạn tính, không xác định, - Đái tháo đường, - xơ gan do rượu. → Đây là CHẨN_ĐOÁN + isHistorical? Hay chỉ là ngữ cảnh tiền sử và không trích? (Nhóm nghĩ là CHẨN_ĐOÁN + isHistorical và vẫn cần map ICD-10.)
+D. Câu hỏi chung về assertions (xác nhận lại)
+D1. Trường assertions là đa nhãn — một khái niệm có thể mang đồng thời nhiều giá trị (kể cả cả 3) đúng không? Ví dụ giả định: một bệnh của người thân, đã khỏi trong quá khứ, và bị phủ định → ["isNegated","isFamily","isHistorical"].
+
+Ví dụ phủ định + tiền sử (file, dạng thường gặp): Không xác nhận đã bị trầm cảm trước đó → vừa isNegated vừa isHistorical? → Xác nhận quy tắc gán nhiều assertion cùng lúc, và cách tính điểm Jaccard khi đó.
+
+
+Admin AI RACE
+3 giờ trước
+Trước hết, BTC sẽ KHÔNG trả lời các nội dung liên quan trực tiếp đến dữ liệu public được cung cấp, và KHÔNG cung cấp trực tiếp lời giải cho các đội thi. Các đội thi cần ĐỌC KỸ LẠI ĐỀ và thiết kế các giải pháp tương ứng. Về các câu hỏi của bạn nằm trong phạm vi trả lời của BTC:
+
+Tên xét nghiệm không nhất thiết phải đi kèm kết quả xét nghiệm
+Kết quả xét nghiệm không nhất thiết phải là số
+Đề bài không yêu cầu ghép tên và kết quả xét nghiệm
+Đề bài không yêu cầu phân loại triệu chứng
+Một triệu chứng có thể xuất hiện nhiều lần, mỗi lần được tính là 1 khái niệm
+Trường assertions là đa nhãn. Công thức đã được thiết kế phù hợp.

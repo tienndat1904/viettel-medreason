@@ -1,0 +1,220 @@
+[
+  {
+    "text": "ung thư biểu mô tế bào thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      87,
+      114
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C64"
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tuyến giật nhú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      147,
+      177
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C80.1"
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      238,
+      245
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      247,
+      256
+    ],
+    "assertions": [],
+    "candidates": [
+      "D64.9"
+    ]
+  },
+  {
+    "text": "phân có guaiac dương tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      260,
+      285
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      322,
+      329
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      336,
+      345
+    ],
+    "assertions": [],
+    "candidates": [
+      "D64.9"
+    ]
+  },
+  {
+    "text": "phân có guaiac dương tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      377
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nội soi đại tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      421,
+      438
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối ở chỗ uốn gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      466,
+      484
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      517,
+      538
+    ],
+    "assertions": [],
+    "candidates": [
+      "C80.1"
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      597,
+      606
+    ],
+    "assertions": [],
+    "candidates": [
+      "D64.9"
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính ổ bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      639,
+      666
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội soi đại tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      749,
+      766
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối ở chỗ uốn gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      824,
+      842
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      849,
+      870
+    ],
+    "assertions": [],
+    "candidates": [
+      "C80.1"
+    ]
+  },
+  {
+    "text": "khối u thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      901,
+      912
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "O34.1"
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tế bào thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      919,
+      946
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C64"
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tuyến giật nhú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      953,
+      983
+    ],
+    "assertions": [],
+    "candidates": [
+      "C80.1"
+    ]
+  }
+]

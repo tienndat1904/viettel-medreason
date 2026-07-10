@@ -1,0 +1,108 @@
+[
+  {
+    "text": "ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      183,
+      217
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      408
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      416
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      426,
+      429
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      493,
+      496
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      536,
+      541
+    ],
+    "assertions": [],
+    "candidates": [
+      "L02.9"
+    ]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      562,
+      582
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Augmentin đường uống",
+    "type": "THUỐC",
+    "position": [
+      630,
+      650
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mrcp (chụp cộng hưởng từ mật tụy)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      798,
+      831
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nang tụy nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      847,
+      859
+    ],
+    "assertions": [],
+    "candidates": [
+      "K86.2"
+    ]
+  }
+]

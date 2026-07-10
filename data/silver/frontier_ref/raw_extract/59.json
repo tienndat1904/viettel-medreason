@@ -1,0 +1,14 @@
+[
+  {"text": "não úng thuỷ khác", "type": "CHẨN_ĐOÁN"},
+  {"text": "não úng thủy", "type": "CHẨN_ĐOÁN"},
+  {"text": "não úng tuỷ", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng nhãn áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng nhãn áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng đau đầu", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau đầu kéo dài", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau đầu", "type": "TRIỆU_CHỨNG"},
+  {"text": "mờ mắt", "type": "TRIỆU_CHỨNG"},
+  {"text": "nhìn mờ", "type": "TRIỆU_CHỨNG"},
+  {"text": "phù gai thị", "type": "TRIỆU_CHỨNG"},
+  {"text": "chụp cắt lớp vi tính (ct)", "type": "TÊN_XÉT_NGHIỆM"}
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "text": "vàng da không đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      135
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      138,
+      142
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      190,
+      214
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      218,
+      227
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm huyết thanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      259,
+      281
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      294,
+      301
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      311,
+      339
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "15 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      354,
+      359
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      380,
+      384
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      452,
+      456
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      550,
+      554
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      653,
+      701
+    ],
+    "assertions": [],
+    "candidates": [
+      "C80.1"
+    ]
+  },
+  {
+    "text": "khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      740,
+      776
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      835,
+      859
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      862,
+      871
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      935,
+      983
+    ],
+    "assertions": [],
+    "candidates": [
+      "C80.1"
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1013,
+      1020
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1030,
+      1058
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "15 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1073,
+      1078
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1099,
+      1103
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1160,
+      1164
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1258,
+      1262
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u ác của đầu tuỵ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1387,
+      1403
+    ],
+    "assertions": [],
+    "candidates": [
+      "C25.0"
+    ]
+  },
+  {
+    "text": "khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1461,
+      1497
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

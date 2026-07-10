@@ -70,6 +70,11 @@ def resolve_offsets(text: str, spans: list[dict]) -> list[dict]:
         seen_key.add(key)
         uniq.append(sp)
 
+    # LONGEST-MATCH cross-type: span DÀI chiếm vị trí trước (stable theo thứ tự emit khi
+    # bằng độ dài) -> cụm bệnh dài ("tăng kali máu") thắng term ngắn chồng vị trí ("kali"
+    # =TÊN_XÉT_NGHIỆM), sửa lỗi sai-type/sai-biên mà emit-order không xử được.
+    uniq.sort(key=lambda sp: len((sp.get("text") or "").strip()), reverse=True)
+
     out = []
     for sp in uniq:
         raw = (sp.get("text") or "").strip()

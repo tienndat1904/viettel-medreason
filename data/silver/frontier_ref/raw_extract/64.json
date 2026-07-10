@@ -1,0 +1,16 @@
+[
+  {"text": "viêm túi mật", "type": "CHẨN_ĐOÁN"},
+  {"text": "ciproflagyl", "type": "THUỐC"},
+  {"text": "percocet", "type": "THUỐC"},
+  {"text": "chụp chụp cắt lớp vi tính", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "viêm túi mật không biến chứng", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh túi thừa của cả ruột non và đại tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau vùng hạ vị bên phải và hạ vị bên trái", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "đổ mồ hôi qua đêm", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG"},
+  {"text": "hoa mắt", "type": "TRIỆU_CHỨNG"},
+  {"text": "đổ mồ hôi", "type": "TRIỆU_CHỨNG"}
+]

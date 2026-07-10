@@ -1,0 +1,14 @@
+[
+  {"text": "Đờm", "type": "TRIỆU_CHỨNG"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau bụng quặn", "type": "TRIỆU_CHỨNG"},
+  {"text": "tiêu chảy", "type": "TRIỆU_CHỨNG"},
+  {"text": "đi ngoài ra máu", "type": "TRIỆU_CHỨNG"},
+  {"text": "cea", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "4.9", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "mri", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "khối u trực tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "u ác trực tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "u tuyến", "type": "CHẨN_ĐOÁN"}
+]

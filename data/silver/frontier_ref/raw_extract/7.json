@@ -1,0 +1,17 @@
+[
+  {"text": "Rối loạn cảm xúc (trầm cảm)", "type": "CHẨN_ĐOÁN"},
+  {"text": "hội chứng nghiện rượu", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh lý chất trắng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Bệnh đa xơ cứng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Ảo giác do rượu", "type": "CHẨN_ĐOÁN"},
+  {"text": "tự tử", "type": "TRIỆU_CHỨNG"},
+  {"text": "lú lẫn", "type": "TRIỆU_CHỨNG"},
+  {"text": "chóng mặt", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó khăn khi nhìn gần", "type": "TRIỆU_CHỨNG"},
+  {"text": "rối loạn thị giác", "type": "TRIỆU_CHỨNG"},
+  {"text": "ảo giác thị giác", "type": "TRIỆU_CHỨNG"},
+  {"text": "Ảo thanh (AH)", "type": "TRIỆU_CHỨNG"},
+  {"text": "seroquel", "type": "THUỐC"},
+  {"text": "chụp ct sọ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "các băng nhóm oligoclonal", "type": "TÊN_XÉT_NGHIỆM"}
+]

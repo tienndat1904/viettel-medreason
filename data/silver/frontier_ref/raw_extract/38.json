@@ -1,0 +1,21 @@
+[
+  {"text": "Đái tháo đường típ 2", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN"},
+  {"text": "Suy tim dãn tâm thu giữ nguyên trương lực", "type": "CHẨN_ĐOÁN"},
+  {"text": "viêm họng do liên cầu", "type": "CHẨN_ĐOÁN"},
+  {"text": "đau họng", "type": "TRIỆU_CHỨNG"},
+  {"text": "nuốt vướng", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "tăng cân", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG"},
+  {"text": "glucose", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "bun (ure)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "cr (creatinine)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "ag (anion gap)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "537", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "367", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "1.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "17", "type": "KẾT_QUẢ_XÉT_NGHIỆM"}
+]

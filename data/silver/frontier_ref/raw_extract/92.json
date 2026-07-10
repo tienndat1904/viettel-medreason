@@ -1,0 +1,10 @@
+[
+  {"text": "Nhiễm trùng đường tiết niệu kháng thuốc", "type": "CHẨN_ĐOÁN"},
+  {"text": "đại tràng giãn", "type": "CHẨN_ĐOÁN"},
+  {"text": "bạch cầu", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "Bạch cầu", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "chụp CT", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "chụp ct", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "ý thúc chậm hơn", "type": "TRIỆU_CHỨNG"},
+  {"text": "lơ mơ", "type": "TRIỆU_CHỨNG"}
+]

@@ -1,0 +1,13 @@
+[
+  {"text": "nhiễm trùng tụ cầu", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhồi máu cơ tim", "type": "CHẨN_ĐOÁN"},
+  {"text": "hẹp van động mạch chủ nghiêm trọng", "type": "CHẨN_ĐOÁN"},
+  {"text": "hẹp gây hạn chế dòng chảy", "type": "CHẨN_ĐOÁN"},
+  {"text": "siêu âm tim gắng sức dobutamine", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm tim", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "khó thở khi nằm", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở khi ngủ", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "ngất xỉu", "type": "TRIỆU_CHỨNG"}
+]

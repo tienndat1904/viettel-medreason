@@ -1,0 +1,76 @@
+[
+  {
+    "text": "rối loạn lo âu, không biệt định nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      83
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.9"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      214
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      216,
+      228
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      233,
+      240
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      272,
+      280
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      287,
+      299
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      306,
+      313
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

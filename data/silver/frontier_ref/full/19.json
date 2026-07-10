@@ -1,0 +1,178 @@
+[
+  {
+    "text": "Ung thư phổi không tế bào nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      79,
+      108
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Di căn não vùng trán phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      115,
+      140
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      167,
+      244
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I81"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      251,
+      264
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Sa van hai lá",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      271,
+      284
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I34.1"
+    ]
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      464,
+      476
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      708,
+      720
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      906,
+      913
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cảm giác tê",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      973,
+      984
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "cảm giác châm chích",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      986,
+      1005
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1007,
+      1010
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "cảm giác nặng ở chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1041
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      1081,
+      1088
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bầm máu vùng bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1160,
+      1181
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

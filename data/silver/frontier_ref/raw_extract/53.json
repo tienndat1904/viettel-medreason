@@ -1,0 +1,10 @@
+[
+  {"text": "bệnh tim mạch do xơ vữa động mạch", "type": "CHẨN_ĐOÁN"},
+  {"text": "blốc nhĩ thất, hoàn toàn", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh thận mạn, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "Suy giảm nhận thức nhẹ", "type": "CHẨN_ĐOÁN"},
+  {"text": "Cảm giác thắt chặt ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "Cảm giác thắt chặt ngực dưới xương ức nghiêm trọng", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "Cơn đau thắt ngực không ổn định", "type": "CHẨN_ĐOÁN"}
+]

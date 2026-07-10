@@ -1,0 +1,214 @@
+[
+  {
+    "text": "nhiễm trùng tụ cầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      94,
+      112
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "A41.2"
+    ]
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      391,
+      406
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "I21.9"
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      426,
+      437
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      447,
+      481
+    ],
+    "assertions": [],
+    "candidates": [
+      "I35.0"
+    ]
+  },
+  {
+    "text": "siêu âm tim gắng sức dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      628,
+      659
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      669,
+      703
+    ],
+    "assertions": [],
+    "candidates": [
+      "I35.0"
+    ]
+  },
+  {
+    "text": "hẹp gây hạn chế dòng chảy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      807,
+      832
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      977,
+      984
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      986,
+      994
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      1011
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1013,
+      1028
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1034,
+      1042
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1191,
+      1202
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1212,
+      1246
+    ],
+    "assertions": [],
+    "candidates": [
+      "I35.0"
+    ]
+  },
+  {
+    "text": "siêu âm tim gắng sức dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1253,
+      1284
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1294,
+      1328
+    ],
+    "assertions": [],
+    "candidates": [
+      "I35.0"
+    ]
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1423,
+      1457
+    ],
+    "assertions": [],
+    "candidates": [
+      "I35.0"
+    ]
+  },
+  {
+    "text": "hẹp gây hạn chế dòng chảy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1483,
+      1508
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

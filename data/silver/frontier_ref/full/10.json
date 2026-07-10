@@ -1,0 +1,138 @@
+[
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      107,
+      110
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      113,
+      115
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng quặn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      126,
+      139
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      142,
+      151
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      162,
+      177
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cea",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      247,
+      250
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      292,
+      295
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      325,
+      328
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      402,
+      409
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      578,
+      585
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      625,
+      642
+    ],
+    "assertions": [],
+    "candidates": [
+      "C20"
+    ]
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      664,
+      679
+    ],
+    "assertions": [],
+    "candidates": [
+      "C20"
+    ]
+  },
+  {
+    "text": "u tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      718,
+      725
+    ],
+    "assertions": [],
+    "candidates": [
+      "C08.9"
+    ]
+  }
+]

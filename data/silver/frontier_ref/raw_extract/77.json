@@ -1,0 +1,17 @@
+[
+  {"text": "klonopinclonidine", "type": "THUỐC"},
+  {"text": "clonidine", "type": "THUỐC"},
+  {"text": "suboxone", "type": "THUỐC"},
+  {"text": "Rối loạn cảm xúc", "type": "CHẨN_ĐOÁN"},
+  {"text": "Rối loạn lưỡng cực", "type": "CHẨN_ĐOÁN"},
+  {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN"},
+  {"text": "trầm cảm", "type": "CHẨN_ĐOÁN"},
+  {"text": "ý định tự tử", "type": "TRIỆU_CHỨNG"},
+  {"text": "ý nghĩ tự bắn vào đầu", "type": "TRIỆU_CHỨNG"},
+  {"text": "ý nghĩ tự tử", "type": "TRIỆU_CHỨNG"},
+  {"text": "lo âu", "type": "TRIỆU_CHỨNG"},
+  {"text": "hoảng sợ", "type": "TRIỆU_CHỨNG"},
+  {"text": "hoang tưởng", "type": "TRIỆU_CHỨNG"},
+  {"text": "tăng hoạt động", "type": "TRIỆU_CHỨNG"},
+  {"text": "giảm nhu cầu ngủ", "type": "TRIỆU_CHỨNG"}
+]

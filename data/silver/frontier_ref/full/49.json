@@ -1,0 +1,190 @@
+[
+  {
+    "text": "Khối sa âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      53,
+      67
+    ],
+    "assertions": [],
+    "candidates": [
+      "N81.9"
+    ]
+  },
+  {
+    "text": "cảm giác có khối lồi trong âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      143,
+      176
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng tức vùng âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      286,
+      306
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối sa tại âm hộ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      316,
+      333
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      373,
+      382
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      497,
+      504
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khô âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      516
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ra huyết âm đạo lượng ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      553,
+      577
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng tức vùng âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      644,
+      664
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      666,
+      674
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tiểu không tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      676,
+      693
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau khi giao hợp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      735,
+      751
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1138,
+      1153
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1166,
+      1174
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1184,
+      1234
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "sỏi thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1244,
+      1252
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N20.0"
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1261,
+      1273
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N12"
+    ]
+  }
+]

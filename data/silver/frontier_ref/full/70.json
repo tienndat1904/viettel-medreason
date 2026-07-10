@@ -1,0 +1,636 @@
+[
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "198440"
+    ]
+  },
+  {
+    "text": "thuốc an thần",
+    "type": "THUỐC",
+    "position": [
+      310,
+      323
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      399
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      472
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      508
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      559
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      642,
+      654
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "6.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      728,
+      731
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      775,
+      798
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      818
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      838
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      848
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      851,
+      871
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      888
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiểu ra máu không đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      899,
+      920
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      1004
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1036,
+      1039
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1183,
+      1202
+    ],
+    "assertions": [],
+    "candidates": [
+      "198440"
+    ]
+  },
+  {
+    "text": "thuốc an thần",
+    "type": "THUỐC",
+    "position": [
+      1253,
+      1266
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1312,
+      1324
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1329,
+      1347
+    ],
+    "assertions": [],
+    "candidates": [
+      "R17"
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1349,
+      1352
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1353,
+      1356
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1358,
+      1361
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1362,
+      1365
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1367,
+      1370
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1371,
+      1374
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1376,
+      1395
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1396,
+      1399
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1410,
+      1433
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1444,
+      1453
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nồng độ acetaminophen",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1477,
+      1498
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nac",
+    "type": "THUỐC",
+    "position": [
+      1516,
+      1519
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1551,
+      1555
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1558,
+      1562
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "túi mật giãn nở rõ rệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1572,
+      1594
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1694,
+      1701
+    ],
+    "assertions": [],
+    "candidates": [
+      "K80.2"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1739,
+      1757
+    ],
+    "assertions": [],
+    "candidates": [
+      "R17"
+    ]
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1761,
+      1773
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1830,
+      1833
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1834,
+      1837
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1840,
+      1843
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1844,
+      1847
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1850,
+      1853
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1854,
+      1857
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1860,
+      1879
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1880,
+      1883
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "total bili",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1886,
+      1896
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "6.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1923,
+      1926
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bảng xét nghiệm viêm gan virus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1929,
+      1959
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1973,
+      1981
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ceruloplasmin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1999,
+      2012
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2106,
+      2129
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2156,
+      2165
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2168,
+      2172
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "túi mật giãn nở rõ rệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2182,
+      2204
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2291,
+      2295
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2327,
+      2339
+    ],
+    "assertions": [],
+    "candidates": [
+      "R74.0"
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2342,
+      2360
+    ],
+    "assertions": [],
+    "candidates": [
+      "R17"
+    ]
+  }
+]

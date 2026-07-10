@@ -1,0 +1,14 @@
+[
+  {"text": "u cơ trơn tử cung, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "iron", "type": "THUỐC"},
+  {"text": "đau bụng dưới", "type": "TRIỆU_CHỨNG"},
+  {"text": "chảy máu nhiều", "type": "TRIỆU_CHỨNG"},
+  {"text": "lower abdominal pain", "type": "TRIỆU_CHỨNG"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "huyết cầu tố", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "26.1", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "siêu âm tử cung", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "14,2 x 8,8 x 7,5 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "4,1 x 4,8 x 4,1 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "giãn bể thận", "type": "CHẨN_ĐOÁN"}
+]

@@ -1,0 +1,10 @@
+[
+  {"text": "đái tháo đường", "type": "CHẨN_ĐOÁN"},
+  {"text": "tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "phình mạch ACom bên phải", "type": "CHẨN_ĐOÁN"},
+  {"text": "tai biến mạch máu não", "type": "CHẨN_ĐOÁN"},
+  {"text": "hẹp khoảng 65% của động mạch cảnh chung trái gần gốc", "type": "CHẨN_ĐOÁN"},
+  {"text": "xơ vữa mảng loét", "type": "CHẨN_ĐOÁN"},
+  {"text": "chụp mạch máu", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "65%", "type": "KẾT_QUẢ_XÉT_NGHIỆM"}
+]

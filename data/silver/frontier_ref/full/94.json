@@ -1,0 +1,166 @@
+[
+  {
+    "text": "Ung thư vú di căn ER+/HER2−",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      49,
+      76
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C50.9"
+    ]
+  },
+  {
+    "text": "weekly taxol",
+    "type": "THUỐC",
+    "position": [
+      98,
+      110
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "fulvestrant",
+    "type": "THUỐC",
+    "position": [
+      114,
+      125
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "282357"
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      181,
+      207
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      295,
+      316
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      326
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      328,
+      331
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đi ngoài phân lỏng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      359
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      459
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      461,
+      464
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      559,
+      580
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      582,
+      590
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      595
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "compazine",
+    "type": "THUỐC",
+    "position": [
+      764,
+      773
+    ],
+    "assertions": [],
+    "candidates": [
+      "8704"
+    ]
+  },
+  {
+    "text": "lorazepam",
+    "type": "THUỐC",
+    "position": [
+      829,
+      838
+    ],
+    "assertions": [],
+    "candidates": [
+      "6470"
+    ]
+  }
+]

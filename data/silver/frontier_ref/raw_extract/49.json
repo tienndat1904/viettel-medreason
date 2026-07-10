@@ -1,0 +1,18 @@
+[
+  {"text": "Khối sa âm đạo", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định", "type": "CHẨN_ĐOÁN"},
+  {"text": "sỏi thận", "type": "CHẨN_ĐOÁN"},
+  {"text": "viêm bể thận", "type": "CHẨN_ĐOÁN"},
+  {"text": "cảm giác có khối lồi trong âm đạo", "type": "TRIỆU_CHỨNG"},
+  {"text": "căng tức vùng âm đạo", "type": "TRIỆU_CHỨNG"},
+  {"text": "khối sa tại âm hộ", "type": "TRIỆU_CHỨNG"},
+  {"text": "tiểu buốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG"},
+  {"text": "khô âm đạo", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đau khi giao hợp", "type": "TRIỆU_CHỨNG"},
+  {"text": "ra huyết âm đạo lượng ít", "type": "TRIỆU_CHỨNG"},
+  {"text": "Tiểu dắt", "type": "TRIỆU_CHỨNG"},
+  {"text": "Tiểu không tự chủ", "type": "TRIỆU_CHỨNG"},
+  {"text": "tiểu máu", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau khi đi tiểu", "type": "TRIỆU_CHỨNG"}
+]

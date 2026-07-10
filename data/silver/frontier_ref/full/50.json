@@ -1,0 +1,540 @@
+[
+  {
+    "text": "đợt cấp hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      76,
+      93
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J45.9"
+    ]
+  },
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      122
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J45.9"
+    ]
+  },
+  {
+    "text": "albuterol nebs q4h",
+    "type": "THUỐC",
+    "position": [
+      159,
+      177
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "z-pack",
+    "type": "THUỐC",
+    "position": [
+      192,
+      198
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      246,
+      253
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      257,
+      266
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau khi ấn xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      348
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      350,
+      356
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      375,
+      384
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      388,
+      395
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      428
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau khi ấn xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      482,
+      498
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      500,
+      506
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      513,
+      522
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      526,
+      533
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      559,
+      568
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      673,
+      680
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      682,
+      689
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      747,
+      757
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      771,
+      782
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      820,
+      831
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      845,
+      854
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      884,
+      896
+    ],
+    "assertions": [],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "prednisone 40 mg/ngày",
+    "type": "THUỐC",
+    "position": [
+      915,
+      936
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      1010,
+      1020
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1051,
+      1058
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1143,
+      1157
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1159,
+      1166
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1179,
+      1188
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1197,
+      1204
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1208,
+      1222
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tiếng rít về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1269,
+      1285
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau vùng xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1287,
+      1301
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1327,
+      1336
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      1444,
+      1454
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      1468,
+      1479
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      1487,
+      1498
+    ],
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1502,
+      1511
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      1539,
+      1551
+    ],
+    "assertions": [],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "prednisone 40 mg/ngày",
+    "type": "THUỐC",
+    "position": [
+      1561,
+      1582
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "Đau hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1729,
+      1738
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1799,
+      1816
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1847,
+      1856
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "J18.9"
+    ]
+  },
+  {
+    "text": "combivent nebs x3 every 20 minutes",
+    "type": "THUỐC",
+    "position": [
+      1910,
+      1944
+    ],
+    "assertions": [],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "iv magnesium",
+    "type": "THUỐC",
+    "position": [
+      1951,
+      1963
+    ],
+    "assertions": [],
+    "candidates": [
+      "6574"
+    ]
+  },
+  {
+    "text": "30 mg of prednisone",
+    "type": "THUỐC",
+    "position": [
+      1970,
+      1989
+    ],
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "lưu lượng đỉnh thở ra",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2029,
+      2050
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "240",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      2062,
+      2065
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "260",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      2070,
+      2073
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

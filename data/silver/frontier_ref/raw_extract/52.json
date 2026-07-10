@@ -1,0 +1,10 @@
+[
+  {"text": "ung thư đường mật không thể cắt bỏ", "type": "CHẨN_ĐOÁN"},
+  {"text": "run rẩy", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "áp xe", "type": "CHẨN_ĐOÁN"},
+  {"text": "kháng sinh tĩnh mạch", "type": "THUỐC"},
+  {"text": "Augmentin đường uống", "type": "THUỐC"},
+  {"text": "mrcp (chụp cộng hưởng từ mật tụy)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "nang tụy nhỏ", "type": "CHẨN_ĐOÁN"}
+]

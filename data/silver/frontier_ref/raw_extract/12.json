@@ -1,0 +1,19 @@
+[
+  {"text": "U Sacoit tổn thương chủ yếu tại tim", "type": "CHẨN_ĐOÁN"},
+  {"text": "ho", "type": "TRIỆU_CHỨNG"},
+  {"text": "ho ra máu", "type": "TRIỆU_CHỨNG"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG"},
+  {"text": "đờm có màu hồng", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đờm pha màu hồng", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "fever", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đau bụng  âm ỉ", "type": "TRIỆU_CHỨNG"},
+  {"text": "levofloxacin", "type": "THUỐC"},
+  {"text": "tylenol", "type": "THUỐC"},
+  {"text": "viêm phế quản do viêm phổi mắc phải cộng đồng", "type": "CHẨN_ĐOÁN"},
+  {"text": "công thức máu (cbc)", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "11.3", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "chụp x-quang ngực", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "viêm phổi", "type": "CHẨN_ĐOÁN"},
+  {"text": "phù phổi", "type": "CHẨN_ĐOÁN"}
+]

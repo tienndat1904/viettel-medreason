@@ -1,0 +1,19 @@
+[
+  {"text": "hội chứng turner, không đặc hiệu", "type": "CHẨN_ĐOÁN"},
+  {"text": "Tăng huyết áp", "type": "CHẨN_ĐOÁN"},
+  {"text": "Ung thư đại tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "Thuyên tắc phổi", "type": "CHẨN_ĐOÁN"},
+  {"text": "coumadin", "type": "THUỐC"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "Cảm giác có đờm ở cổ họng", "type": "TRIỆU_CHỨNG"},
+  {"text": "sốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "ớn lạnh", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở khi gắng sức", "type": "TRIỆU_CHỨNG"},
+  {"text": "đánh trống ngực", "type": "TRIỆU_CHỨNG"},
+  {"text": "Cơn nhịp nhanh", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó nuốt", "type": "TRIỆU_CHỨNG"},
+  {"text": "albuterolipratropium nebs x2", "type": "THUỐC"},
+  {"text": "metoprolol 5mg iv x2", "type": "THUỐC"},
+  {"text": "metoprolol", "type": "THUỐC"}
+]

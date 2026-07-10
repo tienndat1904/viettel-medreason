@@ -1,0 +1,16 @@
+[
+  {"text": "vàng da không đau", "type": "TRIỆU_CHỨNG"},
+  {"text": "ngứa", "type": "TRIỆU_CHỨNG"},
+  {"text": "xét nghiệm chức năng gan", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "bilirubin", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "xét nghiệm huyết thanh", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "siêu âm", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "ercp", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "15 mm", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "2 cm", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "7 mm", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "giãn đường dẫn mật trong gan", "type": "CHẨN_ĐOÁN"},
+  {"text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém", "type": "CHẨN_ĐOÁN"},
+  {"text": "khối u có nguồn gốc từ đường mật tụy", "type": "CHẨN_ĐOÁN"},
+  {"text": "u ác của đầu tuỵ", "type": "CHẨN_ĐOÁN"}
+]

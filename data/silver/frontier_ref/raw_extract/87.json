@@ -1,0 +1,9 @@
+[
+  {"text": "trầm cảm", "type": "CHẨN_ĐOÁN"},
+  {"text": "rối loạn lo âu", "type": "CHẨN_ĐOÁN"},
+  {"text": "ý định tự tử", "type": "TRIỆU_CHỨNG"},
+  {"text": "tổn thương chi dưới", "type": "CHẨN_ĐOÁN"},
+  {"text": "thuyên tắc phổi hai bên", "type": "CHẨN_ĐOÁN"},
+  {"text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin", "type": "CHẨN_ĐOÁN"},
+  {"text": "kháng sinh tĩnh mạch", "type": "THUỐC"}
+]

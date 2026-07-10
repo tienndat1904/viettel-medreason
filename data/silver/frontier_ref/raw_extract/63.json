@@ -1,0 +1,19 @@
+[
+  {"text": "Bệnh túi thừa ở cả ruột non và đại tràng", "type": "CHẨN_ĐOÁN"},
+  {"text": "colace", "type": "THUỐC"},
+  {"text": "đau bụng", "type": "TRIỆU_CHỨNG"},
+  {"text": "đau hố chậu", "type": "TRIỆU_CHỨNG"},
+  {"text": "táo bón", "type": "TRIỆU_CHỨNG"},
+  {"text": "buồn nôn", "type": "TRIỆU_CHỨNG"},
+  {"text": "tylenol", "type": "THUỐC"},
+  {"text": "97.8", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "84", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "15670", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "20", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "99", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "thiếu máu hồng cầu nhỏ", "type": "CHẨN_ĐOÁN"},
+  {"text": "27.2", "type": "KẾT_QUẢ_XÉT_NGHIỆM"},
+  {"text": "bun/creatinine", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "chụp ct bụng, chậu, không thuốc cản quang", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "viêm túi mật cấp tính không biến chứng", "type": "CHẨN_ĐOÁN"}
+]

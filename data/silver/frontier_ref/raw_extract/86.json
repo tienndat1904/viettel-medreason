@@ -1,0 +1,14 @@
+[
+  {"text": "bệnh động mạch vành", "type": "CHẨN_ĐOÁN"},
+  {"text": "bệnh lý thần kinh ngoại biên", "type": "CHẨN_ĐOÁN"},
+  {"text": "mệt mỏi", "type": "TRIỆU_CHỨNG"},
+  {"text": "khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "Khó thở", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đi lại khó khăn", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đau hai bàn chân", "type": "TRIỆU_CHỨNG"},
+  {"text": "Đo sức bền cơ tim bằng đồng vị phóng xạ", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "Chụp động mạch vành", "type": "TÊN_XÉT_NGHIỆM"},
+  {"text": "bệnh ba thân động mạch vành nghiêm trọng", "type": "CHẨN_ĐOÁN"},
+  {"text": "giảm chức năng tâm thu thất trái nghiêm trọng", "type": "CHẨN_ĐOÁN"},
+  {"text": "rối loạn chức năng thất trái", "type": "CHẨN_ĐOÁN"}
+]
