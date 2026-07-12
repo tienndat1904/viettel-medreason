@@ -64,7 +64,12 @@ def main():
                     help="phải KHỚP configs extract.max_chunk_chars lúc inference")
     ap.add_argument("--drop-empty", action="store_true",
                     help="bỏ chunk không có concept (mặc định giữ để dạy target [])")
+    ap.add_argument("--holdout", default="",
+                    help="danh sách id file (vd '5,10,15') LOẠI khỏi train -> đo tổng quát hoá "
+                         "trên input model CHƯA thấy (tránh train-on-test)")
     args = ap.parse_args()
+
+    holdout = {x.strip() for x in args.holdout.split(",") if x.strip()}
 
     def _abs(p):
         return p if os.path.isabs(p) else os.path.join(ROOT, p)
@@ -81,6 +86,8 @@ def main():
     with open(out_path, "w", encoding="utf-8") as jf:
         for fp in files:
             name = os.path.splitext(os.path.basename(fp))[0]
+            if name in holdout:                 # giữ lại để đo tổng quát hoá, KHÔNG train
+                continue
             raw_fp = os.path.join(raw_dir, name + ".json")
             if not os.path.exists(raw_fp):
                 continue
@@ -110,7 +117,9 @@ def main():
                 if (c.get("text"), c.get("type")) not in matched_keys:
                     n_unmatched += 1
 
-    print(f"✅ {n_files} file -> {n_chunks} mẫu SFT (chunk-aligned) tại {out_path}")
+    print(f"✅ {n_files} file"
+          + (f" (LOẠI {len(holdout)} file held-out: {sorted(holdout, key=int)})" if holdout else "")
+          + f" -> {n_chunks} mẫu SFT (chunk-aligned) tại {out_path}")
     print(f"   concept frontier: {n_concepts_total} | gán vào chunk: {n_assigned} "
           f"| KHÔNG khớp chunk nào: {n_unmatched}")
     print(f"   chunk rỗng (target []): {n_empty}"
