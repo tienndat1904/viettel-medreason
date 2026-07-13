@@ -25,6 +25,12 @@ SYMPTOMS = [
     "thổi tâm trương", "tiếng thổi", "ran nổ", "ran ẩm", "ran rít", "ran ngáy",
     "gan to", "lách to", "hạch to", "cứng gáy", "gõ đục", "bụng chướng",
     "chướng bụng", "thở nhanh", "thở rít", "ấn đau", "tím tái", "vàng mắt",
+    # --- cụm ghép tổng quát (biên dài -> ưu tiên khi có mặt, tránh bắt lõi ngắn) ---
+    "đau ngực trái", "đau ngực phải", "đau ngực sau xương ức", "đau quặn bụng",
+    "đau bụng quặn", "đau bụng âm ỉ", "đau bụng vùng hạ sườn phải", "đau hạ sườn phải",
+    "đau bụng thượng vị", "đau buốt khi đi tiểu", "tiểu tiện không tự chủ",
+    "đại tiện không tự chủ", "đi ngoài ra máu", "đi tiểu ra máu", "toàn trạng suy kiệt",
+    "sút cân nhanh", "ý định tự tử", "khó thở khi gắng sức tăng dần",
     # --- triệu chứng lâm sàng chuẩn hay gặp (tổng quát hóa được) ---
     "khó thở khi nằm đầu thấp", "khó thở khi nằm", "phù gai thị", "phù chi dưới",
     "đau bụng dữ dội", "đau đầu kéo dài", "nghẹt ngực", "nuốt vướng", "nuốt nghẹn",
@@ -63,6 +69,9 @@ LAB_NAMES = [
     "amylase", "lipase",
     "glucose", "hba1c", "ure", "crp", "inr", "bnp", "alp", "albumin", "ferritin",
     "procalcitonin", "d-dimer", "cholesterol", "triglyceride",
+    # sinh hiệu (BTC tính là TÊN_XÉT_NGHIỆM) — "mạch" bỏ (khớp nhầm trong "động/tĩnh mạch")
+    "huyết áp", "nhịp thở", "nhiệt độ", "nhịp tim", "cân nặng", "chiều cao",
+    "độ bão hòa oxy", "tần số thở",
 ]
 
 # số + đơn vị kết quả hợp lệ (gộp vào text): %, °C, range, nồng độ...
@@ -186,8 +195,12 @@ def _find_terms(low, text, terms, ttype, taken):
                 m = _DOSE_TAIL.match(text[j:])
                 if m and m.end() > 0:
                     e = j + m.end()
+            span_txt = text[i:e].strip()
+            if ttype == "THUỐC":
+                # bỏ số thứ tự liệt kê bị nuốt vào đuôi ("tylenol 3." -> "tylenol")
+                span_txt = re.sub(r"\s+\d{1,2}\.$", "", span_txt).strip()
             taken.append((i, e))
-            out.append({"text": text[i:e].strip(), "type": ttype})
+            out.append({"text": span_txt, "type": ttype})
     return out
 
 
@@ -212,7 +225,12 @@ def extract(text: str) -> list[dict]:
     # tên xét nghiệm (span chồng lấn đã được resolve_offsets ở pipeline dedup)
     for kw in LAB_NAMES:
         for m in re.finditer(r"\b" + re.escape(kw) + r"\b", low):
-            found.append({"text": text[m.start():m.end()], "type": "TÊN_XÉT_NGHIỆM",
+            s0, e0 = m.start(), m.end()
+            # nới đuôi viết tắt trong ngoặc: "công thức máu (cbc)", "chụp cắt lớp vi tính (ct)"
+            pm = re.match(r"\s*\([^)]{1,25}\)", text[e0:])
+            if pm:
+                e0 += pm.end()
+            found.append({"text": text[s0:e0], "type": "TÊN_XÉT_NGHIỆM",
                           "assertions": []})
 
     # kết quả xét nghiệm (số): gần tên xét nghiệm / dấu ":" / cue kết quả,
