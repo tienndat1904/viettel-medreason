@@ -79,8 +79,13 @@ def _maybe_bold(rng, s: str) -> tuple[str, str]:
 
 # ---------- các khối mục ----------
 def _emit_line_item(nb: NoteBuilder, rng, text, ctype, assertions, candidates=None,
-                    neg=False, fam=False):
-    """Emit 1 gạch đầu dòng '- <prefix><concept>' với assertion theo prefix."""
+                    neg=False, fam=False, narrative=False):
+    """Emit 1 gạch đầu dòng '- <prefix><concept>' với assertion theo prefix.
+
+    narrative=True: bọc thêm ngữ cảnh tường thuật (add, KHÔNG emit) sau concept ->
+    giống note thật ("- đau ngực khi thay đổi tư thế, kéo dài vài ngày nay") mà span
+    concept vẫn SẠCH đúng gold.
+    """
     nb.add("- ")
     a = list(assertions)
     if fam:
@@ -95,48 +100,73 @@ def _emit_line_item(nb: NoteBuilder, rng, text, ctype, assertions, candidates=No
     nb.add(pre)
     nb.emit(text, ctype, a, candidates)
     nb.add(suf)
+    if narrative and not neg and rng.random() < 0.5:
+        nb.add(" " + rng.choice(pools.SYMPTOM_NARRATIVE))
+        if rng.random() < 0.35:
+            nb.add(", " + rng.choice(pools.SYMPTOM_NARRATIVE))   # run-on kiểu MT
     nb.add("\n")
 
 
-def _history_section(nb: NoteBuilder, rng):
-    nb.add("1.  Tiền sử bệnh\n")
+def _symptom_char_block(nb: NoteBuilder, rng):
+    """Khối 'Đặc điểm triệu chứng' đa số N/A — nhiễu KHÔNG trích, rất hay gặp ở note test."""
+    nb.add("    Đặc điểm triệu chứng\n")
+    for f in rng.sample(pools.SYMPTOM_CHAR_FIELDS, rng.randint(4, 7)):
+        nb.add(f"    - {f}: {rng.choice(pools.SYMPTOM_CHAR_VALS)}\n")
+
+
+def _history_section(nb: NoteBuilder, rng, density=1.0):
+    nb.add(rng.choice(pools.HDR_HISTORY) + "\n")
     # bệnh mạn tính -> isHistorical
-    nb.add("    Các bệnh lý mạn tính\n")
-    for name, code in rng.sample(pools.DIAGNOSES, rng.randint(2, 4)):
-        nb.add("    ")
-        _emit_line_item(nb, rng, name, CHAN_DOAN, ["isHistorical"], [code])
-    # thuốc trước khi nhập viện -> isHistorical
-    nb.add("    Thuốc trước khi nhập viện\n")
-    drugs = rng.sample(pools.DRUGS, rng.randint(2, 4))
-    for ingr, rxcui, strengths in drugs:
-        txt = ingr
-        if rng.random() < 0.8:
-            txt += " " + rng.choice(strengths)
-        if rng.random() < 0.5:
-            txt += " " + rng.choice(pools.DRUG_SUFFIX)
-        nb.add("    ")
-        _emit_line_item(nb, rng, txt, THUOC, ["isHistorical"], [rxcui])
+    if rng.random() < 0.9:
+        nb.add("    " + rng.choice(pools.HDR_CHRONIC) + "\n")
+        for name, code in rng.sample(pools.DIAGNOSES, max(1, round(rng.randint(2, 4) * density))):
+            nb.add("    ")
+            _emit_line_item(nb, rng, name, CHAN_DOAN, ["isHistorical"], [code])
+    # thuốc trước khi nhập viện -> isHistorical (đôi khi ghi "không tuân thủ" -> bỏ qua)
+    if rng.random() < 0.85:
+        nb.add("    " + rng.choice(pools.HDR_PREMED))
+        if rng.random() < 0.12:
+            nb.add(": không tuân thủ điều trị bằng thuốc\n")     # ca không có thuốc
+        else:
+            nb.add("\n")
+            for ingr, rxcui, strengths in rng.sample(pools.DRUGS, max(1, round(rng.randint(2, 4) * density))):
+                txt = ingr
+                if rng.random() < 0.8:
+                    txt += " " + rng.choice(strengths)
+                if rng.random() < 0.5:
+                    txt += " " + rng.choice(pools.DRUG_SUFFIX)
+                nb.add("    ")
+                _emit_line_item(nb, rng, txt, THUOC, ["isHistorical"], [rxcui])
+    # yếu tố nguy cơ (KHÔNG trích) — rất hay gặp ở note thật
+    if rng.random() < 0.45:
+        nb.add("    Các yếu tố nguy cơ liên quan: " + rng.choice(pools.RISK_FACTORS) + "\n")
     # thỉnh thoảng tiền sử gia đình
-    if rng.random() < 0.4:
+    if rng.random() < 0.35:
         nb.add("    Tiền sử gia đình\n")
         name, code = rng.choice(pools.DIAGNOSES)
         nb.add("    ")
         _emit_line_item(nb, rng, name, CHAN_DOAN, ["isHistorical"], [code], fam=True)
-    if rng.random() < 0.5:
-        nb.add("    " + rng.choice(pools.FILLER) + "\n")
+    if rng.random() < 0.4:
+        nb.add("    " + rng.choice(pools.ADMIN_LINES) + "\n")
 
 
-def _present_section(nb: NoteBuilder, rng):
-    nb.add("\n2.  Bệnh sử hiện tại\n")
+def _present_section(nb: NoteBuilder, rng, density=1.0):
+    nb.add("\n" + rng.choice(pools.HDR_PRESENT) + "\n")
     nb.add("    Lý do nhập viện: ")
     s0 = rng.choice(pools.SYMPTOMS)
     nb.emit(s0, TRIEU_CHUNG, [])
-    nb.add("\n    Triệu chứng hiện tại\n")
-    for s in rng.sample(pools.SYMPTOMS, rng.randint(3, 6)):
+    nb.add("\n")
+    if rng.random() < 0.5:
+        nb.add("    " + rng.choice(pools.ADMIN_LINES) + "\n")
+    nb.add("    " + rng.choice(pools.HDR_SYMPTOM) + "\n")
+    for s in rng.sample(pools.SYMPTOMS, max(2, round(rng.randint(3, 6) * density))):
         nb.add("    ")
-        _emit_line_item(nb, rng, s, TRIEU_CHUNG, [])
+        _emit_line_item(nb, rng, s, TRIEU_CHUNG, [], narrative=True)
+    # khối "Đặc điểm triệu chứng" N/A (nhiễu không trích) — đặc trưng note test
+    if rng.random() < 0.5:
+        _symptom_char_block(nb, rng)
     # triệu chứng phủ định
-    nb.add("    Các triệu chứng liên quan\n")
+    nb.add("    " + rng.choice(pools.HDR_RELATED) + "\n")
     for s in rng.sample(pools.SYMPTOMS, rng.randint(2, 4)):
         nb.add("    ")
         _emit_line_item(nb, rng, s, TRIEU_CHUNG, [], neg=True)
@@ -146,14 +176,14 @@ def _present_section(nb: NoteBuilder, rng):
         nb.add("    Chẩn đoán sơ bộ: ")
         pre, suf = _maybe_bold(rng, name)
         nb.add(pre); nb.emit(name, CHAN_DOAN, [], [code]); nb.add(suf); nb.add("\n")
-    if rng.random() < 0.5:
+    if rng.random() < 0.4:
         nb.add("    " + rng.choice(pools.FILLER) + "\n")
 
 
-def _eval_section(nb: NoteBuilder, rng):
-    nb.add("\n3.  Đánh giá tại bệnh viện\n")
-    nb.add("    Kết quả xét nghiệm\n")
-    for name, unit, lo, hi, dec in rng.sample(pools.LABS, rng.randint(4, 8)):
+def _eval_section(nb: NoteBuilder, rng, density=1.0):
+    nb.add("\n" + rng.choice(pools.HDR_EVAL) + "\n")
+    nb.add("    " + rng.choice(pools.HDR_LAB) + "\n")
+    for name, unit, lo, hi, dec in rng.sample(pools.LABS, max(2, round(rng.randint(4, 8) * density))):
         val = round(rng.uniform(lo, hi), dec)
         vs = (f"{val:.{dec}f}" if dec else str(int(val)))
         if rng.random() < 0.25:
@@ -176,33 +206,54 @@ def _eval_section(nb: NoteBuilder, rng):
             nb.add("\n")
     # hình ảnh / thăm dò — kèm mô tả kết quả (KQXN dạng chữ, cụm dài) theo BTC forum;
     # đôi khi để trống -> giữ ca "chỉ có tên xét nghiệm" (HHM #1: tên không cần kết quả).
-    nb.add("    Chẩn đoán hình ảnh\n")
-    for im in rng.sample(pools.IMAGING, rng.randint(1, 3)):
-        nb.add("    - ")
-        nb.emit(im, TEN_XET_NGHIEM, [])
-        finds = pools.IMAGING_FINDINGS.get(im)
-        if finds and rng.random() < 0.6:
-            nb.add(rng.choice([": ", " cho thấy ", " ghi nhận ", " kết luận "]))
-            nb.emit(rng.choice(finds), KET_QUA_XET_NGHIEM, [])
-        nb.add("\n")
+    if rng.random() < 0.85:
+        nb.add("    " + rng.choice(pools.HDR_IMAGING) + "\n")
+        for im in rng.sample(pools.IMAGING, rng.randint(1, 3)):
+            nb.add("    - ")
+            nb.emit(im, TEN_XET_NGHIEM, [])
+            finds = pools.IMAGING_FINDINGS.get(im)
+            if finds and rng.random() < 0.6:
+                nb.add(rng.choice([": ", " cho thấy ", " ghi nhận ", " kết luận "]))
+                nb.emit(rng.choice(finds), KET_QUA_XET_NGHIEM, [])
+            nb.add("\n")
     # thuốc điều trị hiện tại (KHÔNG historical)
-    nb.add("    Điều trị\n")
-    for ingr, rxcui, strengths in rng.sample(pools.DRUGS, rng.randint(1, 3)):
-        txt = ingr
-        if rng.random() < 0.7:
-            txt += " " + rng.choice(strengths)
-        if rng.random() < 0.6:
-            txt += " " + rng.choice(pools.DRUG_SUFFIX)
-        nb.add("    - ")
-        nb.emit(txt, THUOC, [], [rxcui])
-        nb.add("\n")
+    if rng.random() < 0.85:
+        nb.add("    " + rng.choice(pools.HDR_TREAT) + "\n")
+        for ingr, rxcui, strengths in rng.sample(pools.DRUGS, rng.randint(1, 3)):
+            txt = ingr
+            if rng.random() < 0.7:
+                txt += " " + rng.choice(strengths)
+            if rng.random() < 0.6:
+                txt += " " + rng.choice(pools.DRUG_SUFFIX)
+            nb.add("    - ")
+            nb.emit(txt, THUOC, [], [rxcui])
+            nb.add("\n")
 
 
 def generate_note(rng) -> tuple[str, list[dict]]:
+    """Sinh note với ĐỘ ĐẦY biến thiên (giống test: có note dày, có note cực thưa).
+
+    profile:
+      - 'sparse' (~25%): note ngắn như file 26 — ít concept, mục 3 thường RỖNG/thiếu.
+      - 'medium' (~40%): độ đầy vừa.
+      - 'full'   (~35%): dày đặc như file 3.
+    """
     nb = NoteBuilder()
-    _history_section(nb, rng)
-    _present_section(nb, rng)
-    _eval_section(nb, rng)
+    r = rng.random()
+    if r < 0.25:
+        profile, density, p_eval = "sparse", 0.4, 0.35
+    elif r < 0.65:
+        profile, density, p_eval = "medium", 0.7, 0.85
+    else:
+        profile, density, p_eval = "full", 1.1, 1.0
+
+    _history_section(nb, rng, density)
+    _present_section(nb, rng, density)
+    if rng.random() < p_eval:
+        _eval_section(nb, rng, density)
+    elif profile == "sparse":
+        # mục 3 khai báo nhưng bỏ trống (giống file 26)
+        nb.add("\n" + rng.choice(pools.HDR_EVAL) + "\n")
     return nb.text(), nb.concepts
 
 

@@ -240,3 +240,66 @@ FILLER = [
     "Người nhà xin về theo nguyện vọng.",
     "Sinh hoạt cá nhân bình thường.",
 ]
+
+# ============ MỞ RỘNG ĐA DẠNG (Phase 1: khớp phân phối note THẬT) ============
+# Quan sát note test: nhiều biến thể tiêu đề mục, trường con "Đặc điểm triệu chứng"
+# đa số N/A (KHÔNG phải concept), triệu chứng bọc ngữ cảnh tường thuật lộn xộn,
+# độ đầy/độ dài rất khác nhau (có note mục 3 RỖNG), nhiễu MT nặng.
+
+# Biến thể tiêu đề mục — chọn ngẫu nhiên để model KHÔNG bám 1 khuôn cố định.
+HDR_HISTORY = ["1. Tiền sử bệnh", "1.  Tiền sử bệnh", "1. Tiền sử bệnh nội khoa",
+               "1) Tiền sử", "I. Tiền sử bệnh", "TIỀN SỬ BỆNH"]
+HDR_CHRONIC = ["Các bệnh lý mạn tính", "Các bệnh lý nội khoa mạn tính",
+               "Bệnh lý mãn tính", "Tiền sử nội khoa", "Các bệnh mạn tính kèm theo",
+               "Các tập kinh lâm sàng trước đây"]
+HDR_PREMED  = ["Thuốc trước khi nhập viện", "Thuốc đang dùng tại nhà",
+               "Thuốc trước khi nhập viện lần này", "Điều trị ngoại trú trước đó",
+               "Thuốc đang sử dụng"]
+HDR_PRESENT = ["2. Bệnh sử hiện tại", "2.  Bệnh sử hiện tại", "2. Tiền sử bệnh hiện tại",
+               "2) Quá trình bệnh lý", "II. Bệnh sử", "BỆNH SỬ HIỆN TẠI"]
+HDR_SYMPTOM = ["Triệu chứng hiện tại", "Các triệu chứng hiện tại",
+               "Triệu chứng cơ năng", "Các triệu chứng lúc nhập viện"]
+HDR_RELATED = ["Các triệu chứng liên quan", "Triệu chứng đi kèm", "Khám các cơ quan",
+               "Các triệu chứng khác"]
+HDR_EVAL    = ["3. Đánh giá tại bệnh viện", "3.  Đánh giá tại bệnh viện",
+               "3. Cận lâm sàng", "3) Đánh giá", "III. Đánh giá tại bệnh viện",
+               "KẾT QUẢ CẬN LÂM SÀNG"]
+HDR_LAB     = ["Kết quả xét nghiệm", "Xét nghiệm", "Kết quả cận lâm sàng",
+               "Xét nghiệm máu", "Sinh hóa - huyết học"]
+HDR_IMAGING = ["Chẩn đoán hình ảnh", "Chẩn đoán hình ảnh và thăm dò",
+               "Hình ảnh học", "Thăm dò chức năng"]
+HDR_TREAT   = ["Điều trị", "Điều trị tại viện", "Hướng xử trí", "Thuốc điều trị"]
+
+# Trường con "Đặc điểm triệu chứng" — dịch từ template Anh, ĐA SỐ N/A (KHÔNG phải concept).
+# Dạy model bỏ qua khối nhiễu này (rất phổ biến trong note test).
+SYMPTOM_CHAR_FIELDS = ["Vị trí", "Mức độ nghiêm trọng", "Thời gian", "Tần suất",
+                       "Chiếu xạ", "Các yếu tố làm nặng thêm", "Các yếu tố làm giảm",
+                       "Hoàn cảnh khởi phát", "Diễn tiến", "Tính chất"]
+SYMPTOM_CHAR_VALS = ["N/A", "N/A", "N/A", "Không rõ", "không xác định", "-"]
+
+# Ngữ cảnh tường thuật bọc QUANH triệu chứng (đưa vào text NHƯNG NGOÀI span concept).
+SYMPTOM_NARRATIVE = [
+    "xuất hiện đột ngột", "khởi phát từ từ", "kéo dài vài ngày nay",
+    "tăng dần trong tuần qua", "sau khi đi bộ vài chặng", "khi thay đổi tư thế",
+    "được người nhà phát hiện", "tự hết sau vài phút", "trong lúc làm việc",
+    "lặp lại nhiều lần trong ngày",
+]
+
+# Yếu tố nguy cơ / tiền sử xã hội — KHÔNG trích (dạy model bỏ qua).
+RISK_FACTORS = [
+    "Hiện đang hút thuốc", "Đã bỏ thuốc lá 5 năm", "Uống rượu thường xuyên",
+    "Không hút thuốc không uống rượu", "Tiền sử hút thuốc 20 gói-năm",
+    "Ít vận động", "Chế độ ăn nhiều muối", "Công việc văn phòng ít vận động",
+]
+
+# Dòng hành chính hay gặp trong note thật (filler mở rộng, KHÔNG trích).
+ADMIN_LINES = [
+    "Thời điểm khởi phát triệu chứng: Hôm qua",
+    "Thời điểm khởi phát: cách đây 3 ngày",
+    "Người cung cấp thông tin: bệnh nhân",
+    "Người cung cấp thông tin: con gái bệnh nhân",
+    "Tình trạng lúc vào viện: tỉnh, tiếp xúc được",
+    "Dị ứng: không rõ",
+    "Dị ứng thuốc: chưa ghi nhận",
+    "Lý do vào viện được ghi nhận qua lời kể người nhà.",
+]
